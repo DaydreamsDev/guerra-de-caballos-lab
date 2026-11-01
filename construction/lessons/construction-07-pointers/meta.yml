@@ -1,0 +1,26 @@
+id: construction-07
+title: "Pointers (punteros)"
+concept: "Indirection and lifetime (indirección y ciclo de vida)"
+prerequisites:
+  - construction-06
+reading_time: "17 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Access a board cell through `BoardCell *getBoardCell(...)` and rewrite one access as
+    `rowStart + column` without changing the transcript."
+  - "Explain the row-major stride: cell `(row, column)` sits at `row * (boardColumnCount + 1) +
+    column` elements from the base, and pointer arithmetic counts elements, not bytes."
+  - "Show that the 20 golden traces stay byte-identical while the source exposes the layout."
+  - "Identify `Knight *`, `const Knight *`, `moveKnight(Knight *, ...)`, and the three
+    `getBoardCell` call sites."
+  - "Change the row width and show what adapts, what fails to compile, and what silently misreads
+    when a literal stride is used."
+  - "Show that a null pointer compiles and crashes, and that returning a local address fails the
+    build with `-Wreturn-local-addr`."
+  - "Explain what a pointer makes explicit, what it hides, and what only a run can prove."
+  - "The tracked baselines are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
