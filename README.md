@@ -26,7 +26,7 @@ v1.0.0
 ```
 
 The archive is evidence. This laboratory is the modern learning layer. The lab does not alter the
-archive, and it does not pretend that the class rung existed in the original code.
+archive.
 
 See [`docs/archive.md`](docs/archive.md).
 

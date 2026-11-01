@@ -33,8 +33,7 @@ cubierta por:
 - `construction-12` — polimorfismo.
 - `construction-13` — composición.
 
-El nivel histórico de clases está ausente en el archivo. Estas lecciones son extensiones
-curriculares modernas, no código histórico reconstruido.
+Estas lecciones son extensiones curriculares modernas, no código histórico reconstruido.
 
 ## Estado
 

@@ -31,8 +31,7 @@ The full ladder is drafted through `construction-24`. The modern class version i
 - `construction-12` — polymorphism.
 - `construction-13` — composition.
 
-The historical class rung is missing in the archive. These lessons are modern curriculum
-extensions, not reconstructed historical code.
+These lessons are modern curriculum extensions, not reconstructed historical code.
 
 ## Status
 

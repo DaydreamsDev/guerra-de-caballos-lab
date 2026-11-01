@@ -5,7 +5,11 @@
 
 int main()
 {
-    std::freopen("/dev/null", "w", stdout);
+    if (std::freopen("/dev/null", "w", stdout) == nullptr)
+    {
+        std::fprintf(stderr, "could not redirect stdout\n");
+        return 1;
+    }
     auto startTime = std::chrono::steady_clock::now();
     for (int seedValue = 1; seedValue <= 10000; seedValue += 1)
     {
