@@ -1,0 +1,26 @@
+id: archaeology-01
+title: "Build and run legacy code (compilar y ejecutar código heredado)"
+concept: "Build and run legacy code (compilar y ejecutar código heredado)"
+prerequisites:
+  - common-03
+reading_time: "15 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner records either a runnable build with the probe or a documented blocker."
+  - "A documented blocker names the exact command, the exact output, the environment and the next
+    experiment."
+  - "The naive modern build's errors are quoted verbatim, in the order they appeared, with line
+    numbers."
+  - "Every compatibility change is listed with what it does and the risk it introduces."
+  - "The probe output is recorded verbatim, including run_status, stdout_lines, stderr_lines and
+    stderr_first."
+  - "The variance in line counts is explained by the one-second seed clock, not by randomness."
+  - "The board output is identified as raw CP437 bytes, not UTF-8 and not the modern transcript."
+  - "The evidence boundary is written in one paragraph and names the four claims the probe does not
+    support."
+  - "EVIDENCE.md (or EVIDENCE-es.md) records the prediction, the errors, the changes, the output and
+    the boundary."
+  - "The archive is unmodified and no build artifact is written into it."
+engineering_check: "predict → build/run → compare → explain → record"
+status: drafted
+languages: [en, es]
