@@ -1,0 +1,40 @@
+id: archaeology-18
+title: "Refactor workshop"
+concept: "All failure classes"
+prerequisites:
+  - archaeology-04
+  - archaeology-05
+  - archaeology-08
+  - archaeology-09
+reading_time: "18 minutes"
+estimated_time: "180 minutes"
+acceptance_criteria:
+  - "The learner names one legacy failure from archaeology-04, archaeology-05,
+    archaeology-08 or archaeology-09, and one target rung from construction-08,
+    construction-09, construction-11, construction-12 or construction-13, and justifies the pairing
+    in one sentence each."
+  - "The learner promotes the failure to a runnable bench: the defective code transcribed without
+    repair, a fixed input, and a transcript written to standard output."
+  - "The learner records trace A, the baseline transcript, with the command that produced it and its
+    SHA-256 digest, before the first edit."
+  - "The learner records the coupling counts that become the `before` column of the cost table:
+    files, lines, public names a caller must know, and files that must be read to answer one
+    question about the representation."
+  - "The learner writes the change list and the predicted cost table before the refactor, and keeps
+    the prediction unedited so the gap can be measured."
+  - "The refactor reaches the target rung and trace A is byte-identical after every committed step,
+    not only at the end."
+  - "The artifact builds with `-Wall -Wextra -Werror`, and two runs with the same input produce the
+    same bytes."
+  - "If the chosen failure is a correctness defect, the refactor and the repair are separate steps:
+    trace A survives the refactor, and the repair produces trace B with a diff that names every
+    changed line and its cause."
+  - "The learner demonstrates the target rung's own change test from `lesson-catalog.md`, so the
+    refactor proves a capability as well as behavior preservation."
+  - "`WORKSHOP-REPORT.md` or `WORKSHOP-REPORT-es.md` is filled with baseline, target, plan,
+    refactor, verification, a cost table with measured values and a verdict."
+  - "The learner states what the trace comparison proves and what it does not prove."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "inspect → plan → refactor → verify → explain → record"
+status: drafted
+languages: [en, es]
