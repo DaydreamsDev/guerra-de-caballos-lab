@@ -1,0 +1,26 @@
+id: construction-09
+title: "Abstract data type (tipo abstracto de datos, TAD)"
+concept: "Representation independence (independencia de representación)"
+prerequisites:
+  - construction-08
+reading_time: "21 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Replace the fixed array inside `board.cpp` with a different representation (a flat vector
+    with an index function, or a vector of vectors) and show that `board.h`, `game.cpp` and
+    `main.cpp` compile unchanged."
+  - "Reproduce the 20 golden traces before the swap and after it."
+  - "Show that `Board` is an incomplete type in `board.h` by compiling a probe that fails on
+    `sizeof(Board)`, on member access, and on `delete`."
+  - "List the seven exported symbols of `board.o` and explain why none of them encodes the layout."
+  - "Record the object size of the array version and of both vector versions, and state what the
+    abstraction costs at run time."
+  - "Remove the initialization from `board_create` and explain why the traces still pass."
+  - "Explain what the declaration permits, what the definition hides, and what neither the compiler
+    nor the linker enforces."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
