@@ -1,0 +1,18 @@
+id: construction-01
+title: "Non-structured programming (programación no estructurada)"
+concept: "Arbitrary control flow (flujo de control arbitrario)"
+prerequisites:
+  - construction-00
+reading_time: "11 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Add one 'skip turn' requirement; count the rewired jumps and explain the cost."
+  - "The count is produced by one stated rule, and every counted jump is listed by label and line."
+  - "The explanation names the structural cause, not the symptom."
+  - "The one-sentence explanation omits 'bad', 'goto', 'spaghetti' and 'unreadable'."
+  - "No code fix is required; the baseline is not modified to complete the criterion."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
