@@ -1,0 +1,26 @@
+id: archaeology-11
+title: "Input and output and testability"
+concept: "input/output separation and testability"
+prerequisites:
+  - archaeology-09
+reading_time: "22 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The core compiles and links without `console.cpp`, and `nm -C -u build/core.o` reports no
+    `printf`, `cout` or `getch` symbol."
+  - "The baseline prints `console_lines=8`, `test_output=lines=8 winner=player moves=3`, `test=ok`
+    and `match=yes`."
+  - "The learner states that the baseline separates the device but still owns the transcript format
+    in `lines`."
+  - "The learner moves transcript formatting into `console.cpp` in a scratch copy and proves the
+    console output is byte-identical with `diff`."
+  - "The test adapter asserts domain fields (seed, player, starting player, moves, winner) instead
+    of the number of transcript lines."
+  - "The learner reproduces the brittle assertion: one extra transcript line makes the shipped test
+    fail although the game did not change."
+  - "The harness compares the console and test results and prints `match=yes` only when they agree."
+  - "The learner states that the bench is not the full horse game and that the archive is not
+    modified."
+engineering_check: "predict → inspect → separate → test → explain → record"
+status: drafted
+languages: [en, es]
