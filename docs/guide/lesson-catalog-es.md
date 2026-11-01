@@ -33,7 +33,7 @@ inglés; la prosa en español puede mostrar `borrador` para `drafted`.
 
 | ID | Título | Concepto | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
 |---|---|---|---|---|---|---|
-| common-00 | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 45 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
+| common-00 | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
 | common-01 | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-00 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted |
 | common-02 | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted |
 | common-03 | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-01 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted |
@@ -55,31 +55,31 @@ especificación (`construction-00`), es la **comprobación de predicción**.
 
 | ID | Título | Concepto | Prerrequisito | Tiempo | Criterio de aceptación | Estado |
 |---|---|---|---|---|---|---|
-| construction-00 | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-00, common-01 | 45 min | Predecir el siguiente movimiento de una partida con semilla | drafted |
-| construction-01 | Programación no estructurada (non-structured programming) | Flujo de control arbitrario | construction-00 | 60 min | Añadir «saltar turno»; contar los saltos recableados | drafted |
-| construction-02 | Programación estructurada (structured programming) | Secuencia, selección, iteración | construction-01 | 60 min | El mismo cambio, localizado; sin `goto` | drafted |
+| construction-00 | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-00, common-01 | 50 min | Predecir el siguiente movimiento de una partida con semilla | drafted |
+| construction-01 | Programación no estructurada (non-structured programming) | Flujo de control arbitrario | construction-00 | 70 min | Añadir «saltar turno»; contar los saltos recableados | drafted |
+| construction-02 | Programación estructurada (structured programming) | Secuencia, selección, iteración | construction-01 | 65 min | El mismo cambio, localizado; sin `goto` | drafted |
 | construction-03 | Funciones y parámetros (functions and parameters) | Ámbito y descomposición | construction-02 | 45 min | Extraer un movimiento sin variables globales | drafted |
-| construction-04 | Registros (records) | Agregación | construction-03 | 60 min | Añadir `captured` a un caballo | drafted |
-| construction-05 | Arreglo de estructuras (array of records) | Colección y recorrido | construction-04 | 60 min | Recorrer el tablero sin 64 variables | drafted |
+| construction-04 | Registros (records) | Agregación | construction-03 | 55 min | Añadir `captured` a un caballo | drafted |
+| construction-05 | Arreglo de estructuras (array of records) | Colección y recorrido | construction-04 | 62 min | Recorrer el tablero sin 64 variables | drafted |
 | construction-06 | Referencias (references) | Alias sin direcciones | construction-05 | 45 min | Mutar un registro a través de un parámetro | drafted |
-| construction-07 | Punteros (pointers) | Indirección y ciclo de vida | construction-06 | 90 min | Acceder a una casilla por puntero; explicar el paso de fila; trazas sin cambios | drafted |
-| construction-08 | Programación modular (modular programming) | Ocultamiento de información | construction-03, construction-07 | 90 min | Tablero 8×8 → 10×10; solo cambia el módulo del tablero | drafted |
-| construction-09 | Tipo abstracto de datos (abstract data type, TAD) | Independencia de la representación | construction-08 | 90 min | Cambiar la representación del tablero; los llamadores compilan; las trazas pasan | drafted |
+| construction-07 | Punteros (pointers) | Indirección y ciclo de vida | construction-06 | 88 min | Acceder a una casilla por puntero; explicar el paso de fila; trazas sin cambios | drafted |
+| construction-08 | Programación modular (modular programming) | Ocultamiento de información | construction-03, construction-07 | 92 min | Tablero 8×8 → 10×10; solo cambia el módulo del tablero | drafted |
+| construction-09 | Tipo abstracto de datos (abstract data type, TAD) | Independencia de la representación | construction-08 | 97 min | Cambiar la representación del tablero; los llamadores compilan; las trazas pasan | drafted |
 | construction-10 | Invariantes del tipo abstracto de datos (abstract data type invariants) | Validez y ciclo de vida | construction-09 | 60 min | Escrituras fuera de rango rechazadas; board_is_valid verdadero; quitar la guarda expone el estado inválido | drafted |
 | construction-11 | Encapsulación (encapsulation) | Clase con invariante | construction-10 | 60 min | El estado y las operaciones privadas preservan el invariante; el estado público expone un tablero inválido | drafted |
-| construction-12 | Polimorfismo (polymorphism) | Ligadura dinámica (late binding) | construction-11 | 90 min | Añadir una subclase de Piece; cero ediciones en el bucle; trazas originales sin cambios | drafted |
-| construction-13 | Composición (composition) | Composición sobre herencia | construction-12 | 60 min | Sustituir herencia por delegación; comportamiento y 20 trazas sin cambios | drafted |
-| construction-14 | Funciones genéricas (generic functions) | Parámetros de tipo | construction-12 o construction-13 | 60 min | Un generador de movimientos para dos tipos de pieza | drafted |
-| construction-15 | Clases genéricas y conceptos (generic classes and concepts) | Restricciones | construction-14 | 90 min | La misma plantilla de motor instancia 8×8 y 10×10; las trazas de 8×8 pasan | drafted |
-| construction-16 | Propiedad y ciclo de vida de recursos (ownership) | Ciclo de vida | construction-15 | 60 min | Propiedad con unique_ptr; copia eliminada; movimiento disponible; 20 trazas pasan | drafted |
-| construction-17 | Biblioteca de plantillas estándar y algoritmos (Standard Template Library and algorithms) | Abstracción de la iteración | construction-05, construction-16 | 60 min | La misma transcripción tras reemplazar tres recorridos | drafted |
-| construction-18 | Estilo funcional (functional style) | Pureza e inmutabilidad | construction-17 | 90 min | Deshacer/rehacer gratis mediante el historial del tablero | drafted |
-| construction-19 | Diseño orientado a datos (data-oriented design) | Localidad | construction-05, construction-17 | 90 min | 10,000 partidas; perfil medido | drafted |
-| construction-20 | Hexagonal (hexagonal) | Puertos y adaptadores | construction-08, construction-17 | 90 min | El mismo núcleo, adaptadores de consola y de prueba | drafted |
-| construction-21 | Concurrencia (concurrency) | Estado compartido frente a mensajes | construction-12, construction-20 | 120 min | Condición de carrera detectada y eliminada; determinismo conservado | drafted |
-| construction-22 | Contratos de error (error contracts) | Recuperación | construction-09, construction-21 | 60 min | Movimiento inválido gestionado sin `exit` | drafted |
-| construction-23 | Portar a otro lenguaje (port to another language) | La sintaxis es desechable | construction-09 o construction-12 | 180 min | Las mismas trazas desde Python/Rust | drafted |
-| construction-24 | Proyecto final: informe de costes (capstone: cost report) | Justificación de compromisos | construction-12, construction-15 | 180 min | Defender una decisión de diseño con números | drafted |
+| construction-12 | Polimorfismo (polymorphism) | Ligadura dinámica (late binding) | construction-11 | 80 min | Añadir una subclase de Piece; cero ediciones en el bucle; trazas originales sin cambios | drafted |
+| construction-13 | Composición (composition) | Composición sobre herencia | construction-12 | 68 min | Sustituir herencia por delegación; comportamiento y 20 trazas sin cambios | drafted |
+| construction-14 | Funciones genéricas (generic functions) | Parámetros de tipo | construction-12 o construction-13 | 68 min | Un generador de movimientos para dos tipos de pieza | drafted |
+| construction-15 | Clases genéricas y conceptos (generic classes and concepts) | Restricciones | construction-14 | 81 min | La misma plantilla de motor instancia 8×8 y 10×10; las trazas de 8×8 pasan | drafted |
+| construction-16 | Propiedad y ciclo de vida de recursos (ownership) | Ciclo de vida | construction-15 | 70 min | Propiedad con unique_ptr; copia eliminada; movimiento disponible; 20 trazas pasan | drafted |
+| construction-17 | Biblioteca de plantillas estándar y algoritmos (Standard Template Library and algorithms) | Abstracción de la iteración | construction-05, construction-16 | 68 min | La misma transcripción tras reemplazar tres recorridos | drafted |
+| construction-18 | Estilo funcional (functional style) | Pureza e inmutabilidad | construction-17 | 85 min | Deshacer/rehacer gratis mediante el historial del tablero | drafted |
+| construction-19 | Diseño orientado a datos (data-oriented design) | Localidad | construction-05, construction-17 | 85 min | 10,000 partidas; perfil medido | drafted |
+| construction-20 | Hexagonal (hexagonal) | Puertos y adaptadores | construction-08, construction-17 | 92 min | El mismo núcleo, adaptadores de consola y de prueba | drafted |
+| construction-21 | Concurrencia (concurrency) | Estado compartido frente a mensajes | construction-12, construction-20 | 115 min | Condición de carrera detectada y eliminada; determinismo conservado | drafted |
+| construction-22 | Contratos de error (error contracts) | Recuperación | construction-09, construction-21 | 75 min | Movimiento inválido gestionado sin `exit` | drafted |
+| construction-23 | Portar a otro lenguaje (port to another language) | La sintaxis es desechable | construction-09 o construction-12 | 195 min | Las mismas trazas desde Python/Rust | drafted |
+| construction-24 | Proyecto final: informe de costes (capstone: cost report) | Justificación de compromisos | construction-12, construction-15 | 175 min | Defender una decisión de diseño con números | drafted |
 
 ### Ruta de la pista A (recomendada)
 
@@ -98,10 +98,10 @@ Proyecto final: `construction-24`.
 | ID | Título | Clase de fallo | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
 |---|---|---|---|---|---|---|
 | archaeology-00 | Orientación: leer un código heredado | — | common-03 | 45 min | Mapa de código + propósito en una frase | drafted |
-| archaeology-01 | Compilar y ejecutar código heredado | — | common-03 | 60 min | Compilación ejecutable o bloqueo documentado | drafted |
+| archaeology-01 | Compilar y ejecutar código heredado | — | common-03 | 62 min | Compilación ejecutable o bloqueo documentado | drafted |
 | archaeology-02 | Inventario de código y grafo de llamadas | — | archaeology-01 | 60 min | Inventario + grafo de llamadas con evidencia | drafted |
 | archaeology-03 | Ingeniería inversa de la especificación | — | archaeology-02 | 90 min | Especificación + trazas del original | drafted |
-| archaeology-04 | Fallos de corrección (failure-001…failure-006) | correctness | archaeology-03 | 90 min | 6 fichas de fallo + pruebas | drafted |
+| archaeology-04 | Fallos de corrección (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 fichas de fallo + pruebas | drafted |
 | archaeology-05 | Estado global y acoplamiento oculto | design | archaeology-04 | 60 min | Mapa de mutaciones por cada global | drafted |
 | archaeology-06 | Duplicación y el switch de ocho casos | design | archaeology-04 | 60 min | Una extracción, comportamiento conservado | drafted |
 | archaeology-07 | Fuga de representación y arreglos paralelos | design | archaeology-05 | 60 min | Registro introducido; llamadores actualizados | drafted |

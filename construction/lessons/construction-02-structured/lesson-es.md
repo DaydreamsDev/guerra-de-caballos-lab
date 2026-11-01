@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** secuencia, selección e iteración · **Tiempo:** unos 60 minutos ·
+**Concepto:** secuencia, selección e iteración · **Tiempo:** unos 65 minutos ·
 **Estado:** borrador
 **Lectura:** ~17 minutos
 
@@ -20,8 +20,10 @@ recuento se mueve y cuál no.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar secuencia, selección e iteración y aplicar la prueba de
-cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar secuencia, selección e iteración como fronteras;
+- aplicar el cambio de saltar turno a ambas formas y contar las ediciones localizadas.
 
 ## El concepto: una región es un nombre para la siguiente sentencia
 

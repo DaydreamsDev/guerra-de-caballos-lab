@@ -4,7 +4,7 @@ concept: "Type parameters"
 prerequisites:
   - "construction-12 or construction-13"
 reading_time: "23 minutes"
-estimated_time: "60 minutes"
+estimated_time: "68 minutes"
 acceptance_criteria:
   - "Locate the `generate_move_candidates` template in `move_generator.h` and name its type
     parameter."

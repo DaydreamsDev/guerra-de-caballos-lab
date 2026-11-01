@@ -79,12 +79,11 @@ skips one of them produces a predictable blind spot.
 | **Design** | Does the structure make change expensive? | Every rule change touches many places; tests stay impossible. | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12`, `construction-14`, `construction-20` |
 | **Robustness** | Does it work only in one environment? | Build failure, portability debt, unhandled input. | failure-006, failure-015 | `construction-08`, `construction-20`, `construction-22` |
 | **Professional practice** | Can another person build, trust and maintain it? | Nobody can reproduce, trust or safely change the artifact. | failure-016…failure-019 | `common-01`, `common-03`, `common-04`, `construction-24` |
-| **Evidence** | Can the claim be checked? | The review becomes opinion; unknowns hide as facts. | all classes, especially failure-020 | `common-02`, `common-04` |
+| **Evidence** | Can the claim be checked? | The review becomes opinion; unknowns hide as facts. | all classes | `common-02`, `common-04` |
 
-The boundaries overlap on purpose. `failure-006` (unbounded input) is both a correctness failure and
-a robustness failure. `failure-020` (a mislabeled variant) is a professional-practice problem and an
-evidence problem. The checklist may list an item in one family and cross-reference another; it must
-not pretend the overlap does not exist.
+The boundaries overlap on purpose. `failure-006` (unbounded input) is both a correctness failure
+and a robustness failure. The checklist may list an item in one family and cross-reference another;
+it must not pretend the overlap does not exist.
 
 ### Why evidence is its own family
 
@@ -413,9 +412,8 @@ Fifteen items is the floor. Twenty is comfortable. More than thirty is usually a
 reviewer is writing a book instead of a checklist; merge related questions and keep the pass
 criteria sharp.
 
-All five failure classes must appear at least once. Correctness, design, robustness and
-professional practice have their own families; the pedagogical class is carried by the evidence
-item E-04.
+All five failure classes must appear at least once. Correctness, design, robustness, professional
+practice and evidence each have their own family.
 
 Starter set. Replace the blanks with your own wording and evidence.
 
@@ -438,7 +436,7 @@ Starter set. Replace the blanks with your own wording and evidence.
 | E-01 | Evidence | Does every claim cite a file, line, command or document? | | | All | `common-04` | High |
 | E-02 | Evidence | Is every claim labelled verified, documented, inferred or unknown? | | | All | `common-02` | Medium |
 | E-03 | Evidence | Is the archive unmodified after the review? | | | All | `common-04` | High |
-| E-04 | Evidence | Does every label or folder name match the mechanism actually present? | | | Pedagogical artifact | `common-02` | Medium |
+| E-04 | Evidence | Does every label or folder name match the mechanism actually present? | | | Evidence | `common-02` | Medium |
 
 ### Quality gate
 
@@ -742,7 +740,7 @@ starts from it, not from a blank page.
 
 No commit and no push are required. This is a learning record, not a contribution to the archive.
 
-## The archive in detail: 19 failures and one artifact
+## The archive in detail: 19 failures
 
 This table is the link back to the failure classes and the Track A rungs. Use it to check coverage,
 not to memorize the list.
@@ -768,7 +766,6 @@ not to memorize the list.
 | failure-017 | No README, spec or build instructions | Professional practice | archaeology-13, archaeology-15 | `common-02`, `common-03` |
 | failure-018 | Binaries and IDE files in the working folders | Professional practice | archaeology-15 | `common-03` |
 | failure-019 | Comments that narrate or lie | Professional practice | archaeology-12 | `common-02` |
-| failure-020 | `variant-01` has no pointers | Pedagogical artifact | archaeology-17 | `common-02` |
 
 The mapping is bidirectional. If a review finds a failure with no rung, the taxonomy is
 incomplete or the finding is not yet understood. If a rung has no failure, the lesson is

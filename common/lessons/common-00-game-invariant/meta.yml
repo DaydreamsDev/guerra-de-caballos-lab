@@ -3,7 +3,7 @@ title: "The game as an invariant (El juego como invariante)"
 concept: "Specification (especificación)"
 prerequisites: []
 reading_time: "10 minutes"
-estimated_time: "45 minutes"
+estimated_time: "50 minutes"
 acceptance_criteria:
   - "Two common/harness/run.sh runs with seed 7 and player Learner are byte-identical."
   - "Run A matches common/traces/seed-0007.txt with an empty diff."

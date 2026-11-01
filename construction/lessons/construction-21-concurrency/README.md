@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** shared state vs messages · **Prerequisite:** construction-12 ·
-> **Estimated time:** 120 minutes
+> **Estimated time:** 115 minutes
 
 This directory holds the **after** artifact for `construction-21`. It keeps the hexagonal core from
 `construction-20` and adds two things: the random sequence becomes per-engine state, and a parallel

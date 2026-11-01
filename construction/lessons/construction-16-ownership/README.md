@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** resource lifetime · **Prerequisite:** construction-15 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 70 minutes
 
 This directory holds the **after** artifact for `construction-16`. It has the same observable
 behavior as `construction-15` for the 8×8 game, but the engine owns the board and both knights

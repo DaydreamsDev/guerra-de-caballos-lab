@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** colección y recorrido · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** colección y recorrido · **Tiempo:** unos 62 minutos · **Estado:** borrador
 **Lectura:** ~24 minutos
 
 ## Por qué existe esta lección
@@ -30,8 +30,10 @@ coincidir con el primero.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar colección y recorrido y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar colección y recorrido sobre un arreglo de registros;
+- recorrer el tablero sin 64 variables separadas.
 
 ## El concepto: un elemento, todos los hechos que posee
 

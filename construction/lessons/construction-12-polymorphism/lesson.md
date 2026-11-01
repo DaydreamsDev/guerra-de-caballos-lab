@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** late binding (ligadura dinámica) · **Time:** about 90 minutes ·
+**Concept:** late binding (ligadura dinámica) · **Time:** about 80 minutes ·
 **Status:** drafted
 **Reading:** ~21 minutes
 
@@ -52,7 +52,10 @@ two lines in `run_game`.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain late binding and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain late binding at a call site;
+- add a piece type with zero edits in the game loop.
 
 ## The concept: a call resolved at run time
 

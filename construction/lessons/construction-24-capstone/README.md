@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** tradeoff justification · **Prerequisite:** construction-12 and
-> construction-15 · **Estimated time:** 180 minutes
+> construction-15 · **Estimated time:** 175 minutes
 
 This is the Track A capstone. It has no code baseline of its own. The learner takes two existing
 rungs, applies the same change to both, measures the cost, and writes a one-page report that

@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** ligadura dinámica · **Prerrequisito:** construction-11 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 80 minutos
 
 Este directorio contiene el artefacto **después** de `construction-12`. Tiene el mismo
 comportamiento observable que `construction-11`, pero los dos caballos se acceden mediante una

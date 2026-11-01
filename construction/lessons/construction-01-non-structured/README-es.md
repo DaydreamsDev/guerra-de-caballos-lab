@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** flujo de control arbitrario · **Requisito previo:**
-> construction-00 · **Tiempo estimado:** 60 minutos
+> construction-00 · **Tiempo estimado:** 70 minutos
 
 Este directorio contiene el artefacto **anterior** de `construction-01`. Es intencionalmente no
 estructurado: el estado del juego vive en variables globales y el bucle del juego y los intentos de

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** puertos y adaptadores · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** puertos y adaptadores · **Tiempo:** unos 92 minutos · **Estado:** borrador
 **Lectura:** ~27 minutos
 
 ## Por qué existe esta lección
@@ -48,8 +48,10 @@ aparece una nueva indirección y un segundo programa puede ejecutar el mismo nú
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar ports and adapters y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar puertos, adaptadores y la flecha de dependencia;
+- ejecutar el mismo núcleo con adaptadores de consola y de prueba.
 
 ## El concepto: quién decide cómo se ve
 

@@ -139,7 +139,6 @@ Class coverage:
 | Design | | |
 | Robustness | | |
 | Professional practice | | |
-| Pedagogical artifact | | |
 
 Quality gate:
 

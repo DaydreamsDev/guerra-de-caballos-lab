@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** especificación (specification) · **Tiempo:** unos 45 minutos · **Estado:** borrador
+**Concepto:** especificación (specification) · **Tiempo:** unos 50 minutos · **Estado:** borrador
 **Lectura:** ~7 minutos
 
 ## Por qué existe esta lección
@@ -16,7 +16,10 @@ con el contrato que estableces aquí.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar especificación y aplicar la prueba de cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar la especificación y el invariante del juego;
+- predecir el siguiente movimiento de una partida con semilla y compararlo con la traza.
 
 ## El concepto: una especificación es una restricción, no una descripción
 

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** sequence, selection and iteration · **Time:** about 60 minutes ·
+**Concept:** sequence, selection and iteration · **Time:** about 65 minutes ·
 **Status:** drafted
 **Reading:** ~16 minutes
 
@@ -19,8 +19,10 @@ edits are on every path. The interesting result is which count moves and which d
 
 ## What you will be able to do
 
-By the end of this lesson you can explain sequence, selection and iteration and apply the lesson's
-change test.
+By the end of this lesson you can:
+
+- explain sequence, selection and iteration as boundaries;
+- apply the skip-turn change to both shapes and count the localized edits.
 
 ## The concept: a region is a name for the next statement
 

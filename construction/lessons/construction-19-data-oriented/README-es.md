@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** layout (disposición) · **Prerrequisito:** construction-05 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 85 minutos
 
 Este directorio contiene el artefacto **después** de `construction-19`. Tiene el mismo
 comportamiento observable que `construction-17`, y conserva el mismo modelo de propiedad y el mismo

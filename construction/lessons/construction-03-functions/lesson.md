@@ -22,8 +22,10 @@ first? The first check is a number. The second is the one that changes how you t
 
 ## What you will be able to do
 
-By the end of this lesson you can explain scope and decomposition and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain scope and decomposition through a function signature;
+- extract a move decision without using globals.
 
 ## The concept: a signature is the list of names the body may read
 

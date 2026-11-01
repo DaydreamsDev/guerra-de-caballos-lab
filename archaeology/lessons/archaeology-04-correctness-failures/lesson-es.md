@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Estado:** borrador · **Concepto:** fallos de corrección · **Prerrequisito:** archaeology-03 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 100 minutos
 > **Lectura:** ~16 minutos
 
 ## Por qué existe esta lección
@@ -54,7 +54,7 @@ La pista B separa cinco clases. La clase determina la lección, no el archivo.
 | **Diseño** | ¿La estructura encarece el cambio? | Estado global mutable; ocho cuerpos `case` copiados. |
 | **Robustez** | ¿Funciona fuera de un entorno? | `conio.h`, `system("color 1f")`. |
 | **Práctica profesional** | ¿Otra persona puede compilarlo, usarlo o confiar en él? | Sin README, sin especificación, sin pruebas. |
-| **Artefacto pedagógico** | ¿La lección enseña lo que afirma? | `variant-01` no contiene punteros. |
+| **Evidencia** | ¿La afirmación se puede comprobar? | Una afirmación sin fuente; lo desconocido se esconde como hecho. |
 
 Las seis tarjetas de esta lección son fallos de corrección. Varias tienen también consecuencias de
 robustez: un desbordamiento de búfer es un problema de seguridad, y `void main` es un problema de

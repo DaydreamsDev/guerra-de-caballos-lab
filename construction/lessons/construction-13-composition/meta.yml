@@ -4,7 +4,7 @@ concept: "Composition over inheritance"
 prerequisites:
   - construction-12
 reading_time: "21 minutes"
-estimated_time: "60 minutes"
+estimated_time: "68 minutes"
 acceptance_criteria:
   - "Identify the `Position` member in `knight.h` and the three forwarding methods in `knight.cpp`."
   - "Count the 19 call sites in `game.cpp` and the ten helper signatures that name `Knight`."

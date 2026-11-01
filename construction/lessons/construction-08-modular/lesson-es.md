@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ocultamiento de información · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** ocultamiento de información · **Tiempo:** unos 92 minutos · **Estado:** borrador
 **Lectura:** ~20 minutos
 
 ## Por qué existe esta lección
@@ -39,8 +39,10 @@ Tres notas honestas antes de la comparación.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar ocultamiento de información y aplicar la prueba de cambio
-de la lección.
+Al terminar esta lección puedes:
+
+- explicar el ocultamiento de información entre cabecera e implementación;
+- cambiar el tablero de 8x8 a 10x10 y contar los módulos tocados.
 
 ## El concepto: una declaración es una promesa, el .cpp la cumple
 

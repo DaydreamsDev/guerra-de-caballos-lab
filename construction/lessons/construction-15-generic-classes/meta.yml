@@ -4,7 +4,7 @@ concept: "Constraints"
 prerequisites:
   - "construction-14"
 reading_time: "21 minutes"
-estimated_time: "90 minutes"
+estimated_time: "81 minutes"
 acceptance_criteria:
   - "Locate `Board<RowCount, ColumnCount>` and `GameEngine<RowCount, ColumnCount>` and name
     their non-type template parameters."

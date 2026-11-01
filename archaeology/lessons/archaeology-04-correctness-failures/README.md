@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** correctness failures · **Prerequisite:** archaeology-03 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 100 minutes
 
 This lesson diagnoses six correctness failures in the archived code. Each failure becomes a card
 with evidence, symptom, root cause, consequence, the test that catches it, a minimal fix and a

@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** justificación de compromisos · **Prerrequisito:**
-> construction-12 y construction-15 · **Tiempo estimado:** 180 minutos
+> construction-12 y construction-15 · **Tiempo estimado:** 175 minutos
 
 Este es el proyecto final de Track A. No tiene una línea base de código propia. La persona toma dos
 escalones existentes, aplica el mismo cambio a ambos, mide el coste y escribe un informe de una

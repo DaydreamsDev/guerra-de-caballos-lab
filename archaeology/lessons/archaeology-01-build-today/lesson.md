@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-03 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 62 minutes
 > **Reading:** ~15 minutes
 
 ## Why this lesson exists
@@ -107,7 +107,7 @@ about what a modern machine can and cannot prove.
 > in the probe's own files. If you find yourself editing
 > `original/variant-01-baseline-2008/source/guerra-de-caballos-baseline.cpp`, stop.
 
-## The 60-minute path
+## The 62-minute path
 
 | Min | Step | What you do | Evidence |
 |---|---|---|---|

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** shared state vs messages · **Time:** about 120 minutes · **Status:** drafted
+**Concept:** shared state vs messages · **Time:** about 115 minutes · **Status:** drafted
 **Reading:** ~28 minutes
 
 ## Why this lesson exists
@@ -63,8 +63,10 @@ difference between owning state and sharing it.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain shared state vs messages and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain shared state versus owned state;
+- detect and remove a race while keeping deterministic traces.
 
 ## The concept: who owns the state
 

@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** restricciones · **Prerrequisito:** construction-14 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 81 minutos
 
 Este directorio contiene el artefacto **después** de `construction-15`. Tiene el mismo
 comportamiento observable que `construction-14` para el juego de 8×8, pero el tablero y el motor del

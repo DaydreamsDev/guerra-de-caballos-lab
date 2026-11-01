@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** justificación de compromisos · **Tiempo:** unos 180 minutos ·
+**Concepto:** justificación de compromisos · **Tiempo:** unos 175 minutos ·
 **Estado:** borrador
 **Lectura:** ~21 minutos
 
@@ -40,8 +40,10 @@ Tres notas honestas antes de empezar.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar tradeoff justification y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar el coste como propiedad de un cambio nombrado;
+- defender una decisión de diseño con números medidos y un informe de una página.
 
 ## El concepto: el coste es una propiedad del próximo cambio
 

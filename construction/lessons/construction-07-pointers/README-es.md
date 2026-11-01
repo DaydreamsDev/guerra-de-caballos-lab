@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** indirección y ciclo de vida · **Prerrequisito:**
-> construction-06 · **Tiempo estimado:** 90 minutos
+> construction-06 · **Tiempo estimado:** 88 minutos
 
 Este directorio contiene el artefacto **después** de `construction-07`. Tiene el mismo
 comportamiento observable que `construction-06`, pero los alias de los caballos y el acceso a las

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** recovery · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** recovery · **Time:** about 75 minutes · **Status:** drafted
 **Reading:** ~24 minutes
 
 ## Why this lesson exists
@@ -66,7 +66,10 @@ the core kills the process.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain recovery and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain recovery through an error value;
+- handle an invalid move without calling exit.
 
 ## The concept: three ways to say no
 

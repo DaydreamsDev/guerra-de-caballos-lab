@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** ports and adapters · **Time:** about 90 minutes · **Status:** drafted
+**Concept:** ports and adapters · **Time:** about 92 minutes · **Status:** drafted
 **Reading:** ~26 minutes
 
 ## Why this lesson exists
@@ -47,7 +47,10 @@ new indirection appears, and a second program can run the same core without a co
 
 ## What you will be able to do
 
-By the end of this lesson you can explain ports and adapters and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain ports and adapters and the dependency arrow;
+- run the same core with console and test adapters.
 
 ## The concept: who decides how it looks
 

@@ -58,7 +58,10 @@ Three honest notes before the comparison.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain validity and lifecycle and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain validity and lifecycle for an abstract data type;
+- reject an out-of-range write and show that guard removal exposes invalid state.
 
 ## The concept: a check nobody calls is still only a seam
 

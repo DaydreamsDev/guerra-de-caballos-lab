@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** fallos de corrección · **Prerrequisito:** archaeology-03 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 100 minutos
 
 Esta lección diagnostica seis fallos de corrección en el código archivado. Cada fallo se convierte
 en una tarjeta con evidencia, síntoma, causa raíz, consecuencia, la prueba que lo detecta, un

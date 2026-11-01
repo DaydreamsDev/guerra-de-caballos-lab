@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** layout · **Time:** about 90 minutes · **Status:** drafted
+**Concept:** layout · **Time:** about 85 minutes · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists
@@ -54,9 +54,10 @@ and the allocation count do not move, and the transcript stays identical.
 
 ## What you will be able to do
 
-By the end of this lesson you can read a board representation, say what it stores and where, measure
-its size and its cost in object code, and explain why a layout change alone did not move the
-allocations or the clock.
+By the end of this lesson you can:
+
+- explain how board layout changes size and access;
+- measure board size, allocations and wall time while ownership stays fixed.
 
 ## The concept: layout is the design
 

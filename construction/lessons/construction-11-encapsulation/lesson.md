@@ -63,7 +63,10 @@ the change test shows exactly which one this baseline buys.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain class with invariant and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain a class boundary that preserves an invariant;
+- show that private state keeps the invariant and public state exposes it.
 
 ## The concept: a boundary the compiler enforces
 

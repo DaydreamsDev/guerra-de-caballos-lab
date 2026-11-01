@@ -5,7 +5,7 @@ prerequisites:
   - "construction-12"
   - "construction-15"
 reading_time: "20 minutes"
-estimated_time: "180 minutes"
+estimated_time: "175 minutes"
 acceptance_criteria:
   - "Choose two rungs and state what the pair holds constant and what it varies."
   - "Copy both rungs to scratch directories outside the repository, remove the copied

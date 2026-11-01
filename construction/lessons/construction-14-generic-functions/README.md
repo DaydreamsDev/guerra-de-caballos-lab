@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** type parameters · **Prerequisite:** construction-12 or
-> construction-13 · **Estimated time:** 60 minutes
+> construction-13 · **Estimated time:** 68 minutes
 
 This directory holds the **after** artifact for `construction-14`. It has the same observable
 behavior as `construction-13`, but the eight move candidates are produced by one function template

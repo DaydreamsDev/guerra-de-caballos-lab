@@ -4,7 +4,7 @@ concept: "Late binding (ligadura dinámica)"
 prerequisites:
   - construction-11
 reading_time: "21 minutes"
-estimated_time: "90 minutes"
+estimated_time: "80 minutes"
 acceptance_criteria:
   - "Identify the five virtual declarations in `piece.h` and the four overrides in
     `knight_piece.h`."

@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** layout · **Prerequisite:** construction-05 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 85 minutes
 
 This directory holds the **after** artifact for `construction-19`. It has the same observable
 behavior as `construction-17`, and it keeps the same ownership model and method style. Only the

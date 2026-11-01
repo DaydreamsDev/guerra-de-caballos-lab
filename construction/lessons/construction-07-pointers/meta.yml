@@ -4,7 +4,7 @@ concept: "Indirection and lifetime (indirección y ciclo de vida)"
 prerequisites:
   - construction-06
 reading_time: "17 minutes"
-estimated_time: "90 minutes"
+estimated_time: "88 minutes"
 acceptance_criteria:
   - "Access a board cell through `BoardCell *getBoardCell(...)` and rewrite one access as
     `rowStart + column` without changing the transcript."

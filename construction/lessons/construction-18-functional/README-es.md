@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** pureza e inmutabilidad · **Prerrequisito:** construction-17 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 85 minutos
 
 Este directorio contiene el artefacto **después** de `construction-18`. Tiene el mismo
 comportamiento observable que `construction-17`, pero el motor guarda un historial de instantáneas
