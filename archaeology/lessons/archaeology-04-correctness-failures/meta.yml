@@ -1,0 +1,22 @@
+id: archaeology-04
+title: "Correctness failures (fallos de corrección)"
+concept: "Correctness failures (fallos de corrección)"
+prerequisites:
+  - archaeology-03
+reading_time: "17 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Six failure cards cover failure-001 through failure-006, one card per failure."
+  - "Each card cites the variant, the line and a source snippet."
+  - "Each card separates symptom from root cause and states the consequence in real work."
+  - "Each card names the test that catches it and explains what the test checks."
+  - "Each card proposes a minimal fix before a structural fix, and links the structural fix to a
+    Track A rung."
+  - "The learner runs tests/run_failure_tests.sh against the archive and records six detected
+    lines."
+  - "The learner explains that the tests are isolated reproductions, not tests of the original."
+  - "The six failures are ranked by cost, with a reason for the order."
+  - "The archive is unmodified and no repair is applied to original/."
+engineering_check: "predict → reproduce → diagnose → fix → test → record"
+status: drafted
+languages: [en, es]

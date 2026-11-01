@@ -1,0 +1,24 @@
+id: construction-04
+title: "Records (registros)"
+concept: "Aggregation (agregación)"
+prerequisites:
+  - construction-03
+reading_time: "16 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Add a `captured` field to the `Knight` record and initialize it for both knights."
+  - "Show which function signatures and call sites changed, and which did not."
+  - "Reproduce all 20 golden traces with the modified record, unmodified output."
+  - "Apply the same fact to the separate-variable baseline and count both flag placements."
+  - "Explain what the record localizes: the field set, the default, and the attachment of a fact
+    to an object."
+  - "Explain what the shorter parameter list stopped saying, and which later lesson fixes each
+    remaining gap."
+  - "The one-sentence explanation omits 'struct' and the words 'better', 'worse', 'clean',
+    'cleaner', 'nice', 'elegant', 'ugly' and 'modular'."
+  - "The tracked baselines are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

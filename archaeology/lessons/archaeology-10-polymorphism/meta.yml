@@ -1,0 +1,31 @@
+id: archaeology-10
+title: "Missing polymorphism"
+concept: "Polymorphism"
+prerequisites:
+  - archaeology-09
+reading_time: "22 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "The learner inventories the interface: three virtual declarations and two overrides per
+    implementation."
+  - "The learner finds the archive's switch at `variant-01:239` and states that it dispatches on the
+    move number, not on the piece kind."
+  - "The learner counts the piece-kind branches: nine `cab==1` sites in `variant-01`, ten in the
+    other variants."
+  - "The baseline runs with the shipped flags and prints `comparisons=400 mismatches=0`."
+  - "The learner freezes the switch output as a 400-line golden trace before deleting the switch."
+  - "One replacement removes `delta_with_switch`, `move_with_switch` and `PieceKind` in a scratch
+    copy and keeps `Piece`, `Knight` and `MirrorKnight`."
+  - "The dispatch version still prints `comparisons=400 mismatches=0` against the frozen trace."
+  - "The learner adds a third piece in each path and records the touched places: 23 lines inside the
+    shared function versus 20 lines in a new type, and zero edits to existing types."
+  - "The learner states the cost of a virtual call with a measurement, or writes that it was not
+    measured."
+  - "The learner separates a switch on piece kind from a switch on move number and assigns each to
+    its own repair."
+  - "The learner states that the baseline's kind switch reconstructs the defect and is not verbatim
+    2008 code, and that the archive's two knights move identically."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → dispatch → compare → explain → record"
+status: drafted
+languages: [en, es]

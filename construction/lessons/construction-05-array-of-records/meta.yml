@@ -1,0 +1,26 @@
+id: construction-05
+title: "Array of records (arreglo de estructuras)"
+concept: "Collection and traversal (colección y recorrido)"
+prerequisites:
+  - construction-04
+reading_time: "22 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Traverse the 8×8 board with two nested loops and return the highest recorded move
+    number."
+  - "Add `int moveNumber` to `BoardCell` and record the successful move number at every
+    visited cell."
+  - "Reproduce all 20 golden traces with the modified board, with unchanged output."
+  - "Explain why neither a parallel `int` array nor 64 named variables is needed, and what
+    each would cost."
+  - "Show that the trace cannot detect a forgotten write, and which traversal can."
+  - "Explain what the array of records localizes: the field set, the zero default, the one
+    array, and the attachment of a fact to a cell."
+  - "Explain what the board parameter stopped saying, and which later lesson fixes each
+    remaining gap."
+  - "The tracked baselines are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

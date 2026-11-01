@@ -1,0 +1,26 @@
+id: construction-08
+title: "Modular programming (programación modular)"
+concept: "Information hiding (ocultamiento de información)"
+prerequisites:
+  - construction-03
+  - construction-07
+reading_time: "18 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Change the active board dimensions in `board.cpp` from 8×8 to 10×10 and show that
+    `game.cpp` and `main.cpp` require no edits."
+  - "Count the files edited, the lines edited and the translation units recompiled by the
+    change."
+  - "Map each public header (`board.h`, `game.h`, `random_sequence.h`) to the implementation it
+    hides and to the object symbols it exports."
+  - "Reproduce the 20 golden traces with the unmodified modular baseline, and explain why the
+    10×10 change invalidates them."
+  - "Explain what the headers hide, what they still expose, and what neither the compiler nor the
+    linker enforces."
+  - "Show that a header change recompiles its includers while a `.cpp` change does not."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

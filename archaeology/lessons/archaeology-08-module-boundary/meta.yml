@@ -1,0 +1,31 @@
+id: archaeology-08
+title: "Missing module boundary"
+concept: "Module boundary"
+prerequisites:
+  - archaeology-05
+reading_time: "15 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "The learner reads the archived single translation unit and records that it has 930 lines,
+    eleven functions and zero headers, with the board declared at file scope on line 17."
+  - "The learner counts the `vectab` mentions in the archive and records the regions that reach the
+    array."
+  - "The learner delivers a header plus an implementation that compile as separate translation
+    units."
+  - "`main.cpp` compiles and runs unchanged, printing `visited=2 first=1 second=1`."
+  - "The header declares no implementation helpers; `cell_index` and `is_inside` live in the
+    implementation."
+  - "The learner tries to access the visited array from `main.cpp` and captures the compiler's
+    privacy error verbatim."
+  - "The learner captures the linker error produced by a declared but undefined function."
+  - "The learner records what callers know, what they do not know, and how they would learn it."
+  - "The learner lists changes that stay inside the module and changes that reach the caller, and
+    states the difference between recompiling and rewriting."
+  - "The learner states that a C++ header still reveals private members, and that access control is
+    not information hiding."
+  - "The learner records that `reset()` is redundant after construction and names the resulting
+    contract ambiguity."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → split → compile → explain → record"
+status: drafted
+languages: [en, es]

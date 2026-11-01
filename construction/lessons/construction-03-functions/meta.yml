@@ -1,0 +1,22 @@
+id: construction-03
+title: "Functions and parameters (funciones y parámetros)"
+concept: "Scope and decomposition (ámbito y descomposición)"
+prerequisites:
+  - construction-02
+reading_time: "14 minutes"
+estimated_time: "45 minutes"
+acceptance_criteria:
+  - "Exercise one move decision through tryMove with parameters and no game setup."
+  - "Show that the decision is tested with local state and needs no global game state."
+  - "Inventory the mutable namespace-scope names in both baselines and say where each one
+    lives now."
+  - "Identify the playTurn boundary and count the callers that R-SKIP must change."
+  - "Compare that count with construction-02 and explain the scope change, not the style."
+  - "The one-sentence explanation omits 'better', 'worse', 'clean', 'cleaner', 'nice',
+    'elegant', 'ugly' and 'modular'."
+  - "The tracked baselines are not modified; the probe calls the tracked tryMove."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

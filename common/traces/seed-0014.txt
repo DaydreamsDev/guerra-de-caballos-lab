@@ -1,0 +1,71 @@
+seed=14
+player=Learner
+roll_player=16
+roll_machine=47
+start=machine
+initial_player=1,6
+initial_machine=7,1
+turn=1 who=machine at=7,1 order=2,3,4,5,6,7,8,1
+  try=2 to=5,2 legal
+move=1 machine 7,1->5,2
+turn=2 who=player at=1,6 order=5,6,7,8,1,2,3,4
+  try=5 to=2,4 legal
+move=2 player 1,6->2,4
+turn=3 who=machine at=5,2 order=4,5,6,7,8,1,2,3
+  try=4 to=4,0 illegal=outside
+  try=5 to=6,0 illegal=outside
+  try=6 to=7,1 legal
+move=3 machine 5,2->7,1
+turn=4 who=player at=2,4 order=7,8,1,2,3,4,5,6
+  try=7 to=4,5 legal
+move=4 player 2,4->4,5
+turn=5 who=machine at=7,1 order=6,7,8,1,2,3,4,5
+  try=6 to=9,0 illegal=outside
+  try=7 to=9,2 illegal=outside
+  try=8 to=8,3 legal
+move=5 machine 7,1->8,3
+turn=6 who=player at=4,5 order=1,2,3,4,5,6,7,8
+  try=1 to=3,7 legal
+move=6 player 4,5->3,7
+turn=7 who=machine at=8,3 order=8,1,2,3,4,5,6,7
+  try=8 to=9,5 illegal=outside
+  try=1 to=7,5 legal
+move=7 machine 8,3->7,5
+turn=8 who=player at=3,7 order=3,4,5,6,7,8,1,2
+  try=3 to=1,6 legal
+move=8 player 3,7->1,6
+turn=9 who=machine at=7,5 order=2,3,4,5,6,7,8,1
+  try=2 to=5,6 legal
+move=9 machine 7,5->5,6
+turn=10 who=player at=1,6 order=5,6,7,8,1,2,3,4
+  try=5 to=2,4 illegal=visited
+  try=6 to=3,5 legal
+move=10 player 1,6->3,5
+turn=11 who=machine at=5,6 order=4,5,6,7,8,1,2,3
+  try=4 to=4,4 legal
+move=11 machine 5,6->4,4
+turn=12 who=player at=3,5 order=7,8,1,2,3,4,5,6
+  try=7 to=5,6 illegal=visited
+  try=8 to=4,7 legal
+move=12 player 3,5->4,7
+turn=13 who=machine at=4,4 order=6,7,8,1,2,3,4,5
+  try=6 to=6,3 legal
+move=13 machine 4,4->6,3
+turn=14 who=player at=4,7 order=1,2,3,4,5,6,7,8
+  try=1 to=3,9 illegal=outside
+  try=2 to=2,8 legal
+move=14 player 4,7->2,8
+turn=15 who=machine at=6,3 order=8,1,2,3,4,5,6,7
+  try=8 to=7,5 illegal=visited
+  try=1 to=5,5 legal
+move=15 machine 6,3->5,5
+turn=16 who=player at=2,8 order=3,4,5,6,7,8,1,2
+  try=3 to=0,7 illegal=outside
+  try=4 to=1,6 illegal=visited
+  try=5 to=3,6 legal
+move=16 player 2,8->3,6
+turn=17 who=machine at=5,5 order=2,3,4,5,6,7,8,1
+  try=2 to=3,6 capture=player
+move=17 machine 5,5->3,6 capture
+winner=machine
+moves=17

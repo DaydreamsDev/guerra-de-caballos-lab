@@ -1,0 +1,27 @@
+id: archaeology-13
+title: "Technical documentation for maintainers"
+concept: "Documentation"
+prerequisites:
+  - archaeology-03
+reading_time: "20 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "A README for one source fills every section of `README-TEMPLATE.md` (or
+    `README-TEMPLATE-es.md`): what it is, build, run, test, behavior spec and evidence."
+  - "The README gives exact build commands, and the learner ran them from a clean scratch
+    directory with the recorded compiler and flags."
+  - "The README gives an exact run command, its input redirection and the observed exit status
+    and output volume."
+  - "The README gives an exact test command and states what the test does not cover."
+  - "A behavior spec fills `SPEC-TEMPLATE.md` (or `SPEC-TEMPLATE-es.md`); every clause cites
+    source lines and is marked verified, inferred or unknown."
+  - "Every command in the README was executed as written, and the record lists the command,
+    directory, exit status, observed output and expected output."
+  - "Every factual claim names its source: a file and line, a command and its output, or a
+    named document."
+  - "The unknowns are stated in one section, each with what would resolve it."
+  - "The archive is unmodified and every build artifact lives outside `original/`."
+  - "`EVIDENCE.md` or `EVIDENCE-es.md` is filled."
+engineering_check: "inspect → write → run → verify → explain → record"
+status: drafted
+languages: [en, es]

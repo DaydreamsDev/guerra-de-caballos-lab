@@ -1,0 +1,26 @@
+id: archaeology-00
+title: "Orientation: read a legacy codebase (Orientación: leer un código heredado)"
+concept: "Mental model (modelo mental)"
+prerequisites:
+  - common-03
+reading_time: "17 minutes"
+estimated_time: "45 minutes"
+acceptance_criteria:
+  - "The code map names the entry point, its file and function, what starts the program and what
+    ends it."
+  - "The function table has one row per function with purpose, callers, callees, reads and writes."
+  - "The state table separates mutable globals from read-only file-scope constants."
+  - "The data-flow section names the input, the transformation, the output, the mutation sites and
+    the output sites."
+  - "The build/run section records the command, the first observable result and the failure point,
+    including a build that does not succeed."
+  - "The one-sentence purpose says what the program does, how it does it and when it stops."
+  - "The next question names a symbol, a file or a line and would change at least one row of the
+    map."
+  - "Every uncertain claim is labelled read, ran, inferred or unknown."
+  - "EVIDENCE.md (or EVIDENCE-es.md) records the prediction, the map, the build/run result and the
+    mental model."
+  - "The source is unmodified and no build artifact is written into its tree."
+engineering_check: "predict → inspect → map → explain → record"
+status: drafted
+languages: [en, es]

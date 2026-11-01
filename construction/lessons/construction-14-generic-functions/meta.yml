@@ -1,0 +1,23 @@
+id: construction-14
+title: "Generic functions (funciones genéricas)"
+concept: "Type parameters"
+prerequisites:
+  - "construction-12 or construction-13"
+reading_time: "23 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Locate the `generate_move_candidates` template in `move_generator.h` and name its type
+    parameter."
+  - "Show that the header does not include `knight.h` and does not mention `Knight`."
+  - "Instantiate the generator with `Knight` and with a test type that has `row()` and `column()`."
+  - "Show that the same generator produces the eight destinations for both types."
+  - "Confirm that the game loop and all 20 traces are unchanged."
+  - "Measure the cost: 31 more source lines, 96 more bytes of `game.o` text, and 4,168
+    candidates against 1,017 destination pairs across the traces."
+  - "Explain that only the generator is generic; the loop still names `Knight` in ten signatures."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

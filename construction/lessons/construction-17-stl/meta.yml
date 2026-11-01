@@ -1,0 +1,30 @@
+id: construction-17
+title: "Standard Template Library and algorithms (algoritmos)"
+concept: "iteration abstraction"
+prerequisites:
+  - "construction-05"
+  - "construction-16"
+reading_time: "22 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Locate the three traversals that became algorithms: `Board::reset`, `generate_move_candidates`
+    and `buildMoveOrder`, and name the algorithm each one uses."
+  - "Count the `for` headers before and after: 9 in `construction-16`, 5 here, and name the four
+    headers that disappeared."
+  - "Explain why `std::views::iota` does not allocate and why `std::ranges::fill` clears 256 cells
+    instead of the 64 cells the old nested loop cleared."
+  - "Remove a transcript-visible traversal loop in a scratch copy, replace it with a ranges
+    algorithm, and show that all 20 golden traces are byte-identical."
+  - "Explain why the attempt loop stays: it prints each attempt, mutates four pieces of state,
+    handles four outcomes, and has two ways to stop."
+  - "Name `Board::is_valid` as a pure early exit that could become `std::ranges::any_of` and was not
+    changed."
+  - "Measure the cost and record it: source lines 606 to 611, `game.o` text 4,638 to 4,656, binary
+    text 9,652 to 9,668, plus the preprocessed line count and compile time for your machine."
+  - "Reproduce all 20 golden traces on the unmodified 8×8 baseline."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

@@ -1,0 +1,33 @@
+id: archaeology-09
+title: "Missing abstract data type"
+concept: "Abstract data type"
+prerequisites:
+  - archaeology-08
+reading_time: "19 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "The learner reads the archived `struct stablero { int mvectab; }` (variant-03) and
+    `struct tab { int vectab; }` (variant-04) and records that each is a transparent wrapper
+    around one integer with no operations."
+  - "The learner counts the lines that reach the field directly: 102 for `mvectab` in variant-03
+    and 146 for `tablero` in variant-04."
+  - "The learner delivers an opaque `Board`: the header declares `struct Board;` and six
+    operations, and no file included by the caller defines the type."
+  - "The learner captures the compiler rejecting `sizeof(Board)`, a stack `Board`, and a member
+    access through the incomplete type."
+  - "The learner builds the same `main.cpp` against `board_array.cpp` and `board_bitmask.cpp`
+    without editing the caller or the header."
+  - "Both representations print `visited=2 first=1 second=1`; `run.sh` prints `match=yes`."
+  - "The learner measures the two representations (64 bytes and 8 bytes on the reference
+    toolchain) from inside the module, not from the caller."
+  - "The learner captures the link error produced by linking both representations at once."
+  - "The learner lists the lifetime failures the create/destroy API leaves to the caller: leak,
+    double free, copied handle, early return, null, use after destroy."
+  - "The learner compares the opaque free-function API with a C++ class and a pimpl, naming the
+    allocation, indirection and out-of-line destructor each one costs."
+  - "The learner records what the ADT hides, what it still does not promise, and what the
+    representation swap does not prove."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → hide → swap → explain → record"
+status: drafted
+languages: [en, es]

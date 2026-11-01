@@ -1,0 +1,34 @@
+id: construction-23
+title: "Port to another language (portar)"
+concept: "syntax is disposable"
+prerequisites:
+  - "construction-09 or construction-12"
+reading_time: "20 minutes"
+estimated_time: "180 minutes"
+acceptance_criteria:
+  - "Read `game.py`, `main.py` and `run.sh`, and name the four layers of a port: behavior, rules,
+    representation and process."
+  - "Count 245 source lines across 2 files in the port and 1,071 across 20 in the C++ baseline, and
+    explain why the smaller number is not a quality score."
+  - "Run the Python port against all 20 seeds and match every golden trace byte for byte, and diff
+    it against the C++ baseline on at least one capture seed and one trap seed."
+  - "Name at least three things that changed in the port and three that did not, each with a line of
+    evidence: representation and ownership, the compile-time contract, the build and the process;
+    the LCG, the move and check order, and the transcript."
+  - "Explain that `common/harness/reference.py` is an independent oracle but not an independent
+    design, and that the port is not the first Python implementation."
+  - "Measure 20 games through `run.sh` at about 0.87 s, 20 games in one process at about 0.016 s, 20
+    C++ processes at about 0.03 s and 20 interpreter startups at about 0.26 s, and state that
+    startup dominates the Python figure instead of claiming a core comparison."
+  - "Change one rule in a scratch copy of the port only, observe which traces fail, explain why the
+    other traces cannot see the change, and restore it."
+  - "Show that swapping capture and visited fails the 11 capture-ending traces, and that flipping
+    the trap winner fails the 9 trap-ending traces."
+  - "Record that no golden trace reaches the 200-move draw and that the port dropped the probes, the
+    recording adapter, the parallel runner and `--max-moves`."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

@@ -1,0 +1,31 @@
+id: archaeology-03
+title: "Reverse-engineer the spec (reconstruir la especificación)"
+concept: "Behavior specification (especificación de comportamiento)"
+prerequisites:
+  - archaeology-02
+reading_time: "20 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "A behavior spec reconstructs board, pieces, starting positions, turn order, move rules,
+    randomness, output and evidence from the archived source."
+  - "Every spec clause cites the source lines that support it and is marked verified, inferred or
+    unknown."
+  - "Game rules, randomness and presentation are stated as separate layers."
+  - "At least one legacy trace is captured with a fixed seed, and the capture record includes the
+    command, run_status, stdout lines, stderr lines and environment."
+  - "The same seed is run twice and the outputs are shown to be byte-identical; a second seed is run
+    to show that line counts vary."
+  - "The seed patch is explained, including why a collision seed can make the probe return
+    run_status=124."
+  - "The reconstructed spec is compared with common/spec/game-rules.md, and every difference is
+    classified as encoding, rule or unobservable."
+  - "The randomness boundary is stated: the legacy rand() sequence is not the modern LCG, so the
+    legacy trace is not a golden trace for the modern engine."
+  - "The evidence limits are written in four categories: verified from source, observed in a trace,
+    inferred from structure and unknown."
+  - "SPEC-TEMPLATE.md (or SPEC-TEMPLATE-es.md), TRACE-TEMPLATE.md (or TRACE-TEMPLATE-es.md) and
+    EVIDENCE.md (or EVIDENCE-es.md) are filled."
+  - "The archive is unmodified."
+engineering_check: "predict → inspect → capture → compare → explain → record"
+status: drafted
+languages: [en, es]

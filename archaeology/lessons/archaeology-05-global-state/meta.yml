@@ -1,0 +1,26 @@
+id: archaeology-05
+title: "Global state and hidden coupling (estado global y acoplamiento oculto)"
+concept: "Global state and hidden coupling (estado global y acoplamiento oculto)"
+prerequisites:
+  - archaeology-04
+reading_time: "14 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The map lists every mutable global with its declaration, writers, readers, mutation path
+    and confidence."
+  - "The map separates the twelve mutable globals from the three `const char` print symbols."
+  - "Each function has a row with reads, writes, printing side effects and one sentence of
+    hidden coupling."
+  - "Indirect writes reached through a callee are marked as indirect."
+  - "The learner names the three meanings carried by `jugada` and explains the `ganador` + `cab`
+    pair."
+  - "Three mutation paths are traced from `main` to the changed value, and the hardest path to
+    test is named with a reason."
+  - "The evidence boundary distinguishes what the source proves, what is inferred from call
+    sites and what is unknown."
+  - "A minimal fix creates one testable seam, and a structural fix links to a Track A rung
+    (`construction-11` or `construction-13`)."
+  - "The archive is unmodified and no repair is applied to original/."
+engineering_check: "predict → inspect → map → explain → record"
+status: drafted
+languages: [en, es]
