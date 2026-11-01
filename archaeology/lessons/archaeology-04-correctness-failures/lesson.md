@@ -51,7 +51,7 @@ Track B separates five classes. The class determines the lesson, not the file.
 | **Design** | Does the structure make change expensive? | Global mutable state; eight copied `case` bodies. |
 | **Robustness** | Does it work outside one environment? | `conio.h`, `system("color 1f")`. |
 | **Professional practice** | Can someone else build, use or trust it? | No README, no spec, no tests. |
-| **Pedagogical artifact** | Does the lesson teach what it claims? | `variant-01` contains no pointers. |
+| **Evidence** | Can the claim be checked? | A claim without a source; unknowns hidden as facts. |
 
 The six cards in this lesson are correctness failures. Several also have robustness consequences: a
 buffer overflow is a security problem, and `void main` is a portability problem. Classify by the
