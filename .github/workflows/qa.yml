@@ -1,0 +1,43 @@
+name: QA
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: python3 -m pip install pyyaml
+
+      - name: Repository checks
+        run: python3 scripts/check_repo.py
+
+      - name: Reference golden traces
+        run: construction/lessons/construction-24-capstone/measure.sh reference
+
+      - name: Construction-19 golden traces
+        run: |
+          cd construction/lessons/construction-19-data-oriented
+          for seed in $(seq 1 20); do
+            trace="../../../common/traces/seed-$(printf '%04d' "$seed").txt"
+            ./run.sh --seed "$seed" --name Learner | cmp -s - "$trace"
+          done
