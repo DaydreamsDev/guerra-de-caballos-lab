@@ -1,0 +1,25 @@
+id: construction-12
+title: "Polymorphism (polimorfismo)"
+concept: "Late binding (ligadura dinámica)"
+prerequisites:
+  - construction-11
+reading_time: "21 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Identify the five virtual declarations in `piece.h` and the four overrides in
+    `knight_piece.h`."
+  - "Count the 19 virtual call sites in `game.cpp` and name the operation each one asks for."
+  - "Add a `Piece` subclass in a scratch file and exercise it through a `Piece &`."
+  - "Show that the game loop needs zero edits and that all 20 traces still pass with the original
+    `KnightPiece`."
+  - "Show that the substitute at the construction site also reproduces all 20 traces."
+  - "Explain what the interface covers (identity and position) and what it does not (the movement
+    geometry)."
+  - "Explain the early-binding probe: with `row()` non-virtual, the same call returns the base
+    value."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
