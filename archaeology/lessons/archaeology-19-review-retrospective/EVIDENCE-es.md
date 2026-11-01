@@ -139,7 +139,6 @@ Cobertura de clases:
 | Diseño | | |
 | Robustez | | |
 | Práctica profesional | | |
-| Artefacto pedagógico | | |
 
 Control de calidad:
 

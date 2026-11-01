@@ -53,9 +53,6 @@ An item is usable when it names:
 | Professional practice | Can another person build, trust and maintain it? | failure-016…failure-019 | `common-01`, `common-03`, `common-04` |
 | Evidence | Can the claim be checked? | all classes | `common-02`, `common-04` |
 
-The pedagogical class (`failure-020`) is reviewed by the same evidence family: a label is a claim,
-and a claim needs a source.
-
 ## Files
 
 | File | Purpose |
