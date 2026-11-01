@@ -1,0 +1,26 @@
+id: construction-06
+title: "References (referencias)"
+concept: "Aliasing without addresses (alias sin direcciones)"
+prerequisites:
+  - construction-05
+reading_time: "15 minutes"
+estimated_time: "45 minutes"
+acceptance_criteria:
+  - "Identify `selectActiveKnight` returning `Knight &`, `selectOtherKnight` returning
+    `const Knight &`, and `moveKnight(Knight &, ...)` mutating through a reference parameter."
+  - "Mutate a knight record through a reference parameter and observe the caller's record
+    change."
+  - "Change `moveKnight` to take `Knight` by value, show that the caller's record no longer
+    changes, and restore the reference."
+  - "Explain why a by-value parameter cannot change the caller's record, and why the `move=`
+    line survives while the next `turn=` header is stale."
+  - "Show that the by-value variant diverges on all 20 seeds, and that the reference version
+    reproduces all 20 golden traces."
+  - "Explain what a reference makes explicit, what it hides at the call site, and what `const`
+    enforces."
+  - "The tracked baselines are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
