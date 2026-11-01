@@ -1,0 +1,20 @@
+id: construction-02
+title: "Structured programming (programación estructurada)"
+concept: "Sequence, selection and iteration (secuencia, selección e iteración)"
+prerequisites:
+  - construction-01
+reading_time: "16 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Apply one R-SKIP requirement to both baselines on scratch copies."
+  - "Count edit sites and turn-entry incoming edges in both files with one stated rule."
+  - "Show that the structured control-flow change sits in one loop region with one incoming edge."
+  - "Explain the difference by control flow, not by style."
+  - "The one-sentence explanation omits 'bad', 'clean', 'readable', 'elegant', 'ugly',
+    'spaghetti', 'unreadable' and 'goto'."
+  - "The tracked baselines are not modified; the modified transcripts agree with each other."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

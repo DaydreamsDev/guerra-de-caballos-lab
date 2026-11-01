@@ -1,0 +1,27 @@
+id: archaeology-12
+title: "Naming and comments"
+concept: "Naming and comments (nombres y comentarios)"
+prerequisites:
+  - archaeology-04
+reading_time: "19 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner reads `code/before.cpp` and `code/after.cpp`, diffs them, and records that the
+    only changes are a comment, a function name and two parameter names."
+  - "The learner runs `./run.sh` with the shipped flags and records
+    `before=index=19`, `after=index=19`, `match=yes`."
+  - "The rename table has a row for `calc`, `f` and `c`, each with a reason that names the hidden
+    decision and a scope."
+  - "The learner renames the function and both parameters in a scratch copy outside `original/`,
+    compiles with `-Werror`, and gets `index=19`."
+  - "The comment table records a verb (keep, rewrite, delete or repair) and a reason for every
+    comment touched, including the narrating comment in `before.cpp`."
+  - "The learner classifies archive comments with line evidence, including the wrong-knight
+    comment at `variant-01:78` and the wrong-statement comment at `variant-01:310`."
+  - "The learner states what the rename does not fix: the magic `8`, the missing bounds check, the
+    dual meaning of `jugada`, the inverted `ganador` flag and the missing tests."
+  - "The learner states the evidence boundary: one input, one file, no archive globals renamed."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → rename → compare → explain → record"
+status: drafted
+languages: [en, es]

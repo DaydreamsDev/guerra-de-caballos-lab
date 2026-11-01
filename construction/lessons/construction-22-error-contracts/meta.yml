@@ -1,0 +1,34 @@
+id: construction-22
+title: "Error contracts (errores)"
+concept: "recovery"
+prerequisites:
+  - "construction-09"
+  - "construction-21"
+reading_time: "24 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Read `move_result.h`, `game_engine.h`, `error_probe.cpp` and `main.cpp`, and name the four
+    `MoveOutcome` values, their order inside `tryMove`, and why `capture` is checked before
+    `visited`."
+  - "Call `evaluate_move` with a move outside the board, a capture and a legal move, and record
+    `outside=0 capture=2 legal=3` with exit status 0; explain that the values are enum positions,
+    not error codes."
+  - "Explain why the probe cannot produce `visited` on a fresh engine, and show the fourth outcome
+    with a board that has history, or record why not."
+  - "Write a caller policy in a scratch copy that decides continue, report or stop from the returned
+    `MoveOutcome`, run it in two modes, and show both end with status 0 and no `exit`."
+  - "Show that no file in `code/` calls `exit`, and that `main` returns 2 for bad arguments as a
+    normal return rather than a process exit."
+  - "Reproduce all 20 golden traces on the unmodified console baseline and again after the change
+    test, byte for byte."
+  - "Measure the cost and record it: source lines 1,030 to 1,071 across 18 to 20 files, headers 10
+    to 11, `game.o` text 4,280 to 4,312, binary text 10,869 to 10,901, data 876, BSS 16,
+    `sizeof(MoveResult)` 12, `sizeof(MoveOutcome)` 4, and `error_probe.o` text 2,633."
+  - "Name what the contract does not guarantee: the caller can still ignore the returned value, and
+    `evaluate_move` is a query over the engine's current board, not a pure function."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

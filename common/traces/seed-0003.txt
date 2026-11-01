@@ -1,0 +1,118 @@
+seed=3
+player=Learner
+roll_player=45
+roll_machine=28
+start=player
+initial_player=3,7
+initial_machine=6,6
+turn=1 who=player at=3,7 order=3,4,5,6,7,8,1,2
+  try=3 to=1,6 legal
+move=1 player 3,7->1,6
+turn=2 who=machine at=6,6 order=2,3,4,5,6,7,8,1
+  try=2 to=4,7 legal
+move=2 machine 6,6->4,7
+turn=3 who=player at=1,6 order=5,6,7,8,1,2,3,4
+  try=5 to=2,4 legal
+move=3 player 1,6->2,4
+turn=4 who=machine at=4,7 order=4,5,6,7,8,1,2,3
+  try=4 to=3,5 legal
+move=4 machine 4,7->3,5
+turn=5 who=player at=2,4 order=7,8,1,2,3,4,5,6
+  try=7 to=4,5 legal
+move=5 player 2,4->4,5
+turn=6 who=machine at=3,5 order=6,7,8,1,2,3,4,5
+  try=6 to=5,4 legal
+move=6 machine 3,5->5,4
+turn=7 who=player at=4,5 order=1,2,3,4,5,6,7,8
+  try=1 to=3,7 legal
+move=7 player 4,5->3,7
+turn=8 who=machine at=5,4 order=8,1,2,3,4,5,6,7
+  try=8 to=6,6 legal
+move=8 machine 5,4->6,6
+turn=9 who=player at=3,7 order=3,4,5,6,7,8,1,2
+  try=3 to=1,6 illegal=visited
+  try=4 to=2,5 legal
+move=9 player 3,7->2,5
+turn=10 who=machine at=6,6 order=2,3,4,5,6,7,8,1
+  try=2 to=4,7 illegal=visited
+  try=3 to=4,5 illegal=visited
+  try=4 to=5,4 illegal=visited
+  try=5 to=7,4 legal
+move=10 machine 6,6->7,4
+turn=11 who=player at=2,5 order=5,6,7,8,1,2,3,4
+  try=5 to=3,3 legal
+move=11 player 2,5->3,3
+turn=12 who=machine at=7,4 order=4,5,6,7,8,1,2,3
+  try=4 to=6,2 legal
+move=12 machine 7,4->6,2
+turn=13 who=player at=3,3 order=7,8,1,2,3,4,5,6
+  try=7 to=5,4 illegal=visited
+  try=8 to=4,5 illegal=visited
+  try=1 to=2,5 illegal=visited
+  try=2 to=1,4 legal
+move=13 player 3,3->1,4
+turn=14 who=machine at=6,2 order=6,7,8,1,2,3,4,5
+  try=6 to=8,1 legal
+move=14 machine 6,2->8,1
+turn=15 who=player at=1,4 order=1,2,3,4,5,6,7,8
+  try=1 to=0,6 illegal=outside
+  try=2 to=-1,5 illegal=outside
+  try=3 to=-1,3 illegal=outside
+  try=4 to=0,2 illegal=outside
+  try=5 to=2,2 legal
+move=15 player 1,4->2,2
+turn=16 who=machine at=8,1 order=8,1,2,3,4,5,6,7
+  try=8 to=9,3 illegal=outside
+  try=1 to=7,3 legal
+move=16 machine 8,1->7,3
+turn=17 who=player at=2,2 order=3,4,5,6,7,8,1,2
+  try=3 to=0,1 illegal=outside
+  try=4 to=1,0 illegal=outside
+  try=5 to=3,0 illegal=outside
+  try=6 to=4,1 legal
+move=17 player 2,2->4,1
+turn=18 who=machine at=7,3 order=2,3,4,5,6,7,8,1
+  try=2 to=5,4 illegal=visited
+  try=3 to=5,2 legal
+move=18 machine 7,3->5,2
+turn=19 who=player at=4,1 order=5,6,7,8,1,2,3,4
+  try=5 to=5,-1 illegal=outside
+  try=6 to=6,0 illegal=outside
+  try=7 to=6,2 illegal=visited
+  try=8 to=5,3 legal
+move=19 player 4,1->5,3
+turn=20 who=machine at=5,2 order=4,5,6,7,8,1,2,3
+  try=4 to=4,0 illegal=outside
+  try=5 to=6,0 illegal=outside
+  try=6 to=7,1 legal
+move=20 machine 5,2->7,1
+turn=21 who=player at=5,3 order=7,8,1,2,3,4,5,6
+  try=7 to=7,4 illegal=visited
+  try=8 to=6,5 legal
+move=21 player 5,3->6,5
+turn=22 who=machine at=7,1 order=6,7,8,1,2,3,4,5
+  try=6 to=9,0 illegal=outside
+  try=7 to=9,2 illegal=outside
+  try=8 to=8,3 legal
+move=22 machine 7,1->8,3
+turn=23 who=player at=6,5 order=1,2,3,4,5,6,7,8
+  try=1 to=5,7 legal
+move=23 player 6,5->5,7
+turn=24 who=machine at=8,3 order=8,1,2,3,4,5,6,7
+  try=8 to=9,5 illegal=outside
+  try=1 to=7,5 legal
+move=24 machine 8,3->7,5
+turn=25 who=player at=5,7 order=3,4,5,6,7,8,1,2
+  try=3 to=3,6 legal
+move=25 player 5,7->3,6
+turn=26 who=machine at=7,5 order=2,3,4,5,6,7,8,1
+  try=2 to=5,6 legal
+move=26 machine 7,5->5,6
+turn=27 who=player at=3,6 order=5,6,7,8,1,2,3,4
+  try=5 to=4,4 legal
+move=27 player 3,6->4,4
+turn=28 who=machine at=5,6 order=4,5,6,7,8,1,2,3
+  try=4 to=4,4 capture=player
+move=28 machine 5,6->4,4 capture
+winner=machine
+moves=28

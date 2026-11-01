@@ -1,0 +1,41 @@
+seed=7
+player=Learner
+roll_player=13
+roll_machine=44
+start=machine
+initial_player=2,3
+initial_machine=3,2
+turn=1 who=machine at=3,2 order=7,8,1,2,3,4,5,6
+  try=7 to=5,3 legal
+move=1 machine 3,2->5,3
+turn=2 who=player at=2,3 order=6,7,8,1,2,3,4,5
+  try=6 to=4,2 legal
+move=2 player 2,3->4,2
+turn=3 who=machine at=5,3 order=1,2,3,4,5,6,7,8
+  try=1 to=4,5 legal
+move=3 machine 5,3->4,5
+turn=4 who=player at=4,2 order=8,1,2,3,4,5,6,7
+  try=8 to=5,4 legal
+move=4 player 4,2->5,4
+turn=5 who=machine at=4,5 order=3,4,5,6,7,8,1,2
+  try=3 to=2,4 legal
+move=5 machine 4,5->2,4
+turn=6 who=player at=5,4 order=2,3,4,5,6,7,8,1
+  try=2 to=3,5 legal
+move=6 player 5,4->3,5
+turn=7 who=machine at=2,4 order=5,6,7,8,1,2,3,4
+  try=5 to=3,2 legal
+move=7 machine 2,4->3,2
+turn=8 who=player at=3,5 order=4,5,6,7,8,1,2,3
+  try=4 to=2,3 legal
+move=8 player 3,5->2,3
+turn=9 who=machine at=3,2 order=7,8,1,2,3,4,5,6
+  try=7 to=5,3 illegal=visited
+  try=8 to=4,4 legal
+move=9 machine 3,2->4,4
+turn=10 who=player at=2,3 order=6,7,8,1,2,3,4,5
+  try=6 to=4,2 illegal=visited
+  try=7 to=4,4 capture=machine
+move=10 player 2,3->4,4 capture
+winner=player
+moves=10

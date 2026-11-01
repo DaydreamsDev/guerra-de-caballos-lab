@@ -1,0 +1,26 @@
+id: archaeology-02
+title: "Code inventory and call graph (inventario de código y grafo de llamadas)"
+concept: "Structural inventory (inventario estructural)"
+prerequisites:
+  - archaeology-01
+reading_time: "17 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner delivers a complete inventory of files, functions, globals and entry points."
+  - "The function table has one row per definition, with line spans, inputs, output, side effects
+    and callees."
+  - "The global table has one row per name, with the declaring line, the mutating functions and the
+    reading functions."
+  - "Writes are counted as assignment, increment or decrement; comparisons and console reads are not
+    counted as mutations."
+  - "The call graph is drawn and names its roots and leaves."
+  - "The learner reports distinct call edges and call sites as separate numbers."
+  - "The learner names the largest function, the most connected function and the most mutated
+    global, each with file and line evidence."
+  - "Every finding carries a confidence label: verified, inferred or unknown."
+  - "The learner records what could not be classified and why."
+  - "EVIDENCE.md (or EVIDENCE-es.md) records the commands, the tables, the graph and the findings."
+  - "The original source is unmodified and no inventory work edits it."
+engineering_check: "inspect → inventory → graph → explain → record"
+status: drafted
+languages: [en, es]

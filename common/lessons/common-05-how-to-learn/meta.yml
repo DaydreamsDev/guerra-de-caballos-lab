@@ -1,0 +1,13 @@
+id: common-05
+title: "How to learn (cómo aprender)"
+concept: "Metacognition (metacognición)"
+prerequisites: []
+reading_time: "11 minutes"
+estimated_time: "15 minutes"
+acceptance_criteria:
+  - "One complete predict → run → compare → explain → record cycle is recorded."
+  - "One gap between the prediction and the observation is recorded with the exact value or line."
+  - "One next step is recorded after the four-question self-diagnosis."
+engineering_check: "predict → run → compare → explain → record"
+status: drafted
+languages: [en, es]

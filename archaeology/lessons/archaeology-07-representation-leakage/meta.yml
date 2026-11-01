@@ -1,0 +1,32 @@
+id: archaeology-07
+title: "Representation leakage and parallel arrays"
+concept: "Representation leakage and records"
+prerequisites:
+  - archaeology-05
+reading_time: "18 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner reads the archive anchors and records the two representations of a knight
+    position: the flat index (`cab1`, `cab2`) and the row/column cache (`cf1`, `cc1`, `cf2`,
+    `cc2`)."
+  - "The learner records the counts: 80 lines containing `vectab[`, 26 lines containing
+    `conversionmv(`, 24 calls and four `movcab` call sites."
+  - "The baseline runs with the shipped flags and prints the same summary from both versions with
+    `match=yes`."
+  - "The learner freezes the parallel-array output before refactoring."
+  - "A `Knight` record is introduced in a scratch copy, grouping `row` and `column`."
+  - "A `Board` owns the visited array and exposes `mark` and `visited_count`; the caller stops
+    computing the board index."
+  - "The learner names every caller updated and counts the touched sites."
+  - "The scratch refactor prints the same summary and agrees with `code/record.cpp`."
+  - "The learner states that the baseline isolates the record/board change and does not reproduce
+    the archive's dual flat/row-column storage, board payload, random placement, turn logic,
+    capture, printing or game loop."
+  - "The learner notes that `Board` still stores `std::array<bool, 64>` and that `mark` has no
+    bounds check."
+  - "The learner links the fix to Track A rungs (`construction-04`, `construction-05`,
+    `construction-09`, `construction-11`)."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → refactor → compare → explain → record"
+status: drafted
+languages: [en, es]

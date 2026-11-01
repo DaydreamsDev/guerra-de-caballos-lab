@@ -1,0 +1,30 @@
+id: archaeology-17
+title: "Code review of a legacy function"
+concept: "code review"
+prerequisites:
+  - archaeology-04
+reading_time: "21 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner chooses one legacy function and records its file, line range, callers and a scope
+    card that names what is out of scope."
+  - "The learner writes at least three distinct findings, each with location, symptom, root cause,
+    severity, evidence and a test field that names a test or states why none is named."
+  - "Each severity is one of critical, high, medium or low, and carries a sentence naming who is
+    hurt, by what, in which context."
+  - "At least one preference is separated from the findings and the reason it is not a finding is
+    stated."
+  - "The findings are ordered by severity, then reachability, then cost, with a reason for every
+    row and an explicit fix-first, fix-next and leave-as-evidence decision."
+  - "One test is named for the highest-risk finding, with given, when, then and an oracle that is
+    independent of the implementation."
+  - "The learner states whether the test fails before the fix and passes after it, and names the
+    smallest seam the test needs."
+  - "Every finding records the evidence rung it reached: read, grep, compile, run or test."
+  - "The review limits are written: what was read, what was run, what was not run and what was
+    inferred."
+  - "At least one behavior that looks wrong but is kept is recorded with its reason."
+  - "The legacy source is unmodified and every copy lives outside `original/`."
+engineering_check: "inspect → review → prioritize → test → explain → record"
+status: drafted
+languages: [en, es]

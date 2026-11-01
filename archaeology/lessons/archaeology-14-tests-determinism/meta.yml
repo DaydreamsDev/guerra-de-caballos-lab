@@ -1,0 +1,33 @@
+id: archaeology-14
+title: "Tests and determinism"
+concept: "tests and determinism"
+prerequisites:
+  - archaeology-03
+reading_time: "20 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "The learner reads `code/seed_control.cpp`, names the argument, `set_seed` and `below` seams,
+    and records the 64-bit LCG constants."
+  - "The learner compiles with the shipped flags and runs `--seed 1`, observing
+    `seed=1`, positions `2`, `5`, `0`, `winner=player` and `moves=3`."
+  - "The learner runs `./run.sh` and records `same=yes` and `golden=yes`."
+  - "The learner runs the program twice by hand, compares with `diff`, and compares the run with
+    `code/tests/golden-seed-1.txt` using `cmp` with exit code 0."
+  - "The learner runs seeds 2 and 7, records the changed positions, and explains why `winner` and
+    `moves` do not change in this bench."
+  - "The learner records the archive anchors at tag `v1.0.0`: one `srand(time(NULL))` and five
+    `rand()` calls per variant, no `argc` or `argv`, and no test file."
+  - "The learner explains why `srand(time(NULL))` inside the retry loop makes retries repeat the
+    same draws within one second."
+  - "The learner explains why `rand()` alone is not a portable golden trace, citing the
+    implementation-defined sequence and the different `RAND_MAX` values."
+  - "The learner writes a platform note for a captured legacy trace: compiler, C runtime,
+    architecture, seed source, seed value, command, output bytes and scope."
+  - "The learner distinguishes the golden file (oracle) from `run.sh` (test with an exit code) and
+    states that deleting `exit 1` turns the test into a demo."
+  - "The learner states the evidence boundary: one seed, one 44-line bench, one compiler and libc;
+    the archive is not testable as published."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → seed → run twice → compare → explain → record"
+status: drafted
+languages: [en, es]

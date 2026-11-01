@@ -1,0 +1,15 @@
+id: construction-00
+title: "Read the rules, run the reference baseline"
+concept: "Specification (especificación)"
+prerequisites:
+  - common-00
+  - common-01
+reading_time: "7 minutes"
+estimated_time: 45 minutes
+acceptance_criteria:
+  - "Predict the next move of a seeded game."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

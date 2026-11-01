@@ -1,0 +1,34 @@
+id: construction-21
+title: "Concurrency (concurrencia)"
+concept: "shared state vs messages"
+prerequisites:
+  - "construction-12"
+  - "construction-20"
+reading_time: "28 minutes"
+estimated_time: "120 minutes"
+acceptance_criteria:
+  - "Locate the file-static `randomState` in `construction-20` and the private `state` member in
+    `construction-21`, and explain the ownership change from a global sequence to one
+    `RandomSequence` per `GameEngine`."
+  - "Reproduce all 20 golden traces on the unmodified console baseline, byte for byte."
+  - "Run the four runner modes and record written and checksum: sequential 16,000 /
+    2826026307342797653; race loses writes and its checksum varies; mutex and merge 16,000 /
+    2826026307342797653."
+  - "Show that `written` equals `next_index` in the observed race runs and explain why the race
+    checksum also depends on the unsorted result order."
+  - "Remove the race in a scratch copy with a mutex or with per-thread results, and show
+    `written=16000` and `checksum=2826026307342797653`, stable across runs."
+  - "Show that the 20 golden traces still pass after the fix."
+  - "Measure the cost and record it: source lines 815 to 1,030 across 17 to 18 files, `game.o` text
+    4,138 to 4,280, binary text 10,748 to 10,869, data 876 to 876, BSS 24 to 16,
+    `sizeof(GameEngine<8, 8>)` 32 to 40, and `sizeof(RandomSequence)` 8."
+  - "Name what the engine does not guarantee: one `GameEngine` shared by two threads is still a
+    data race; the safe contract is one engine per thread."
+  - "Name the order contract: the checksum is order-sensitive, so `sort_by_seed` is part of
+    determinism."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

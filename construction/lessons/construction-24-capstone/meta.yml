@@ -1,0 +1,39 @@
+id: construction-24
+title: "Capstone: cost report (informe de costes)"
+concept: "tradeoff justification"
+prerequisites:
+  - "construction-12"
+  - "construction-15"
+reading_time: "20 minutes"
+estimated_time: "180 minutes"
+acceptance_criteria:
+  - "Choose two rungs and state what the pair holds constant and what it varies."
+  - "Copy both rungs to scratch directories outside the repository, remove the copied
+    `build/` directory, and record the commit and both baseline `measure.sh` outputs before
+    editing."
+  - "Write the prediction, with confidence, before the first edit: files touched, lines added
+    and removed, new concepts, tests broken, compile time, binary text bytes and traces passed."
+  - "Apply the same change to both copies: a third piece type with the same four operations and
+    the knight's movement, and a 10x10 entry point that reuses the same turn loop."
+  - "Prove that the third piece travels through the same turn loop, and state whether the
+    substitution was kept or restored."
+  - "Run the 10x10 entry point and check that it prints the transcript format with initial
+    coordinates in 1..10, and state that there is no 10x10 golden trace."
+  - "Show all 20 golden traces passing byte for byte on the unchanged 8x8 path in both scratch
+    copies."
+  - "Measure files and lines with `git diff --no-index --numstat`, including the build files and
+    the new entry point, and keep the size of the copy separate from the delta caused."
+  - "Measure compile time as the median of three clean builds with the same compiler and flags,
+    and record binary text bytes for the default program."
+  - "Record tests broken on the first green build separately from the final 20/20 trace count."
+  - "Deliver a one-page report with a prediction, measured numbers for two rungs, a verdict that
+    names the deciding metric and the near-reversal, and a next change predicted in the same
+    table."
+  - "Explain what the 20 traces prove and what they do not, and name the cost the table does not
+    show."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Measure → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es

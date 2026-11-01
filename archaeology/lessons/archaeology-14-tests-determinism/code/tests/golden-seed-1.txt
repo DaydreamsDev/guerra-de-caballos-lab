@@ -1,0 +1,6 @@
+seed=1
+move=1 position=2
+move=2 position=5
+move=3 position=0
+winner=player
+moves=3
