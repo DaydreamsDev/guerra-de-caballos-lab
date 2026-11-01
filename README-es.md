@@ -27,7 +27,7 @@ v1.0.0
 ```
 
 El archivo es la evidencia. Este laboratorio es la capa moderna de aprendizaje. El laboratorio no
-altera el archivo ni pretende que el nivel de clases existiera en el código original.
+altera el archivo.
 
 Ver [`docs/archive-es.md`](docs/archive-es.md).
 
