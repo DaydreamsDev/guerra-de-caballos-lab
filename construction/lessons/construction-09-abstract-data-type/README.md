@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** representation independence
-> **Prerequisite:** construction-08 · **Estimated time:** 90 minutes
+> **Prerequisite:** construction-08 · **Estimated time:** 97 minutes
 
 This directory holds the **after** artifact for `construction-09`. It has the same observable
 behavior as `construction-08` for the 8×8 game, but `Board` is an abstract data type: the header

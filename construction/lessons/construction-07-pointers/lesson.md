@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** indirection and lifetime (indirección y ciclo de vida) · **Time:** about 90 minutes ·
+**Concept:** indirection and lifetime (indirección y ciclo de vida) · **Time:** about 88 minutes ·
 **Status:** drafted
 **Reading:** ~17 minutes
 
@@ -49,8 +49,10 @@ to the pointer side, and makes the layout and the lifetime visible.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain indirection and lifetime and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain indirection, lifetime and the row stride;
+- access a board cell through a pointer and keep the traces unchanged.
 
 ## The concept: a value that names a location
 

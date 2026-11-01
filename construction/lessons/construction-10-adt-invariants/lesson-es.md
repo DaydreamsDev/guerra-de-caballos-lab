@@ -59,8 +59,10 @@ Tres notas honestas antes de la comparación.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar validez y ciclo de vida y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar validez y ciclo de vida de un tipo abstracto de datos;
+- rechazar una escritura fuera de rango y mostrar que quitar la guarda expone el estado inválido.
 
 ## El concepto: una comprobación que nadie llama sigue siendo una costura
 

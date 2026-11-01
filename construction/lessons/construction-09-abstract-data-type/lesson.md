@@ -47,8 +47,10 @@ Three honest notes before the comparison.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain representation independence and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain representation independence;
+- swap the board representation while every caller compiles unchanged.
 
 ## The concept: the header names the type, the .cpp gives it a size
 

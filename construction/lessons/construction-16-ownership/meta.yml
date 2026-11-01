@@ -4,7 +4,7 @@ concept: "resource lifetime"
 prerequisites:
   - "construction-15"
 reading_time: "25 minutes"
-estimated_time: "60 minutes"
+estimated_time: "70 minutes"
 acceptance_criteria:
   - "Locate the three `std::unique_ptr` members that own the board and both knights, and name
     what each one owns."

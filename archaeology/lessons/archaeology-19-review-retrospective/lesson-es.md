@@ -83,11 +83,10 @@ que se salta una de ellas produce un punto ciego predecible.
 | **Diseño** | ¿La estructura encarece el cambio? | Cada cambio de regla toca muchos sitios; las pruebas siguen siendo imposibles. | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12`, `construction-14`, `construction-20` |
 | **Robustez** | ¿Funciona solo en un entorno? | Fallo de compilación, deuda de portabilidad, entrada no controlada. | failure-006, failure-015 | `construction-08`, `construction-20`, `construction-22` |
 | **Práctica profesional** | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | Nadie puede reproducir, confiar ni cambiar el artefacto con seguridad. | failure-016…failure-019 | `common-01`, `common-03`, `common-04`, `construction-24` |
-| **Evidencia** | ¿La afirmación se puede comprobar? | La revisión se vuelve opinión; lo desconocido se esconde como hecho. | todas, sobre todo failure-020 | `common-02`, `common-04` |
+| **Evidencia** | ¿La afirmación se puede comprobar? | La revisión se vuelve opinión; lo desconocido se esconde como hecho. | todas | `common-02`, `common-04` |
 
 Los límites se solapan a propósito. `failure-006` (entrada sin límite) es a la vez un fallo de
-corrección y de robustez. `failure-020` (una variante mal etiquetada) es un problema de práctica
-profesional y de evidencia. La lista puede colocar un elemento en una familia y remitir a otra; no
+corrección y de robustez. La lista puede colocar un elemento en una familia y remitir a otra; no
 debe fingir que el solapamiento no existe.
 
 ### Por qué la evidencia es una familia propia
@@ -438,8 +437,8 @@ Quince elementos es el suelo. Veinte es cómodo. Más de treinta suele ser seña
 revisor está escribiendo un libro en vez de una lista; fusiona preguntas relacionadas y
 mantén los criterios afilados.
 
-Las cinco clases de fallo deben aparecer al menos una vez. Corrección, diseño, robustez y práctica
-profesional tienen su propia familia; la clase pedagógica la lleva el elemento de evidencia E-04.
+Las cinco clases de fallo deben aparecer al menos una vez. Corrección, diseño, robustez, práctica
+profesional y evidencia tienen su propia familia.
 
 Conjunto de partida. Sustituye los huecos con tu redacción y tu evidencia.
 
@@ -462,7 +461,7 @@ Conjunto de partida. Sustituye los huecos con tu redacción y tu evidencia.
 | E-01 | Evidencia | ¿Toda afirmación cita un fichero, línea, comando o documento? | | | Todas | `common-04` | Alta |
 | E-02 | Evidencia | ¿Toda afirmación está etiquetada como verificada, documentada, inferida o desconocida? | | | Todas | `common-02` | Media |
 | E-03 | Evidencia | ¿El archivo sigue sin modificar después de la revisión? | | | Todas | `common-04` | Alta |
-| E-04 | Evidencia | ¿Cada etiqueta o nombre de carpeta coincide con el mecanismo realmente presente? | | | Artefacto pedagógico | `common-02` | Media |
+| E-04 | Evidencia | ¿Cada etiqueta o nombre de carpeta coincide con el mecanismo realmente presente? | | | Evidencia | `common-02` | Media |
 
 ### Control de calidad
 
@@ -772,7 +771,7 @@ empieza desde ella, no desde una página en blanco.
 
 No se requiere commit ni push. Este es un registro de aprendizaje, no una contribución al archivo.
 
-## El archivo en detalle: 19 fallos y un artefacto
+## El archivo en detalle: 19 fallos
 
 Esta tabla es el enlace de vuelta a las clases de fallo y a los escalones de Track A. Úsala para
 comprobar cobertura, no para memorizar la lista.
@@ -798,7 +797,6 @@ comprobar cobertura, no para memorizar la lista.
 | failure-017 | Sin README, especificación ni instrucciones de compilación | Práctica profesional | archaeology-13, archaeology-15 | `common-02`, `common-03` |
 | failure-018 | Binarios y ficheros de IDE en las carpetas de trabajo | Práctica profesional | archaeology-15 | `common-03` |
 | failure-019 | Comentarios que narran o mienten | Práctica profesional | archaeology-12 | `common-02` |
-| failure-020 | `variant-01` no tiene punteros | Artefacto pedagógico | archaeology-17 | `common-02` |
 
 El mapeo es bidireccional. Si una revisión encuentra un fallo sin escalón, la taxonomía está
 incompleta o el hallazgo todavía no se entiende. Si un escalón no tiene fallo, la lección es

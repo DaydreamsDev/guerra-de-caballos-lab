@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-03 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 62 minutes
 
 This lesson takes the archived `variant-01` source and attempts to build and run it on a modern
 Linux machine. The archive is not edited. A small compatibility probe is built in a scratch

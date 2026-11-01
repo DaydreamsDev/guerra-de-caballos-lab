@@ -4,7 +4,7 @@ concept: "Aggregation (agregación)"
 prerequisites:
   - construction-03
 reading_time: "16 minutes"
-estimated_time: "60 minutes"
+estimated_time: "55 minutes"
 acceptance_criteria:
   - "Add a `captured` field to the `Knight` record and initialize it for both knights."
   - "Show which function signatures and call sites changed, and which did not."

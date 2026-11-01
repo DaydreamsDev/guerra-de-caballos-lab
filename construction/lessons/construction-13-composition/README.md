@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** composition over inheritance · **Prerequisite:**
-> construction-12 · **Estimated time:** 60 minutes
+> construction-12 · **Estimated time:** 68 minutes
 
 This directory holds the **after** artifact for `construction-13`. It has the same observable
 behavior as `construction-12`, but the knight is composed of a `Position` object instead of

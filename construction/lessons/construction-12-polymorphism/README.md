@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** late binding · **Prerequisite:** construction-11 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 80 minutes
 
 This directory holds the **after** artifact for `construction-12`. It has the same observable
 behavior as `construction-11`, but the two knights are accessed through a `Piece` interface and the

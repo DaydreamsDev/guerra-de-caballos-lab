@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ciclo de vida de recursos · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** ciclo de vida de recursos · **Tiempo:** unos 70 minutos · **Estado:** borrador
 **Lectura:** ~27 minutos
 
 ## Por qué existe esta lección
@@ -60,8 +60,10 @@ estado que deja el movimiento por defecto.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar resource lifetime y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar propiedad, ciclo de vida y los miembros especiales;
+- mostrar propiedad con unique_ptr, copia eliminada y movimiento disponible.
 
 ## El concepto: ¿quién destruye esto, y cuándo?
 

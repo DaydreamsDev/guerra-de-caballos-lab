@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** indirección y ciclo de vida · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** indirección y ciclo de vida · **Tiempo:** unos 88 minutos · **Estado:** borrador
 **Lectura:** ~18 minutos
 
 ## Por qué existe esta lección
@@ -49,8 +49,10 @@ lado de los punteros, y hace visibles el diseño y el ciclo de vida.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar indirección y ciclo de vida y aplicar la prueba de cambio
-de la lección.
+Al terminar esta lección puedes:
+
+- explicar indirección, ciclo de vida y el paso de fila;
+- acceder a una casilla por puntero y mantener las trazas sin cambios.
 
 ## El concepto: un valor que nombra una ubicación
 

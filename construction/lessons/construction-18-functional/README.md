@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** purity and immutability · **Prerequisite:** construction-17 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 85 minutes
 
 This directory holds the **after** artifact for `construction-18`. It has the same observable
 behavior as `construction-17`, but the engine keeps a history of immutable board snapshots. Undo and

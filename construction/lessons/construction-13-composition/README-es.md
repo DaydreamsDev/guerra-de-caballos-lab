@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** composición sobre herencia · **Prerrequisito:**
-> construction-12 · **Tiempo estimado:** 60 minutos
+> construction-12 · **Tiempo estimado:** 68 minutos
 
 Este directorio contiene el artefacto **después** de `construction-13`. Tiene el mismo
 comportamiento observable que `construction-12`, pero el caballo se compone con un objeto `Position`

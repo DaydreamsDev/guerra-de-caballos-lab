@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** independencia de representación · **Prerrequisito:**
-> construction-08 · **Tiempo estimado:** 90 minutos
+> construction-08 · **Tiempo estimado:** 97 minutos
 
 Este directorio contiene el artefacto **después** de `construction-09`. Tiene el mismo
 comportamiento observable que `construction-08` para el juego de 8×8, pero `Board` es un tipo

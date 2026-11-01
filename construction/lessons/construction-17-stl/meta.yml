@@ -5,7 +5,7 @@ prerequisites:
   - "construction-05"
   - "construction-16"
 reading_time: "22 minutes"
-estimated_time: "60 minutes"
+estimated_time: "68 minutes"
 acceptance_criteria:
   - "Locate the three traversals that became algorithms: `Board::reset`, `generate_move_candidates`
     and `buildMoveOrder`, and name the algorithm each one uses."

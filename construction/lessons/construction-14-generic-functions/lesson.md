@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** type parameters · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** type parameters · **Time:** about 68 minutes · **Status:** drafted
 **Reading:** ~23 minutes
 
 ## Why this lesson exists
@@ -59,7 +59,10 @@ sides.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain type parameters and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain type parameters in a function;
+- use one move generator for two piece types.
 
 ## The concept: a function with a type parameter
 

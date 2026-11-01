@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** parámetros de tipo · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** parámetros de tipo · **Tiempo:** unos 68 minutos · **Estado:** borrador
 **Lectura:** ~24 minutos
 
 ## Por qué existe esta lección
@@ -59,8 +59,10 @@ lección mide ambos lados.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar Type parameters y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar parámetros de tipo en una función;
+- usar un generador de movimientos para dos tipos de pieza.
 
 ## El concepto: una función con un parámetro de tipo
 

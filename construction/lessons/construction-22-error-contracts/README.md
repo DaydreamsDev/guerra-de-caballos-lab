@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** recovery · **Prerequisite:** construction-09 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 75 minutes
 
 This directory holds the **after** artifact for `construction-22`. It keeps the concurrency core
 from `construction-21` and turns the invalid-move path into an explicit value. The engine never

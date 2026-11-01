@@ -36,8 +36,10 @@ a new keyword, you will be disappointed; the lesson is in the types.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain aliasing without addresses and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain aliasing without addresses and what a reference permits;
+- mutate a record through a parameter and show the by-value divergence.
 
 ## The concept: one record, two names
 

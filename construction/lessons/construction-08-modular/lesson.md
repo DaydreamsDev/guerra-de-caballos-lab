@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** information hiding (ocultamiento de información) · **Time:** about 90 minutes ·
+**Concept:** information hiding (ocultamiento de información) · **Time:** about 92 minutes ·
 **Status:** drafted
 **Reading:** ~18 minutes
 
@@ -38,7 +38,10 @@ Three honest notes before the comparison.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain information hiding and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain information hiding across a header and an implementation;
+- change the board from 8x8 to 10x10 and count the touched modules.
 
 ## The concept: a declaration is a promise, the .cpp keeps it
 

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** abstracción de iteración · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** abstracción de iteración · **Tiempo:** unos 68 minutos · **Estado:** borrador
 **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección
@@ -56,8 +56,10 @@ es idéntica antes y después. Esta lección mide el código, el objeto, el cost
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar iteration abstraction y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar la abstracción de la iteración en el punto de llamada;
+- reemplazar tres recorridos por algoritmos y mantener la transcripción sin cambios.
 
 ## El concepto: qué promete un recorrido
 

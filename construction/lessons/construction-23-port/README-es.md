@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** la sintaxis es desechable · **Prerrequisito:**
-> construction-09 o construction-12 · **Tiempo estimado:** 180 minutos
+> construction-09 o construction-12 · **Tiempo estimado:** 195 minutos
 
 Este directorio contiene el artefacto **después** de `construction-23`: un port del juego a Python.
 Produce la misma transcripción que la línea base de C++, byte a byte, desde las mismas veinte

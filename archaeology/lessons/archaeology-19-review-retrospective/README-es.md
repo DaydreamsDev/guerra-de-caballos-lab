@@ -54,9 +54,6 @@ Un elemento es utilizable cuando nombra:
 | Práctica profesional | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | failure-016…failure-019 | `common-01`, `common-03`, `common-04` |
 | Evidencia | ¿La afirmación se puede comprobar? | todas las clases | `common-02`, `common-04` |
 
-La clase pedagógica (`failure-020`) se revisa con la misma familia de evidencia: una etiqueta es una
-afirmación, y una afirmación necesita una fuente.
-
 ## Ficheros
 
 | Fichero | Propósito |

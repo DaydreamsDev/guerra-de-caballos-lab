@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Status:** drafted · **Concept:** specification (especificación) · **Prerequisites:** none ·
-> **Estimated time:** 45 minutes
+> **Estimated time:** 50 minutes
 > **Reading:** ~10 minutes
 
 ## Why this lesson exists
@@ -62,7 +62,7 @@ The reference is the executable form of the rules. The golden traces under
 [`common/traces/`](../../traces/) are the recorded contract for seeds 1 through 20. Use seed 7: it
 has a golden trace and it does not appear in the illustrative example of the transcript format.
 
-## The 45-minute path
+## The 50-minute path
 
 | Min | Step | What you do | Evidence |
 |---|---|---|---|

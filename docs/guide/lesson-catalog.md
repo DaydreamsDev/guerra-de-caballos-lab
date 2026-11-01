@@ -31,7 +31,7 @@ catalog and `meta.yml` must agree. Machine tokens stay in English; Spanish prose
 
 | ID | Title | Concept | Prereq | Time | Acceptance criteria | Status |
 |---|---|---|---|---|---|---|
-| common-00 | The game as an invariant (el juego como invariante) | Specification (especificación) | none | 45 min | Two runs identical; one ambiguity and one binary criterion recorded | drafted |
+| common-00 | The game as an invariant (el juego como invariante) | Specification (especificación) | none | 50 min | Two runs identical; one ambiguity and one binary criterion recorded | drafted |
 | common-01 | Deterministic harness (arnés determinista) | Harness construction (construcción del arnés) | common-00 | 60 min | Same seed → same transcript, twice | drafted |
 | common-02 | Glossary (glosario) | Shared vocabulary (vocabulario compartido) | none | 20 min | Ten terms defined in English and Spanish, one line and one misconception each | drafted |
 | common-03 | Entry point and working directory (punto de entrada y directorio de trabajo) | Entry-point robustness | common-01 | 30 min | One command runs from two directories; same seed gives the same transcript | drafted |
@@ -53,31 +53,31 @@ For design lessons, the acceptance criterion is the **change test**; for the spe
 
 | ID | Title | Concept | Prereq | Time | Acceptance criterion | Status |
 |---|---|---|---|---|---|---|
-| construction-00 | Read the rules, run the reference baseline | Specification | common-00, common-01 | 45 min | Predict the next move of a seeded game | drafted |
-| construction-01 | Non-structured programming (programación no estructurada) | Arbitrary control flow | construction-00 | 60 min | Add “skip turn”; count rewired jumps | drafted |
-| construction-02 | Structured programming (programación estructurada) | Sequence, selection, iteration | construction-01 | 60 min | Same change, localized; no `goto` | drafted |
+| construction-00 | Read the rules, run the reference baseline | Specification | common-00, common-01 | 50 min | Predict the next move of a seeded game | drafted |
+| construction-01 | Non-structured programming (programación no estructurada) | Arbitrary control flow | construction-00 | 70 min | Add “skip turn”; count rewired jumps | drafted |
+| construction-02 | Structured programming (programación estructurada) | Sequence, selection, iteration | construction-01 | 65 min | Same change, localized; no `goto` | drafted |
 | construction-03 | Functions and parameters (funciones y parámetros) | Scope and decomposition | construction-02 | 45 min | Extract a move without globals | drafted |
-| construction-04 | Records (registros) | Aggregation | construction-03 | 60 min | Add `captured` to a knight | drafted |
-| construction-05 | Array of records (arreglo de estructuras) | Collection and traversal | construction-04 | 60 min | Traverse the board without 64 variables | drafted |
+| construction-04 | Records (registros) | Aggregation | construction-03 | 55 min | Add `captured` to a knight | drafted |
+| construction-05 | Array of records (arreglo de estructuras) | Collection and traversal | construction-04 | 62 min | Traverse the board without 64 variables | drafted |
 | construction-06 | References (referencias) | Aliasing without addresses | construction-05 | 45 min | Mutate a record through a parameter | drafted |
-| construction-07 | Pointers (punteros) | Indirection and lifetime | construction-06 | 90 min | Access a cell through a pointer; explain the row stride; traces unchanged | drafted |
-| construction-08 | Modular programming (programación modular) | Information hiding | construction-03, construction-07 | 90 min | Board 8×8 → 10×10; only the board module changes | drafted |
-| construction-09 | Abstract data type (tipo abstracto de datos, TAD) | Representation independence | construction-08 | 90 min | Swap board representation; callers compile; traces pass | drafted |
+| construction-07 | Pointers (punteros) | Indirection and lifetime | construction-06 | 88 min | Access a cell through a pointer; explain the row stride; traces unchanged | drafted |
+| construction-08 | Modular programming (programación modular) | Information hiding | construction-03, construction-07 | 92 min | Board 8×8 → 10×10; only the board module changes | drafted |
+| construction-09 | Abstract data type (tipo abstracto de datos, TAD) | Representation independence | construction-08 | 97 min | Swap board representation; callers compile; traces pass | drafted |
 | construction-10 | Abstract data type invariants (invariantes del TAD) | Validity and lifecycle | construction-09 | 60 min | Out-of-range writes rejected; board_is_valid true; guard removal exposes invalid state | drafted |
 | construction-11 | Encapsulation (encapsulación) | Class with invariant | construction-10 | 60 min | Private state and operations preserve the invariant; public state exposes an invalid board | drafted |
-| construction-12 | Polymorphism (polimorfismo) | Late binding (ligadura dinámica) | construction-11 | 90 min | Add a Piece subclass; zero loop edits; original traces unchanged | drafted |
-| construction-13 | Composition (composición) | Composition over inheritance | construction-12 | 60 min | Replace inheritance with delegation; behavior and 20 traces unchanged | drafted |
-| construction-14 | Generic functions (funciones genéricas) | Type parameters | construction-12 or construction-13 | 60 min | One move generator for two piece types | drafted |
-| construction-15 | Generic classes and concepts (clases genéricas y conceptos) | Constraints | construction-14 | 90 min | Same engine template instantiates 8×8 and 10×10; 8×8 traces pass | drafted |
-| construction-16 | Ownership and resource lifetime (propiedad) | Lifetime | construction-15 | 60 min | unique_ptr ownership; copy deleted; move available; 20 traces pass | drafted |
-| construction-17 | Standard Template Library and algorithms (algoritmos) | Iteration abstraction | construction-05, construction-16 | 60 min | Same transcript after replacing three traversals | drafted |
-| construction-18 | Functional style (funcional) | Purity and immutability | construction-17 | 90 min | Undo/redo free via board history | drafted |
-| construction-19 | Data-oriented design (orientado a datos) | Locality | construction-05, construction-17 | 90 min | 10,000 games; measured profile | drafted |
-| construction-20 | Hexagonal (hexagonal) | Ports and adapters | construction-08, construction-17 | 90 min | Same core, console + test adapters | drafted |
-| construction-21 | Concurrency (concurrencia) | Shared state vs messages | construction-12, construction-20 | 120 min | Race detected and removed; determinism kept | drafted |
-| construction-22 | Error contracts (errores) | Recovery | construction-09, construction-21 | 60 min | Invalid move handled without `exit` | drafted |
-| construction-23 | Port to another language (portar) | Syntax is disposable | construction-09 or construction-12 | 180 min | Same traces from Python/Rust | drafted |
-| construction-24 | Capstone: cost report (informe de costes) | Tradeoff justification | construction-12, construction-15 | 180 min | Defend a design choice with numbers | drafted |
+| construction-12 | Polymorphism (polimorfismo) | Late binding (ligadura dinámica) | construction-11 | 80 min | Add a Piece subclass; zero loop edits; original traces unchanged | drafted |
+| construction-13 | Composition (composición) | Composition over inheritance | construction-12 | 68 min | Replace inheritance with delegation; behavior and 20 traces unchanged | drafted |
+| construction-14 | Generic functions (funciones genéricas) | Type parameters | construction-12 or construction-13 | 68 min | One move generator for two piece types | drafted |
+| construction-15 | Generic classes and concepts (clases genéricas y conceptos) | Constraints | construction-14 | 81 min | Same engine template instantiates 8×8 and 10×10; 8×8 traces pass | drafted |
+| construction-16 | Ownership and resource lifetime (propiedad) | Lifetime | construction-15 | 70 min | unique_ptr ownership; copy deleted; move available; 20 traces pass | drafted |
+| construction-17 | Standard Template Library and algorithms (algoritmos) | Iteration abstraction | construction-05, construction-16 | 68 min | Same transcript after replacing three traversals | drafted |
+| construction-18 | Functional style (funcional) | Purity and immutability | construction-17 | 85 min | Undo/redo free via board history | drafted |
+| construction-19 | Data-oriented design (orientado a datos) | Locality | construction-05, construction-17 | 85 min | 10,000 games; measured profile | drafted |
+| construction-20 | Hexagonal (hexagonal) | Ports and adapters | construction-08, construction-17 | 92 min | Same core, console + test adapters | drafted |
+| construction-21 | Concurrency (concurrencia) | Shared state vs messages | construction-12, construction-20 | 115 min | Race detected and removed; determinism kept | drafted |
+| construction-22 | Error contracts (errores) | Recovery | construction-09, construction-21 | 75 min | Invalid move handled without `exit` | drafted |
+| construction-23 | Port to another language (portar) | Syntax is disposable | construction-09 or construction-12 | 195 min | Same traces from Python/Rust | drafted |
+| construction-24 | Capstone: cost report (informe de costes) | Tradeoff justification | construction-12, construction-15 | 175 min | Defend a design choice with numbers | drafted |
 
 ### Track A path (recommended)
 
@@ -96,10 +96,10 @@ Capstone: `construction-24`.
 | ID | Title | Failure class | Prereq | Time | Acceptance criteria | Status |
 |---|---|---|---|---|---|---|
 | archaeology-00 | Orientation: read a legacy codebase | — | common-03 | 45 min | Code map + one-sentence purpose | drafted |
-| archaeology-01 | Build and run legacy code | — | common-03 | 60 min | Runnable build or documented blocker | drafted |
+| archaeology-01 | Build and run legacy code | — | common-03 | 62 min | Runnable build or documented blocker | drafted |
 | archaeology-02 | Code inventory and call graph | — | archaeology-01 | 60 min | Inventory + call graph with evidence | drafted |
 | archaeology-03 | Reverse-engineer the spec | — | archaeology-02 | 90 min | Spec + traces from the original | drafted |
-| archaeology-04 | Correctness failures (failure-001…failure-006) | correctness | archaeology-03 | 90 min | 6 failure cards + tests | drafted |
+| archaeology-04 | Correctness failures (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 failure cards + tests | drafted |
 | archaeology-05 | Global state and hidden coupling | design | archaeology-04 | 60 min | Map of mutations per global | drafted |
 | archaeology-06 | Duplication and the eight-case switch | design | archaeology-04 | 60 min | One extraction, behavior preserved | drafted |
 | archaeology-07 | Representation leakage and parallel arrays | design | archaeology-05 | 60 min | Record introduced; callers updated | drafted |

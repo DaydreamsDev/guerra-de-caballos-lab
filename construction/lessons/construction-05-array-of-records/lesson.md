@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** collection and traversal (colección y recorrido) · **Time:** about 60 minutes ·
+**Concept:** collection and traversal (colección y recorrido) · **Time:** about 62 minutes ·
 **Status:** drafted
 **Reading:** ~22 minutes
 
@@ -28,8 +28,10 @@ did not remove the index arithmetic; it removed the second array that had to agr
 
 ## What you will be able to do
 
-By the end of this lesson you can explain collection and traversal and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain collection and traversal over an array of records;
+- traverse the board without 64 separate variables.
 
 ## The concept: one element, every fact it owns
 

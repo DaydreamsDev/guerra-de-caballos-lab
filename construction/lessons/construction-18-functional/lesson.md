@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** purity and immutability · **Time:** about 90 minutes · **Status:** drafted
+**Concept:** purity and immutability · **Time:** about 85 minutes · **Status:** drafted
 **Reading:** ~22 minutes
 
 ## Why this lesson exists
@@ -43,8 +43,10 @@ before and after, and the engine pays for the history in bytes.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain purity and immutability and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain purity and immutability;
+- implement undo and redo through board history.
 
 ## The concept: a value that is never changed
 

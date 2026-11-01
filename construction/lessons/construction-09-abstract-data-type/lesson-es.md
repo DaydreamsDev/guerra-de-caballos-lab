@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** independencia de representación · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** independencia de representación · **Tiempo:** unos 97 minutos · **Estado:** borrador
 **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
@@ -47,8 +47,10 @@ Tres notas honestas antes de la comparación.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar independencia de representación y aplicar la prueba de
-cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar la independencia de la representación;
+- cambiar la representación del tablero mientras todos los llamadores compilan.
 
 ## El concepto: la cabecera nombra el tipo, el .cpp le da un tamaño
 

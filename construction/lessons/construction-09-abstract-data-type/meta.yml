@@ -4,7 +4,7 @@ concept: "Representation independence (independencia de representación)"
 prerequisites:
   - construction-08
 reading_time: "21 minutes"
-estimated_time: "90 minutes"
+estimated_time: "97 minutes"
 acceptance_criteria:
   - "Replace the fixed array inside `board.cpp` with a different representation (a flat vector
     with an index function, or a vector of vectors) and show that `board.h`, `game.cpp` and

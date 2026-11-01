@@ -5,7 +5,7 @@ prerequisites:
   - "construction-08"
   - "construction-17"
 reading_time: "26 minutes"
-estimated_time: "90 minutes"
+estimated_time: "92 minutes"
 acceptance_criteria:
   - "Show that `GameEngine` includes `TranscriptPort`, not `ConsoleTranscript`, and that the core
     contains no `<cstdio>` and no `printf`."

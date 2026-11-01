@@ -4,7 +4,7 @@ concept: "Collection and traversal (colección y recorrido)"
 prerequisites:
   - construction-04
 reading_time: "22 minutes"
-estimated_time: "60 minutes"
+estimated_time: "62 minutes"
 acceptance_criteria:
   - "Traverse the 8×8 board with two nested loops and return the highest recorded move
     number."

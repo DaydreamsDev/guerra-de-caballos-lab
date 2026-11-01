@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** aggregation (agregación) · **Prerequisite:** construction-03 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 55 minutes
 
 This directory holds the **after** artifact for `construction-04`. It has the same observable
 behavior as `construction-03`, but the two knights are represented by a `Knight` record instead of
