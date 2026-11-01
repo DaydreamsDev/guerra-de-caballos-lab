@@ -1,0 +1,28 @@
+id: construction-19
+title: "Data-oriented design (orientado a datos)"
+concept: "Layout (disposición)"
+prerequisites:
+  - "construction-05"
+  - "construction-17"
+reading_time: "21 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Compare the two board layouts field by field: visited storage, occupant storage, board
+    bytes, and the two files that differ. Confirm that ownership and method style are unchanged."
+  - "State the one-variable rule: `unique_ptr` ownership, `Board` methods, the 24-byte engine and
+    the three allocations per game stay fixed; only the board representation changes."
+  - "Predict before measuring: `sizeof(Board<8, 8>)`, `sizeof(GameEngine<8, 8>)`, heap
+    allocations for 10,000 games, wall time, `game.o` text, and matching traces."
+  - "Run 10,000 games on both baselines and record the six measurements: board size, engine size,
+    allocations, elapsed milliseconds, `game.o` text, and traces matched."
+  - "Explain the honest result: the board grows from 256 to 288 bytes, while the engine stays 24,
+    allocations stay 30,000, and the wall time stays within noise because formatting dominates."
+  - "Name the cost of the change: 32 more board bytes, 305 more text bytes in `game.o`, bit
+    arithmetic at each cell access, and the occupant table that must stay consistent."
+  - "Reproduce all 20 golden traces on both baselines."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
