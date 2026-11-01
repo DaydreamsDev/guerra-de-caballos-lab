@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** collection and traversal · **Prerequisite:** construction-04 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 62 minutes
 
 This directory holds the **after** artifact for `construction-05`. It has the same observable
 behavior as `construction-04`, but the board is an array of `BoardCell` records instead of an array

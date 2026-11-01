@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** arbitrary control flow · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** arbitrary control flow · **Time:** about 70 minutes · **Status:** drafted
 **Reading:** ~11 minutes
 
 ## Why this lesson exists
@@ -15,7 +15,10 @@ your hands off the keyboard, and discover that the price is paid in *places*, no
 
 ## What you will be able to do
 
-By the end of this lesson you can explain arbitrary control flow and apply the lesson's change test.
+By the end of this lesson you can:
+
+- identify the jumps and labels that make control flow arbitrary;
+- add a skip-turn change and count the rewired jumps.
 
 ## The concept: a jump names a position, not a boundary
 

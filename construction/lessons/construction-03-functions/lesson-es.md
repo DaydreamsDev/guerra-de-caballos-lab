@@ -23,8 +23,10 @@ La segunda es la que cambia tu forma de probar.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar ámbito y descomposición y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar ámbito y descomposición mediante una firma de función;
+- extraer una decisión de movimiento sin usar variables globales.
 
 ## El concepto: una firma es la lista de nombres que el cuerpo puede leer
 

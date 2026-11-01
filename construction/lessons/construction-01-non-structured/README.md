@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** arbitrary control flow · **Prerequisite:** construction-00 ·
-> **Estimated time:** 60 minutes
+> **Estimated time:** 70 minutes
 
 This directory holds the **before** artifact for `construction-01`. It is intentionally
 non-structured: the game state lives in globals, and the game loop and the move attempts are driven

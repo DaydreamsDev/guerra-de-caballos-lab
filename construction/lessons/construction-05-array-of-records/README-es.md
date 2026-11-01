@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** colección y recorrido · **Prerrequisito:** construction-04 ·
-> **Tiempo estimado:** 60 minutos
+> **Tiempo estimado:** 62 minutos
 
 Este directorio contiene el artefacto **después** de `construction-05`. Tiene el mismo
 comportamiento observable que `construction-04`, pero el tablero es un arreglo de registros

@@ -4,7 +4,7 @@ concept: "Arbitrary control flow (flujo de control arbitrario)"
 prerequisites:
   - construction-00
 reading_time: "11 minutes"
-estimated_time: "60 minutes"
+estimated_time: "70 minutes"
 acceptance_criteria:
   - "Add one 'skip turn' requirement; count the rewired jumps and explain the cost."
   - "The count is produced by one stated rule, and every counted jump is listed by label and line."

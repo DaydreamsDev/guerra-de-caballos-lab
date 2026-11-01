@@ -37,8 +37,10 @@ la lección está en los tipos.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar alias sin direcciones y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar el alias sin direcciones y qué permite una referencia;
+- mutar un registro a través de un parámetro y mostrar la divergencia por valor.
 
 ## El concepto: un registro, dos nombres
 

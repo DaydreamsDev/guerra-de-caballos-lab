@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** agregación · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** agregación · **Tiempo:** unos 55 minutos · **Estado:** borrador
 **Lectura:** ~17 minutos
 
 ## Por qué existe esta lección
@@ -26,7 +26,10 @@ primera y a argumentar la segunda, contra las mismas 20 trazas.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar agregación y aplicar la prueba de cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar la agregación y qué mantiene junto un registro;
+- añadir un campo captured y listar las firmas que cambiaron.
 
 ## El concepto: un registro es un nombre para campos que viajan juntos
 

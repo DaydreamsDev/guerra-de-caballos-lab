@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** flujo de control arbitrario · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** flujo de control arbitrario · **Tiempo:** unos 70 minutos · **Estado:** borrador
 **Lectura:** ~11 minutos
 
 ## Por qué existe esta lección
@@ -15,8 +15,10 @@ con las manos fuera del teclado, y a descubrir que el precio se paga en *lugares
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar flujo de control arbitrario y aplicar la prueba de cambio
-de la lección.
+Al terminar esta lección puedes:
+
+- identificar los saltos y etiquetas que hacen arbitrario el flujo de control;
+- añadir un cambio de saltar turno y contar los saltos recableados.
 
 ## El concepto: un salto nombra una posición, no una frontera
 

@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** secuencia, selección e iteración · **Prerrequisito:**
-> construction-01 · **Tiempo estimado:** 60 minutos
+> construction-01 · **Tiempo estimado:** 65 minutos
 
 Este directorio contiene el artefacto **después** de `construction-02`. Tiene el mismo
 comportamiento observable que `construction-01`, pero el bucle del juego y los intentos de

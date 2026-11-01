@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** sequence, selection and iteration · **Prerequisite:**
-> construction-01 · **Estimated time:** 60 minutes
+> construction-01 · **Estimated time:** 65 minutes
 
 This directory holds the **after** artifact for `construction-02`. It has the same observable
 behavior as `construction-01`, but the game loop and the move attempts use sequence, selection and

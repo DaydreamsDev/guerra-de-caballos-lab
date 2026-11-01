@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** specification (especificación) · **Time:** about 45 minutes · **Status:** drafted
+**Concept:** specification (especificación) · **Time:** about 50 minutes · **Status:** drafted
 **Reading:** ~7 minutes
 
 ## Why this lesson exists
@@ -16,7 +16,10 @@ contract you establish here.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain specification and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain specification and the game invariant;
+- predict the next move of a seeded game and compare it with the trace.
 
 ## The concept: a specification is a constraint, not a description
 

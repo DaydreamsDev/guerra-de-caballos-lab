@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ligadura dinámica · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** ligadura dinámica · **Tiempo:** unos 80 minutos · **Estado:** borrador
 **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
@@ -53,8 +53,10 @@ a dos líneas de `run_game`.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar ligadura dinámica y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar la ligadura dinámica en un punto de llamada;
+- añadir un tipo de pieza con cero ediciones en el bucle del juego.
 
 ## El concepto: una llamada resuelta en tiempo de ejecución
 

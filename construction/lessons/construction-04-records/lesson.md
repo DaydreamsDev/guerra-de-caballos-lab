@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** aggregation (agregación) · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** aggregation (agregación) · **Time:** about 55 minutes · **Status:** drafted
 **Reading:** ~16 minutes
 
 ## Why this lesson exists
@@ -26,7 +26,10 @@ will measure the first and argue the second, against the same 20 traces.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain aggregation and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain aggregation and what a record keeps together;
+- add a captured field and list the signatures that changed.
 
 ## The concept: a record is a name for fields that move together
 

@@ -62,8 +62,10 @@ prueba de cambio muestra exactamente cuál compra esta línea base.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar clase con invariante y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar una frontera de clase que preserva un invariante;
+- mostrar que el estado privado preserva el invariante y el público lo expone.
 
 ## El concepto: una frontera que impone el compilador
 

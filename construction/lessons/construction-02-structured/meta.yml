@@ -4,7 +4,7 @@ concept: "Sequence, selection and iteration (secuencia, selección e iteración)
 prerequisites:
   - construction-01
 reading_time: "16 minutes"
-estimated_time: "60 minutes"
+estimated_time: "65 minutes"
 acceptance_criteria:
   - "Apply one R-SKIP requirement to both baselines on scratch copies."
   - "Count edit sites and turn-entry incoming edges in both files with one stated rule."

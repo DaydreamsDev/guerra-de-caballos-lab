@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** indirection and lifetime · **Prerequisite:** construction-06 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 88 minutes
 
 This directory holds the **after** artifact for `construction-07`. It has the same observable
 behavior as `construction-06`, but the knight aliases and the board cell access use pointers. The
