@@ -1,0 +1,30 @@
+id: construction-16
+title: "Ownership and resource lifetime (propiedad y ciclo de vida de recursos)"
+concept: "resource lifetime"
+prerequisites:
+  - "construction-15"
+reading_time: "25 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Locate the three `std::unique_ptr` members that own the board and both knights, and name
+    what each one owns."
+  - "Show that copy construction and copy assignment are explicitly deleted, and read the line
+    each error names."
+  - "Show that move construction and move assignment are available, and that a moved-to engine
+    still reproduces seed 1."
+  - "Confirm that no raw `new`, `delete`, `malloc` or `free` appears in the twelve source files,
+    and that `game.o` still references `operator new` and `operator delete`."
+  - "Compile a probe with `static_assert(!std::is_copy_constructible_v<GameEngine<8, 8>>)`,
+    `static_assert(!std::is_copy_assignable_v<GameEngine<8, 8>>)` and
+    `static_assert(std::is_move_constructible_v<GameEngine<8, 8>>)`."
+  - "Reproduce all 20 golden traces on the unmodified 8×8 baseline."
+  - "Record that no leak detector was available on this machine, and state the structural and
+    counted evidence used instead."
+  - "Name what the ownership change does not cover: the file-scope generator state and the
+    moved-from engine that `run()` cannot handle."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
