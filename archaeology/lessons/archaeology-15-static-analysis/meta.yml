@@ -1,0 +1,39 @@
+id: archaeology-15
+title: "Static analysis and compiler warnings"
+concept: "static analysis"
+prerequisites:
+  - archaeology-04
+reading_time: "22 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner reads `code/warnings.cpp`, `code/fixed.cpp` and `run.sh`, and records the 9/8/27
+    line counts."
+  - "The learner compiles the bench with `-std=c++20 -Wall -Wextra -O2` and records the compiler and
+    version."
+  - "The learner runs `./run.sh` and observes `warnings=1`, `fixed=ok`, `match=yes` with exit code
+    0."
+  - "The learner reproduces the diagnostic by hand and records it verbatim: file, line, column,
+    message and flag."
+  - "The learner records the exit codes with and without `-Werror`, and the warning counts for
+    `-Wall`, `-Wextra` and `-Wunused-variable`."
+  - "The learner verifies the warning's claim with `grep` and states why the name's scope makes the
+    search complete."
+  - "The learner classifies the finding as dead code rather than a live defect, a false positive or
+    an intentional exception."
+  - "The learner writes one triage row and rejects `(void)`, `[[maybe_unused]]`, suppression and a
+    behavior change, with a reason for each."
+  - "The learner copies the bench to `build/scratch/`, removes exactly one declaration, and shows a
+    diff with one deletion and zero additions."
+  - "The learner builds the scratch copy with
+    `-std=c++20 -Wall -Wextra -Werror -Wpedantic -O2`, with exit code 0 and no output."
+  - "The learner proves behavior preservation with `cmp`: identical stdout bytes (9 bytes) and
+    identical exit status."
+  - "The learner runs a negative control that changes the printed value and observes the comparison
+    fail."
+  - "The learner states that `match=yes` is text equality, not byte equality, because command
+    substitution strips trailing newlines."
+  - "The learner states what a clean `-Werror` build proves and what it does not prove."
+  - "`code/` is unmodified."
+engineering_check: "compile → read → triage → fix → verify → record"
+status: drafted
+languages: [en, es]
