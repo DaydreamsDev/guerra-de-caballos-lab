@@ -1,0 +1,23 @@
+id: construction-13
+title: "Composition (composición)"
+concept: "Composition over inheritance"
+prerequisites:
+  - construction-12
+reading_time: "21 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "Identify the `Position` member in `knight.h` and the three forwarding methods in `knight.cpp`."
+  - "Count the 19 call sites in `game.cpp` and the ten helper signatures that name `Knight`."
+  - "Confirm that no header in `code/` contains `virtual`, `override` or `: public`."
+  - "Replace the `Piece` inheritance with a `Position` member and forwarding in a scratch copy."
+  - "Show that the game behavior and all 20 traces are unchanged after the replacement."
+  - "Measure the object, table and indirection differences: 48 against 40 bytes for the piece, 184
+    against 0 bytes of table data, 13 against 0 indirect calls."
+  - "Explain that substitutability is the limit of this design: a second piece type needs a
+    template or a restored interface."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
