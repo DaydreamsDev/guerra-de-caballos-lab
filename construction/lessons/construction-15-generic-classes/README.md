@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** constraints · **Prerequisite:** construction-14 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 81 minutes
 
 This directory holds the **after** artifact for `construction-15`. It has the same observable
 behavior as `construction-14` for the 8×8 game, but the board and the game engine are class

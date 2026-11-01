@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** la sintaxis es desechable · **Tiempo:** unos 180 minutos · **Estado:** borrador
+**Concepto:** la sintaxis es desechable · **Tiempo:** unos 195 minutos · **Estado:** borrador
 **Lectura:** ~21 minutos
 
 ## Por qué existe esta lección
@@ -44,8 +44,10 @@ los adaptadores, y solo quedan las reglas y la transcripción.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar syntax is disposable y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar por qué la sintaxis es desechable y el comportamiento es el contrato;
+- reproducir las trazas desde el port de Python y nombrar qué cambió.
 
 ## El concepto: cuatro capas, un contrato
 

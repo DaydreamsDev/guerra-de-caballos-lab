@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** ports and adapters · **Prerequisite:** construction-08 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 92 minutes
 
 This directory holds the **after** artifact for `construction-20`. It has the same observable
 behavior as `construction-17`, but the game core no longer writes to the console. The core emits

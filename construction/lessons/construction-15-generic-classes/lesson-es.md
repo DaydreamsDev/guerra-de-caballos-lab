@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** restricciones · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** restricciones · **Tiempo:** unos 81 minutos · **Estado:** borrador
 **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
@@ -69,7 +69,10 @@ una clase por lista de argumentos, un cuerpo visible en el encabezado, un almace
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar Constraints y aplicar la prueba de cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar restricciones en una plantilla de clase;
+- instanciar el mismo motor para tableros de 8x8 y 10x10.
 
 ## El concepto: una clase con parámetros
 

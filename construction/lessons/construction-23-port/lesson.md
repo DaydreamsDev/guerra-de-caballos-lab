@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** syntax is disposable · **Time:** about 180 minutes · **Status:** drafted
+**Concept:** syntax is disposable · **Time:** about 195 minutes · **Status:** drafted
 **Reading:** ~20 minutes
 
 ## Why this lesson exists
@@ -44,7 +44,10 @@ are removed and only the rules and the transcript remain.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain syntax is disposable and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain why syntax is disposable and behavior is the contract;
+- reproduce the traces from the Python port and name what changed.
 
 ## The concept: four layers, one contract
 

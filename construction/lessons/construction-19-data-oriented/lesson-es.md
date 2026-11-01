@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** layout (disposición) · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** layout (disposición) · **Tiempo:** unos 85 minutos · **Estado:** borrador
 **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección
@@ -56,9 +56,10 @@ bytes, el motor y el número de reservas no se mueven, y la transcripción sigue
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes leer la representación de un tablero, decir qué guarda y dónde,
-medir su tamaño y su costo en código objeto, y explicar por qué un cambio de layout por sí solo no
-movió las reservas ni el reloj.
+Al terminar esta lección puedes:
+
+- explicar cómo el diseño del tablero cambia tamaño y acceso;
+- medir tamaño del tablero, reservas y tiempo con la propiedad fija.
 
 ## El concepto: el layout es el diseño
 

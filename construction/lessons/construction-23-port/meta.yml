@@ -4,7 +4,7 @@ concept: "syntax is disposable"
 prerequisites:
   - "construction-09 or construction-12"
 reading_time: "20 minutes"
-estimated_time: "180 minutes"
+estimated_time: "195 minutes"
 acceptance_criteria:
   - "Read `game.py`, `main.py` and `run.sh`, and name the four layers of a port: behavior, rules,
     representation and process."

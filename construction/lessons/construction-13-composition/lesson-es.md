@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** composición frente a herencia · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** composición frente a herencia · **Tiempo:** unos 68 minutos · **Estado:** borrador
 **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
@@ -60,8 +60,10 @@ ambas.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar Composition over inheritance y aplicar la prueba de cambio
-de la lección.
+Al terminar esta lección puedes:
+
+- explicar composición sobre herencia;
+- sustituir herencia por delegación y mantener las trazas sin cambios.
 
 ## El concepto: una parte dentro de un todo
 

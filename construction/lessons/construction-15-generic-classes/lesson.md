@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** constraints · **Time:** about 90 minutes · **Status:** drafted
+**Concept:** constraints · **Time:** about 81 minutes · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists
@@ -70,7 +70,10 @@ concrete. This lesson measures both sides.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain constraints and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain constraints on a class template;
+- instantiate the same engine for 8x8 and 10x10 boards.
 
 ## The concept: a class with parameters
 

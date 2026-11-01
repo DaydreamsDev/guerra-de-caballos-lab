@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** ciclo de vida de recursos · **Prerrequisito:**
-> construction-15 · **Tiempo estimado:** 60 minutos
+> construction-15 · **Tiempo estimado:** 70 minutos
 
 Este directorio contiene el artefacto **después** de `construction-16`. Tiene el mismo
 comportamiento observable que `construction-15` para el juego de 8×8, pero el motor posee el tablero

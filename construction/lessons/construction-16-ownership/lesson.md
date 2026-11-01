@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** resource lifetime · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** resource lifetime · **Time:** about 70 minutes · **Status:** drafted
 **Reading:** ~25 minutes
 
 ## Why this lesson exists
@@ -58,7 +58,10 @@ defaulted move leaves behind.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain resource lifetime and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain ownership, lifetime and the special members;
+- show unique_ptr ownership, deleted copy and available move.
 
 ## The concept: who destroys this, and when?
 

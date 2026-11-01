@@ -5,7 +5,7 @@ prerequisites:
   - "construction-05"
   - "construction-17"
 reading_time: "21 minutes"
-estimated_time: "90 minutes"
+estimated_time: "85 minutes"
 acceptance_criteria:
   - "Compare the two board layouts field by field: visited storage, occupant storage, board
     bytes, and the two files that differ. Confirm that ownership and method style are unchanged."

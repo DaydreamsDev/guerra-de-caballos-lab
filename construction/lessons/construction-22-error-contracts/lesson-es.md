@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** recuperación · **Tiempo:** unos 60 minutos · **Estado:** borrador
+**Concepto:** recuperación · **Tiempo:** unos 75 minutos · **Estado:** borrador
 **Lectura:** ~25 minutos
 
 ## Por qué existe esta lección
@@ -68,7 +68,10 @@ ninguna ruta del núcleo mata el proceso.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar recovery y aplicar la prueba de cambio de la lección.
+Al terminar esta lección puedes:
+
+- explicar la recuperación mediante un valor de error;
+- gestionar un movimiento inválido sin llamar a exit.
 
 ## El concepto: tres formas de decir no
 

@@ -4,7 +4,7 @@ concept: "purity and immutability"
 prerequisites:
   - "construction-17"
 reading_time: "22 minutes"
-estimated_time: "90 minutes"
+estimated_time: "85 minutes"
 acceptance_criteria:
   - "Locate the four new function bodies and the three new public declarations: `history_size`,
     `undo_last_move`, `redo_last_move` and `record_history`, and explain why `board.h` and

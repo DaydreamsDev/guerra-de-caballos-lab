@@ -5,7 +5,7 @@ prerequisites:
   - "construction-09"
   - "construction-21"
 reading_time: "24 minutes"
-estimated_time: "60 minutes"
+estimated_time: "75 minutes"
 acceptance_criteria:
   - "Read `move_result.h`, `game_engine.h`, `error_probe.cpp` and `main.cpp`, and name the four
     `MoveOutcome` values, their order inside `tryMove`, and why `capture` is checked before

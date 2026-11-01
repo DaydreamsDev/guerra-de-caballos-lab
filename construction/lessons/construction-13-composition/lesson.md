@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** composition over inheritance · **Time:** about 60 minutes ·
+**Concept:** composition over inheritance · **Time:** about 68 minutes ·
 **Status:** drafted
 **Reading:** ~21 minutes
 
@@ -61,8 +61,10 @@ measures both.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain composition over inheritance and apply the lesson's change
-test.
+By the end of this lesson you can:
+
+- explain composition over inheritance;
+- replace inheritance with delegation and keep the traces unchanged.
 
 ## The concept: a part inside a whole
 

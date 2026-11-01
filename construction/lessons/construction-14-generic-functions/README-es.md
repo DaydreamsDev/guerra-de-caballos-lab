@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** parámetros de tipo · **Prerrequisito:** construction-12 o
-> construction-13 · **Tiempo estimado:** 60 minutos
+> construction-13 · **Tiempo estimado:** 68 minutos
 
 Este directorio contiene el artefacto **después** de `construction-14`. Tiene el mismo
 comportamiento observable que `construction-13`, pero los ocho candidatos de movimiento se producen

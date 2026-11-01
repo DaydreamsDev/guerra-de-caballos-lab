@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Status:** drafted · **Concept:** syntax is disposable · **Prerequisite:** construction-09 or
-> construction-12 · **Estimated time:** 180 minutes
+> construction-12 · **Estimated time:** 195 minutes
 
 This directory holds the **after** artifact for `construction-23`: a Python port of the game. It
 produces the same transcript as the C++ baseline, byte for byte, from the same twenty seeds.

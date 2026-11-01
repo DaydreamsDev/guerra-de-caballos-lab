@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** abstracción de iteración
-> **Prerrequisito:** construction-05 · **Tiempo estimado:** 60 minutos
+> **Prerrequisito:** construction-05 · **Tiempo estimado:** 68 minutos
 
 Este directorio contiene el artefacto **después** de `construction-17`. Tiene el mismo
 comportamiento observable que `construction-16`, pero la generación de movimientos, el orden de

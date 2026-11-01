@@ -64,8 +64,10 @@ propósito muestra la diferencia entre poseer el estado y compartirlo.
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar shared state vs messages y aplicar la prueba de cambio de
-la lección.
+Al terminar esta lección puedes:
+
+- explicar estado compartido frente a estado propio;
+- detectar y eliminar una carrera manteniendo trazas deterministas.
 
 ## El concepto: quién posee el estado
 

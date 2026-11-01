@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** tradeoff justification · **Time:** about 180 minutes ·
+**Concept:** tradeoff justification · **Time:** about 175 minutes ·
 **Status:** drafted
 **Reading:** ~20 minutes
 
@@ -39,7 +39,10 @@ Three honest notes before you start.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain tradeoff justification and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain cost as a property of a named change;
+- defend a design choice with measured numbers and a one-page report.
 
 ## The concept: cost is a property of the next change
 

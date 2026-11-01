@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** iteration abstraction · **Time:** about 60 minutes · **Status:** drafted
+**Concept:** iteration abstraction · **Time:** about 68 minutes · **Status:** drafted
 **Reading:** ~22 minutes
 
 ## Why this lesson exists
@@ -55,7 +55,10 @@ semantic difference the board reset introduces.
 
 ## What you will be able to do
 
-By the end of this lesson you can explain iteration abstraction and apply the lesson's change test.
+By the end of this lesson you can:
+
+- explain iteration abstraction at the call site;
+- replace three traversals with algorithms and keep the transcript unchanged.
 
 ## The concept: what a traversal promises
 

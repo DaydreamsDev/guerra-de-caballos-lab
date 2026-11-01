@@ -5,7 +5,7 @@ prerequisites:
   - "construction-12"
   - "construction-20"
 reading_time: "28 minutes"
-estimated_time: "120 minutes"
+estimated_time: "115 minutes"
 acceptance_criteria:
   - "Locate the file-static `randomState` in `construction-20` and the private `state` member in
     `construction-21`, and explain the ownership change from a global sequence to one

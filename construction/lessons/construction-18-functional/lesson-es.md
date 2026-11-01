@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** pureza e inmutabilidad · **Tiempo:** unos 90 minutos · **Estado:** borrador
+**Concepto:** pureza e inmutabilidad · **Tiempo:** unos 85 minutos · **Estado:** borrador
 **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección
@@ -46,8 +46,10 @@ reglas, la transcripción es idéntica antes y después, y el motor paga el hist
 
 ## Qué podrás hacer
 
-Al terminar esta lección puedes explicar purity and immutability y aplicar la prueba de cambio de la
-lección.
+Al terminar esta lección puedes:
+
+- explicar pureza e inmutabilidad;
+- implementar deshacer y rehacer mediante el historial del tablero.
 
 ## El concepto: un valor que nunca se cambia
 
