@@ -1,0 +1,133 @@
+seed=19
+player=Learner
+roll_player=1
+roll_machine=42
+start=machine
+initial_player=5,7
+initial_machine=8,6
+turn=1 who=machine at=8,6 order=3,4,5,6,7,8,1,2
+  try=3 to=6,5 legal
+move=1 machine 8,6->6,5
+turn=2 who=player at=5,7 order=2,3,4,5,6,7,8,1
+  try=2 to=3,8 legal
+move=2 player 5,7->3,8
+turn=3 who=machine at=6,5 order=5,6,7,8,1,2,3,4
+  try=5 to=7,3 legal
+move=3 machine 6,5->7,3
+turn=4 who=player at=3,8 order=4,5,6,7,8,1,2,3
+  try=4 to=2,6 legal
+move=4 player 3,8->2,6
+turn=5 who=machine at=7,3 order=7,8,1,2,3,4,5,6
+  try=7 to=9,4 illegal=outside
+  try=8 to=8,5 legal
+move=5 machine 7,3->8,5
+turn=6 who=player at=2,6 order=6,7,8,1,2,3,4,5
+  try=6 to=4,5 legal
+move=6 player 2,6->4,5
+turn=7 who=machine at=8,5 order=1,2,3,4,5,6,7,8
+  try=1 to=7,7 legal
+move=7 machine 8,5->7,7
+turn=8 who=player at=4,5 order=8,1,2,3,4,5,6,7
+  try=8 to=5,7 legal
+move=8 player 4,5->5,7
+turn=9 who=machine at=7,7 order=3,4,5,6,7,8,1,2
+  try=3 to=5,6 legal
+move=9 machine 7,7->5,6
+turn=10 who=player at=5,7 order=2,3,4,5,6,7,8,1
+  try=2 to=3,8 illegal=visited
+  try=3 to=3,6 legal
+move=10 player 5,7->3,6
+turn=11 who=machine at=5,6 order=5,6,7,8,1,2,3,4
+  try=5 to=6,4 legal
+move=11 machine 5,6->6,4
+turn=12 who=player at=3,6 order=4,5,6,7,8,1,2,3
+  try=4 to=2,4 legal
+move=12 player 3,6->2,4
+turn=13 who=machine at=6,4 order=7,8,1,2,3,4,5,6
+  try=7 to=8,5 illegal=visited
+  try=8 to=7,6 legal
+move=13 machine 6,4->7,6
+turn=14 who=player at=2,4 order=6,7,8,1,2,3,4,5
+  try=6 to=4,3 legal
+move=14 player 2,4->4,3
+turn=15 who=machine at=7,6 order=1,2,3,4,5,6,7,8
+  try=1 to=6,8 legal
+move=15 machine 7,6->6,8
+turn=16 who=player at=4,3 order=8,1,2,3,4,5,6,7
+  try=8 to=5,5 legal
+move=16 player 4,3->5,5
+turn=17 who=machine at=6,8 order=3,4,5,6,7,8,1,2
+  try=3 to=4,7 legal
+move=17 machine 6,8->4,7
+turn=18 who=player at=5,5 order=2,3,4,5,6,7,8,1
+  try=2 to=3,6 illegal=visited
+  try=3 to=3,4 legal
+move=18 player 5,5->3,4
+turn=19 who=machine at=4,7 order=5,6,7,8,1,2,3,4
+  try=5 to=5,5 illegal=visited
+  try=6 to=6,6 legal
+move=19 machine 4,7->6,6
+turn=20 who=player at=3,4 order=4,5,6,7,8,1,2,3
+  try=4 to=2,2 legal
+move=20 player 3,4->2,2
+turn=21 who=machine at=6,6 order=7,8,1,2,3,4,5,6
+  try=7 to=8,7 legal
+move=21 machine 6,6->8,7
+turn=22 who=player at=2,2 order=6,7,8,1,2,3,4,5
+  try=6 to=4,1 legal
+move=22 player 2,2->4,1
+turn=23 who=machine at=8,7 order=1,2,3,4,5,6,7,8
+  try=1 to=7,9 illegal=outside
+  try=2 to=6,8 illegal=visited
+  try=3 to=6,6 illegal=visited
+  try=4 to=7,5 legal
+move=23 machine 8,7->7,5
+turn=24 who=player at=4,1 order=8,1,2,3,4,5,6,7
+  try=8 to=5,3 legal
+move=24 player 4,1->5,3
+turn=25 who=machine at=7,5 order=3,4,5,6,7,8,1,2
+  try=3 to=5,4 legal
+move=25 machine 7,5->5,4
+turn=26 who=player at=5,3 order=2,3,4,5,6,7,8,1
+  try=2 to=3,4 illegal=visited
+  try=3 to=3,2 legal
+move=26 player 5,3->3,2
+turn=27 who=machine at=5,4 order=5,6,7,8,1,2,3,4
+  try=5 to=6,2 legal
+move=27 machine 5,4->6,2
+turn=28 who=player at=3,2 order=4,5,6,7,8,1,2,3
+  try=4 to=2,0 illegal=outside
+  try=5 to=4,0 illegal=outside
+  try=6 to=5,1 legal
+move=28 player 3,2->5,1
+turn=29 who=machine at=6,2 order=7,8,1,2,3,4,5,6
+  try=7 to=8,3 legal
+move=29 machine 6,2->8,3
+turn=30 who=player at=5,1 order=6,7,8,1,2,3,4,5
+  try=6 to=7,0 illegal=outside
+  try=7 to=7,2 legal
+move=30 player 5,1->7,2
+turn=31 who=machine at=8,3 order=1,2,3,4,5,6,7,8
+  try=1 to=7,5 illegal=visited
+  try=2 to=6,4 illegal=visited
+  try=3 to=6,2 illegal=visited
+  try=4 to=7,1 legal
+move=31 machine 8,3->7,1
+turn=32 who=player at=7,2 order=8,1,2,3,4,5,6,7
+  try=8 to=8,4 legal
+move=32 player 7,2->8,4
+turn=33 who=machine at=7,1 order=3,4,5,6,7,8,1,2
+  try=3 to=5,0 illegal=outside
+  try=4 to=6,-1 illegal=outside
+  try=5 to=8,-1 illegal=outside
+  try=6 to=9,0 illegal=outside
+  try=7 to=9,2 illegal=outside
+  try=8 to=8,3 illegal=visited
+  try=1 to=6,3 legal
+move=33 machine 7,1->6,3
+turn=34 who=player at=8,4 order=2,3,4,5,6,7,8,1
+  try=2 to=6,5 illegal=visited
+  try=3 to=6,3 capture=machine
+move=34 player 8,4->6,3 capture
+winner=player
+moves=34
