@@ -1,0 +1,16 @@
+id: common-02
+title: "Glossary (glosario)"
+concept: "Shared vocabulary (vocabulario compartido)"
+prerequisites: []
+reading_time: "13 minutes"
+estimated_time: "20 minutes"
+acceptance_criteria:
+  - "Ten terms are selected from docs/guide/glossary.md, each with an English and a Spanish name."
+  - "Each term has a one-line definition written in the learner's own words."
+  - "Each term has one plausible misconception and a reason it is wrong."
+  - "Each term is checked against common/spec/game-rules.md and given a verdict."
+  - "Every verdict cites a line reference or names the nearest term when the term is absent."
+  - "EVIDENCE.md records the prediction, the search commands, the table and the explanation."
+engineering_check: "predict → run → compare → explain → record"
+status: drafted
+languages: [en, es]
