@@ -1,0 +1,28 @@
+id: archaeology-06
+title: "Duplication and the eight-case switch"
+concept: "Duplication and extraction"
+prerequisites:
+  - archaeology-04
+reading_time: "19 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner reads the original eight-case switch and records its anchors: eight case bodies,
+    455 lines, and 16 varying integers."
+  - "The baseline runs with the shipped flags and prints `comparisons=200 mismatches=0`."
+  - "The learner captures the switch output as a 200-line golden trace before deleting the switch."
+  - "One extraction removes `apply_switch` in a scratch copy and keeps `moveDeltas` and
+    `apply_table`."
+  - "The extracted version still prints `comparisons=200 mismatches=0` against the frozen trace."
+  - "The learner records the extraction cost: 24 lines removed, 8 cases removed, 8 table entries
+    kept, 200 comparisons and 0 mismatches."
+  - "The learner explains why comparing the table with a table-derived oracle would be circular."
+  - "The learner states that the baseline isolates the delta calculation and does not include the
+    original's bounds, visited, capture, turn or printing logic."
+  - "The learner notes that the table loses the switch's `default` guard for out-of-range move
+    numbers."
+  - "The learner links the structural fix to Track A rungs (`construction-03`, `construction-05`,
+    `construction-19`) and does not confuse it with `construction-12` polymorphism."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "predict → inspect → extract → compare → explain → record"
+status: drafted
+languages: [en, es]
