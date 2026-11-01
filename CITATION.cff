@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this laboratory, cite it as below."
+type: software
+title: "Guerra de Caballos — Learning Lab"
+abstract: >-
+  A self-paced learning laboratory built around the 2008 console game
+  Guerra de Caballos. The archive is the historical evidence; the laboratory
+  is the modern learning layer with construction and archaeology tracks.
+authors:
+  - family-names: Rivera
+    given-names: Juan Camilo
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/DaydreamsDev/guerra-de-caballos-lab"
+keywords:
+  - C++
+  - learning
+  - programming paradigms
+  - software archaeology
+  - legacy code
+  - didactics
