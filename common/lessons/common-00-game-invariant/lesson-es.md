@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Estado:** borrador · **Concepto:** especificación (specification) ·
-> **Prerrequisitos:** ninguno · **Tiempo estimado:** 45 minutos
+> **Prerrequisitos:** ninguno · **Tiempo estimado:** 50 minutos
 > **Lectura:** ~9 minutos
 
 ## Por qué existe esta lección
