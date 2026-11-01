@@ -1,0 +1,26 @@
+id: construction-15
+title: "Generic classes and concepts (clases genéricas y conceptos)"
+concept: "Constraints"
+prerequisites:
+  - "construction-14"
+reading_time: "21 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "Locate `Board<RowCount, ColumnCount>` and `GameEngine<RowCount, ColumnCount>` and name
+    their non-type template parameters."
+  - "Name the four operations `PositionedPiece` requires and find
+    `static_assert(PositionedPiece<Knight>)`."
+  - "Confirm that `GameEngine` does not take a piece type as a template parameter."
+  - "Reproduce all 20 golden traces on the unmodified 8×8 baseline."
+  - "Instantiate the same `GameEngine` template for 8×8 and 10×10; show that the 10×10
+    output differs from 8×8."
+  - "Explain what is generic, what is constrained, and what changes with dimensions."
+  - "Measure that `sizeof(Board<8, 8>)` equals `sizeof(Board<10, 10>)` and that both engines
+    have the same size."
+  - "Name the limit: the engine is generic over dimensions, not over the piece type."
+  - "The tracked code files are not modified."
+engineering_check: "Predict → Run → Compare → Explain → Record."
+status: drafted
+languages:
+  - en
+  - es
