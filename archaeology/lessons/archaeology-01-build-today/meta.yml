@@ -4,7 +4,7 @@ concept: "Build and run legacy code (compilar y ejecutar código heredado)"
 prerequisites:
   - common-03
 reading_time: "15 minutes"
-estimated_time: "60 minutes"
+estimated_time: "62 minutes"
 acceptance_criteria:
   - "The learner records either a runnable build with the probe or a documented blocker."
   - "A documented blocker names the exact command, the exact output, the environment and the next

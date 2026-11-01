@@ -4,7 +4,7 @@ concept: "Correctness failures (fallos de corrección)"
 prerequisites:
   - archaeology-03
 reading_time: "17 minutes"
-estimated_time: "90 minutes"
+estimated_time: "100 minutes"
 acceptance_criteria:
   - "Six failure cards cover failure-001 through failure-006, one card per failure."
   - "Each card cites the variant, the line and a source snippet."

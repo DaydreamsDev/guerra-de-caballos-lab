@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Estado:** borrador · **Concepto:** fallos de corrección · **Prerrequisito:** archaeology-03 ·
-> **Tiempo estimado:** 90 minutos
+> **Tiempo estimado:** 100 minutos
 > **Lectura:** ~16 minutos
 
 ## Por qué existe esta lección

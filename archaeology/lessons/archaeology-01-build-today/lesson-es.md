@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Estado:** borrador · **Concepto:** compilar y ejecutar código heredado ·
-> **Prerrequisito:** common-03 · **Tiempo estimado:** 60 minutos
+> **Prerrequisito:** common-03 · **Tiempo estimado:** 62 minutos
 > **Lectura:** ~15 minutos
 
 ## Por qué existe esta lección

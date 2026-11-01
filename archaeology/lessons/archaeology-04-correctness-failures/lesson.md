@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Status:** drafted · **Concept:** correctness failures · **Prerequisite:** archaeology-03 ·
-> **Estimated time:** 90 minutes
+> **Estimated time:** 100 minutes
 > **Reading:** ~17 minutes
 
 ## Why this lesson exists
@@ -136,7 +136,7 @@ You also need:
 
 > **Rule:** the archive is read-only. The harness reads it with `grep`; it never writes into it.
 
-## The 90-minute path
+## The 100-minute path
 
 | Min | Step | What you do | Evidence |
 |---|---|---|---|
