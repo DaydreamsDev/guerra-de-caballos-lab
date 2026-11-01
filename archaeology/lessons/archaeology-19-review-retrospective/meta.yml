@@ -1,0 +1,31 @@
+id: archaeology-19
+title: "Review checklist and retrospective"
+concept: "review and retrospective"
+prerequisites:
+  - archaeology-18
+reading_time: "23 minutes"
+estimated_time: "90 minutes"
+acceptance_criteria:
+  - "The learner reads `REVIEW-CHECKLIST.md` and identifies at least five items that are not
+    directly observable, rewriting each with an evidence source and a pass criterion."
+  - "The learner produces a reusable checklist of at least 15 items covering correctness, design,
+    robustness, professional practice and evidence."
+  - "Every checklist item names a question, an evidence source, a pass criterion, a failure class
+    and a Track A rung."
+  - "The checklist has at least three items per family and at least one item for each of the five
+    failure classes in the taxonomy."
+  - "The learner applies the checklist to a sealed archive variant in a scratch copy within 20
+    minutes and records detected, missed and false-positive findings with line anchors."
+  - "The learner computes detection as detected divided by expected and states the limits of a
+    one-variant sample."
+  - "The learner writes a final retrospective naming the strongest diagnosis, the weakest
+    diagnosis, the under-diagnosed failure class, one habit to keep, one to stop and one to start."
+  - "The learner audits at least five claims from the portfolio and labels each verified,
+    documented, inferred or unknown."
+  - "The learner explains the checklist in 60 seconds and names at least three things it cannot
+    prove."
+  - "The learner links each checklist family to at least one failure ID and one Track A rung."
+  - "The archive is unmodified and no repair is applied to `original/`."
+engineering_check: "inspect → checklist → apply → retrospect → explain → record"
+status: drafted
+languages: [en, es]
