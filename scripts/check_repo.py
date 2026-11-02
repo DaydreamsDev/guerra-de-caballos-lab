@@ -28,6 +28,18 @@ BINARY_SIGNATURES = (
 )
 PE_SIGNATURE = b"PE\x00\x00"
 MARKDOWN_LINK_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
+LESSON_ID_PATTERN = re.compile(r"(?:common|construction|archaeology)-\d+")
+BACKTICKED_LESSON_ID_PATTERN = re.compile(
+    r"`((?:common|construction|archaeology)-\d+)`"
+)
+CATALOG_ROW_PATTERN = re.compile(
+    r"^\| \[((?:common|construction|archaeology)-\d+)\]"
+)
+PREREQUISITE_LABEL_PATTERN = re.compile(
+    r"\*\*(?:Prerequisites?|Prerrequisitos?|Requisito previo):\*\*"
+)
+INTENTIONALLY_ABSENT_IDENTIFIERS = {"construction-25"}
+HEADER_LINE_LIMIT = 20
 errors = []
 
 
@@ -152,7 +164,7 @@ def check_lessons():
                 f"(also in {lesson_ids[lesson_id]})"
             )
         lesson_ids[lesson_id] = directory
-    return set(lesson_ids)
+    return lesson_ids
 
 
 def check_metadata(lesson_ids):
@@ -171,6 +183,88 @@ def check_metadata(lesson_ids):
                     errors.append(
                         f"{metadata_path}: unknown prerequisite {candidate.strip()!r}"
                     )
+
+
+def expected_prerequisites(metadata):
+    return {
+        candidate.strip()
+        for prerequisite in metadata.get("prerequisites") or []
+        for candidate in str(prerequisite).split(" or ")
+    }
+
+
+def declared_prerequisites(document_path):
+    lines = document_path.read_text(encoding="utf-8").splitlines()[:HEADER_LINE_LIMIT]
+    for index, line in enumerate(lines):
+        label_match = PREREQUISITE_LABEL_PATTERN.search(line)
+        if not label_match:
+            continue
+        value = line[label_match.end():]
+        cursor = index + 1
+        while cursor < len(lines) and lines[cursor].startswith(">"):
+            value += " " + lines[cursor].lstrip("> ").rstrip()
+            cursor += 1
+        value = value.split("·")[0].strip()
+        if value.lower() in ("none", "ninguno", ""):
+            return set()
+        return set(LESSON_ID_PATTERN.findall(value))
+    return None
+
+
+def check_prerequisite_documents():
+    for metadata_path in sorted(ROOT.glob("*/lessons/*/meta.yml")):
+        metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
+        expected = expected_prerequisites(metadata)
+        directory = metadata_path.parent
+        for name in ("lesson.md", "lesson-es.md", "README.md", "README-es.md"):
+            document_path = directory / name
+            if not document_path.exists():
+                continue
+            declared = declared_prerequisites(document_path)
+            if declared is None:
+                errors.append(f"{document_path}: missing prerequisite field")
+            elif declared != expected:
+                errors.append(
+                    f"{document_path}: prerequisites {sorted(declared)} "
+                    f"do not match meta.yml {sorted(expected)}"
+                )
+
+
+def check_catalog_prerequisites(lesson_ids):
+    for catalog_path, _ in lesson_catalogs():
+        for line in catalog_path.read_text(encoding="utf-8").splitlines():
+            row_match = CATALOG_ROW_PATTERN.match(line)
+            if not row_match:
+                continue
+            lesson_id = row_match.group(1)
+            directory = lesson_ids.get(lesson_id)
+            if directory is None:
+                continue
+            metadata_path = directory / "meta.yml"
+            metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
+            expected = expected_prerequisites(metadata)
+            prerequisite_cell = line.strip("|").split("|")[3]
+            declared = set(LESSON_ID_PATTERN.findall(prerequisite_cell))
+            if declared != expected:
+                errors.append(
+                    f"{catalog_path}: {lesson_id} prerequisites {sorted(declared)} "
+                    f"do not match meta.yml {sorted(expected)}"
+                )
+
+
+def check_lesson_identifiers(lesson_ids):
+    for document_path in markdown_files():
+        document_text = document_path.read_text(encoding="utf-8")
+        for line_number, line in enumerate(document_text.splitlines(), 1):
+            for identifier in BACKTICKED_LESSON_ID_PATTERN.findall(line):
+                if identifier in lesson_ids:
+                    continue
+                if identifier in INTENTIONALLY_ABSENT_IDENTIFIERS:
+                    continue
+                errors.append(
+                    f"{document_path}:{line_number}: "
+                    f"unknown lesson identifier {identifier}"
+                )
 
 
 def check_active_time():
@@ -225,13 +319,16 @@ def main():
     check_metadata(lesson_ids)
     check_active_time()
     check_catalog_coverage()
+    check_prerequisite_documents()
+    check_catalog_prerequisites(lesson_ids)
+    check_lesson_identifiers(lesson_ids)
     check_committed_binaries()
     if errors:
         print("\n".join(errors))
         return 1
     print(
         "QA OK: links, pairs, fences, line lengths, metadata, active times, "
-        "catalog coverage, and committed binaries"
+        "catalog coverage, prerequisites, lesson identifiers, and committed binaries"
     )
     return 0
 
