@@ -5,6 +5,7 @@
 **Concepto:** recuperación · **Tiempo:** unos 75 minutos ·
 **Prerrequisitos:** construction-09, construction-21 · **Estado:** borrador
 **Lectura:** ~25 minutos
+**Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** fallos de corrección · **Prerrequisito:** archaeology-03 ·
 > **Tiempo estimado:** 100 minutos
 > **Lectura:** ~16 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

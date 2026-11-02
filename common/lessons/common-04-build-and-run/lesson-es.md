@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** robustez del punto de entrada (entry-point robustness) ·
 > **Prerrequisitos:** common-02 · **Tiempo estimado:** 30 minutos
 > **Lectura:** ~11 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

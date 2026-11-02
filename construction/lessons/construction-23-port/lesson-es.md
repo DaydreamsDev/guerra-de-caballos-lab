@@ -5,6 +5,7 @@
 **Concepto:** la sintaxis es desechable · **Tiempo:** unos 195 minutos ·
 **Prerrequisitos:** construction-09 o construction-12 · **Estado:** borrador
 **Lectura:** ~21 minutos
+**Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

@@ -5,6 +5,7 @@
 **Concept:** arbitrary control flow · **Time:** about 70 minutes ·
 **Prerequisites:** construction-00 · **Status:** drafted
 **Reading:** ~11 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

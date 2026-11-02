@@ -5,6 +5,7 @@
 **Concept:** syntax is disposable · **Time:** about 195 minutes ·
 **Prerequisites:** construction-09 or construction-12 · **Status:** drafted
 **Reading:** ~20 minutes
+**Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

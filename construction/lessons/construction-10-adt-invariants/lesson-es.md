@@ -4,6 +4,7 @@
 
 **Concepto:** validez y ciclo de vida · **Tiempo:** unos 60 minutos ·
 **Prerrequisitos:** construction-09 · **Estado:** borrador · **Lectura:** ~17 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

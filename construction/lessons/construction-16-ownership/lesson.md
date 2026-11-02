@@ -5,6 +5,7 @@
 **Concept:** resource lifetime · **Time:** about 70 minutes · **Prerequisites:** construction-15 ·
 **Status:** drafted
 **Reading:** ~25 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 
@@ -927,7 +928,7 @@ untouched.
 ### 6.3 What it costs
 
 - Three allocations per engine. At 20 engines, 60 allocations; at 10,000 engines, 30,000. That is a
-  real cost for the data-oriented lens in `construction-19`.
+  real cost for the data-oriented lesson in `construction-19`.
 - One indirection per board access. Ten call sites in `game_engine.h` now load a pointer first.
 - 242 more bytes of text, 246 in `game.o`.
 - A moved-from state that `run()` cannot handle. The class is movable, but not usable after a move.

@@ -4,6 +4,7 @@
 
 **Concepto:** composición frente a herencia · **Tiempo:** unos 68 minutos ·
 **Prerrequisitos:** construction-12 · **Estado:** borrador · **Lectura:** ~22 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

@@ -5,6 +5,7 @@
 **Concepto:** ocultamiento de información · **Tiempo:** unos 92 minutos ·
 **Prerrequisitos:** construction-03, construction-07 · **Estado:** borrador
 **Lectura:** ~20 minutos · **Prerrequisitos:** construction-03, construction-07
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

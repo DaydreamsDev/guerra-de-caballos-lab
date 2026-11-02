@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** vocabulario compartido (shared vocabulary) ·
 > **Prerrequisitos:** ninguno · **Tiempo estimado:** 20 minutos
 > **Lectura:** ~13 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

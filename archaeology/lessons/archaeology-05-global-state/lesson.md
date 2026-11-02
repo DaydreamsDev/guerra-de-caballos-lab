@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** global state and hidden coupling · **Prerequisite:**
 > archaeology-04 · **Estimated time:** 60 minutes
 > **Reading:** ~14 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

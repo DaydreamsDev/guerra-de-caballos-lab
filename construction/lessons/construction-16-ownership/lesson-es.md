@@ -4,6 +4,7 @@
 
 **Concepto:** ciclo de vida de recursos · **Tiempo:** unos 70 minutos ·
 **Prerrequisitos:** construction-15 · **Estado:** borrador · **Lectura:** ~27 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 
@@ -945,7 +946,7 @@ no se tocaron.
 ### 6.3 Qué cuesta
 
 - Tres reservas por motor. Con 20 motores, 60 reservas; con 10.000 motores, 30.000. Es un coste real
-  para la lente orientada a datos de `construction-19`.
+  para la lección orientada a datos de `construction-19`.
 - Una indirección por acceso al tablero. Diez puntos de llamada en `game_engine.h` cargan ahora un
   puntero primero.
 - 242 bytes más de texto, 246 en `game.o`.

@@ -5,6 +5,7 @@
 **Concept:** collection and traversal (colección y recorrido) · **Time:** about 62 minutes ·
 **Status:** drafted · **Prerequisites:** construction-04
 **Reading:** ~22 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

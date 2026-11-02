@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** estado global y acoplamiento oculto · **Prerrequisito:**
 > archaeology-04 · **Tiempo estimado:** 60 minutos
 > **Lectura:** ~13 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

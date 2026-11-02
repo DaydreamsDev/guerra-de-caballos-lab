@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** all failure classes · **Prerequisites:** archaeology-04,
 > archaeology-05, archaeology-08, archaeology-09 · **Estimated time:** 180 minutes
 > **Reading:** ~18 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

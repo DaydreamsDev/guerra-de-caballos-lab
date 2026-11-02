@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** metacognición (metacognition) · **Prerrequisitos:** ninguno ·
 > **Tiempo estimado:** 15 minutos
 > **Lectura:** ~9 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

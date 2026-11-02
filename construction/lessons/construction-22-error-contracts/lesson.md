@@ -5,6 +5,7 @@
 **Concept:** recovery · **Time:** about 75 minutes ·
 **Prerequisites:** construction-09, construction-21 · **Status:** drafted
 **Reading:** ~24 minutes
+**Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

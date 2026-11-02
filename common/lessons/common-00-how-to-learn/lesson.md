@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** metacognition (metacognición) · **Prerequisites:** none ·
 > **Estimated time:** 15 minutes
 > **Reading:** ~11 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** tests and determinism · **Prerequisite:** archaeology-03 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~20 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

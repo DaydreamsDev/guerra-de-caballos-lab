@@ -5,6 +5,7 @@
 **Concept:** shared state vs messages · **Time:** about 115 minutes ·
 **Prerequisites:** construction-12, construction-20 · **Status:** drafted
 **Reading:** ~28 minutes
+**Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

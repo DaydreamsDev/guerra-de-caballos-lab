@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** code review · **Prerequisite:** archaeology-04 ·
 > **Estimated time:** 60 minutes
 > **Reading:** ~21 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

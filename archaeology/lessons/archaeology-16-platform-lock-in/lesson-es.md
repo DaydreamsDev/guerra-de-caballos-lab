@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** dependencia de plataforma y adaptadores ·
 > **Prerrequisito:** archaeology-01 · **Tiempo estimado:** 60 minutos
 > **Lectura:** ~24 minutos
+> **Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

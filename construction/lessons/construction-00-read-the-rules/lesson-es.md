@@ -4,6 +4,7 @@
 
 **Concepto:** especificación (specification) · **Tiempo:** unos 50 minutos ·
 **Prerrequisitos:** common-01, common-02 · **Estado:** borrador · **Lectura:** ~7 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

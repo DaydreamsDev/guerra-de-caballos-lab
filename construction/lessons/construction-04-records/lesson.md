@@ -5,6 +5,7 @@
 **Concept:** aggregation (agregación) · **Time:** about 55 minutes · **Status:** drafted ·
 **Prerequisites:** construction-03
 **Reading:** ~16 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

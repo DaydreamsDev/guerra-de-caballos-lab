@@ -5,6 +5,7 @@
 **Concept:** sequence, selection and iteration · **Time:** about 65 minutes ·
 **Prerequisites:** construction-01 · **Status:** drafted
 **Reading:** ~16 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

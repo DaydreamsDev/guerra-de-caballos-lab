@@ -5,6 +5,7 @@
 **Concept:** constraints · **Time:** about 81 minutes · **Prerequisites:** construction-14 ·
 **Status:** drafted
 **Reading:** ~21 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

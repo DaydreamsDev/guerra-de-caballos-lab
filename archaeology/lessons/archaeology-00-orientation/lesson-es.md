@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** modelo mental · **Prerrequisito:** common-04 ·
 > **Tiempo estimado:** 45 minutos
 > **Lectura:** ~16 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

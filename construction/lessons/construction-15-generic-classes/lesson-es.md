@@ -4,6 +4,7 @@
 
 **Concepto:** restricciones · **Tiempo:** unos 81 minutos · **Prerrequisitos:** construction-14 ·
 **Estado:** borrador · **Lectura:** ~22 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

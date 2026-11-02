@@ -5,6 +5,7 @@
 **Concepto:** estado compartido frente a mensajes · **Tiempo:** 120 minutos ·
 **Prerrequisitos:** construction-12, construction-20 · **Estado:** borrador
 **Lectura:** ~29 minutos
+**Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

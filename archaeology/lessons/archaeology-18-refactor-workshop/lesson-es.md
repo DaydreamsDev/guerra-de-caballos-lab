@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** todas las clases de fallo · **Prerrequisitos:**
 > archaeology-04, archaeology-05, archaeology-08, archaeology-09 · **Tiempo estimado:** 180 minutos
 > **Lectura:** ~17 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

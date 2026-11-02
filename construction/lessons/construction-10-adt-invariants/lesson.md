@@ -5,6 +5,7 @@
 **Concept:** validity and lifecycle (validez y ciclo de vida) · **Time:** about 60 minutes ·
 **Prerequisites:** construction-09 · **Status:** drafted
 **Reading:** ~16 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

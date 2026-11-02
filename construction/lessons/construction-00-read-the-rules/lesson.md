@@ -5,6 +5,7 @@
 **Concept:** specification (especificación) · **Time:** about 50 minutes ·
 **Prerequisites:** common-01, common-02 · **Status:** drafted
 **Reading:** ~7 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

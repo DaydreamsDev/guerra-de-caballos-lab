@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** tipo abstracto de datos · **Prerrequisito:** archaeology-08 ·
 > **Tiempo estimado:** 90 minutos
 > **Lectura:** ~18 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

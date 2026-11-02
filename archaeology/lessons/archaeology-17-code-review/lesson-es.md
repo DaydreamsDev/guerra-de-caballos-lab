@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** revisión de código · **Prerrequisito:** archaeology-04 ·
 > **Tiempo estimado:** 60 minutos
 > **Lectura:** ~20 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

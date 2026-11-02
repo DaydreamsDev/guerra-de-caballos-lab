@@ -5,6 +5,7 @@
 **Concepto:** abstracción de iteración · **Tiempo:** unos 68 minutos ·
 **Prerrequisitos:** construction-05, construction-16 · **Estado:** borrador
 **Lectura:** ~23 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

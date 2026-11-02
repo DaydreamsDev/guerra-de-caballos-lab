@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** construcción del arnés (harness construction) ·
 > **Prerrequisitos:** common-01 · **Tiempo estimado:** 60 minutos ·
 > **Lectura:** ~8 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

@@ -4,6 +4,7 @@
 
 **Concepto:** pureza e inmutabilidad · **Tiempo:** unos 85 minutos ·
 **Prerrequisitos:** construction-17 · **Estado:** borrador · **Lectura:** ~23 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 
