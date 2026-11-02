@@ -5,6 +5,7 @@
 **Concept:** aliasing without addresses (alias sin direcciones) · **Time:** about 45 minutes ·
 **Status:** drafted · **Prerequisites:** construction-05
 **Reading:** ~15 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

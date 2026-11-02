@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** entry-point robustness (robustez del punto de entrada) ·
 > **Prerequisites:** common-02 · **Estimated time:** 30 minutes
 > **Reading:** ~11 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

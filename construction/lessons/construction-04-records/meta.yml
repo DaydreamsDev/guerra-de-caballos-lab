@@ -1,6 +1,7 @@
 id: construction-04
 title: "Records (registros)"
 concept: "Aggregation (agregación)"
+lesson_role: "core"
 prerequisites:
   - construction-03
 reading_time: "16 minutes"

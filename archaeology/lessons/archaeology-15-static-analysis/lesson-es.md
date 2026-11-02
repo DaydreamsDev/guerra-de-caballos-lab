@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** análisis estático · **Prerrequisito:** archaeology-04 ·
 > **Tiempo estimado:** 60 minutos
 > **Lectura:** ~22 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

@@ -5,6 +5,7 @@
 **Concepto:** puertos y adaptadores · **Tiempo:** unos 92 minutos ·
 **Prerrequisitos:** construction-08, construction-17 · **Estado:** borrador
 **Lectura:** ~27 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

@@ -1,6 +1,7 @@
 id: construction-05
 title: "Array of records (arreglo de estructuras)"
 concept: "Collection and traversal (colección y recorrido)"
+lesson_role: "core"
 prerequisites:
   - construction-04
 reading_time: "22 minutes"

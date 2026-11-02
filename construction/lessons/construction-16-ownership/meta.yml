@@ -1,6 +1,7 @@
 id: construction-16
 title: "Ownership and resource lifetime (propiedad y ciclo de vida de recursos)"
 concept: "resource lifetime"
+lesson_role: "core"
 prerequisites:
   - "construction-15"
 reading_time: "25 minutes"

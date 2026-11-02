@@ -5,6 +5,7 @@
 **Concepto:** parámetros de tipo · **Tiempo:** unos 68 minutos ·
 **Prerrequisitos:** construction-12 o construction-13 · **Estado:** borrador
 **Lectura:** ~24 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

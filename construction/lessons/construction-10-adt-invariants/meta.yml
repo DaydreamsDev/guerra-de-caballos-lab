@@ -1,6 +1,7 @@
 id: construction-10
 title: "Abstract data type invariants (invariantes del tipo abstracto de datos)"
 concept: "Validity and lifecycle (validez y ciclo de vida)"
+lesson_role: "core"
 prerequisites:
   - construction-09
 reading_time: "16 minutes"

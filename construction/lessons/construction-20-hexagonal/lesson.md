@@ -5,6 +5,7 @@
 **Concept:** ports and adapters · **Time:** about 92 minutes ·
 **Prerequisites:** construction-08, construction-17 · **Status:** drafted
 **Reading:** ~26 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

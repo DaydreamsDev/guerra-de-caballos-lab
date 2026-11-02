@@ -1,6 +1,7 @@
 id: construction-18
 title: "Functional style (funcional)"
 concept: "purity and immutability"
+lesson_role: "core"
 prerequisites:
   - "construction-17"
 reading_time: "22 minutes"

@@ -1,6 +1,7 @@
 id: archaeology-17
 title: "Code review of a legacy function"
 concept: "code review"
+lesson_role: "core"
 prerequisites:
   - archaeology-04
 reading_time: "21 minutes"

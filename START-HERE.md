@@ -11,6 +11,10 @@ There are two entries. You do not need to browse the repository to find the next
   experience: seven lessons, no compiler, about four and a half hours. Start with
   [`docs/guide/starter-route.md`](docs/guide/starter-route.md), then return here for Track A or B.
 
+Both entries share the same lesson roles. The full lab has a core spine and optional lessons; the
+[lesson catalog](docs/guide/lesson-catalog.md) marks every lesson as `core`, `optional` or
+`capstone`. The starter route is seven `core` lessons with no optional lessons.
+
 ## 0. Check your environment
 
 - [Environment and compatibility](docs/guide/environment.md)
@@ -39,33 +43,34 @@ Recommended spine:
 3. [construction-02 — Structured](construction/lessons/construction-02-structured/lesson.md)
 4. [construction-03 — Functions](construction/lessons/construction-03-functions/lesson.md)
 5. [construction-04 — Records](construction/lessons/construction-04-records/lesson.md)
-6. **construction-05 — Array of records**
-   [Open](construction/lessons/construction-05-array-of-records/lesson.md)
+6. [construction-05 — Array of
+   records](construction/lessons/construction-05-array-of-records/lesson.md)
 7. [construction-06 — References](construction/lessons/construction-06-references/lesson.md)
 8. [construction-07 — Pointers](construction/lessons/construction-07-pointers/lesson.md)
 9. [construction-08 — Modular](construction/lessons/construction-08-modular/lesson.md)
-10. **construction-09 — Abstract data type**
-    [Open](construction/lessons/construction-09-abstract-data-type/lesson.md)
-11. **construction-10 — ADT invariants**
-    [Open](construction/lessons/construction-10-adt-invariants/lesson.md)
+10. [construction-09 — Abstract data
+    type](construction/lessons/construction-09-abstract-data-type/lesson.md)
+11. [construction-10 — ADT
+    invariants](construction/lessons/construction-10-adt-invariants/lesson.md)
 12. [construction-11 — Encapsulation](construction/lessons/construction-11-encapsulation/lesson.md)
 13. [construction-12 — Polymorphism](construction/lessons/construction-12-polymorphism/lesson.md)
 14. [construction-13 — Composition](construction/lessons/construction-13-composition/lesson.md)
-15. **construction-14 — Generic functions**
-    [Open](construction/lessons/construction-14-generic-functions/lesson.md)
-16. **construction-15 — Generic classes**
-    [Open](construction/lessons/construction-15-generic-classes/lesson.md)
+15. [construction-14 — Generic
+    functions](construction/lessons/construction-14-generic-functions/lesson.md)
+16. [construction-15 — Generic
+    classes](construction/lessons/construction-15-generic-classes/lesson.md)
 17. [construction-16 — Ownership](construction/lessons/construction-16-ownership/lesson.md)
-18. [construction-18 — Functional](construction/lessons/construction-18-functional/lesson.md)
-19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson.md)
-20. [construction-24 — Capstone](construction/lessons/construction-24-capstone/lesson.md)
+18. [construction-17 — Standard Template Library and
+    algorithms](construction/lessons/construction-17-stl/lesson.md)
+19. [construction-18 — Functional](construction/lessons/construction-18-functional/lesson.md)
+20. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson.md)
+21. [construction-24 — Capstone](construction/lessons/construction-24-capstone/lesson.md)
 
-Optional lenses:
-[construction-17](construction/lessons/construction-17-stl/lesson.md),
-[construction-19](construction/lessons/construction-19-data-oriented/lesson.md),
-[construction-21](construction/lessons/construction-21-concurrency/lesson.md),
-[construction-22](construction/lessons/construction-22-error-contracts/lesson.md),
-[construction-23](construction/lessons/construction-23-port/lesson.md).
+**Optional lessons (safe to skip):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+The spine reaches the capstone without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 ### Track B — Archaeology
 
@@ -74,31 +79,28 @@ Recommended spine:
 1. [archaeology-00 — Orientation](archaeology/lessons/archaeology-00-orientation/lesson.md)
 2. [archaeology-01 — Build legacy code](archaeology/lessons/archaeology-01-build-today/lesson.md)
 3. [archaeology-02 — Code inventory](archaeology/lessons/archaeology-02-code-inventory/lesson.md)
-4. **archaeology-03 — Reverse-engineer the spec**
-   [Open](archaeology/lessons/archaeology-03-reverse-spec/lesson.md)
-5. **archaeology-04 — Correctness failures**
-   [Open](archaeology/lessons/archaeology-04-correctness-failures/lesson.md)
+4. [archaeology-03 — Reverse-engineer the
+   spec](archaeology/lessons/archaeology-03-reverse-spec/lesson.md)
+5. [archaeology-04 — Correctness
+   failures](archaeology/lessons/archaeology-04-correctness-failures/lesson.md)
 6. [archaeology-05 — Global state](archaeology/lessons/archaeology-05-global-state/lesson.md)
 7. [archaeology-08 — Module boundary](archaeology/lessons/archaeology-08-module-boundary/lesson.md)
-8. **archaeology-09 — Abstract data type**
-   [Open](archaeology/lessons/archaeology-09-abstract-data-type/lesson.md)
-9. **archaeology-14 — Tests and determinism**
-   [Open](archaeology/lessons/archaeology-14-tests-determinism/lesson.md)
+8. [archaeology-09 — Abstract data
+   type](archaeology/lessons/archaeology-09-abstract-data-type/lesson.md)
+9. [archaeology-14 — Tests and
+   determinism](archaeology/lessons/archaeology-14-tests-determinism/lesson.md)
 10. [archaeology-15 — Static analysis](archaeology/lessons/archaeology-15-static-analysis/lesson.md)
 11. [archaeology-17 — Code review](archaeology/lessons/archaeology-17-code-review/lesson.md)
-12. **archaeology-18 — Refactor workshop**
-    [Open](archaeology/lessons/archaeology-18-refactor-workshop/lesson.md)
-13. **archaeology-19 — Review and retrospective**
-    [Open](archaeology/lessons/archaeology-19-review-retrospective/lesson.md)
+12. [archaeology-18 — Refactor
+    workshop](archaeology/lessons/archaeology-18-refactor-workshop/lesson.md)
+13. [archaeology-19 — Review and
+    retrospective](archaeology/lessons/archaeology-19-review-retrospective/lesson.md)
 
-Optional lenses:
-[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson.md),
-[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson.md),
-[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson.md),
-[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson.md),
-[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson.md),
-[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson.md),
-[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson.md).
+**Optional lessons (safe to skip):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+The spine reaches the retrospective without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 ## 4. If you lose the thread
 

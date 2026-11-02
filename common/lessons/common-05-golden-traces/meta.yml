@@ -1,6 +1,7 @@
 id: common-05
 title: "Golden traces (trazas de referencia)"
 concept: "Behavioral contract (contrato de comportamiento)"
+lesson_role: "core"
 prerequisites: [common-02]
 reading_time: "14 minutes"
 estimated_time: "45 minutes"

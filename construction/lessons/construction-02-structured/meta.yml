@@ -1,6 +1,7 @@
 id: construction-02
 title: "Structured programming (programación estructurada)"
 concept: "Sequence, selection and iteration (secuencia, selección e iteración)"
+lesson_role: "core"
 prerequisites:
   - construction-01
 reading_time: "16 minutes"

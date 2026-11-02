@@ -4,6 +4,7 @@
 
 **Concepto:** flujo de control arbitrario · **Tiempo:** unos 70 minutos ·
 **Prerrequisitos:** construction-00 · **Estado:** borrador · **Lectura:** ~11 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

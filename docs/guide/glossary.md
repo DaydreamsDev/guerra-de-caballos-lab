@@ -158,7 +158,9 @@ Format: **English** — *Español* — definition — common misconception (if a
 |---|---|---|---|
 | Invariant (project sense) | Invariante (del proyecto) | The game behavior that never changes across variants | “The code is the invariant.” |
 | Rung | Peldaño | One step of the concept ladder | “A rung is a folder.” |
-| Lens | Lente | An orthogonal way of thinking applied to the same game | “A lens is an advanced rung.” |
+| Core lesson | Lección del tronco | A required lesson in the recommended spine | “A core lesson is optional.” |
+| Optional lesson | Lección opcional | A lesson outside the core spine that a learner may skip | “An optional lesson is required for the capstone.” |
+| Capstone | Proyecto final | The final lesson that asks the learner to defend a design choice with evidence | “The capstone is a summary.” |
 | Track | Pista | A learning route: construction or archaeology | “A track is a difficulty level.” |
 | Provenance | Procedencia | The origin, authorship and license of an artifact | “Provenance is a comment.” |
 

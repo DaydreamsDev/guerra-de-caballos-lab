@@ -4,6 +4,7 @@
 
 **Concepto:** ámbito y descomposición · **Tiempo:** unos 45 minutos ·
 **Prerrequisitos:** construction-02 · **Estado:** borrador · **Lectura:** ~15 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

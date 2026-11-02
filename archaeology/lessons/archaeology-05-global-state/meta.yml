@@ -1,6 +1,7 @@
 id: archaeology-05
 title: "Global state and hidden coupling (estado global y acoplamiento oculto)"
 concept: "Global state and hidden coupling (estado global y acoplamiento oculto)"
+lesson_role: "core"
 prerequisites:
   - archaeology-04
 reading_time: "14 minutes"

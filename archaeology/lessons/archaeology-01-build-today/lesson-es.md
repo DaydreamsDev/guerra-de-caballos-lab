@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** compilar y ejecutar código heredado ·
 > **Prerrequisito:** common-04 · **Tiempo estimado:** 62 minutos
 > **Lectura:** ~15 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

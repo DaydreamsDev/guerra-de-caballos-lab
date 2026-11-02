@@ -1,6 +1,7 @@
 id: construction-17
 title: "Standard Template Library and algorithms (algoritmos)"
 concept: "iteration abstraction"
+lesson_role: "core"
 prerequisites:
   - "construction-05"
   - "construction-16"

@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** polimorfismo · **Prerrequisito:** archaeology-09 ·
 > **Tiempo estimado:** 90 minutos
 > **Lectura:** ~22 minutos
+> **Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

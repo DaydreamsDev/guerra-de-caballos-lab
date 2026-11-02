@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** review and retrospective · **Prerequisite:** archaeology-18 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~23 minutes
+> **Lesson role:** capstone
 
 ## Why this lesson exists
 

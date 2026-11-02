@@ -41,20 +41,29 @@ first-release failure cards are 15 of 15. See [Failure cards](cards/README.md).
 - [Reverse-engineer the spec](lessons/archaeology-03-reverse-spec/lesson.md)
 - [Correctness failures](lessons/archaeology-04-correctness-failures/lesson.md)
 - [Global state and hidden coupling](lessons/archaeology-05-global-state/lesson.md)
-- [Duplication and the eight-case switch](lessons/archaeology-06-duplication-switch/lesson.md)
-- [Representation leakage](lessons/archaeology-07-representation-leakage/lesson.md)
+- [Duplication and the eight-case
+  switch](lessons/archaeology-06-duplication-switch/lesson.md) (optional)
+- [Representation leakage](lessons/archaeology-07-representation-leakage/lesson.md) (optional)
 - [Missing module boundary](lessons/archaeology-08-module-boundary/lesson.md)
 - [Missing abstract data type](lessons/archaeology-09-abstract-data-type/lesson.md)
-- [Missing polymorphism](lessons/archaeology-10-polymorphism/lesson.md)
-- [Input, output, and testability](lessons/archaeology-11-input-output/lesson.md)
-- [Naming and comments](lessons/archaeology-12-naming-comments/lesson.md)
-- [Technical documentation for maintainers](lessons/archaeology-13-documentation/lesson.md)
+- [Missing polymorphism](lessons/archaeology-10-polymorphism/lesson.md) (optional)
+- [Input, output, and testability](lessons/archaeology-11-input-output/lesson.md) (optional)
+- [Naming and comments](lessons/archaeology-12-naming-comments/lesson.md) (optional)
+- [Technical documentation for
+  maintainers](lessons/archaeology-13-documentation/lesson.md) (optional)
 - [Tests and determinism](lessons/archaeology-14-tests-determinism/lesson.md)
 - [Static analysis and compiler warnings](lessons/archaeology-15-static-analysis/lesson.md)
-- [Platform lock-in](lessons/archaeology-16-platform-lock-in/lesson.md)
+- [Platform lock-in](lessons/archaeology-16-platform-lock-in/lesson.md) (optional)
 - [Code review of a legacy function](lessons/archaeology-17-code-review/lesson.md)
 - [Refactor workshop](lessons/archaeology-18-refactor-workshop/lesson.md)
 - [Review checklist and retrospective](lessons/archaeology-19-review-retrospective/lesson.md)
+
+**Optional lessons (safe to skip):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`,
+`archaeology-16`.
+
+The spine reaches the retrospective without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 See [`../docs/guide/archaeology-track.md`](../docs/guide/archaeology-track.md) and
 [`../docs/guide/lesson-catalog.md`](../docs/guide/lesson-catalog.md).

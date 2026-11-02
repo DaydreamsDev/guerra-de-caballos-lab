@@ -1,6 +1,7 @@
 id: common-04
 title: "Entry point and working directory (punto de entrada y directorio de trabajo)"
 concept: "Entry-point robustness (robustez del punto de entrada)"
+lesson_role: "core"
 prerequisites: [common-02]
 reading_time: "11 minutes"
 estimated_time: "30 minutes"

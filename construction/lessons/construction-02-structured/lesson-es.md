@@ -4,6 +4,7 @@
 
 **Concepto:** secuencia, selección e iteración · **Tiempo:** unos 65 minutos ·
 **Prerrequisitos:** construction-01 · **Estado:** borrador · **Lectura:** ~17 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

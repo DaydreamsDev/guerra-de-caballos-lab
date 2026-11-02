@@ -5,6 +5,7 @@
 **Concept:** representation independence (independencia de representación) ·
 **Time:** about 90 minutes · **Prerequisites:** construction-08 · **Status:** drafted
 **Reading:** ~21 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

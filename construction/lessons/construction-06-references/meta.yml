@@ -1,6 +1,7 @@
 id: construction-06
 title: "References (referencias)"
 concept: "Aliasing without addresses (alias sin direcciones)"
+lesson_role: "core"
 prerequisites:
   - construction-05
 reading_time: "15 minutes"

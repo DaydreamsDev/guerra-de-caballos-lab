@@ -1,6 +1,7 @@
 id: archaeology-06
 title: "Duplication and the eight-case switch"
 concept: "Duplication and extraction"
+lesson_role: "optional"
 prerequisites:
   - archaeology-04
 reading_time: "19 minutes"

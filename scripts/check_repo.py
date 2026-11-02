@@ -35,6 +35,13 @@ BACKTICKED_LESSON_ID_PATTERN = re.compile(
 CATALOG_ROW_PATTERN = re.compile(
     r"^\| \[((?:common|construction|archaeology)-\d+)\]"
 )
+ALLOWED_LESSON_ROLES = {"core", "optional", "capstone"}
+LESSON_ROLE_LABEL_PATTERN = re.compile(
+    r"\*\*(?:Lesson role|Rol de la lección):\*\*\s*([^·\n]+)"
+)
+OPTIONAL_SECTION_PATTERN = re.compile(
+    r"\*\*(?:Optional lessons \(safe to skip\)|Lecciones opcionales \(puedes omitirlas\)):\*\*"
+)
 PREREQUISITE_LABEL_PATTERN = re.compile(
     r"\*\*(?:Prerequisites?|Prerrequisitos?|Requisito previo):\*\*"
 )
@@ -169,12 +176,24 @@ def check_lessons():
 
 def check_metadata(lesson_ids):
     allowed_status = {"planned", "drafted", "in review", "stable"}
+    required_fields = (
+        "id",
+        "title",
+        "concept",
+        "lesson_role",
+        "prerequisites",
+        "estimated_time",
+        "reading_time",
+    )
     for metadata_path in sorted(ROOT.glob("*/lessons/*/meta.yml")):
         metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
         status = metadata.get("status")
         if status not in allowed_status:
             errors.append(f"{metadata_path}: invalid status {status!r}")
-        for field in ("id", "title", "concept", "prerequisites", "estimated_time", "reading_time"):
+        lesson_role = metadata.get("lesson_role")
+        if lesson_role is not None and lesson_role not in ALLOWED_LESSON_ROLES:
+            errors.append(f"{metadata_path}: invalid lesson_role {lesson_role!r}")
+        for field in required_fields:
             if field not in metadata:
                 errors.append(f"{metadata_path}: missing metadata field {field}")
         for prerequisite in metadata.get("prerequisites") or []:
@@ -185,12 +204,173 @@ def check_metadata(lesson_ids):
                     )
 
 
+def check_lesson_role_headers(lesson_ids):
+    english_labels = {"core": "core", "optional": "optional", "capstone": "capstone"}
+    spanish_labels = {
+        "core": "tronco",
+        "optional": "opcional",
+        "capstone": "proyecto final",
+    }
+    documents = (
+        ("lesson.md", english_labels),
+        ("lesson-es.md", spanish_labels),
+    )
+    for directory in lesson_ids.values():
+        metadata_path = directory / "meta.yml"
+        metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8")) or {}
+        lesson_role = metadata.get("lesson_role")
+        if lesson_role not in ALLOWED_LESSON_ROLES:
+            continue
+        for document_name, labels in documents:
+            document_path = directory / document_name
+            if not document_path.exists():
+                continue
+            header_lines = document_path.read_text(encoding="utf-8").splitlines()
+            header_lines = header_lines[:HEADER_LINE_LIMIT]
+            declared_labels = []
+            for line in header_lines:
+                label_match = LESSON_ROLE_LABEL_PATTERN.search(line)
+                if label_match:
+                    declared_labels.append(label_match.group(1).strip().lower())
+            expected_label = labels[lesson_role]
+            if len(declared_labels) != 1:
+                errors.append(
+                    f"{document_path}: expected exactly one lesson role label, "
+                    f"found {len(declared_labels)}"
+                )
+                continue
+            if declared_labels[0] != expected_label:
+                errors.append(
+                    f"{document_path}: lesson role {declared_labels[0]!r} "
+                    f"does not match meta.yml {expected_label!r}"
+                )
+
+
+def optional_lists_in_document(document_path):
+    document_text = document_path.read_text(encoding="utf-8")
+    optional_lists = []
+    for section in OPTIONAL_SECTION_PATTERN.split(document_text)[1:]:
+        section_lines = []
+        for line in section.splitlines():
+            if not line.strip():
+                break
+            section_lines.append(line)
+        optional_lists.append(
+            set(BACKTICKED_LESSON_ID_PATTERN.findall("\n".join(section_lines)))
+        )
+    return optional_lists
+
+
+def expected_optional_lists(lesson_ids):
+    optional_ids_by_track = {"construction": [], "archaeology": []}
+    for lesson_id, directory in lesson_ids.items():
+        metadata_path = directory / "meta.yml"
+        metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8")) or {}
+        if metadata.get("lesson_role") != "optional":
+            continue
+        track = lesson_id.split("-", 1)[0]
+        if track in optional_ids_by_track:
+            optional_ids_by_track[track].append(lesson_id)
+    return (
+        sorted(optional_ids_by_track["construction"]),
+        sorted(optional_ids_by_track["archaeology"]),
+    )
+
+
+def check_optional_role_lists(lesson_ids):
+    construction_optional_ids, archaeology_optional_ids = expected_optional_lists(lesson_ids)
+    authoritative_lists = {
+        "construction": set(construction_optional_ids),
+        "archaeology": set(archaeology_optional_ids),
+    }
+    document_expectations = (
+        ("START-HERE.md", ("construction", "archaeology")),
+        ("START-HERE-es.md", ("construction", "archaeology")),
+        ("docs/guide/lesson-catalog.md", ("construction", "archaeology")),
+        ("docs/guide/lesson-catalog-es.md", ("construction", "archaeology")),
+        ("docs/guide/construction-track.md", ("construction",)),
+        ("docs/guide/construction-track-es.md", ("construction",)),
+        ("docs/guide/archaeology-track.md", ("archaeology",)),
+        ("docs/guide/archaeology-track-es.md", ("archaeology",)),
+        ("construction/README.md", ("construction",)),
+        ("construction/README-es.md", ("construction",)),
+        ("archaeology/README.md", ("archaeology",)),
+        ("archaeology/README-es.md", ("archaeology",)),
+    )
+    for relative_path, track_order in document_expectations:
+        document_path = ROOT / relative_path
+        if not document_path.exists():
+            errors.append(f"{document_path}: missing optional lesson document")
+            continue
+        sections = optional_lists_in_document(document_path)
+        if len(sections) != len(track_order):
+            errors.append(
+                f"{document_path}: expected {len(track_order)} optional sections, "
+                f"found {len(sections)}"
+            )
+            continue
+        for section_index, track in enumerate(track_order):
+            section = sections[section_index]
+            expected_ids = authoritative_lists[track]
+            missing_ids = sorted(expected_ids - section)
+            extra_ids = sorted(section - expected_ids)
+            if not missing_ids and not extra_ids:
+                continue
+            other_lists = [
+                authoritative_lists[other_track]
+                for other_track in track_order
+                if other_track != track
+            ]
+            if any(section == other_list for other_list in other_lists):
+                errors.append(
+                    f"{document_path}: optional section {section_index + 1} "
+                    f"belongs to another track"
+                )
+                continue
+            if missing_ids:
+                errors.append(
+                    f"{document_path}: optional section {section_index + 1} "
+                    f"missing {missing_ids}"
+                )
+            if extra_ids:
+                errors.append(
+                    f"{document_path}: optional section {section_index + 1} "
+                    f"has extra {extra_ids}"
+                )
+
+
 def expected_prerequisites(metadata):
     return {
         candidate.strip()
         for prerequisite in metadata.get("prerequisites") or []
         for candidate in str(prerequisite).split(" or ")
     }
+
+
+def check_prerequisite_roles(lesson_ids):
+    role_by_lesson = {}
+    prerequisites_by_lesson = {}
+    for lesson_id, directory in lesson_ids.items():
+        metadata_path = directory / "meta.yml"
+        metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8")) or {}
+        role_by_lesson[lesson_id] = metadata.get("lesson_role")
+        prerequisites_by_lesson[lesson_id] = expected_prerequisites(metadata)
+    for lesson_id, lesson_role in role_by_lesson.items():
+        if lesson_role not in ("core", "capstone"):
+            continue
+        metadata_path = lesson_ids[lesson_id] / "meta.yml"
+        pending = list(prerequisites_by_lesson[lesson_id])
+        visited = set()
+        while pending:
+            ancestor = pending.pop()
+            if ancestor in visited:
+                continue
+            visited.add(ancestor)
+            if role_by_lesson.get(ancestor) == "optional":
+                errors.append(
+                    f"{metadata_path}: {lesson_id} depends on optional lesson {ancestor}"
+                )
+            pending.extend(prerequisites_by_lesson.get(ancestor, set()))
 
 
 def declared_prerequisites(document_path):
@@ -249,6 +429,27 @@ def check_catalog_prerequisites(lesson_ids):
                 errors.append(
                     f"{catalog_path}: {lesson_id} prerequisites {sorted(declared)} "
                     f"do not match meta.yml {sorted(expected)}"
+                )
+
+
+def check_catalog_roles(lesson_ids):
+    for catalog_path, _ in lesson_catalogs():
+        for line in catalog_path.read_text(encoding="utf-8").splitlines():
+            row_match = CATALOG_ROW_PATTERN.match(line)
+            if not row_match:
+                continue
+            lesson_id = row_match.group(1)
+            directory = lesson_ids.get(lesson_id)
+            if directory is None:
+                continue
+            metadata_path = directory / "meta.yml"
+            metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
+            expected_role = metadata.get("lesson_role")
+            declared_role = line.strip("|").split("|")[-1].strip()
+            if declared_role != expected_role:
+                errors.append(
+                    f"{catalog_path}: {lesson_id} role {declared_role!r} "
+                    f"does not match meta.yml {expected_role!r}"
                 )
 
 
@@ -317,10 +518,14 @@ def main():
             check_code_line_length(code_path)
     lesson_ids = check_lessons()
     check_metadata(lesson_ids)
+    check_lesson_role_headers(lesson_ids)
+    check_optional_role_lists(lesson_ids)
+    check_prerequisite_roles(lesson_ids)
     check_active_time()
     check_catalog_coverage()
     check_prerequisite_documents()
     check_catalog_prerequisites(lesson_ids)
+    check_catalog_roles(lesson_ids)
     check_lesson_identifiers(lesson_ids)
     check_committed_binaries()
     if errors:
@@ -328,7 +533,8 @@ def main():
         return 1
     print(
         "QA OK: links, pairs, fences, line lengths, metadata, active times, "
-        "catalog coverage, prerequisites, lesson identifiers, and committed binaries"
+        "catalog coverage, catalog roles, prerequisites, lesson roles, "
+        "optional lists, prerequisite roles, lesson identifiers, and committed binaries"
     )
     return 0
 

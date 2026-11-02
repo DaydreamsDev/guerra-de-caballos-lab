@@ -15,7 +15,7 @@ Esta carpeta contiene solo lo que una persona necesita para entender y usar el l
 1. [`conceptual-framework-es.md`](conceptual-framework-es.md) — el modelo de cuatro capas y cómo
    pensar conceptos, paradigmas y sintaxis.
 2. [`starter-route-es.md`](starter-route-es.md) — una primera pasada acotada para quien tiene poca
-   o ninguna experiencia en software: siete lecciones, sin compilador.
+   o ninguna experiencia en software: siete lecciones `core`, sin compilador.
 3. [`how-learning-works-es.md`](how-learning-works-es.md) — la pedagogía y la didáctica del
    laboratorio.
 4. [`construction-track-es.md`](construction-track-es.md) — cómo construir el juego mediante cambios

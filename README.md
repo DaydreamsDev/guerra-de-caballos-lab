@@ -46,6 +46,10 @@ If you have little or no software engineering experience, start with the
 [Starter route](docs/guide/starter-route.md): seven lessons, no compiler, about four and a half
 hours. You can enter Track A or Track B afterwards.
 
+Each track has a core spine and optional lessons. The lesson catalog marks every lesson as
+`core`, `optional` or `capstone`. Optional lessons are never prerequisites of a core lesson:
+take them to see the full ladder or skip them for the shortest path.
+
 ## How to start
 
 1. Follow [`START-HERE.md`](START-HERE.md) for the guided order.

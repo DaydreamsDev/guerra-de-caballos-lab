@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** correctness failures · **Prerequisite:** archaeology-03 ·
 > **Estimated time:** 100 minutes
 > **Reading:** ~17 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

@@ -5,6 +5,7 @@
 **Concept:** scope and decomposition · **Time:** about 45 minutes ·
 **Prerequisites:** construction-02 · **Status:** drafted
 **Reading:** ~14 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

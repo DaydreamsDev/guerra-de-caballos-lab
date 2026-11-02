@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-04 ·
 > **Estimated time:** 62 minutes
 > **Reading:** ~15 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

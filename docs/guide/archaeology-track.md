@@ -61,6 +61,21 @@ without guessing.
 
 ---
 
+## Core and optional
+
+The core spine is
+`archaeology-00 → archaeology-01 → archaeology-02 → archaeology-03 → archaeology-04 →
+archaeology-05 → archaeology-08 → archaeology-09 → archaeology-14 → archaeology-15 →
+archaeology-17 → archaeology-18 → archaeology-19`. The capstone is `archaeology-19`.
+
+**Optional lessons (safe to skip):** `archaeology-06`, `archaeology-07`, `archaeology-10`,
+`archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+The spine reaches the retrospective without them. Take them for the complete track or skip them
+for the shortest path. No core lesson depends on an optional lesson.
+
+---
+
 ## 3. Failure taxonomy (taxonomía de fallos)
 
 Five classes. The class determines the lesson, not the file.

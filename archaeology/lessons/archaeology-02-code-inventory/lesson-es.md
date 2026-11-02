@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** inventario estructural · **Prerrequisito:** archaeology-01 ·
 > **Tiempo estimado:** 60 minutos
 > **Lectura:** ~16 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

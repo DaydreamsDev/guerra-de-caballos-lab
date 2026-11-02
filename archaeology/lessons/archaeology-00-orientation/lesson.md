@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** mental model · **Prerequisite:** common-04 ·
 > **Estimated time:** 45 minutes
 > **Reading:** ~17 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

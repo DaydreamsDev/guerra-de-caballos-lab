@@ -31,14 +31,14 @@ inglés; la prosa en español puede mostrar `borrador` para `drafted`.
 
 ## 0. Núcleo común (common core)
 
-| ID | Título | Concepto | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
-|---|---|---|---|---|---|---|
-| [common-00](../../common/lessons/common-00-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted |
-| [common-01](../../common/lessons/common-01-game-invariant/lesson-es.md) | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
-| [common-02](../../common/lessons/common-02-deterministic-harness/lesson-es.md) | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-01 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted |
-| [common-03](../../common/lessons/common-03-glossary/lesson-es.md) | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted |
-| [common-04](../../common/lessons/common-04-build-and-run/lesson-es.md) | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-02 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted |
-| [common-05](../../common/lessons/common-05-golden-traces/lesson-es.md) | Trazas de referencia (golden traces) | Contrato de comportamiento (behavioral contract) | common-02 | 45 min | Las sumas pasan; una traza reproducida; comando, salida y explicación registrados | drafted |
+| ID | Título | Concepto | Prerrequisito | Tiempo | Criterios de aceptación | Estado | Role |
+|---|---|---|---|---|---|---|---|
+| [common-00](../../common/lessons/common-00-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted | core |
+| [common-01](../../common/lessons/common-01-game-invariant/lesson-es.md) | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted | core |
+| [common-02](../../common/lessons/common-02-deterministic-harness/lesson-es.md) | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-01 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted | core |
+| [common-03](../../common/lessons/common-03-glossary/lesson-es.md) | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted | core |
+| [common-04](../../common/lessons/common-04-build-and-run/lesson-es.md) | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-02 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted | core |
+| [common-05](../../common/lessons/common-05-golden-traces/lesson-es.md) | Trazas de referencia (golden traces) | Contrato de comportamiento (behavioral contract) | common-02 | 45 min | Las sumas pasan; una traza reproducida; comando, salida y explicación registrados | drafted | core |
 
 Las filas siguen el orden de aprendizaje. `common-03` es una referencia lateral que puedes leer
 antes de `common-02` o `common-04`.
@@ -47,7 +47,7 @@ antes de `common-02` o `common-04`.
 todo contraste es inválido.
 
 > **Ruta inicial:** `common-00` a `common-05` más `construction-00`, sin compilador.
-> Ver [starter-route-es.md](starter-route-es.md).
+> Las siete lecciones son `core`. Ver [starter-route-es.md](starter-route-es.md).
 
 ---
 
@@ -59,70 +59,74 @@ Las variantes de mecanismo (`mechanism-01`…`mechanism-05`) están incorporadas
 En las lecciones de diseño, el criterio de aceptación es la **prueba de cambio**; en la lección de
 especificación (`construction-00`), es la **comprobación de predicción**.
 
-| ID | Título | Concepto | Prerrequisito | Tiempo | Criterio de aceptación | Estado |
-|---|---|---|---|---|---|---|
-| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson-es.md) | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-01, common-02 | 50 min | Predecir el siguiente movimiento de una partida con semilla | drafted |
-| [construction-01](../../construction/lessons/construction-01-non-structured/lesson-es.md) | Programación no estructurada (non-structured programming) | Flujo de control arbitrario | construction-00 | 70 min | Añadir «saltar turno»; contar los saltos recableados | drafted |
-| [construction-02](../../construction/lessons/construction-02-structured/lesson-es.md) | Programación estructurada (structured programming) | Secuencia, selección, iteración | construction-01 | 65 min | El mismo cambio, localizado; sin `goto` | drafted |
-| [construction-03](../../construction/lessons/construction-03-functions/lesson-es.md) | Funciones y parámetros (functions and parameters) | Ámbito y descomposición | construction-02 | 45 min | Extraer un movimiento sin variables globales | drafted |
-| [construction-04](../../construction/lessons/construction-04-records/lesson-es.md) | Registros (records) | Agregación | construction-03 | 55 min | Añadir `captured` a un caballo | drafted |
-| [construction-05](../../construction/lessons/construction-05-array-of-records/lesson-es.md) | Arreglo de estructuras (array of records) | Colección y recorrido | construction-04 | 62 min | Recorrer el tablero sin 64 variables | drafted |
-| [construction-06](../../construction/lessons/construction-06-references/lesson-es.md) | Referencias (references) | Alias sin direcciones | construction-05 | 45 min | Mutar un registro a través de un parámetro | drafted |
-| [construction-07](../../construction/lessons/construction-07-pointers/lesson-es.md) | Punteros (pointers) | Indirección y ciclo de vida | construction-06 | 88 min | Acceder a una casilla por puntero; explicar el paso de fila; trazas sin cambios | drafted |
-| [construction-08](../../construction/lessons/construction-08-modular/lesson-es.md) | Programación modular (modular programming) | Ocultamiento de información | construction-03, construction-07 | 92 min | Tablero 8×8 → 10×10; solo cambia el módulo del tablero | drafted |
-| [construction-09](../../construction/lessons/construction-09-abstract-data-type/lesson-es.md) | Tipo abstracto de datos (abstract data type, TAD) | Independencia de la representación | construction-08 | 97 min | Cambiar la representación del tablero; los llamadores compilan; las trazas pasan | drafted |
-| [construction-10](../../construction/lessons/construction-10-adt-invariants/lesson-es.md) | Invariantes del tipo abstracto de datos (abstract data type invariants) | Validez y ciclo de vida | construction-09 | 60 min | Escrituras fuera de rango rechazadas; board_is_valid verdadero; quitar la guarda expone el estado inválido | drafted |
-| [construction-11](../../construction/lessons/construction-11-encapsulation/lesson-es.md) | Encapsulación (encapsulation) | Clase con invariante | construction-10 | 60 min | El estado y las operaciones privadas preservan el invariante; el estado público expone un tablero inválido | drafted |
-| [construction-12](../../construction/lessons/construction-12-polymorphism/lesson-es.md) | Polimorfismo (polymorphism) | Ligadura dinámica (late binding) | construction-11 | 80 min | Añadir una subclase de Piece; cero ediciones en el bucle; trazas originales sin cambios | drafted |
-| [construction-13](../../construction/lessons/construction-13-composition/lesson-es.md) | Composición (composition) | Composición sobre herencia | construction-12 | 68 min | Sustituir herencia por delegación; comportamiento y 20 trazas sin cambios | drafted |
-| [construction-14](../../construction/lessons/construction-14-generic-functions/lesson-es.md) | Funciones genéricas (generic functions) | Parámetros de tipo | construction-12 o construction-13 | 68 min | Un generador de movimientos para dos tipos de pieza | drafted |
-| [construction-15](../../construction/lessons/construction-15-generic-classes/lesson-es.md) | Clases genéricas y conceptos (generic classes and concepts) | Restricciones | construction-14 | 81 min | La misma plantilla de motor instancia 8×8 y 10×10; las trazas de 8×8 pasan | drafted |
-| [construction-16](../../construction/lessons/construction-16-ownership/lesson-es.md) | Propiedad y ciclo de vida de recursos (ownership) | Ciclo de vida | construction-15 | 70 min | Propiedad con unique_ptr; copia eliminada; movimiento disponible; 20 trazas pasan | drafted |
-| [construction-17](../../construction/lessons/construction-17-stl/lesson-es.md) | Biblioteca de plantillas estándar y algoritmos (Standard Template Library and algorithms) | Abstracción de la iteración | construction-05, construction-16 | 68 min | La misma transcripción tras reemplazar tres recorridos | drafted |
-| [construction-18](../../construction/lessons/construction-18-functional/lesson-es.md) | Estilo funcional (functional style) | Pureza e inmutabilidad | construction-17 | 85 min | Deshacer/rehacer gratis mediante el historial del tablero | drafted |
-| [construction-19](../../construction/lessons/construction-19-data-oriented/lesson-es.md) | Diseño orientado a datos (data-oriented design) | Localidad | construction-05, construction-17 | 85 min | 10,000 partidas; perfil medido | drafted |
-| [construction-20](../../construction/lessons/construction-20-hexagonal/lesson-es.md) | Hexagonal (hexagonal) | Puertos y adaptadores | construction-08, construction-17 | 92 min | El mismo núcleo, adaptadores de consola y de prueba | drafted |
-| [construction-21](../../construction/lessons/construction-21-concurrency/lesson-es.md) | Concurrencia (concurrency) | Estado compartido frente a mensajes | construction-12, construction-20 | 115 min | Condición de carrera detectada y eliminada; determinismo conservado | drafted |
-| [construction-22](../../construction/lessons/construction-22-error-contracts/lesson-es.md) | Contratos de error (error contracts) | Recuperación | construction-09, construction-21 | 75 min | Movimiento inválido gestionado sin `exit` | drafted |
-| [construction-23](../../construction/lessons/construction-23-port/lesson-es.md) | Portar a otro lenguaje (port to another language) | La sintaxis es desechable | construction-09 o construction-12 | 195 min | Las mismas trazas desde Python/Rust | drafted |
-| [construction-24](../../construction/lessons/construction-24-capstone/lesson-es.md) | Proyecto final: informe de costes (capstone: cost report) | Justificación de compromisos | construction-12, construction-15 | 175 min | Defender una decisión de diseño con números | drafted |
+| ID | Título | Concepto | Prerrequisito | Tiempo | Criterio de aceptación | Estado | Role |
+|---|---|---|---|---|---|---|---|
+| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson-es.md) | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-01, common-02 | 50 min | Predecir el siguiente movimiento de una partida con semilla | drafted | core |
+| [construction-01](../../construction/lessons/construction-01-non-structured/lesson-es.md) | Programación no estructurada (non-structured programming) | Flujo de control arbitrario | construction-00 | 70 min | Añadir «saltar turno»; contar los saltos recableados | drafted | core |
+| [construction-02](../../construction/lessons/construction-02-structured/lesson-es.md) | Programación estructurada (structured programming) | Secuencia, selección, iteración | construction-01 | 65 min | El mismo cambio, localizado; sin `goto` | drafted | core |
+| [construction-03](../../construction/lessons/construction-03-functions/lesson-es.md) | Funciones y parámetros (functions and parameters) | Ámbito y descomposición | construction-02 | 45 min | Extraer un movimiento sin variables globales | drafted | core |
+| [construction-04](../../construction/lessons/construction-04-records/lesson-es.md) | Registros (records) | Agregación | construction-03 | 55 min | Añadir `captured` a un caballo | drafted | core |
+| [construction-05](../../construction/lessons/construction-05-array-of-records/lesson-es.md) | Arreglo de estructuras (array of records) | Colección y recorrido | construction-04 | 62 min | Recorrer el tablero sin 64 variables | drafted | core |
+| [construction-06](../../construction/lessons/construction-06-references/lesson-es.md) | Referencias (references) | Alias sin direcciones | construction-05 | 45 min | Mutar un registro a través de un parámetro | drafted | core |
+| [construction-07](../../construction/lessons/construction-07-pointers/lesson-es.md) | Punteros (pointers) | Indirección y ciclo de vida | construction-06 | 88 min | Acceder a una casilla por puntero; explicar el paso de fila; trazas sin cambios | drafted | core |
+| [construction-08](../../construction/lessons/construction-08-modular/lesson-es.md) | Programación modular (modular programming) | Ocultamiento de información | construction-03, construction-07 | 92 min | Tablero 8×8 → 10×10; solo cambia el módulo del tablero | drafted | core |
+| [construction-09](../../construction/lessons/construction-09-abstract-data-type/lesson-es.md) | Tipo abstracto de datos (abstract data type, TAD) | Independencia de la representación | construction-08 | 97 min | Cambiar la representación del tablero; los llamadores compilan; las trazas pasan | drafted | core |
+| [construction-10](../../construction/lessons/construction-10-adt-invariants/lesson-es.md) | Invariantes del tipo abstracto de datos (abstract data type invariants) | Validez y ciclo de vida | construction-09 | 60 min | Escrituras fuera de rango rechazadas; board_is_valid verdadero; quitar la guarda expone el estado inválido | drafted | core |
+| [construction-11](../../construction/lessons/construction-11-encapsulation/lesson-es.md) | Encapsulación (encapsulation) | Clase con invariante | construction-10 | 60 min | El estado y las operaciones privadas preservan el invariante; el estado público expone un tablero inválido | drafted | core |
+| [construction-12](../../construction/lessons/construction-12-polymorphism/lesson-es.md) | Polimorfismo (polymorphism) | Ligadura dinámica (late binding) | construction-11 | 80 min | Añadir una subclase de Piece; cero ediciones en el bucle; trazas originales sin cambios | drafted | core |
+| [construction-13](../../construction/lessons/construction-13-composition/lesson-es.md) | Composición (composition) | Composición sobre herencia | construction-12 | 68 min | Sustituir herencia por delegación; comportamiento y 20 trazas sin cambios | drafted | core |
+| [construction-14](../../construction/lessons/construction-14-generic-functions/lesson-es.md) | Funciones genéricas (generic functions) | Parámetros de tipo | construction-12 o construction-13 | 68 min | Un generador de movimientos para dos tipos de pieza | drafted | core |
+| [construction-15](../../construction/lessons/construction-15-generic-classes/lesson-es.md) | Clases genéricas y conceptos (generic classes and concepts) | Restricciones | construction-14 | 81 min | La misma plantilla de motor instancia 8×8 y 10×10; las trazas de 8×8 pasan | drafted | core |
+| [construction-16](../../construction/lessons/construction-16-ownership/lesson-es.md) | Propiedad y ciclo de vida de recursos (ownership) | Ciclo de vida | construction-15 | 70 min | Propiedad con unique_ptr; copia eliminada; movimiento disponible; 20 trazas pasan | drafted | core |
+| [construction-17](../../construction/lessons/construction-17-stl/lesson-es.md) | Biblioteca de plantillas estándar y algoritmos (Standard Template Library and algorithms) | Abstracción de la iteración | construction-05, construction-16 | 68 min | La misma transcripción tras reemplazar tres recorridos | drafted | core |
+| [construction-18](../../construction/lessons/construction-18-functional/lesson-es.md) | Estilo funcional (functional style) | Pureza e inmutabilidad | construction-17 | 85 min | Deshacer/rehacer gratis mediante el historial del tablero | drafted | core |
+| [construction-19](../../construction/lessons/construction-19-data-oriented/lesson-es.md) | Diseño orientado a datos (data-oriented design) | Localidad | construction-05, construction-17 | 85 min | 10,000 partidas; perfil medido | drafted | optional |
+| [construction-20](../../construction/lessons/construction-20-hexagonal/lesson-es.md) | Hexagonal (hexagonal) | Puertos y adaptadores | construction-08, construction-17 | 92 min | El mismo núcleo, adaptadores de consola y de prueba | drafted | core |
+| [construction-21](../../construction/lessons/construction-21-concurrency/lesson-es.md) | Concurrencia (concurrency) | Estado compartido frente a mensajes | construction-12, construction-20 | 115 min | Condición de carrera detectada y eliminada; determinismo conservado | drafted | optional |
+| [construction-22](../../construction/lessons/construction-22-error-contracts/lesson-es.md) | Contratos de error (error contracts) | Recuperación | construction-09, construction-21 | 75 min | Movimiento inválido gestionado sin `exit` | drafted | optional |
+| [construction-23](../../construction/lessons/construction-23-port/lesson-es.md) | Portar a otro lenguaje (port to another language) | La sintaxis es desechable | construction-09 o construction-12 | 195 min | Las mismas trazas desde Python/Rust | drafted | optional |
+| [construction-24](../../construction/lessons/construction-24-capstone/lesson-es.md) | Proyecto final: informe de costes (capstone: cost report) | Justificación de compromisos | construction-12, construction-15 | 175 min | Defender una decisión de diseño con números | drafted | capstone |
 
 ### Ruta de la pista A (recomendada)
 
 `construction-00 → construction-01 → construction-02 → construction-03 → construction-04 →
 construction-05 → construction-06 → construction-07 → construction-08 → construction-09 →
-construction-10 → construction-11 → construction-12 → construction-14 → construction-15`
+construction-10 → construction-11 → construction-12 → construction-13 → construction-14 →
+construction-15 → construction-16 → construction-17 → construction-18 → construction-20 →
+construction-24`
 
-Lentes (elige dos; `construction-20` es la primera por defecto): `construction-16`,
-`construction-17 → construction-18`, `construction-20`.
-Proyecto final: `construction-24`.
+**Lecciones opcionales (puedes omitirlas):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+La columna vertebral llega al proyecto final sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 ---
 
 ## 2. Pista B — Arqueología (archaeology)
 
-| ID | Título | Clase de fallo | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
-|---|---|---|---|---|---|---|
-| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson-es.md) | Orientación: leer un código heredado | — | common-04 | 45 min | Mapa de código + propósito en una frase | drafted |
-| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson-es.md) | Compilar y ejecutar código heredado | — | common-04 | 62 min | Compilación ejecutable o bloqueo documentado | drafted |
-| [archaeology-02](../../archaeology/lessons/archaeology-02-code-inventory/lesson-es.md) | Inventario de código y grafo de llamadas | — | archaeology-01 | 60 min | Inventario + grafo de llamadas con evidencia | drafted |
-| [archaeology-03](../../archaeology/lessons/archaeology-03-reverse-spec/lesson-es.md) | Ingeniería inversa de la especificación | — | archaeology-02 | 90 min | Especificación + trazas del original | drafted |
-| [archaeology-04](../../archaeology/lessons/archaeology-04-correctness-failures/lesson-es.md) | Fallos de corrección (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 fichas de fallo + pruebas | drafted |
-| [archaeology-05](../../archaeology/lessons/archaeology-05-global-state/lesson-es.md) | Estado global y acoplamiento oculto | design | archaeology-04 | 60 min | Mapa de mutaciones por cada global | drafted |
-| [archaeology-06](../../archaeology/lessons/archaeology-06-duplication-switch/lesson-es.md) | Duplicación y el switch de ocho casos | design | archaeology-04 | 60 min | Una extracción, comportamiento conservado | drafted |
-| [archaeology-07](../../archaeology/lessons/archaeology-07-representation-leakage/lesson-es.md) | Fuga de representación y arreglos paralelos | design | archaeology-05 | 60 min | Registro introducido; llamadores actualizados | drafted |
-| [archaeology-08](../../archaeology/lessons/archaeology-08-module-boundary/lesson-es.md) | Frontera de módulo ausente | design | archaeology-05 | 90 min | Cabecera + implementación; interior oculto | drafted |
-| [archaeology-09](../../archaeology/lessons/archaeology-09-abstract-data-type/lesson-es.md) | Tipo abstracto de datos ausente | design | archaeology-08 | 90 min | Tipo opaco; cambio de representación | drafted |
-| [archaeology-10](../../archaeology/lessons/archaeology-10-polymorphism/lesson-es.md) | Polimorfismo ausente | design | archaeology-09 | 90 min | Switch sustituido por despacho | drafted |
-| [archaeology-11](../../archaeology/lessons/archaeology-11-input-output/lesson-es.md) | Entrada y salida y capacidad de prueba | design | archaeology-09 | 60 min | Núcleo ejecutable sin consola | drafted |
-| [archaeology-12](../../archaeology/lessons/archaeology-12-naming-comments/lesson-es.md) | Nombres y comentarios | professional-practice | archaeology-04 | 60 min | Renombrado + reescritura de comentarios con motivos | drafted |
-| [archaeology-13](../../archaeology/lessons/archaeology-13-documentation/lesson-es.md) | Documentación técnica para mantenedores | professional-practice | archaeology-03 | 60 min | README + especificación + compilación/ejecución/prueba | drafted |
-| [archaeology-14](../../archaeology/lessons/archaeology-14-tests-determinism/lesson-es.md) | Pruebas y determinismo | professional-practice | archaeology-03 | 90 min | Trazas de referencia + control de semilla | drafted |
-| [archaeology-15](../../archaeology/lessons/archaeology-15-static-analysis/lesson-es.md) | Análisis estático y advertencias del compilador | professional-practice | archaeology-04 | 60 min | Advertencias clasificadas; cero advertencias; comportamiento conservado | drafted |
-| [archaeology-16](../../archaeology/lessons/archaeology-16-platform-lock-in/lesson-es.md) | Dependencia de plataforma | robustness | archaeology-01 | 60 min | Compilación portable; adaptador para consola | drafted |
-| [archaeology-17](../../archaeology/lessons/archaeology-17-code-review/lesson-es.md) | Revisión de código de una función heredada | professional-practice | archaeology-04 | 60 min | 3 hallazgos + severidad + una prueba | drafted |
-| [archaeology-18](../../archaeology/lessons/archaeology-18-refactor-workshop/lesson-es.md) | Taller de refactorización | all failure classes | archaeology-04, archaeology-05, archaeology-08, archaeology-09 | 180 min | Legado → peldaño de la pista A, trazas iguales | drafted |
-| [archaeology-19](../../archaeology/lessons/archaeology-19-review-retrospective/lesson-es.md) | Lista de revisión y retrospectiva | — | archaeology-18 | 90 min | Lista reutilizable; retrospectiva final | drafted |
+| ID | Título | Clase de fallo | Prerrequisito | Tiempo | Criterios de aceptación | Estado | Role |
+|---|---|---|---|---|---|---|---|
+| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson-es.md) | Orientación: leer un código heredado | — | common-04 | 45 min | Mapa de código + propósito en una frase | drafted | core |
+| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson-es.md) | Compilar y ejecutar código heredado | — | common-04 | 62 min | Compilación ejecutable o bloqueo documentado | drafted | core |
+| [archaeology-02](../../archaeology/lessons/archaeology-02-code-inventory/lesson-es.md) | Inventario de código y grafo de llamadas | — | archaeology-01 | 60 min | Inventario + grafo de llamadas con evidencia | drafted | core |
+| [archaeology-03](../../archaeology/lessons/archaeology-03-reverse-spec/lesson-es.md) | Ingeniería inversa de la especificación | — | archaeology-02 | 90 min | Especificación + trazas del original | drafted | core |
+| [archaeology-04](../../archaeology/lessons/archaeology-04-correctness-failures/lesson-es.md) | Fallos de corrección (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 fichas de fallo + pruebas | drafted | core |
+| [archaeology-05](../../archaeology/lessons/archaeology-05-global-state/lesson-es.md) | Estado global y acoplamiento oculto | design | archaeology-04 | 60 min | Mapa de mutaciones por cada global | drafted | core |
+| [archaeology-06](../../archaeology/lessons/archaeology-06-duplication-switch/lesson-es.md) | Duplicación y el switch de ocho casos | design | archaeology-04 | 60 min | Una extracción, comportamiento conservado | drafted | optional |
+| [archaeology-07](../../archaeology/lessons/archaeology-07-representation-leakage/lesson-es.md) | Fuga de representación y arreglos paralelos | design | archaeology-05 | 60 min | Registro introducido; llamadores actualizados | drafted | optional |
+| [archaeology-08](../../archaeology/lessons/archaeology-08-module-boundary/lesson-es.md) | Frontera de módulo ausente | design | archaeology-05 | 90 min | Cabecera + implementación; interior oculto | drafted | core |
+| [archaeology-09](../../archaeology/lessons/archaeology-09-abstract-data-type/lesson-es.md) | Tipo abstracto de datos ausente | design | archaeology-08 | 90 min | Tipo opaco; cambio de representación | drafted | core |
+| [archaeology-10](../../archaeology/lessons/archaeology-10-polymorphism/lesson-es.md) | Polimorfismo ausente | design | archaeology-09 | 90 min | Switch sustituido por despacho | drafted | optional |
+| [archaeology-11](../../archaeology/lessons/archaeology-11-input-output/lesson-es.md) | Entrada y salida y capacidad de prueba | design | archaeology-09 | 60 min | Núcleo ejecutable sin consola | drafted | optional |
+| [archaeology-12](../../archaeology/lessons/archaeology-12-naming-comments/lesson-es.md) | Nombres y comentarios | professional-practice | archaeology-04 | 60 min | Renombrado + reescritura de comentarios con motivos | drafted | optional |
+| [archaeology-13](../../archaeology/lessons/archaeology-13-documentation/lesson-es.md) | Documentación técnica para mantenedores | professional-practice | archaeology-03 | 60 min | README + especificación + compilación/ejecución/prueba | drafted | optional |
+| [archaeology-14](../../archaeology/lessons/archaeology-14-tests-determinism/lesson-es.md) | Pruebas y determinismo | professional-practice | archaeology-03 | 90 min | Trazas de referencia + control de semilla | drafted | core |
+| [archaeology-15](../../archaeology/lessons/archaeology-15-static-analysis/lesson-es.md) | Análisis estático y advertencias del compilador | professional-practice | archaeology-04 | 60 min | Advertencias clasificadas; cero advertencias; comportamiento conservado | drafted | core |
+| [archaeology-16](../../archaeology/lessons/archaeology-16-platform-lock-in/lesson-es.md) | Dependencia de plataforma | robustness | archaeology-01 | 60 min | Compilación portable; adaptador para consola | drafted | optional |
+| [archaeology-17](../../archaeology/lessons/archaeology-17-code-review/lesson-es.md) | Revisión de código de una función heredada | professional-practice | archaeology-04 | 60 min | 3 hallazgos + severidad + una prueba | drafted | core |
+| [archaeology-18](../../archaeology/lessons/archaeology-18-refactor-workshop/lesson-es.md) | Taller de refactorización | all failure classes | archaeology-04, archaeology-05, archaeology-08, archaeology-09 | 180 min | Legado → peldaño de la pista A, trazas iguales | drafted | core |
+| [archaeology-19](../../archaeology/lessons/archaeology-19-review-retrospective/lesson-es.md) | Lista de revisión y retrospectiva | — | archaeology-18 | 90 min | Lista reutilizable; retrospectiva final | drafted | capstone |
 
 ### Ruta de la pista B (recomendada)
 
@@ -130,8 +134,11 @@ Proyecto final: `construction-24`.
 → archaeology-08 → archaeology-09 → archaeology-14 → archaeology-15 → archaeology-17 →
 archaeology-18 → archaeology-19`
 
-Lentes opcionales: `archaeology-06`, `archaeology-07`, `archaeology-10`, `archaeology-11`,
-`archaeology-12`, `archaeology-13`, `archaeology-16`.
+**Lecciones opcionales (puedes omitirlas):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+La columna vertebral llega a la retrospectiva sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 La ruta es una **columna vertebral**, no una prisión: quien revisa puede saltar a la clase de fallo
 que necesite.
@@ -139,9 +146,9 @@ que necesite.
 > **Hueco y alcance de la clase:** falta el peldaño histórico de la clase, y la versión moderna de
 > la clase se especifica aquí en `construction-11`, `construction-12` y `construction-13`. Cualquier
 > otro paso que no está en los originales — programación modular, tipos abstractos de datos,
-> programación orientada a objetos, programación genérica y las lentes — nunca se pensó para
-> resolverse en los archivos heredados. Son extensiones del plan de estudios, no artefactos
-> históricos ausentes. Consulta [`archaeology-track-es.md`](archaeology-track-es.md)
+> programación orientada a objetos, programación genérica y las lecciones avanzadas — nunca se
+> pensó para resolverse en los archivos heredados. Son extensiones del plan de estudios, no
+> artefactos históricos ausentes. Consulta [`archaeology-track-es.md`](archaeology-track-es.md)
 > para la nota de alcance.
 
 ---

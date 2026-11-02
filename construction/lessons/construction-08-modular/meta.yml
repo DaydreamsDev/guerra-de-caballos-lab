@@ -1,6 +1,7 @@
 id: construction-08
 title: "Modular programming (programación modular)"
 concept: "Information hiding (ocultamiento de información)"
+lesson_role: "core"
 prerequisites:
   - construction-03
   - construction-07

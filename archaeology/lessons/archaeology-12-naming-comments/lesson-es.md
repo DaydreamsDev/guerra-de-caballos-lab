@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** nombres y comentarios · **Prerrequisito:** archaeology-04 ·
 > **Tiempo estimado:** 60 minutos
 > **Lectura:** ~19 minutos
+> **Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

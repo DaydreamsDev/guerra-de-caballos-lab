@@ -159,8 +159,10 @@ Formato: **Inglés** — *Español* — definición — concepción errónea hab
 |---|---|---|---|
 | Invariant (project sense) | Invariante (del proyecto) | El comportamiento del juego que nunca cambia entre variantes | “El código es el invariante.” |
 | Rung | Peldaño | Un paso de la escalera de conceptos | “Un peldaño es una carpeta.” |
-| Lens | Lente | Una forma ortogonal de pensar aplicada al mismo juego | “Una lente es un peldaño avanzado.” |
-| Track | Pista | Una ruta de aprendizaje: construcción o arqueología | “Una pista es un nivel de dificultad.” |
+| Core lesson | Lección del tronco | Una lección obligatoria de la columna vertebral | «Una lección del tronco es opcional.» |
+| Optional lesson | Lección opcional | Una lección fuera de la columna vertebral que se puede omitir | «Una lección opcional es obligatoria para el proyecto final.» |
+| Capstone | Proyecto final | La lección final que pide defender una decisión de diseño con evidencia | «El proyecto final es un resumen.» |
+| Track | Pista | Una ruta de aprendizaje: construcción o arqueología | «Una pista es un nivel de dificultad.» |
 | Provenance | Procedencia | El origen, la autoría y la licencia de un artefacto | “La procedencia es un comentario.” |
 
 ---

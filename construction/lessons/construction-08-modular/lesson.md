@@ -5,6 +5,7 @@
 **Concept:** information hiding (ocultamiento de información) · **Time:** about 92 minutes ·
 **Status:** drafted · **Prerequisites:** construction-03, construction-07
 **Reading:** ~18 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

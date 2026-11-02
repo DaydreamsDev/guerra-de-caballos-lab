@@ -4,6 +4,7 @@
 
 **Concepto:** clase con invariante · **Tiempo:** unos 60 minutos ·
 **Prerrequisitos:** construction-10 · **Estado:** borrador · **Lectura:** ~19 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

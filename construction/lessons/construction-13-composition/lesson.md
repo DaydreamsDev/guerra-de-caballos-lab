@@ -5,6 +5,7 @@
 **Concept:** composition over inheritance · **Time:** about 68 minutes ·
 **Prerequisites:** construction-12 · **Status:** drafted
 **Reading:** ~21 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

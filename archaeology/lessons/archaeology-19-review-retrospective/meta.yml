@@ -1,6 +1,7 @@
 id: archaeology-19
 title: "Review checklist and retrospective"
 concept: "review and retrospective"
+lesson_role: "capstone"
 prerequisites:
   - archaeology-18
 reading_time: "23 minutes"

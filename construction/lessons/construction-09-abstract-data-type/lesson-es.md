@@ -4,6 +4,7 @@
 
 **Concepto:** independencia de representación · **Tiempo:** unos 97 minutos ·
 **Prerrequisitos:** construction-08 · **Estado:** borrador · **Lectura:** ~22 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

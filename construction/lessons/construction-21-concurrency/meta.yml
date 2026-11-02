@@ -1,6 +1,7 @@
 id: construction-21
 title: "Concurrency (concurrencia)"
 concept: "shared state vs messages"
+lesson_role: "optional"
 prerequisites:
   - "construction-12"
   - "construction-20"

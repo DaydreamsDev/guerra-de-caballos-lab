@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** shared vocabulary (vocabulario compartido) ·
 > **Prerequisites:** none · **Estimated time:** 20 minutes
 > **Reading:** ~13 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

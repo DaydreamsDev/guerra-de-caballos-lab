@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** separación de entrada/salida y capacidad de prueba ·
 > **Prerrequisito:** archaeology-09 · **Tiempo estimado:** 60 minutos
 > **Lectura:** ~21 minutos
+> **Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

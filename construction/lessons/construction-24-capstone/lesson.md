@@ -5,6 +5,7 @@
 **Concept:** tradeoff justification · **Time:** about 175 minutes ·
 **Prerequisites:** construction-12, construction-15 · **Status:** drafted
 **Reading:** ~20 minutes
+**Lesson role:** capstone
 
 ## Why this lesson exists
 
@@ -699,8 +700,9 @@ What comes next depends on your verdict:
 - if the two halves disagreed, you have found the tradeoff the capstone exists to show: the rung
   that is cheap for one change is expensive for the other.
 
-After the capstone, the lenses are `construction-16` (ownership), `construction-18` (functional) and
-`construction-20` (hexagonal). Track B, archaeology, starts at `archaeology-00` in the catalog.
+After the capstone, the optional lessons are `construction-19` (data-oriented), `construction-21`
+(concurrency), `construction-22` (error contracts) and `construction-23` (port). Track B,
+archaeology, starts at `archaeology-00` in the catalog.
 
 See the [lesson catalog](../../../docs/guide/lesson-catalog.md) for the full path.
 

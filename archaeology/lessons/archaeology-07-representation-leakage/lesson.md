@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** representation leakage and records · **Prerequisite:**
 > archaeology-05 · **Estimated time:** 60 minutes
 > **Reading:** ~18 minutes
+> **Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

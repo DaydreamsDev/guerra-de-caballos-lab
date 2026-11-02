@@ -55,12 +55,18 @@ These lessons are modern curriculum extensions, not reconstructed historical cod
 [Ownership and resource lifetime](lessons/construction-16-ownership/lesson.md),
 [Standard Template Library and algorithms](lessons/construction-17-stl/lesson.md),
 [Functional style](lessons/construction-18-functional/lesson.md),
-[Data-oriented design](lessons/construction-19-data-oriented/lesson.md),
+[Data-oriented design](lessons/construction-19-data-oriented/lesson.md) (optional),
 [Hexagonal](lessons/construction-20-hexagonal/lesson.md),
-[Concurrency](lessons/construction-21-concurrency/lesson.md),
-[Error contracts](lessons/construction-22-error-contracts/lesson.md),
-[Port to another language](lessons/construction-23-port/lesson.md) and
+[Concurrency](lessons/construction-21-concurrency/lesson.md) (optional),
+[Error contracts](lessons/construction-22-error-contracts/lesson.md) (optional),
+[Port to another language](lessons/construction-23-port/lesson.md) (optional) and
 [Capstone: cost report](lessons/construction-24-capstone/lesson.md). Track A is complete.
+
+**Optional lessons (safe to skip):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+The spine reaches the capstone without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 See [`../docs/guide/construction-track.md`](../docs/guide/construction-track.md) and
 [`../docs/guide/lesson-catalog.md`](../docs/guide/lesson-catalog.md).

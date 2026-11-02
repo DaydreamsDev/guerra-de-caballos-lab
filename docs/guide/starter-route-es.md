@@ -35,6 +35,13 @@ Siete lecciones, en este orden. Los tiempos son estimaciones.
 | 6 | [common-05 — Trazas de referencia](../../common/lessons/common-05-golden-traces/lesson-es.md) | 45 min | Trazas de referencia | [EVIDENCE-es.md](../../common/lessons/common-05-golden-traces/EVIDENCE-es.md) |
 | 7 | [construction-00 — Leer las reglas](../../construction/lessons/construction-00-read-the-rules/lesson-es.md) | 50 min | Especificación | [EVIDENCE-es.md](../../construction/lessons/construction-00-read-the-rules/EVIDENCE-es.md) |
 
+## Tronco y opcionales
+
+Las siete lecciones de esta ruta son `core`. La ruta no contiene lecciones opcionales. Las
+lecciones opcionales aparecen más adelante en la pista A y en la pista B; el
+[catálogo de lecciones](lesson-catalog-es.md) marca cada lección como `core`, `optional` o
+`capstone`.
+
 ## El flujo
 
 ```text
@@ -83,8 +90,10 @@ Dos sesiones de unas 2 h 15 cada una, o cuatro de aproximadamente 1 h.
 
 ## Después de la ruta
 
-- La **Pista A** continúa en `construction-01` y requiere C++20.
-- La **Pista B** empieza en `archaeology-00`; su comprobación de compilación requiere C++20.
+- La **Pista A** continúa en `construction-01` y sigue la columna vertebral; las lecciones
+  opcionales están marcadas en el [catálogo](lesson-catalog-es.md).
+- La **Pista B** empieza en `archaeology-00`; su comprobación de compilación requiere C++20. Las
+  lecciones opcionales están marcadas en el [catálogo](lesson-catalog-es.md).
 
 ## Preguntas frecuentes
 
