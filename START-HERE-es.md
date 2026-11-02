@@ -58,8 +58,12 @@ Ruta recomendada:
 19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson-es.md)
 20. [construction-24 — Proyecto final](construction/lessons/construction-24-capstone/lesson-es.md)
 
-Lentes opcionales: `construction-17`, `construction-19`, `construction-21`, `construction-22`,
-`construction-23`.
+Lentes opcionales:
+[construction-17](construction/lessons/construction-17-stl/lesson-es.md),
+[construction-19](construction/lessons/construction-19-data-oriented/lesson-es.md),
+[construction-21](construction/lessons/construction-21-concurrency/lesson-es.md),
+[construction-22](construction/lessons/construction-22-error-contracts/lesson-es.md),
+[construction-23](construction/lessons/construction-23-port/lesson-es.md).
 
 ### Pista B — Arqueología
 
@@ -90,8 +94,14 @@ Ruta recomendada:
 13. **archaeology-19 — Revisión y retrospectiva**
     [Abrir](archaeology/lessons/archaeology-19-review-retrospective/lesson-es.md)
 
-Lentes opcionales: `archaeology-06`, `archaeology-07`, `archaeology-10`, `archaeology-11`,
-`archaeology-12`, `archaeology-13`, `archaeology-16`.
+Lentes opcionales:
+[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson-es.md),
+[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson-es.md),
+[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson-es.md),
+[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson-es.md),
+[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson-es.md),
+[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson-es.md),
+[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson-es.md).
 
 ## 4. Si pierdes el hilo
 
