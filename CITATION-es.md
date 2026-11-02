@@ -8,8 +8,8 @@ Si usas este laboratorio, cítalo con los datos de [`CITATION.cff`](CITATION.cff
 |---|---|
 | Título | Guerra de Caballos — Laboratorio de aprendizaje |
 | Autor | Juan Camilo Rivera |
-| Versión | 0.1.0 |
-| Fecha | 2026-10-31 |
+| Versión | 0.1.3 |
+| Fecha | 2026-11-02 |
 | Licencia | MIT |
 | Repositorio | `https://github.com/DaydreamsDev/guerra-de-caballos-lab` |
 
