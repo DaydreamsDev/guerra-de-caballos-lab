@@ -2,7 +2,15 @@
 
 > [English](START-HERE.md) | [Español](START-HERE-es.md)
 
-Sigue este orden. No necesitas recorrer el repositorio para encontrar el siguiente paso.
+Hay dos entradas. No necesitas recorrer el repositorio para encontrar el siguiente paso.
+
+## Elige tu entrada
+
+- **Laboratorio completo** — sigue esta página desde la sección 0. Las pistas A y B requieren un
+  compilador C++20.
+- **Ruta inicial** — una primera pasada acotada para quien tiene poca o ninguna experiencia en
+  ingeniería de software: siete lecciones, sin compilador, unas cuatro horas y media. Empieza en
+  [`docs/guide/starter-route-es.md`](docs/guide/starter-route-es.md) y vuelve aquí para las pistas.
 
 ## 0. Comprueba tu entorno
 

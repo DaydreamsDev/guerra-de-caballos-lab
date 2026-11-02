@@ -14,16 +14,18 @@ Esta carpeta contiene solo lo que una persona necesita para entender y usar el l
 
 1. [`conceptual-framework-es.md`](conceptual-framework-es.md) — el modelo de cuatro capas y cómo
    pensar conceptos, paradigmas y sintaxis.
-2. [`how-learning-works-es.md`](how-learning-works-es.md) — la pedagogía y la didáctica del
+2. [`starter-route-es.md`](starter-route-es.md) — una primera pasada acotada para quien tiene poca
+   o ninguna experiencia en software: siete lecciones, sin compilador.
+3. [`how-learning-works-es.md`](how-learning-works-es.md) — la pedagogía y la didáctica del
    laboratorio.
-3. [`construction-track-es.md`](construction-track-es.md) — cómo construir el juego mediante cambios
+4. [`construction-track-es.md`](construction-track-es.md) — cómo construir el juego mediante cambios
    de diseño.
-4. [`archaeology-track-es.md`](archaeology-track-es.md) — cómo diagnosticar y reparar el código
+5. [`archaeology-track-es.md`](archaeology-track-es.md) — cómo diagnosticar y reparar el código
    histórico.
-5. [`lesson-catalog-es.md`](lesson-catalog-es.md) — cada lección, con IDs y prerrequisitos.
-6. [`verification-es.md`](verification-es.md) — criterios de aceptación, evidencia y autorrevisión.
-7. [`further-reading-es.md`](further-reading-es.md) — fuentes y siguientes pasos.
-8. [`glossary-es.md`](glossary-es.md) — terminología en inglés y español.
+6. [`lesson-catalog-es.md`](lesson-catalog-es.md) — cada lección, con IDs y prerrequisitos.
+7. [`verification-es.md`](verification-es.md) — criterios de aceptación, evidencia y autorrevisión.
+8. [`further-reading-es.md`](further-reading-es.md) — fuentes y siguientes pasos.
+9. [`glossary-es.md`](glossary-es.md) — terminología en inglés y español.
 
 ## Mantenedores
 

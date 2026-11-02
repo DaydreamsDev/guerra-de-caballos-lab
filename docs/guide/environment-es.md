@@ -5,6 +5,16 @@
 Este es el único lugar para los requisitos de entorno del laboratorio. El archivo heredado tiene su
 propia historia de plataforma; ese es otro tema y está cubierto por `archaeology-16`.
 
+## Entorno mínimo (ruta inicial)
+
+Si sigues la [ruta inicial](starter-route-es.md), solo necesitas:
+
+- Python 3.10 o posterior.
+- Bash 4 o posterior.
+- Herramientas POSIX estándar: `grep`, `diff`, `cmp`, `sha256sum`.
+
+El compilador C++20 solo se necesita al entrar en la pista A o en la pista B.
+
 ## Entorno principal
 
 - Linux o macOS con shell POSIX.

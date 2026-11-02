@@ -18,6 +18,9 @@ especificación → arnés → trazas de referencia → primera lección
 common-00 → common-01 → common-02 → common-03 → common-04 → common-05
 ```
 
+Si sigues la [ruta inicial](../docs/guide/starter-route-es.md), este núcleo más
+`construction-00` es la ruta completa.
+
 ## Lecciones
 
 | ID | Lección | Concepto | Estado |

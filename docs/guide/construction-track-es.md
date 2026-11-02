@@ -18,6 +18,9 @@ experiencia en C++; cada lección enseña la sintaxis mínima que su concepto ne
 **Requisito previo:** variables, condicionales y bucles. Si la persona que aprende no puede leer un
 `for`, empieza con `construction-00`.
 
+Si tienes poca o ninguna experiencia en ingeniería de software, haz primero la
+[ruta inicial](starter-route-es.md).
+
 El catálogo es la fuente autoritativa de IDs, prerrequisitos, tiempo y estado:
 [catálogo de lecciones](lesson-catalog-es.md).
 

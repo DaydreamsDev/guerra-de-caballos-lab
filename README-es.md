@@ -41,6 +41,12 @@ Ver [`docs/archive-es.md`](docs/archive-es.md).
 Las pistas son pedagógicamente independientes pero técnicamente acopladas por el núcleo común: la
 especificación, el arnés determinista, las trazas de referencia y el glosario.
 
+## Antes de las pistas
+
+Si tienes poca o ninguna experiencia en ingeniería de software, empieza por la
+[Ruta inicial](docs/guide/starter-route-es.md): siete lecciones, sin compilador, unas cuatro horas y
+media. Después puedes entrar en la pista A o en la pista B.
+
 ## Cómo empezar
 
 1. Sigue [`START-HERE-es.md`](START-HERE-es.md) para el orden guiado.
@@ -114,6 +120,7 @@ El núcleo común es:
 - **Versión moderna con clases:** cubierta por `construction-11`, `construction-12` y
   `construction-13`.
 - **Implementación de referencia:** implementada; coincide con 20/20 trazas de referencia.
+- **Ruta inicial:** disponible; siete lecciones, sin compilador.
 
 El orden que no se debe invertir:
 
