@@ -36,8 +36,8 @@ que puedes probar.
 
 ## Antes de empezar
 
-- `common-00` — el juego como invariante.
-- `common-01` — el arnés determinista.
+- `common-01` — el juego como invariante.
+- `common-02` — el arnés determinista.
 
 No necesitas C++ para esta lección. Necesitas Python 3 y un editor de texto.
 

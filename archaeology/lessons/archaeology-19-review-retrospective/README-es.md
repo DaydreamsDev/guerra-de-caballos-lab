@@ -51,8 +51,8 @@ Un elemento es utilizable cuando nombra:
 | Corrección | ¿Hace lo que afirma? | failure-001…failure-006 | `construction-02`, `construction-04`, `construction-05` |
 | Diseño | ¿La estructura encarece el cambio? | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12` |
 | Robustez | ¿Funciona solo en un entorno? | failure-006, failure-015 | `construction-08`, `construction-20` |
-| Práctica profesional | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | failure-016…failure-019 | `common-01`, `common-03`, `common-04` |
-| Evidencia | ¿La afirmación se puede comprobar? | todas las clases | `common-02`, `common-04` |
+| Práctica profesional | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | failure-016…failure-019 | `common-02`, `common-04`, `common-05` |
+| Evidencia | ¿La afirmación se puede comprobar? | todas las clases | `common-03`, `common-05` |
 
 ## Ficheros
 

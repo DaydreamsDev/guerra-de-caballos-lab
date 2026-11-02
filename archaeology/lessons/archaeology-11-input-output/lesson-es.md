@@ -839,7 +839,7 @@ argv / stdin ──► adaptador de entrada ──► run_game ──► GameRes
 
 Enlaces a Track A: `construction-20` (hexagonal: puertos y adaptadores) es el peldaño directo.
 `construction-08` (programación modular) es el prerrequisito: sin una frontera entre módulos no hay
-"núcleo" que poner detrás de un puerto. `common-01` (arnés determinista) es la contraparte de
+"núcleo" que poner detrás de un puerto. `common-02` (arnés determinista) es la contraparte de
 pruebas: una ejecución sembrada y repetible es lo que hace significativa la comparación de
 adaptadores.
 
@@ -858,7 +858,7 @@ adaptadores.
 - **Las pruebas ausentes.** Una semilla y tres movimientos son una prueba de humo, no una suite.
 - **El formato de la transcripción.** Incluso después del paso 3, la consola es dueña de un formato
   que ninguna prueba fija byte a byte. Si el texto exacto importa, congélalo como archivo de
-  referencia (`common-04`).
+  referencia (`common-05`).
 
 ### El equilibrio, dicho con justicia
 
@@ -982,7 +982,7 @@ semilla y tres movimientos" cuando eso es lo que ejecutaste.
 - [ ] Indiqué que la línea base todavía es dueña del formato de la transcripción.
 - [ ] Indiqué que no hay adaptador de entrada.
 - [ ] Indiqué que el banco no es el juego completo de caballos.
-- [ ] Enlacé el arreglo estructural a `construction-20`, `construction-08` y `common-01`.
+- [ ] Enlacé el arreglo estructural a `construction-20`, `construction-08` y `common-02`.
 - [ ] El archivo está sin modificar (`git status` en el archivo está limpio).
 
 Si una casilla no está marcada, la casilla sin marcar nombra el siguiente paso. No hay penalización

@@ -35,8 +35,8 @@ can test.
 
 ## Before you start
 
-- `common-00` — the game as an invariant.
-- `common-01` — the deterministic harness.
+- `common-01` — the game as an invariant.
+- `common-02` — the deterministic harness.
 
 You do not need C++ for this lesson. You need Python 3 and a text editor.
 

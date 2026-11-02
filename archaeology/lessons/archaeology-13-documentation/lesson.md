@@ -618,8 +618,8 @@ point.
 
 **Structural fix — make the documentation executable.** Put the commands in a script that CI runs in
 a clean container. Make the spec the authority and link it from the source. Add a test that compares
-the documented output with the observed output. Track A links: `common-03` (build and run),
-`common-04` (golden traces) and `construction-20` (the boundary where presentation is adapted).
+the documented output with the observed output. Track A links: `common-04` (build and run),
+`common-05` (golden traces) and `construction-20` (the boundary where presentation is adapted).
 
 ### What this documentation does not fix
 

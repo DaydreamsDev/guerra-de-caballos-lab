@@ -766,7 +766,7 @@ escapes. Keep the theme and the pause policy in the caller or a presentation lay
 adapter. Then a test can link the no-op adapter and assert the caller's behavior without a terminal.
 
 Track A links: `construction-08` (module boundary) is the prerequisite; `construction-20`
-(hexagonal, ports and adapters) is the direct rung; `common-04` (golden traces) is how you would
+(hexagonal, ports and adapters) is the direct rung; `common-05` (golden traces) is how you would
 prove that the console output did not change when you swapped the adapter.
 
 ### What the adapter does not fix
@@ -892,7 +892,7 @@ when that is what you ran.
 - [ ] I filled the capability matrix: escape, color, clear, key, redirection, encoding.
 - [ ] I named what the adapter does not fix: dialect, encoding, output, key, detection, archive.
 - [ ] I priced the lock-in by build failure and stated my context.
-- [ ] I linked the structural fix to `construction-08`, `construction-20` and `common-04`.
+- [ ] I linked the structural fix to `construction-08`, `construction-20` and `common-05`.
 - [ ] The archive is unmodified (`git status` in the archive is clean).
 
 If a box is not ticked, the unticked box names the next step. There is no penalty for repeating one.
@@ -973,6 +973,6 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
   boundary.
 - [construction-20](../../../construction/lessons/construction-20-hexagonal/lesson.md) — ports and
   adapters.
-- [common-04](../../../common/lessons/common-04-golden-traces/lesson.md) — golden traces.
+- [common-05](../../../common/lessons/common-05-golden-traces/lesson.md) — golden traces.
 - Archive: <https://github.com/DaydreamsDev/DaydreamsDev-guerra-de-caballos-archive>, tag `v1.0.0`,
   commit `284e144e41403afbf0cc44422876425cacfb2bd5`.

@@ -319,7 +319,7 @@ decisión.
   310.
 - [ ] Declaré qué no arregla el renombrado.
 - [ ] Precifiqué el defecto por tiempo de lectura y coste de incidente.
-- [ ] Enlacé el arreglo estructural a `common-02` y `construction-03`.
+- [ ] Enlacé el arreglo estructural a `common-03` y `construction-03`.
 - [ ] El archivo está sin modificar.
 
 ## 15. Siguiente paso

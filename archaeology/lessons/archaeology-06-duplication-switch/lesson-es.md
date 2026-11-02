@@ -542,7 +542,7 @@ porque es el código que escribiste. Si generas ambas desde la misma tabla, la c
 circular: estás comprobando que un valor es igual a sí mismo.
 
 Esta es la regla transferible: **congela el comportamiento anterior antes de cambiar la
-estructura**. Es la misma regla que una traza de referencia en `common-04`, aplicada a un refactor
+estructura**. Es la misma regla que una traza de referencia en `common-05`, aplicada a un refactor
 en lugar de a un programa completo.
 
 ### Cuando aparece una discrepancia

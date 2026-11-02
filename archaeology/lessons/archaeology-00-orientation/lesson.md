@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-> **Status:** drafted · **Concept:** mental model · **Prerequisite:** common-03 ·
+> **Status:** drafted · **Concept:** mental model · **Prerequisite:** common-04 ·
 > **Estimated time:** 45 minutes
 > **Reading:** ~17 minutes
 
@@ -613,7 +613,7 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
 - [`CODE-MAP-TEMPLATE.md`](CODE-MAP-TEMPLATE.md) — the map you fill in.
 - [`EVIDENCE.md`](EVIDENCE.md) — the record you fill in.
 - [`archaeology/legacy/README.md`](../../legacy/README.md) — where the pinned source lives.
-- [`common-03`](../../../common/lessons/common-03-build-and-run/lesson.md) — the prerequisite: one
+- [`common-04`](../../../common/lessons/common-04-build-and-run/lesson.md) — the prerequisite: one
   command that behaves the same from any directory.
 - [archaeology-01](../archaeology-01-build-today/lesson.md) — the adapted build and the run record.
 - [`docs/guide/archaeology-track.md`](../../../docs/guide/archaeology-track.md) — the

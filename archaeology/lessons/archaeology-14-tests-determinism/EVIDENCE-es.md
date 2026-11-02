@@ -276,8 +276,8 @@ Dos arreglos, dos tamaños:
 - Arreglo mínimo:
 - Arreglo estructural:
 - Enlaces al Track A:
-- Qué añade `common-01` a la pregunta:
-- Qué añade `common-04` a la pregunta:
+- Qué añade `common-02` a la pregunta:
+- Qué añade `common-05` a la pregunta:
 
 Qué no arregla el control de semilla:
 
@@ -359,7 +359,7 @@ crítico en tu contexto y por qué. No propongas una reescritura en este párraf
 - [ ] Distinguí el oráculo de la prueba.
 - [ ] Nombré qué no arregla el control de semilla.
 - [ ] Declaré el límite de evidencia: una semilla, un banco, un entorno.
-- [ ] Enlacé el arreglo estructural con `common-01` y `common-04`.
+- [ ] Enlacé el arreglo estructural con `common-02` y `common-05`.
 - [ ] El archivo está sin modificar.
 
 ## 16. Siguiente paso

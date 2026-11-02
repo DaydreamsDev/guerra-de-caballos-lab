@@ -82,8 +82,8 @@ que se salta una de ellas produce un punto ciego predecible.
 | **Corrección** | ¿Hace lo que afirma? | Comportamiento erróneo, corrupción silenciosa, pérdida de datos. | failure-001…failure-006 | `construction-02`, `construction-04`, `construction-05` |
 | **Diseño** | ¿La estructura encarece el cambio? | Cada cambio de regla toca muchos sitios; las pruebas siguen siendo imposibles. | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12`, `construction-14`, `construction-20` |
 | **Robustez** | ¿Funciona solo en un entorno? | Fallo de compilación, deuda de portabilidad, entrada no controlada. | failure-006, failure-015 | `construction-08`, `construction-20`, `construction-22` |
-| **Práctica profesional** | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | Nadie puede reproducir, confiar ni cambiar el artefacto con seguridad. | failure-016…failure-019 | `common-01`, `common-03`, `common-04`, `construction-24` |
-| **Evidencia** | ¿La afirmación se puede comprobar? | La revisión se vuelve opinión; lo desconocido se esconde como hecho. | todas | `common-02`, `common-04` |
+| **Práctica profesional** | ¿Otra persona puede compilarlo, confiar en él y mantenerlo? | Nadie puede reproducir, confiar ni cambiar el artefacto con seguridad. | failure-016…failure-019 | `common-02`, `common-04`, `common-05`, `construction-24` |
+| **Evidencia** | ¿La afirmación se puede comprobar? | La revisión se vuelve opinión; lo desconocido se esconde como hecho. | todas | `common-03`, `common-05` |
 
 Los límites se solapan a propósito. `failure-006` (entrada sin límite) es a la vez un fallo de
 corrección y de robustez. La lista puede colocar un elemento en una familia y remitir a otra; no
@@ -446,7 +446,7 @@ Conjunto de partida. Sustituye los huecos con tu redacción y tu evidencia.
 |---|---|---|---|---|---|---|---|
 | C-01 | Corrección | ¿Toda escritura en un arreglo queda por debajo del número de elementos? | | | Corrección | `construction-02` | Crítica |
 | C-02 | Corrección | ¿Toda variable se inicializa antes de su primera lectura? | | | Corrección | `construction-04` | Alta |
-| C-03 | Corrección | ¿La aleatoriedad se siembra una vez, fuera del bucle de reintentos? | | | Corrección | `common-01` | Alta |
+| C-03 | Corrección | ¿La aleatoriedad se siembra una vez, fuera del bucle de reintentos? | | | Corrección | `common-02` | Alta |
 | C-04 | Corrección | ¿La condición de victoria coincide con la especificación escrita? | | | Corrección | `construction-00` | Alta |
 | D-01 | Diseño | ¿Todo global mutable tiene un mapa de escritores y lectores? | | | Diseño | `construction-08` | Alta |
 | D-02 | Diseño | ¿La lógica duplicada se nombra y se extrae una vez? | | | Diseño | `construction-03` | Media |
@@ -455,13 +455,13 @@ Conjunto de partida. Sustituye los huecos con tu redacción y tu evidencia.
 | R-01 | Robustez | ¿El núcleo está libre de encabezados y llamadas de plataforma? | | | Robustez | `construction-20` | Alta |
 | R-02 | Robustez | ¿Toda longitud de entrada está acotada antes de usarse? | | | Robustez | `construction-22` | Crítica |
 | R-03 | Robustez | ¿Todo camino de error devuelve un valor o registra un bloqueo? | | | Robustez | `construction-22` | Alta |
-| P-01 | Práctica | ¿Un comando compila el artefacto desde un árbol limpio? | | | Práctica profesional | `common-03` | Alta |
-| P-02 | Práctica | ¿Existen trazas de referencia y control de semilla? | | | Práctica profesional | `common-04` | Alta |
-| P-03 | Práctica | ¿Están presentes la compilación, las pruebas y la documentación? | | | Práctica profesional | `common-02` | Alta |
-| E-01 | Evidencia | ¿Toda afirmación cita un fichero, línea, comando o documento? | | | Todas | `common-04` | Alta |
-| E-02 | Evidencia | ¿Toda afirmación está etiquetada como verificada, documentada, inferida o desconocida? | | | Todas | `common-02` | Media |
-| E-03 | Evidencia | ¿El archivo sigue sin modificar después de la revisión? | | | Todas | `common-04` | Alta |
-| E-04 | Evidencia | ¿Cada etiqueta o nombre de carpeta coincide con el mecanismo realmente presente? | | | Evidencia | `common-02` | Media |
+| P-01 | Práctica | ¿Un comando compila el artefacto desde un árbol limpio? | | | Práctica profesional | `common-04` | Alta |
+| P-02 | Práctica | ¿Existen trazas de referencia y control de semilla? | | | Práctica profesional | `common-05` | Alta |
+| P-03 | Práctica | ¿Están presentes la compilación, las pruebas y la documentación? | | | Práctica profesional | `common-03` | Alta |
+| E-01 | Evidencia | ¿Toda afirmación cita un fichero, línea, comando o documento? | | | Todas | `common-05` | Alta |
+| E-02 | Evidencia | ¿Toda afirmación está etiquetada como verificada, documentada, inferida o desconocida? | | | Todas | `common-03` | Media |
+| E-03 | Evidencia | ¿El archivo sigue sin modificar después de la revisión? | | | Todas | `common-05` | Alta |
+| E-04 | Evidencia | ¿Cada etiqueta o nombre de carpeta coincide con el mecanismo realmente presente? | | | Evidencia | `common-03` | Media |
 
 ### Control de calidad
 
@@ -728,11 +728,11 @@ Track B dice qué duele. Track A dice qué quita el dolor. El enlace es el escal
 
 | Familia de la lista | Fallo que detecta | Escalón de Track A | Prueba de cambio |
 |---|---|---|---|
-| Corrección | Off-by-one, estado sin inicializar, no determinismo. | `construction-02`, `construction-04`, `common-01` | Mismo cambio, localizado; traza sembrada dos veces. |
+| Corrección | Off-by-one, estado sin inicializar, no determinismo. | `construction-02`, `construction-04`, `common-02` | Mismo cambio, localizado; traza sembrada dos veces. |
 | Diseño | Estado global, duplicación, fuga de representación, switch de tipo. | `construction-08`, `construction-09`, `construction-12` | Tablero 8×8 → 10×10; solo cambia el módulo del tablero. |
 | Robustez | Dependencia de plataforma, entrada sin límite, error no tratado. | `construction-20`, `construction-22` | Mismo núcleo, adaptadores de consola y de prueba. |
-| Práctica profesional | Sin compilación, sin pruebas, sin documentación, árbol sucio. | `common-03`, `common-04`, `construction-24` | Un comando compila; las trazas pasan; el coste se defiende. |
-| Evidencia | Afirmación sin fuente, desconocido oculto. | `common-02`, `common-04` | Cada término definido; cada traza reproducible. |
+| Práctica profesional | Sin compilación, sin pruebas, sin documentación, árbol sucio. | `common-04`, `common-05`, `construction-24` | Un comando compila; las trazas pasan; el coste se defiende. |
+| Evidencia | Afirmación sin fuente, desconocido oculto. | `common-03`, `common-05` | Cada término definido; cada traza reproducible. |
 
 ### El coste de una clase omitida
 
@@ -780,7 +780,7 @@ comprobar cobertura, no para memorizar la lista.
 |---|---|---|---|---|
 | failure-001 | `i <= 64` sobre un arreglo de 64 elementos | Corrección | archaeology-04 | `construction-02` |
 | failure-002 | `void main()` | Corrección | archaeology-04 | `construction-02` |
-| failure-003 | `srand(time(NULL))` dentro de un bucle de reintentos | Corrección | archaeology-04, archaeology-14 | `common-01` |
+| failure-003 | `srand(time(NULL))` dentro de un bucle de reintentos | Corrección | archaeology-04, archaeology-14 | `common-02` |
 | failure-004 | Inicialización rota de punteros en `_dev` | Corrección | archaeology-04 | `construction-07` |
 | failure-005 | Condición de victoria invertida en el precursor | Corrección | archaeology-03, archaeology-04 | `construction-00` |
 | failure-006 | Entrada de nombre sin límite | Corrección | archaeology-04, archaeology-16 | `construction-22` |
@@ -793,10 +793,10 @@ comprobar cobertura, no para memorizar la lista.
 | failure-013 | Números mágicos | Diseño | archaeology-06, archaeology-07 | `construction-04` |
 | failure-014 | `cout` de depuración y guarda `enter` viva | Diseño | archaeology-06, archaeology-12 | `construction-03` |
 | failure-015 | `conio.h` y `system("color")` | Robustez | archaeology-16 | `construction-08`, `construction-20` |
-| failure-016 | Sin pruebas, sin arnés, sin semilla | Práctica profesional | archaeology-14 | `common-01`, `common-04` |
-| failure-017 | Sin README, especificación ni instrucciones de compilación | Práctica profesional | archaeology-13, archaeology-15 | `common-02`, `common-03` |
-| failure-018 | Binarios y ficheros de IDE en las carpetas de trabajo | Práctica profesional | archaeology-15 | `common-03` |
-| failure-019 | Comentarios que narran o mienten | Práctica profesional | archaeology-12 | `common-02` |
+| failure-016 | Sin pruebas, sin arnés, sin semilla | Práctica profesional | archaeology-14 | `common-02`, `common-05` |
+| failure-017 | Sin README, especificación ni instrucciones de compilación | Práctica profesional | archaeology-13, archaeology-15 | `common-03`, `common-04` |
+| failure-018 | Binarios y ficheros de IDE en las carpetas de trabajo | Práctica profesional | archaeology-15 | `common-04` |
+| failure-019 | Comentarios que narran o mienten | Práctica profesional | archaeology-12 | `common-03` |
 
 El mapeo es bidireccional. Si una revisión encuentra un fallo sin escalón, la taxonomía está
 incompleta o el hallazgo todavía no se entiende. Si un escalón no tiene fallo, la lección es

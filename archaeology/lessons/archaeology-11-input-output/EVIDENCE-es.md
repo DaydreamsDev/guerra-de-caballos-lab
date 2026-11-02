@@ -328,7 +328,7 @@ Dos arreglos, dos tamaños:
 - Arreglo estructural:
 - Enlaces a Track A:
 - Qué añade `construction-20` a la pregunta:
-- Qué añade `common-01` a la pregunta:
+- Qué añade `common-02` a la pregunta:
 
 Qué no arregla la separación:
 
@@ -419,12 +419,12 @@ alto en tu contexto y por qué. No propongas una reescritura en este párrafo.
 - [ ] Indiqué que la línea base todavía es dueña del formato de la transcripción.
 - [ ] Indiqué que no hay adaptador de entrada.
 - [ ] Indiqué que el banco no es el juego completo de caballos.
-- [ ] Enlacé el arreglo estructural a `construction-20`, `construction-08` y `common-01`.
+- [ ] Enlacé el arreglo estructural a `construction-20`, `construction-08` y `common-02`.
 - [ ] El archivo está sin modificar.
 
 ## 16. Siguiente paso
 
 - Continúa con `archaeology-12` — nombres y comentarios.
 - Si el lado de la entrada quedó incompleto, añade un adaptador de `argv` y cuenta qué cambia.
-- Si la transcripción importa byte a byte, congélala como archivo de referencia (`common-04`).
+- Si la transcripción importa byte a byte, congélala como archivo de referencia (`common-05`).
 - Si no estás de acuerdo con la severidad, escribe el contexto que la cambia.

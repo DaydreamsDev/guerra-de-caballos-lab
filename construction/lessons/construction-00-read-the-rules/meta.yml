@@ -2,8 +2,8 @@ id: construction-00
 title: "Read the rules, run the reference baseline"
 concept: "Specification (especificación)"
 prerequisites:
-  - common-00
   - common-01
+  - common-02
 reading_time: "7 minutes"
 estimated_time: "50 minutes"
 acceptance_criteria:

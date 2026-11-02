@@ -33,14 +33,17 @@ inglés; la prosa en español puede mostrar `borrador` para `drafted`.
 
 | ID | Título | Concepto | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
 |---|---|---|---|---|---|---|
-| [common-00](../../common/lessons/common-00-game-invariant/lesson-es.md) | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
-| [common-01](../../common/lessons/common-01-deterministic-harness/lesson-es.md) | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-00 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted |
-| [common-02](../../common/lessons/common-02-glossary/lesson-es.md) | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted |
-| [common-03](../../common/lessons/common-03-build-and-run/lesson-es.md) | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-01 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted |
-| [common-04](../../common/lessons/common-04-golden-traces/lesson-es.md) | Trazas de referencia (golden traces) | Contrato de comportamiento (behavioral contract) | common-01 | 45 min | Las sumas pasan; una traza reproducida; comando, salida y explicación registrados | drafted |
-| [common-05](../../common/lessons/common-05-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted |
+| [common-00](../../common/lessons/common-00-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted |
+| [common-01](../../common/lessons/common-01-game-invariant/lesson-es.md) | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
+| [common-02](../../common/lessons/common-02-deterministic-harness/lesson-es.md) | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-01 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted |
+| [common-03](../../common/lessons/common-03-glossary/lesson-es.md) | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted |
+| [common-04](../../common/lessons/common-04-build-and-run/lesson-es.md) | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-02 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted |
+| [common-05](../../common/lessons/common-05-golden-traces/lesson-es.md) | Trazas de referencia (golden traces) | Contrato de comportamiento (behavioral contract) | common-02 | 45 min | Las sumas pasan; una traza reproducida; comando, salida y explicación registrados | drafted |
 
-**common-00** es el documento más importante del proyecto. Si las reglas son ambiguas,
+Las filas siguen el orden de aprendizaje. `common-03` es una referencia lateral que puedes leer
+antes de `common-02` o `common-04`.
+
+**common-01** es el documento más importante del proyecto. Si las reglas son ambiguas,
 todo contraste es inválido.
 
 ---
@@ -55,7 +58,7 @@ especificación (`construction-00`), es la **comprobación de predicción**.
 
 | ID | Título | Concepto | Prerrequisito | Tiempo | Criterio de aceptación | Estado |
 |---|---|---|---|---|---|---|
-| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson-es.md) | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-00, common-01 | 50 min | Predecir el siguiente movimiento de una partida con semilla | drafted |
+| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson-es.md) | Leer las reglas, ejecutar la línea base de referencia | Especificación | common-01, common-02 | 50 min | Predecir el siguiente movimiento de una partida con semilla | drafted |
 | [construction-01](../../construction/lessons/construction-01-non-structured/lesson-es.md) | Programación no estructurada (non-structured programming) | Flujo de control arbitrario | construction-00 | 70 min | Añadir «saltar turno»; contar los saltos recableados | drafted |
 | [construction-02](../../construction/lessons/construction-02-structured/lesson-es.md) | Programación estructurada (structured programming) | Secuencia, selección, iteración | construction-01 | 65 min | El mismo cambio, localizado; sin `goto` | drafted |
 | [construction-03](../../construction/lessons/construction-03-functions/lesson-es.md) | Funciones y parámetros (functions and parameters) | Ámbito y descomposición | construction-02 | 45 min | Extraer un movimiento sin variables globales | drafted |
@@ -97,8 +100,8 @@ Proyecto final: `construction-24`.
 
 | ID | Título | Clase de fallo | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
 |---|---|---|---|---|---|---|
-| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson-es.md) | Orientación: leer un código heredado | — | common-03 | 45 min | Mapa de código + propósito en una frase | drafted |
-| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson-es.md) | Compilar y ejecutar código heredado | — | common-03 | 62 min | Compilación ejecutable o bloqueo documentado | drafted |
+| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson-es.md) | Orientación: leer un código heredado | — | common-04 | 45 min | Mapa de código + propósito en una frase | drafted |
+| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson-es.md) | Compilar y ejecutar código heredado | — | common-04 | 62 min | Compilación ejecutable o bloqueo documentado | drafted |
 | [archaeology-02](../../archaeology/lessons/archaeology-02-code-inventory/lesson-es.md) | Inventario de código y grafo de llamadas | — | archaeology-01 | 60 min | Inventario + grafo de llamadas con evidencia | drafted |
 | [archaeology-03](../../archaeology/lessons/archaeology-03-reverse-spec/lesson-es.md) | Ingeniería inversa de la especificación | — | archaeology-02 | 90 min | Especificación + trazas del original | drafted |
 | [archaeology-04](../../archaeology/lessons/archaeology-04-correctness-failures/lesson-es.md) | Fallos de corrección (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 fichas de fallo + pruebas | drafted |
@@ -159,11 +162,11 @@ La columna `Prereq` de arriba es la fuente autoritativa. Este es un mapa de alto
 segunda especificación.
 
 ```
-Common core
-  common-00 spec ─► common-01 harness ─┬─► common-03 build
-                             └─► common-04 traces
-  common-02 glossary        (independent)
-  common-05 learn           (independent)
+Common core — learning order
+  common-00 learn ─► common-01 spec ─► common-02 harness
+  common-02 harness ─┬─► common-04 build ─► common-05 traces
+                     └─► common-05 traces
+  common-03 glossary ─► before common-02 or common-04
 
 Track A — paradigm ladder
   construction-00 ─► construction-01 ─► construction-02 ─► construction-03 ─►
@@ -180,7 +183,7 @@ Track A — paradigm ladder
   construction-12, construction-15 ─► construction-24
 
 Track B — autopsy spine
-  archaeology-00 (common-03); archaeology-01 (common-03)
+  archaeology-00 (common-04); archaeology-01 (common-04)
     ─► archaeology-02 ─► archaeology-03 ─► archaeology-04
     ─► archaeology-05 ─► archaeology-08 ─► archaeology-09
   archaeology-03 ─► archaeology-13, archaeology-14

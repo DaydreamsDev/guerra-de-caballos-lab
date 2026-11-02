@@ -2,7 +2,7 @@ id: archaeology-00
 title: "Orientation: read a legacy codebase (Orientación: leer un código heredado)"
 concept: "Mental model (modelo mental)"
 prerequisites:
-  - common-03
+  - common-04
 reading_time: "17 minutes"
 estimated_time: "45 minutes"
 acceptance_criteria:

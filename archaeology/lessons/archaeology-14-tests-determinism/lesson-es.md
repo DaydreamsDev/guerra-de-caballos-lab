@@ -591,7 +591,7 @@ y registra la nota de plataforma para toda traza que aún dependa del entorno. E
 significa reemplazar `rand()` por un generador con nombre y pasar una semilla desde `main`, lo que
 también exige arreglar `void main()`.
 
-Enlaces al Track A: `common-01` (arnés determinista), `common-04` (trazas de referencia),
+Enlaces al Track A: `common-02` (arnés determinista), `common-05` (trazas de referencia),
 `construction-08` (frontera de módulo) y `construction-20` (hexagonal, donde el adaptador de consola
 es dueño del entorno).
 
@@ -702,7 +702,7 @@ compilador" cuando eso es lo que ejecutaste.
 - [ ] Nombré qué no arregla el control de semilla: ganador, sesgo, `void main`, globales,
       validación.
 - [ ] Precifiqué el defecto por coste de incidente, no por gusto.
-- [ ] Enlacé el arreglo estructural con `common-01` y `common-04`.
+- [ ] Enlacé el arreglo estructural con `common-02` y `common-05`.
 - [ ] El archivo está sin modificar (`git status` en el archivo está limpio).
 
 Si una casilla no está marcada, la casilla sin marcar nombra el siguiente paso. No hay penalización

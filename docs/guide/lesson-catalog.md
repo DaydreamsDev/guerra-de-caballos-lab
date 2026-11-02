@@ -31,14 +31,17 @@ catalog and `meta.yml` must agree. Machine tokens stay in English; Spanish prose
 
 | ID | Title | Concept | Prereq | Time | Acceptance criteria | Status |
 |---|---|---|---|---|---|---|
-| [common-00](../../common/lessons/common-00-game-invariant/lesson.md) | The game as an invariant (el juego como invariante) | Specification (especificación) | none | 50 min | Two runs identical; one ambiguity and one binary criterion recorded | drafted |
-| [common-01](../../common/lessons/common-01-deterministic-harness/lesson.md) | Deterministic harness (arnés determinista) | Harness construction (construcción del arnés) | common-00 | 60 min | Same seed → same transcript, twice | drafted |
-| [common-02](../../common/lessons/common-02-glossary/lesson.md) | Glossary (glosario) | Shared vocabulary (vocabulario compartido) | none | 20 min | Ten terms defined in English and Spanish, one line and one misconception each | drafted |
-| [common-03](../../common/lessons/common-03-build-and-run/lesson.md) | Entry point and working directory (punto de entrada y directorio de trabajo) | Entry-point robustness | common-01 | 30 min | One command runs from two directories; same seed gives the same transcript | drafted |
-| [common-04](../../common/lessons/common-04-golden-traces/lesson.md) | Golden traces (trazas de referencia) | Behavioral contract (contrato de comportamiento) | common-01 | 45 min | Checksums pass; one trace reproduced; command, output and explanation recorded | drafted |
-| [common-05](../../common/lessons/common-05-how-to-learn/lesson.md) | How to learn (cómo aprender) | Metacognition (metacognición) | none | 15 min | One predict–run–compare–explain–record cycle and one next step recorded | drafted |
+| [common-00](../../common/lessons/common-00-how-to-learn/lesson.md) | How to learn (cómo aprender) | Metacognition (metacognición) | none | 15 min | One predict–run–compare–explain–record cycle and one next step recorded | drafted |
+| [common-01](../../common/lessons/common-01-game-invariant/lesson.md) | The game as an invariant (el juego como invariante) | Specification (especificación) | none | 50 min | Two runs identical; one ambiguity and one binary criterion recorded | drafted |
+| [common-02](../../common/lessons/common-02-deterministic-harness/lesson.md) | Deterministic harness (arnés determinista) | Harness construction (construcción del arnés) | common-01 | 60 min | Same seed → same transcript, twice | drafted |
+| [common-03](../../common/lessons/common-03-glossary/lesson.md) | Glossary (glosario) | Shared vocabulary (vocabulario compartido) | none | 20 min | Ten terms defined in English and Spanish, one line and one misconception each | drafted |
+| [common-04](../../common/lessons/common-04-build-and-run/lesson.md) | Entry point and working directory (punto de entrada y directorio de trabajo) | Entry-point robustness | common-02 | 30 min | One command runs from two directories; same seed gives the same transcript | drafted |
+| [common-05](../../common/lessons/common-05-golden-traces/lesson.md) | Golden traces (trazas de referencia) | Behavioral contract (contrato de comportamiento) | common-02 | 45 min | Checksums pass; one trace reproduced; command, output and explanation recorded | drafted |
 
-**common-00** is the most important document in the project. If the rules are ambiguous, every
+Rows follow the learning order. `common-03` is a side reference you can read before `common-02`
+or `common-04`.
+
+**common-01** is the most important document in the project. If the rules are ambiguous, every
 contrast is invalid.
 
 ---
@@ -53,7 +56,7 @@ For design lessons, the acceptance criterion is the **change test**; for the spe
 
 | ID | Title | Concept | Prereq | Time | Acceptance criterion | Status |
 |---|---|---|---|---|---|---|
-| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson.md) | Read the rules, run the reference baseline | Specification | common-00, common-01 | 50 min | Predict the next move of a seeded game | drafted |
+| [construction-00](../../construction/lessons/construction-00-read-the-rules/lesson.md) | Read the rules, run the reference baseline | Specification | common-01, common-02 | 50 min | Predict the next move of a seeded game | drafted |
 | [construction-01](../../construction/lessons/construction-01-non-structured/lesson.md) | Non-structured programming (programación no estructurada) | Arbitrary control flow | construction-00 | 70 min | Add “skip turn”; count rewired jumps | drafted |
 | [construction-02](../../construction/lessons/construction-02-structured/lesson.md) | Structured programming (programación estructurada) | Sequence, selection, iteration | construction-01 | 65 min | Same change, localized; no `goto` | drafted |
 | [construction-03](../../construction/lessons/construction-03-functions/lesson.md) | Functions and parameters (funciones y parámetros) | Scope and decomposition | construction-02 | 45 min | Extract a move without globals | drafted |
@@ -95,8 +98,8 @@ Capstone: `construction-24`.
 
 | ID | Title | Failure class | Prereq | Time | Acceptance criteria | Status |
 |---|---|---|---|---|---|---|
-| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson.md) | Orientation: read a legacy codebase | — | common-03 | 45 min | Code map + one-sentence purpose | drafted |
-| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson.md) | Build and run legacy code | — | common-03 | 62 min | Runnable build or documented blocker | drafted |
+| [archaeology-00](../../archaeology/lessons/archaeology-00-orientation/lesson.md) | Orientation: read a legacy codebase | — | common-04 | 45 min | Code map + one-sentence purpose | drafted |
+| [archaeology-01](../../archaeology/lessons/archaeology-01-build-today/lesson.md) | Build and run legacy code | — | common-04 | 62 min | Runnable build or documented blocker | drafted |
 | [archaeology-02](../../archaeology/lessons/archaeology-02-code-inventory/lesson.md) | Code inventory and call graph | — | archaeology-01 | 60 min | Inventory + call graph with evidence | drafted |
 | [archaeology-03](../../archaeology/lessons/archaeology-03-reverse-spec/lesson.md) | Reverse-engineer the spec | — | archaeology-02 | 90 min | Spec + traces from the original | drafted |
 | [archaeology-04](../../archaeology/lessons/archaeology-04-correctness-failures/lesson.md) | Correctness failures (failure-001…failure-006) | correctness | archaeology-03 | 100 min | 6 failure cards + tests | drafted |
@@ -154,11 +157,11 @@ failure cards are drafted.
 The `Prereq` column above is authoritative. This is a high-level map, not a second specification.
 
 ```
-Common core
-  common-00 spec ─► common-01 harness ─┬─► common-03 build
-                             └─► common-04 traces
-  common-02 glossary        (independent)
-  common-05 learn           (independent)
+Common core — learning order
+  common-00 learn ─► common-01 spec ─► common-02 harness
+  common-02 harness ─┬─► common-04 build ─► common-05 traces
+                     └─► common-05 traces
+  common-03 glossary ─► before common-02 or common-04
 
 Track A — paradigm ladder
   construction-00 ─► construction-01 ─► construction-02 ─► construction-03 ─►
@@ -175,7 +178,7 @@ Track A — paradigm ladder
   construction-12, construction-15 ─► construction-24
 
 Track B — autopsy spine
-  archaeology-00 (common-03); archaeology-01 (common-03)
+  archaeology-00 (common-04); archaeology-01 (common-04)
     ─► archaeology-02 ─► archaeology-03 ─► archaeology-04
     ─► archaeology-05 ─► archaeology-08 ─► archaeology-09
   archaeology-03 ─► archaeology-13, archaeology-14

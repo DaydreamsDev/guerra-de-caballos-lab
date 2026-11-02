@@ -71,7 +71,7 @@ Language is a separate decision. The archive is Spanish because the domain is Sp
 a defect. The defect would be mixing Spanish and English for the same concept
 inside one boundary. This lab uses English identifiers because the lessons are English; the archive
 keeps its Spanish names because it is evidence. Pick one language per boundary, write the choice
-down, and translate through a glossary (`common-02`), not ad hoc.
+down, and translate through a glossary (`common-03`), not ad hoc.
 
 ### A comment is a contract about what the code cannot say
 
@@ -535,9 +535,9 @@ same name.
 the narrating comment. This is what Steps 3–5 do. It removes the local ambiguity and leaves the
 magic `8`, the missing bounds check and the missing test in place.
 
-**Structural fix — make the names part of the contract.** Add a glossary (`common-02`), a review
+**Structural fix — make the names part of the contract.** Add a glossary (`common-03`), a review
 rule for comments, and a naming table for the archive's globals. In the archive, that means one
-name per concept and a comment policy. Track A links: `common-02` (glossary), `construction-03`
+name per concept and a comment policy. Track A links: `common-03` (glossary), `construction-03`
 (functions and parameters) and `construction-08` (module boundary).
 
 ### What a rename does not fix
@@ -664,7 +664,7 @@ is overreaching. Say "for this input" when that is what you ran.
 - [ ] I cited the wrong-knight comment at line 78 and the wrong-statement comment at 310.
 - [ ] I named what the rename does not fix: magic `8`, bounds, `jugada`, `ganador`, tests.
 - [ ] I priced the defect by reader time and incident cost, not by taste.
-- [ ] I linked the structural fix to `common-02` and `construction-03`.
+- [ ] I linked the structural fix to `common-03` and `construction-03`.
 - [ ] The archive is unmodified (`git status` in the archive is clean).
 
 If a box is not ticked, the unticked box names the next step. There is no penalty for repeating one.
@@ -727,7 +727,7 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
 - [`../../../docs/archive.md`](../../../docs/archive.md) — the pinned archive, tag and commit.
 - [archaeology-04](../archaeology-04-correctness-failures/lesson.md) — the prerequisite.
 - [archaeology-10](../archaeology-10-polymorphism/lesson.md) — the same freeze-before-change habit.
-- [common-02](../../../common/lessons/common-02-glossary/lesson.md) — the glossary that keeps one
+- [common-03](../../../common/lessons/common-03-glossary/lesson.md) — the glossary that keeps one
   name per concept across languages.
 - Archive: <https://github.com/DaydreamsDev/DaydreamsDev-guerra-de-caballos-archive>, tag `v1.0.0`,
   commit `284e144e41403afbf0cc44422876425cacfb2bd5`.

@@ -73,7 +73,7 @@ El idioma es una decisión aparte. El archivo está en español porque el domini
 es un defecto. El defecto sería mezclar español e inglés para el mismo concepto dentro de una
 frontera. Este laboratorio usa identificadores en inglés porque las lecciones están en inglés; el
 archivo conserva sus nombres españoles porque es evidencia. Elige un idioma por frontera, escribe la
-decisión y traduce mediante un glosario (`common-02`), no sobre la marcha.
+decisión y traduce mediante un glosario (`common-03`), no sobre la marcha.
 
 ### Un comentario es un contrato sobre lo que el código no puede decir
 
@@ -551,9 +551,9 @@ borra el comentario que narra. Eso es lo que hacen los pasos 3–5. Elimina la a
 en pie el `8` mágico, la comprobación de límites ausente y la prueba ausente.
 
 **Arreglo estructural — hacer que los nombres sean parte del contrato.** Añade un glosario
-(`common-02`), una regla de revisión para comentarios y una tabla de nombres para las globales del
+(`common-03`), una regla de revisión para comentarios y una tabla de nombres para las globales del
 archivo. En el archivo, eso significa un nombre por concepto y una política de comentarios. Enlaces
-a Track A: `common-02` (glosario), `construction-03` (funciones y parámetros) y `construction-08`
+a Track A: `common-03` (glosario), `construction-03` (funciones y parámetros) y `construction-08`
 (frontera de módulo).
 
 ### Qué no arregla un renombrado
@@ -683,7 +683,7 @@ nombrar la muestra se está excediendo. Di "para esta entrada" cuando eso es lo 
   310.
 - [ ] Nombré qué no arregla el renombrado: `8` mágico, límites, `jugada`, `ganador`, pruebas.
 - [ ] Precifiqué el defecto por tiempo de lectura y coste de incidente, no por gusto.
-- [ ] Enlacé el arreglo estructural a `common-02` y `construction-03`.
+- [ ] Enlacé el arreglo estructural a `common-03` y `construction-03`.
 - [ ] El archivo está sin modificar (`git status` en el archivo está limpio).
 
 Si una casilla no está marcada, la casilla sin marcar nombra el siguiente paso. No hay penalización
