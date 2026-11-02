@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Estado:** borrador · **Concepto:** ocultamiento de información · **Prerrequisito:**
-> construction-03 · **Tiempo estimado:** 92 minutos
+> **Estado:** borrador · **Concepto:** ocultamiento de información ·
+> **Prerrequisito:** construction-03, construction-07 · **Tiempo estimado:** 92 minutos
 
 Este directorio contiene el artefacto **después** de `construction-08`. Tiene el mismo
 comportamiento observable que las líneas base anteriores para el juego de 8×8, pero el código está

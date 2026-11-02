@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** information hiding · **Prerequisite:** construction-03 ·
-> **Estimated time:** 92 minutes
+> **Status:** drafted · **Concept:** information hiding ·
+> **Prerequisite:** construction-03, construction-07 · **Estimated time:** 92 minutes
 
 This directory holds the **after** artifact for `construction-08`. It has the same observable
 behavior as the earlier baselines for the 8×8 game, but the source is split into modules with

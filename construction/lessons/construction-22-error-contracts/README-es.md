@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Estado:** borrador · **Concepto:** recuperación · **Prerrequisito:** construction-09 ·
-> **Tiempo estimado:** 75 minutos
+> **Estado:** borrador · **Concepto:** recuperación ·
+> **Prerrequisito:** construction-09, construction-21 · **Tiempo estimado:** 75 minutos
 
 Este directorio contiene el artefacto **después** de `construction-22`. Conserva el núcleo de
 concurrencia de `construction-21` y convierte el camino del movimiento inválido en un valor

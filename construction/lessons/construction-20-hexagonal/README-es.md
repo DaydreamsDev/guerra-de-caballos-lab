@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Estado:** borrador · **Concepto:** puertos y adaptadores · **Prerrequisito:** construction-08 ·
-> **Tiempo estimado:** 92 minutos
+> **Estado:** borrador · **Concepto:** puertos y adaptadores ·
+> **Prerrequisito:** construction-08, construction-17 · **Tiempo estimado:** 92 minutos
 
 Este directorio contiene el artefacto **después** de `construction-20`. Tiene el mismo
 comportamiento observable que `construction-17`, pero el núcleo del juego ya no escribe en la

@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** iteration abstraction · **Prerequisite:** construction-05 ·
-> **Estimated time:** 68 minutes
+> **Status:** drafted · **Concept:** iteration abstraction ·
+> **Prerequisite:** construction-05, construction-16 · **Estimated time:** 68 minutes
 
 This directory holds the **after** artifact for `construction-17`. It has the same observable
 behavior as `construction-16`, but move generation, move ordering and board reset use the C++20
