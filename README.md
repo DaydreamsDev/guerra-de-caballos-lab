@@ -59,7 +59,7 @@ The common core is:
 - `common/spec/` — the rules, written once, independent of code.
 - `common/harness/` — runs a variant with a seed and captures the transcript.
 - `common/traces/` — golden outputs.
-- `common/glossary/` — canonical terms in English and Spanish.
+- [`docs/guide/glossary.md`](docs/guide/glossary.md) — canonical terms in English and Spanish.
 
 ## Design principles
 

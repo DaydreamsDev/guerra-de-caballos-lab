@@ -62,7 +62,8 @@ El núcleo común es:
 - `common/spec/` — las reglas, escritas una vez, independientes del código.
 - `common/harness/` — ejecuta una variante con una semilla y captura la transcripción.
 - `common/traces/` — salidas de referencia.
-- `common/glossary/` — términos canónicos en inglés y español.
+- [`docs/guide/glossary-es.md`](docs/guide/glossary-es.md) — términos canónicos
+  en inglés y español.
 
 ## Principios de diseño
 

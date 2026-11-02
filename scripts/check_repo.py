@@ -15,7 +15,18 @@ CANONICAL_NAMES = {
     "AGENTS.md",
 }
 CODE_SUFFIXES = {".cpp", ".h", ".py", ".sh"}
-EXPECTED_LESSON_COUNT = 51
+LESSON_DIRECTORY_PATTERN = re.compile(
+    r"^(common|construction|archaeology)-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+)
+BINARY_SIGNATURES = (
+    b"\x7fELF",
+    b"\xfe\xed\xfa\xce",
+    b"\xfe\xed\xfa\xcf",
+    b"\xce\xfa\xed\xfe",
+    b"\xcf\xfa\xed\xfe",
+    b"\xca\xfe\xba\xbe",
+)
+PE_SIGNATURE = b"PE\x00\x00"
 MARKDOWN_LINK_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 errors = []
 
@@ -76,6 +87,22 @@ def check_code_line_length(code_path):
             errors.append(f"{code_path}:{line_number}: code line exceeds 100 columns")
 
 
+def is_binary_file(file_path):
+    with file_path.open("rb") as file_handle:
+        header = file_handle.read(1024)
+    if header.startswith(BINARY_SIGNATURES):
+        return True
+    return header.startswith(b"MZ") and PE_SIGNATURE in header
+
+
+def check_committed_binaries():
+    for file_path in sorted(ROOT.rglob("*")):
+        if not file_path.is_file() or is_ignored(file_path):
+            continue
+        if is_binary_file(file_path):
+            errors.append(f"{file_path}: binary file committed to the repository")
+
+
 def lesson_directories():
     directories = []
     for track in ("common", "construction", "archaeology"):
@@ -92,18 +119,43 @@ def lesson_catalogs():
 
 
 def check_lessons():
-    directories = lesson_directories()
-    if len(directories) != EXPECTED_LESSON_COUNT:
-        errors.append(
-            f"expected {EXPECTED_LESSON_COUNT} lesson directories, found {len(directories)}"
+    lesson_ids = {}
+    for directory in lesson_directories():
+        required_names = (
+            "meta.yml",
+            "lesson.md",
+            "lesson-es.md",
+            "EVIDENCE.md",
+            "EVIDENCE-es.md",
         )
-    for directory in directories:
-        for name in ("meta.yml", "lesson.md", "lesson-es.md", "EVIDENCE.md", "EVIDENCE-es.md"):
+        for name in required_names:
             if not (directory / name).exists():
                 errors.append(f"{directory}: missing {name}")
 
+        if not LESSON_DIRECTORY_PATTERN.match(directory.name):
+            errors.append(f"{directory}: invalid lesson directory name")
 
-def check_metadata():
+        metadata_path = directory / "meta.yml"
+        if not metadata_path.exists():
+            continue
+        metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8")) or {}
+        lesson_id = metadata.get("id")
+        if not lesson_id:
+            continue
+        if not directory.name.startswith(f"{lesson_id}-"):
+            errors.append(
+                f"{metadata_path}: id {lesson_id!r} does not match {directory.name!r}"
+            )
+        if lesson_id in lesson_ids:
+            errors.append(
+                f"{metadata_path}: duplicate id {lesson_id!r} "
+                f"(also in {lesson_ids[lesson_id]})"
+            )
+        lesson_ids[lesson_id] = directory
+    return set(lesson_ids)
+
+
+def check_metadata(lesson_ids):
     allowed_status = {"planned", "drafted", "in review", "stable"}
     for metadata_path in sorted(ROOT.glob("*/lessons/*/meta.yml")):
         metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
@@ -113,6 +165,12 @@ def check_metadata():
         for field in ("id", "title", "concept", "prerequisites", "estimated_time", "reading_time"):
             if field not in metadata:
                 errors.append(f"{metadata_path}: missing metadata field {field}")
+        for prerequisite in metadata.get("prerequisites") or []:
+            for candidate in str(prerequisite).split(" or "):
+                if candidate.strip() not in lesson_ids:
+                    errors.append(
+                        f"{metadata_path}: unknown prerequisite {candidate.strip()!r}"
+                    )
 
 
 def check_active_time():
@@ -163,16 +221,17 @@ def main():
             continue
         if code_path.suffix in CODE_SUFFIXES:
             check_code_line_length(code_path)
-    check_lessons()
-    check_metadata()
+    lesson_ids = check_lessons()
+    check_metadata(lesson_ids)
     check_active_time()
     check_catalog_coverage()
+    check_committed_binaries()
     if errors:
         print("\n".join(errors))
         return 1
     print(
-        "QA OK: links, pairs, fences, line lengths, metadata, "
-        "active times, and catalog coverage"
+        "QA OK: links, pairs, fences, line lengths, metadata, active times, "
+        "catalog coverage, and committed binaries"
     )
     return 0
 
