@@ -46,7 +46,8 @@ especificación, el arnés determinista, las trazas de referencia y el glosario.
 1. Sigue [`START-HERE-es.md`](START-HERE-es.md) para el orden guiado.
 2. Lee [`docs/guide/conceptual-framework-es.md`](docs/guide/conceptual-framework-es.md) y
    [`docs/guide/how-learning-works-es.md`](docs/guide/how-learning-works-es.md).
-3. Empieza el núcleo común con [`common-00`](common/lessons/common-00-game-invariant/lesson-es.md).
+3. Empieza el núcleo común con [`common-00`](common/lessons/common-00-how-to-learn/lesson-es.md) —
+   cómo aprender — y sigue el núcleo en orden.
 4. Elige la pista A o la pista B después del núcleo común. Se puede empezar
    por cualquiera de las dos.
 
@@ -61,7 +62,8 @@ El núcleo común es:
 - `common/spec/` — las reglas, escritas una vez, independientes del código.
 - `common/harness/` — ejecuta una variante con una semilla y captura la transcripción.
 - `common/traces/` — salidas de referencia.
-- `common/glossary/` — términos canónicos en inglés y español.
+- [`docs/guide/glossary-es.md`](docs/guide/glossary-es.md) — términos canónicos
+  en inglés y español.
 
 ## Principios de diseño
 

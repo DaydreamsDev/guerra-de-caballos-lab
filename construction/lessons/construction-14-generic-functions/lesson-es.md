@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** parámetros de tipo · **Tiempo:** unos 68 minutos · **Estado:** borrador
+**Concepto:** parámetros de tipo · **Tiempo:** unos 68 minutos ·
+**Prerrequisitos:** construction-12 o construction-13 · **Estado:** borrador
 **Lectura:** ~24 minutos
 
 ## Por qué existe esta lección

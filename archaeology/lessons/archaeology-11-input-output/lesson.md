@@ -829,7 +829,7 @@ argv / stdin ──► input adapter ──► run_game ──► GameResult ─
 
 Track A links: `construction-20` (hexagonal: ports and adapters) is the direct rung.
 `construction-08` (modular programming) is the prerequisite: without a module boundary there is no
-"core" to put behind a port. `common-01` (deterministic harness) is the testing counterpart: a
+"core" to put behind a port. `common-02` (deterministic harness) is the testing counterpart: a
 seeded, repeatable run is what makes the adapter comparison meaningful.
 
 ### What the separation does not fix
@@ -845,7 +845,7 @@ seeded, repeatable run is what makes the adapter comparison meaningful.
   function.
 - **The missing tests.** One seed and three moves are a smoke test, not a suite.
 - **The transcript format itself.** Even after Step 3, the console owns a format that no test pins
-  byte-for-byte. If you care about the exact text, freeze it as a golden file (`common-04`).
+  byte-for-byte. If you care about the exact text, freeze it as a golden file (`common-05`).
 
 ### The tradeoff, stated fairly
 
@@ -967,7 +967,7 @@ asserted" when that is what you ran.
 - [ ] I stated that the baseline still owns the transcript format.
 - [ ] I stated that there is no input adapter.
 - [ ] I stated that the bench is not the full horse game.
-- [ ] I linked the structural fix to `construction-20`, `construction-08` and `common-01`.
+- [ ] I linked the structural fix to `construction-20`, `construction-08` and `common-02`.
 - [ ] The archive is unmodified (`git status` in the archive is clean).
 
 If a box is not ticked, the unticked box names the next step. There is no penalty for repeating one.
@@ -1020,7 +1020,7 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
   sometimes lie; the `cout` lines are part of that narration.
 - If the input side felt unfinished, add an `argv` adapter in the scratch copy and pass the seed and
   the name as arguments. Count what changes: `main.cpp` only, if the port is honest.
-- If the transcript matters byte-for-byte, freeze it as a golden file (`common-04`) and compare the
+- If the transcript matters byte-for-byte, freeze it as a golden file (`common-05`) and compare the
   console output, not the line count.
 - If you disagree with the severity, write the context that changes it. A console demo and a
   maintained product do not price the same coupling.

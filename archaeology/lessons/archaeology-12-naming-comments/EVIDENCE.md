@@ -316,7 +316,7 @@ The class, not the instance. Name two other places in the archive where a name h
 - [ ] I cited the wrong-knight comment at line 78 and the wrong-statement comment at 310.
 - [ ] I stated what the rename does not fix.
 - [ ] I priced the defect by reader time and incident cost.
-- [ ] I linked the structural fix to `common-02` and `construction-03`.
+- [ ] I linked the structural fix to `common-03` and `construction-03`.
 - [ ] The archive is unmodified.
 
 ## 15. Next step

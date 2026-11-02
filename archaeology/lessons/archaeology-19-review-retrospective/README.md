@@ -50,8 +50,8 @@ An item is usable when it names:
 | Correctness | Does it do what it claims? | failure-001…failure-006 | `construction-02`, `construction-04`, `construction-05` |
 | Design | Does the structure make change expensive? | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12` |
 | Robustness | Does it work only in one environment? | failure-006, failure-015 | `construction-08`, `construction-20` |
-| Professional practice | Can another person build, trust and maintain it? | failure-016…failure-019 | `common-01`, `common-03`, `common-04` |
-| Evidence | Can the claim be checked? | all classes | `common-02`, `common-04` |
+| Professional practice | Can another person build, trust and maintain it? | failure-016…failure-019 | `common-02`, `common-04`, `common-05` |
+| Evidence | Can the claim be checked? | all classes | `common-03`, `common-05` |
 
 ## Files
 

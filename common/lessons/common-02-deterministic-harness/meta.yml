@@ -1,0 +1,16 @@
+id: common-02
+title: "Deterministic harness (arnés determinista)"
+concept: "Harness construction (construcción del arnés)"
+prerequisites: [common-01]
+reading_time: "8 minutes"
+estimated_time: "60 minutes"
+acceptance_criteria:
+  - "The learner names the three inputs of the reference harness."
+  - "The learner locates the 64-bit LCG constants and the mask in reference.py."
+  - "The learner traces the first three random calls that reach the transcript."
+  - "A run with seed 8 produces a transcript that differs from the seed 7 run."
+  - "The evidence file records the commands, the first differing line and the turn counts."
+  - "The evidence file explains why a fixed seed is a control, not a correctness proof."
+engineering_check: "predict → run → compare → explain → record"
+status: drafted
+languages: [en, es]

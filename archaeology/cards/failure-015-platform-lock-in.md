@@ -113,7 +113,7 @@ policy in the caller or a presentation layer, not inside the adapter.
 Then a test can link the no-op adapter and assert the caller's behavior without a terminal.
 
 Track A rungs: [`construction-08-modular`][c08] for the module boundary and
-[`construction-20-hexagonal`][c20] for ports and adapters. `common-04` is the golden-trace
+[`construction-20-hexagonal`][c20] for ports and adapters. `common-05` is the golden-trace
 counterpart: freeze the console output before swapping the adapter.
 
 [c08]: ../../construction/lessons/construction-08-modular/lesson.md

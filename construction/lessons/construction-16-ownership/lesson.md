@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** resource lifetime · **Time:** about 70 minutes · **Status:** drafted
+**Concept:** resource lifetime · **Time:** about 70 minutes · **Prerequisites:** construction-15 ·
+**Status:** drafted
 **Reading:** ~25 minutes
 
 ## Why this lesson exists

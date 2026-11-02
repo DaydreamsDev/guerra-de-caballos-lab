@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** validez y ciclo de vida · **Tiempo:** unos 60 minutos · **Estado:** borrador
-**Lectura:** ~17 minutos
+**Concepto:** validez y ciclo de vida · **Tiempo:** unos 60 minutos ·
+**Prerrequisitos:** construction-09 · **Estado:** borrador · **Lectura:** ~17 minutos
 
 ## Por qué existe esta lección
 

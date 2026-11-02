@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** pureza e inmutabilidad · **Tiempo:** unos 85 minutos · **Estado:** borrador
-**Lectura:** ~23 minutos
+**Concepto:** pureza e inmutabilidad · **Tiempo:** unos 85 minutos ·
+**Prerrequisitos:** construction-17 · **Estado:** borrador · **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección
 

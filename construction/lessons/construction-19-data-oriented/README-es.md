@@ -2,8 +2,8 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Estado:** borrador · **Concepto:** layout (disposición) · **Prerrequisito:** construction-05 ·
-> **Tiempo estimado:** 85 minutos
+> **Estado:** borrador · **Concepto:** layout (disposición) ·
+> **Prerrequisito:** construction-05, construction-17 · **Tiempo estimado:** 85 minutos
 
 Este directorio contiene el artefacto **después** de `construction-19`. Tiene el mismo
 comportamiento observable que `construction-17`, y conserva el mismo modelo de propiedad y el mismo
@@ -83,9 +83,10 @@ Las 20 trazas, de `seed-0001.txt` a `seed-0020.txt`, coinciden byte a byte.
 Compilar el banco de pruebas:
 
 ```bash
-c++ -std=c++20 -O2 -Icode -o benchmark \
+mkdir -p build
+c++ -std=c++20 -O2 -Icode -o build/benchmark \
     code/benchmark.cpp code/knight.cpp code/position.cpp code/random_sequence.cpp
-./benchmark
+./build/benchmark
 ```
 
 El banco redirige la salida estándar a `/dev/null` e informa los milisegundos transcurridos por la

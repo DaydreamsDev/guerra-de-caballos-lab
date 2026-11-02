@@ -11,17 +11,16 @@ Sigue este orden. No necesitas recorrer el repositorio para encontrar el siguien
 ## 1. Aprende cómo funciona el laboratorio
 
 1. [Cómo se aprende](docs/guide/how-learning-works-es.md)
-2. [Common-05 — Cómo aprender](common/lessons/common-05-how-to-learn/lesson-es.md)
 
 ## 2. Completa el núcleo común
 
-1. [common-00 — El juego como invariante](common/lessons/common-00-game-invariant/lesson-es.md)
-2. [common-01 — Arnés determinista](common/lessons/common-01-deterministic-harness/lesson-es.md)
-3. [common-02 — Glosario](common/lessons/common-02-glossary/lesson-es.md)
-4. **common-03 — Punto de entrada y directorio de trabajo**
-   [Abrir](common/lessons/common-03-build-and-run/lesson-es.md)
-5. [common-04 — Trazas de referencia](common/lessons/common-04-golden-traces/lesson-es.md)
-6. [common-05 — Cómo aprender](common/lessons/common-05-how-to-learn/lesson-es.md)
+1. [common-00 — Cómo aprender](common/lessons/common-00-how-to-learn/lesson-es.md)
+2. [common-01 — El juego como invariante](common/lessons/common-01-game-invariant/lesson-es.md)
+3. [common-02 — Arnés determinista](common/lessons/common-02-deterministic-harness/lesson-es.md)
+4. [common-03 — Glosario](common/lessons/common-03-glossary/lesson-es.md)
+5. **common-04 — Punto de entrada y directorio de trabajo**
+   [Abrir](common/lessons/common-04-build-and-run/lesson-es.md)
+6. [common-05 — Trazas de referencia](common/lessons/common-05-golden-traces/lesson-es.md)
 
 ## 3. Elige una pista
 
@@ -58,8 +57,12 @@ Ruta recomendada:
 19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson-es.md)
 20. [construction-24 — Proyecto final](construction/lessons/construction-24-capstone/lesson-es.md)
 
-Lentes opcionales: `construction-17`, `construction-19`, `construction-21`, `construction-22`,
-`construction-23`.
+Lentes opcionales:
+[construction-17](construction/lessons/construction-17-stl/lesson-es.md),
+[construction-19](construction/lessons/construction-19-data-oriented/lesson-es.md),
+[construction-21](construction/lessons/construction-21-concurrency/lesson-es.md),
+[construction-22](construction/lessons/construction-22-error-contracts/lesson-es.md),
+[construction-23](construction/lessons/construction-23-port/lesson-es.md).
 
 ### Pista B — Arqueología
 
@@ -90,8 +93,14 @@ Ruta recomendada:
 13. **archaeology-19 — Revisión y retrospectiva**
     [Abrir](archaeology/lessons/archaeology-19-review-retrospective/lesson-es.md)
 
-Lentes opcionales: `archaeology-06`, `archaeology-07`, `archaeology-10`, `archaeology-11`,
-`archaeology-12`, `archaeology-13`, `archaeology-16`.
+Lentes opcionales:
+[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson-es.md),
+[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson-es.md),
+[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson-es.md),
+[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson-es.md),
+[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson-es.md),
+[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson-es.md),
+[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson-es.md).
 
 ## 4. Si pierdes el hilo
 

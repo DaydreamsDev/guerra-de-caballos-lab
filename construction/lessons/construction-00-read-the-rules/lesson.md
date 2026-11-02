@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** specification (especificación) · **Time:** about 50 minutes · **Status:** drafted
+**Concept:** specification (especificación) · **Time:** about 50 minutes ·
+**Prerequisites:** common-01, common-02 · **Status:** drafted
 **Reading:** ~7 minutes
 
 ## Why this lesson exists
@@ -35,8 +36,8 @@ can test.
 
 ## Before you start
 
-- `common-00` — the game as an invariant.
-- `common-01` — the deterministic harness.
+- `common-01` — the game as an invariant.
+- `common-02` — the deterministic harness.
 
 You do not need C++ for this lesson. You need Python 3 and a text editor.
 

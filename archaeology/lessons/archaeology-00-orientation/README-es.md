@@ -2,7 +2,7 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Estado:** borrador · **Concepto:** modelo mental · **Prerrequisito:** common-03 ·
+> **Estado:** borrador · **Concepto:** modelo mental · **Prerrequisito:** common-04 ·
 > **Tiempo estimado:** 45 minutos
 
 Esta lección inicia la pista B con la tarea de ingeniería: leer una fuente desconocida y construir

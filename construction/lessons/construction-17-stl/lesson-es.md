@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** abstracción de iteración · **Tiempo:** unos 68 minutos · **Estado:** borrador
+**Concepto:** abstracción de iteración · **Tiempo:** unos 68 minutos ·
+**Prerrequisitos:** construction-05, construction-16 · **Estado:** borrador
 **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección

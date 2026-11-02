@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** puertos y adaptadores · **Tiempo:** unos 92 minutos · **Estado:** borrador
+**Concepto:** puertos y adaptadores · **Tiempo:** unos 92 minutos ·
+**Prerrequisitos:** construction-08, construction-17 · **Estado:** borrador
 **Lectura:** ~27 minutos
 
 ## Por qué existe esta lección

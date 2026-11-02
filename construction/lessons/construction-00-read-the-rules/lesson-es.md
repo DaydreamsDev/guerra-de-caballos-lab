@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** especificación (specification) · **Tiempo:** unos 50 minutos · **Estado:** borrador
-**Lectura:** ~7 minutos
+**Concepto:** especificación (specification) · **Tiempo:** unos 50 minutos ·
+**Prerrequisitos:** common-01, common-02 · **Estado:** borrador · **Lectura:** ~7 minutos
 
 ## Por qué existe esta lección
 
@@ -36,8 +36,8 @@ que puedes probar.
 
 ## Antes de empezar
 
-- `common-00` — el juego como invariante.
-- `common-01` — el arnés determinista.
+- `common-01` — el juego como invariante.
+- `common-02` — el arnés determinista.
 
 No necesitas C++ para esta lección. Necesitas Python 3 y un editor de texto.
 

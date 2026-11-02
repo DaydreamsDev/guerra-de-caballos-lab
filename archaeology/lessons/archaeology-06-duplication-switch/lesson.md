@@ -532,7 +532,7 @@ candidate because it is the code you wrote. If you generate both from the same t
 is circular: you are checking that a value equals itself.
 
 This is the transferable rule: **freeze the old behavior before you change the structure**. It is
-the same rule as a golden trace in `common-04`, applied to a refactor instead of a whole program.
+the same rule as a golden trace in `common-05`, applied to a refactor instead of a whole program.
 
 ### When a mismatch appears
 

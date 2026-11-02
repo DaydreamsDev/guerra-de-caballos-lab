@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** collection and traversal (colección y recorrido) · **Time:** about 62 minutes ·
-**Status:** drafted
+**Status:** drafted · **Prerequisites:** construction-04
 **Reading:** ~22 minutes
 
 ## Why this lesson exists

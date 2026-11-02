@@ -45,7 +45,8 @@ specification, the deterministic harness, the golden traces and the glossary.
 1. Follow [`START-HERE.md`](START-HERE.md) for the guided order.
 2. Read [`docs/guide/conceptual-framework.md`](docs/guide/conceptual-framework.md) and
    [`docs/guide/how-learning-works.md`](docs/guide/how-learning-works.md).
-3. Start the common core with [`common-00`](common/lessons/common-00-game-invariant/lesson.md).
+3. Start the common core with [`common-00`](common/lessons/common-00-how-to-learn/lesson.md) —
+   how to learn — then follow the core in order.
 4. Choose Track A or Track B after the common core. A learner may do either track first.
 
 ## The invariant
@@ -58,7 +59,7 @@ The common core is:
 - `common/spec/` — the rules, written once, independent of code.
 - `common/harness/` — runs a variant with a seed and captures the transcript.
 - `common/traces/` — golden outputs.
-- `common/glossary/` — canonical terms in English and Spanish.
+- [`docs/guide/glossary.md`](docs/guide/glossary.md) — canonical terms in English and Spanish.
 
 ## Design principles
 

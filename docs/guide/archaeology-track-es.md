@@ -250,9 +250,9 @@ parte de una.
 | Filtración de representación | `construction-09` tipo abstracto de datos |
 | Switch sobre el tipo | `construction-12` polimorfismo, `construction-14` genérico |
 | Entrada y salida mezcladas con la lógica | `construction-20` (hexagonal) |
-| Sin determinismo / pruebas | `common-01` arnés |
+| Sin determinismo / pruebas | `common-02` arnés |
 | Dependencia de plataforma | `construction-08` modular + `construction-20` hexagonal |
-| Artefacto mal etiquetado | `common-02` glosario + cada par de contraste |
+| Artefacto mal etiquetado | `common-03` glosario + cada par de contraste |
 
 La correspondencia es bidireccional: la Pista B dice *qué duele*; la Pista A dice *qué elimina el
 dolor*.

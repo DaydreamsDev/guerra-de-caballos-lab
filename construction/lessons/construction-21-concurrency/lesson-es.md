@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** estado compartido frente a mensajes · **Tiempo:** 120 minutos · **Estado:** borrador
+**Concepto:** estado compartido frente a mensajes · **Tiempo:** 120 minutos ·
+**Prerrequisitos:** construction-12, construction-20 · **Estado:** borrador
 **Lectura:** ~29 minutos
 
 ## Por qué existe esta lección

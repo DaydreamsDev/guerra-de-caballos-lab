@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** purity and immutability · **Time:** about 85 minutes · **Status:** drafted
+**Concept:** purity and immutability · **Time:** about 85 minutes ·
+**Prerequisites:** construction-17 · **Status:** drafted
 **Reading:** ~22 minutes
 
 ## Why this lesson exists

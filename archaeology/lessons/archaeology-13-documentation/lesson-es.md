@@ -635,7 +635,7 @@ siguiente lector un punto de partida.
 **Arreglo estructural — hacer ejecutable la documentación.** Pon los comandos en un script que la
 integración continua ejecute en un contenedor limpio. Haz que la especificación sea la autoridad y
 enlázala desde la fuente. Añade una prueba que compare la salida documentada con la observada.
-Enlaces a Track A: `common-03` (compilar y ejecutar), `common-04` (trazas doradas) y
+Enlaces a Track A: `common-04` (compilar y ejecutar), `common-05` (trazas doradas) y
 `construction-20` (el límite donde se adapta la presentación).
 
 ### Qué no arregla esta documentación

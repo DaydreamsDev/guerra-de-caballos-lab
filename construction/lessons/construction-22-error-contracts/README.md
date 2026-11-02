@@ -2,7 +2,7 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** recovery · **Prerequisite:** construction-09 ·
+> **Status:** drafted · **Concept:** recovery · **Prerequisite:** construction-09, construction-21 ·
 > **Estimated time:** 75 minutes
 
 This directory holds the **after** artifact for `construction-22`. It keeps the concurrency core

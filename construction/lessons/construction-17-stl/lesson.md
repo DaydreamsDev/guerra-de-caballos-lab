@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** iteration abstraction · **Time:** about 68 minutes · **Status:** drafted
+**Concept:** iteration abstraction · **Time:** about 68 minutes ·
+**Prerequisites:** construction-05, construction-16 · **Status:** drafted
 **Reading:** ~22 minutes
 
 ## Why this lesson exists

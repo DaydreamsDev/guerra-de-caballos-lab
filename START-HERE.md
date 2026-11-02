@@ -11,16 +11,15 @@ Follow this order. You do not need to browse the repository to find the next ste
 ## 1. Learn how the lab works
 
 1. [How learning works](docs/guide/how-learning-works.md)
-2. [Common-05 — How to learn](common/lessons/common-05-how-to-learn/lesson.md)
 
 ## 2. Complete the common core
 
-1. [common-00 — The game as an invariant](common/lessons/common-00-game-invariant/lesson.md)
-2. [common-01 — Deterministic harness](common/lessons/common-01-deterministic-harness/lesson.md)
-3. [common-02 — Glossary](common/lessons/common-02-glossary/lesson.md)
-4. [common-03 — Entry point and working directory](common/lessons/common-03-build-and-run/lesson.md)
-5. [common-04 — Golden traces](common/lessons/common-04-golden-traces/lesson.md)
-6. [common-05 — How to learn](common/lessons/common-05-how-to-learn/lesson.md)
+1. [common-00 — How to learn](common/lessons/common-00-how-to-learn/lesson.md)
+2. [common-01 — The game as an invariant](common/lessons/common-01-game-invariant/lesson.md)
+3. [common-02 — Deterministic harness](common/lessons/common-02-deterministic-harness/lesson.md)
+4. [common-03 — Glossary](common/lessons/common-03-glossary/lesson.md)
+5. [common-04 — Entry point and working directory](common/lessons/common-04-build-and-run/lesson.md)
+6. [common-05 — Golden traces](common/lessons/common-05-golden-traces/lesson.md)
 
 ## 3. Choose one track
 
@@ -54,8 +53,12 @@ Recommended spine:
 19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson.md)
 20. [construction-24 — Capstone](construction/lessons/construction-24-capstone/lesson.md)
 
-Optional lenses: `construction-17`, `construction-19`, `construction-21`, `construction-22`,
-`construction-23`.
+Optional lenses:
+[construction-17](construction/lessons/construction-17-stl/lesson.md),
+[construction-19](construction/lessons/construction-19-data-oriented/lesson.md),
+[construction-21](construction/lessons/construction-21-concurrency/lesson.md),
+[construction-22](construction/lessons/construction-22-error-contracts/lesson.md),
+[construction-23](construction/lessons/construction-23-port/lesson.md).
 
 ### Track B — Archaeology
 
@@ -81,8 +84,14 @@ Recommended spine:
 13. **archaeology-19 — Review and retrospective**
     [Open](archaeology/lessons/archaeology-19-review-retrospective/lesson.md)
 
-Optional lenses: `archaeology-06`, `archaeology-07`, `archaeology-10`, `archaeology-11`,
-`archaeology-12`, `archaeology-13`, `archaeology-16`.
+Optional lenses:
+[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson.md),
+[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson.md),
+[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson.md),
+[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson.md),
+[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson.md),
+[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson.md),
+[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson.md).
 
 ## 4. If you lose the thread
 

@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** validity and lifecycle (validez y ciclo de vida) · **Time:** about 60 minutes ·
-**Status:** drafted
+**Prerequisites:** construction-09 · **Status:** drafted
 **Reading:** ~16 minutes
 
 ## Why this lesson exists

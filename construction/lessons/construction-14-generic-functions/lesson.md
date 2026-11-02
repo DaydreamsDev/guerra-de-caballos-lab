@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** type parameters · **Time:** about 68 minutes · **Status:** drafted
+**Concept:** type parameters · **Time:** about 68 minutes ·
+**Prerequisites:** construction-12 or construction-13 · **Status:** drafted
 **Reading:** ~23 minutes
 
 ## Why this lesson exists
