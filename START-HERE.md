@@ -11,6 +11,10 @@ There are two entries. You do not need to browse the repository to find the next
   experience: seven lessons, no compiler, about four and a half hours. Start with
   [`docs/guide/starter-route.md`](docs/guide/starter-route.md), then return here for Track A or B.
 
+Both entries share the same lesson roles. The full lab has a core spine and optional lessons; the
+[lesson catalog](docs/guide/lesson-catalog.md) marks every lesson as `core`, `optional` or
+`capstone`. The starter route is seven `core` lessons with no optional lessons.
+
 ## 0. Check your environment
 
 - [Environment and compatibility](docs/guide/environment.md)
@@ -56,16 +60,17 @@ Recommended spine:
 16. **construction-15 — Generic classes**
     [Open](construction/lessons/construction-15-generic-classes/lesson.md)
 17. [construction-16 — Ownership](construction/lessons/construction-16-ownership/lesson.md)
-18. [construction-18 — Functional](construction/lessons/construction-18-functional/lesson.md)
-19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson.md)
-20. [construction-24 — Capstone](construction/lessons/construction-24-capstone/lesson.md)
+18. **construction-17 — Standard Template Library and algorithms**
+    [Open](construction/lessons/construction-17-stl/lesson.md)
+19. [construction-18 — Functional](construction/lessons/construction-18-functional/lesson.md)
+20. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson.md)
+21. [construction-24 — Capstone](construction/lessons/construction-24-capstone/lesson.md)
 
-Optional lenses:
-[construction-17](construction/lessons/construction-17-stl/lesson.md),
-[construction-19](construction/lessons/construction-19-data-oriented/lesson.md),
-[construction-21](construction/lessons/construction-21-concurrency/lesson.md),
-[construction-22](construction/lessons/construction-22-error-contracts/lesson.md),
-[construction-23](construction/lessons/construction-23-port/lesson.md).
+**Optional lessons (safe to skip):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+The spine reaches the capstone without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 ### Track B — Archaeology
 
@@ -91,14 +96,11 @@ Recommended spine:
 13. **archaeology-19 — Review and retrospective**
     [Open](archaeology/lessons/archaeology-19-review-retrospective/lesson.md)
 
-Optional lenses:
-[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson.md),
-[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson.md),
-[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson.md),
-[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson.md),
-[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson.md),
-[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson.md),
-[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson.md).
+**Optional lessons (safe to skip):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+The spine reaches the retrospective without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 ## 4. If you lose the thread
 

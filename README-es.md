@@ -47,6 +47,10 @@ Si tienes poca o ninguna experiencia en ingeniería de software, empieza por la
 [Ruta inicial](docs/guide/starter-route-es.md): siete lecciones, sin compilador, unas cuatro horas y
 media. Después puedes entrar en la pista A o en la pista B.
 
+Cada pista tiene una columna vertebral y lecciones opcionales. El catálogo marca cada lección
+como `core`, `optional` o `capstone`. Ninguna lección opcional es prerrequisito de una lección
+del tronco: tómalas para ver la escalera completa u omitirlas para el recorrido más corto.
+
 ## Cómo empezar
 
 1. Sigue [`START-HERE-es.md`](START-HERE-es.md) para el orden guiado.

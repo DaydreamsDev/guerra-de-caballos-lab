@@ -18,7 +18,7 @@ common-00 → common-01 → common-02 → common-03 → common-04 → common-05
 ```
 
 If you are following the [Starter route](../docs/guide/starter-route.md), this core plus
-`construction-00` is the whole route.
+`construction-00` is the whole route. All six lessons here are `core`.
 
 ## Lessons
 

@@ -57,13 +57,19 @@ Estas lecciones son extensiones curriculares modernas, no código histórico rec
 [Propiedad y ciclo de vida de recursos](lessons/construction-16-ownership/lesson-es.md),
 [Biblioteca de plantillas estándar y algoritmos](lessons/construction-17-stl/lesson-es.md),
 [Estilo funcional](lessons/construction-18-functional/lesson-es.md),
-[Diseño orientado a datos](lessons/construction-19-data-oriented/lesson-es.md),
+[Diseño orientado a datos](lessons/construction-19-data-oriented/lesson-es.md) (opcional),
 [Hexagonal](lessons/construction-20-hexagonal/lesson-es.md),
-[Concurrencia](lessons/construction-21-concurrency/lesson-es.md),
-[Contratos de error](lessons/construction-22-error-contracts/lesson-es.md),
-[Portar a otro lenguaje](lessons/construction-23-port/lesson-es.md) y
+[Concurrencia](lessons/construction-21-concurrency/lesson-es.md) (opcional),
+[Contratos de error](lessons/construction-22-error-contracts/lesson-es.md) (opcional),
+[Portar a otro lenguaje](lessons/construction-23-port/lesson-es.md) (opcional) y
 [Proyecto final: informe de costes](lessons/construction-24-capstone/lesson-es.md). La pista A está
 completa.
+
+**Lecciones opcionales (puedes omitirlas):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+La columna vertebral llega al proyecto final sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 Ver [`../docs/guide/construction-track-es.md`](../docs/guide/construction-track-es.md) y
 [`../docs/guide/lesson-catalog-es.md`](../docs/guide/lesson-catalog-es.md).

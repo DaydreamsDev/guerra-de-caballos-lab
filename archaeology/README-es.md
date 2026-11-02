@@ -43,21 +43,31 @@ Las fichas de fallo de la primera entrega son 15 de 15. Ver [Fichas de fallo](ca
 - [Reconstruir la especificación](lessons/archaeology-03-reverse-spec/lesson-es.md)
 - [Fallos de corrección](lessons/archaeology-04-correctness-failures/lesson-es.md)
 - [Estado global y acoplamiento oculto](lessons/archaeology-05-global-state/lesson-es.md)
-- [Duplicación y el switch de ocho casos](lessons/archaeology-06-duplication-switch/lesson-es.md)
-- [Fuga de representación](lessons/archaeology-07-representation-leakage/lesson-es.md)
+- [Duplicación y el switch de ocho
+  casos](lessons/archaeology-06-duplication-switch/lesson-es.md) (opcional)
+- [Fuga de representación](lessons/archaeology-07-representation-leakage/lesson-es.md) (opcional)
 - [Frontera de módulo ausente](lessons/archaeology-08-module-boundary/lesson-es.md)
 - [Tipo abstracto de datos ausente](lessons/archaeology-09-abstract-data-type/lesson-es.md)
-- [Polimorfismo ausente](lessons/archaeology-10-polymorphism/lesson-es.md)
-- [Entrada, salida y capacidad de prueba](lessons/archaeology-11-input-output/lesson-es.md)
-- [Nombres y comentarios](lessons/archaeology-12-naming-comments/lesson-es.md)
-- [Documentación técnica para mantenedores](lessons/archaeology-13-documentation/lesson-es.md)
+- [Polimorfismo ausente](lessons/archaeology-10-polymorphism/lesson-es.md) (opcional)
+- [Entrada, salida y capacidad de
+  prueba](lessons/archaeology-11-input-output/lesson-es.md) (opcional)
+- [Nombres y comentarios](lessons/archaeology-12-naming-comments/lesson-es.md) (opcional)
+- [Documentación técnica para
+  mantenedores](lessons/archaeology-13-documentation/lesson-es.md) (opcional)
 - [Pruebas y determinismo](lessons/archaeology-14-tests-determinism/lesson-es.md)
 - **Análisis estático y advertencias del compilador**
   [Abrir](lessons/archaeology-15-static-analysis/lesson-es.md)
-- [Dependencia de plataforma](lessons/archaeology-16-platform-lock-in/lesson-es.md)
+- [Dependencia de plataforma](lessons/archaeology-16-platform-lock-in/lesson-es.md) (opcional)
 - [Revisión de código de una función heredada](lessons/archaeology-17-code-review/lesson-es.md)
 - [Taller de refactorización](lessons/archaeology-18-refactor-workshop/lesson-es.md)
 - [Lista de revisión y retrospectiva](lessons/archaeology-19-review-retrospective/lesson-es.md)
+
+**Lecciones opcionales (puedes omitirlas):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`,
+`archaeology-16`.
+
+La columna vertebral llega a la retrospectiva sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 Ver [`../docs/guide/archaeology-track-es.md`](../docs/guide/archaeology-track-es.md) y
 [`../docs/guide/lesson-catalog-es.md`](../docs/guide/lesson-catalog-es.md).

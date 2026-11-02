@@ -12,6 +12,11 @@ Hay dos entradas. No necesitas recorrer el repositorio para encontrar el siguien
   ingeniería de software: siete lecciones, sin compilador, unas cuatro horas y media. Empieza en
   [`docs/guide/starter-route-es.md`](docs/guide/starter-route-es.md) y vuelve aquí para las pistas.
 
+Ambas entradas comparten los mismos roles de lección. El laboratorio completo tiene una columna
+vertebral y lecciones opcionales; el [catálogo de lecciones](docs/guide/lesson-catalog-es.md)
+marca cada lección como `core`, `optional` o `capstone`. La ruta inicial son siete lecciones
+`core` sin lecciones opcionales.
+
 ## 0. Comprueba tu entorno
 
 - [Entorno y compatibilidad](docs/guide/environment-es.md)
@@ -61,16 +66,17 @@ Ruta recomendada:
 16. **construction-15 — Clases genéricas**
     [Abrir](construction/lessons/construction-15-generic-classes/lesson-es.md)
 17. [construction-16 — Propiedad](construction/lessons/construction-16-ownership/lesson-es.md)
-18. [construction-18 — Funcional](construction/lessons/construction-18-functional/lesson-es.md)
-19. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson-es.md)
-20. [construction-24 — Proyecto final](construction/lessons/construction-24-capstone/lesson-es.md)
+18. **construction-17 — Biblioteca de plantillas estándar y algoritmos**
+    [Abrir](construction/lessons/construction-17-stl/lesson-es.md)
+19. [construction-18 — Funcional](construction/lessons/construction-18-functional/lesson-es.md)
+20. [construction-20 — Hexagonal](construction/lessons/construction-20-hexagonal/lesson-es.md)
+21. [construction-24 — Proyecto final](construction/lessons/construction-24-capstone/lesson-es.md)
 
-Lentes opcionales:
-[construction-17](construction/lessons/construction-17-stl/lesson-es.md),
-[construction-19](construction/lessons/construction-19-data-oriented/lesson-es.md),
-[construction-21](construction/lessons/construction-21-concurrency/lesson-es.md),
-[construction-22](construction/lessons/construction-22-error-contracts/lesson-es.md),
-[construction-23](construction/lessons/construction-23-port/lesson-es.md).
+**Lecciones opcionales (puedes omitirlas):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+La columna vertebral llega al proyecto final sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 ### Pista B — Arqueología
 
@@ -101,14 +107,11 @@ Ruta recomendada:
 13. **archaeology-19 — Revisión y retrospectiva**
     [Abrir](archaeology/lessons/archaeology-19-review-retrospective/lesson-es.md)
 
-Lentes opcionales:
-[archaeology-06](archaeology/lessons/archaeology-06-duplication-switch/lesson-es.md),
-[archaeology-07](archaeology/lessons/archaeology-07-representation-leakage/lesson-es.md),
-[archaeology-10](archaeology/lessons/archaeology-10-polymorphism/lesson-es.md),
-[archaeology-11](archaeology/lessons/archaeology-11-input-output/lesson-es.md),
-[archaeology-12](archaeology/lessons/archaeology-12-naming-comments/lesson-es.md),
-[archaeology-13](archaeology/lessons/archaeology-13-documentation/lesson-es.md),
-[archaeology-16](archaeology/lessons/archaeology-16-platform-lock-in/lesson-es.md).
+**Lecciones opcionales (puedes omitirlas):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+La columna vertebral llega a la retrospectiva sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 ## 4. Si pierdes el hilo
 

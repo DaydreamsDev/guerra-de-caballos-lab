@@ -35,6 +35,12 @@ Seven lessons, in this order. The times are estimates.
 | 6 | [common-05 — Golden traces](../../common/lessons/common-05-golden-traces/lesson.md) | 45 min | Golden traces | [EVIDENCE.md](../../common/lessons/common-05-golden-traces/EVIDENCE.md) |
 | 7 | [construction-00 — Read the rules](../../construction/lessons/construction-00-read-the-rules/lesson.md) | 50 min | Specification | [EVIDENCE.md](../../construction/lessons/construction-00-read-the-rules/EVIDENCE.md) |
 
+## Core and optional
+
+All seven lessons in this route are `core`. The route contains no optional lessons. Optional
+lessons appear later in Track A and Track B; the [lesson catalog](lesson-catalog.md) marks
+every lesson as `core`, `optional` or `capstone`.
+
 ## The flow
 
 ```text
@@ -81,8 +87,10 @@ Two sessions of about 2 h 15 each, or four of about 1 h.
 
 ## After the route
 
-- **Track A** continues at `construction-01` and requires C++20.
-- **Track B** starts at `archaeology-00`; its build check requires C++20.
+- **Track A** continues at `construction-01` and follows the core spine; optional lessons are
+  marked in the [catalog](lesson-catalog.md).
+- **Track B** starts at `archaeology-00`; its build check requires C++20. Optional lessons are
+  marked in the [catalog](lesson-catalog.md).
 
 ## FAQ
 
