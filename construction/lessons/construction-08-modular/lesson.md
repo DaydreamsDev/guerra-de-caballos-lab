@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** information hiding (ocultamiento de información) · **Time:** about 92 minutes ·
-**Status:** drafted
+**Status:** drafted · **Prerequisites:** construction-03, construction-07
 **Reading:** ~18 minutes
 
 ## Why this lesson exists

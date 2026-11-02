@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** scope and decomposition · **Time:** about 45 minutes · **Status:** drafted
+**Concept:** scope and decomposition · **Time:** about 45 minutes ·
+**Prerequisites:** construction-02 · **Status:** drafted
 **Reading:** ~14 minutes
 
 ## Why this lesson exists

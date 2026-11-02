@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** syntax is disposable · **Time:** about 195 minutes · **Status:** drafted
+**Concept:** syntax is disposable · **Time:** about 195 minutes ·
+**Prerequisites:** construction-09 or construction-12 · **Status:** drafted
 **Reading:** ~20 minutes
 
 ## Why this lesson exists

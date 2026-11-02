@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** shared state vs messages · **Time:** about 115 minutes · **Status:** drafted
+**Concept:** shared state vs messages · **Time:** about 115 minutes ·
+**Prerequisites:** construction-12, construction-20 · **Status:** drafted
 **Reading:** ~28 minutes
 
 ## Why this lesson exists

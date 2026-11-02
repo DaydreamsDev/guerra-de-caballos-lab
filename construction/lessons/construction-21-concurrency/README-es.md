@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** estado compartido frente a mensajes ·
-> **Prerrequisito:** construction-12 · **Tiempo estimado:** 115 minutos
+> **Prerrequisito:** construction-12, construction-20 · **Tiempo estimado:** 115 minutos
 
 Este directorio contiene el artefacto **después** de `construction-21`. Conserva el núcleo
 hexagonal de `construction-20` y añade dos cosas: la secuencia aleatoria pasa a ser estado de cada

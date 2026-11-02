@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** recuperación · **Tiempo:** unos 75 minutos · **Estado:** borrador
+**Concepto:** recuperación · **Tiempo:** unos 75 minutos ·
+**Prerrequisitos:** construction-09, construction-21 · **Estado:** borrador
 **Lectura:** ~25 minutos
 
 ## Por qué existe esta lección

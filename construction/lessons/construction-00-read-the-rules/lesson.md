@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** specification (especificación) · **Time:** about 50 minutes · **Status:** drafted
+**Concept:** specification (especificación) · **Time:** about 50 minutes ·
+**Prerequisites:** common-01, common-02 · **Status:** drafted
 **Reading:** ~7 minutes
 
 ## Why this lesson exists

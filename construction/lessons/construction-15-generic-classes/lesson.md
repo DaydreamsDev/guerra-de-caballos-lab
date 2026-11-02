@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** constraints · **Time:** about 81 minutes · **Status:** drafted
+**Concept:** constraints · **Time:** about 81 minutes · **Prerequisites:** construction-14 ·
+**Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists

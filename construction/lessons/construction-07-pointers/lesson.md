@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** indirection and lifetime (indirección y ciclo de vida) · **Time:** about 88 minutes ·
-**Status:** drafted
+**Status:** drafted · **Prerequisites:** construction-06
 **Reading:** ~17 minutes
 
 ## Why this lesson exists

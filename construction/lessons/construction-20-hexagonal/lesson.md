@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** ports and adapters · **Time:** about 92 minutes · **Status:** drafted
+**Concept:** ports and adapters · **Time:** about 92 minutes ·
+**Prerequisites:** construction-08, construction-17 · **Status:** drafted
 **Reading:** ~26 minutes
 
 ## Why this lesson exists

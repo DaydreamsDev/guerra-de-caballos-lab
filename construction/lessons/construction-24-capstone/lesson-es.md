@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concepto:** justificación de compromisos · **Tiempo:** unos 175 minutos ·
-**Estado:** borrador
+**Prerrequisitos:** construction-12, construction-15 · **Estado:** borrador
 **Lectura:** ~21 minutos
 
 ## Por qué existe esta lección

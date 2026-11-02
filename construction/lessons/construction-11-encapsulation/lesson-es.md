@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** clase con invariante · **Tiempo:** unos 60 minutos · **Estado:** borrador
-**Lectura:** ~19 minutos
+**Concepto:** clase con invariante · **Tiempo:** unos 60 minutos ·
+**Prerrequisitos:** construction-10 · **Estado:** borrador · **Lectura:** ~19 minutos
 
 ## Por qué existe esta lección
 

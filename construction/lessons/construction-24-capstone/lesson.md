@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** tradeoff justification · **Time:** about 175 minutes ·
-**Status:** drafted
+**Prerequisites:** construction-12, construction-15 · **Status:** drafted
 **Reading:** ~20 minutes
 
 ## Why this lesson exists

@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** arbitrary control flow · **Time:** about 70 minutes · **Status:** drafted
+**Concept:** arbitrary control flow · **Time:** about 70 minutes ·
+**Prerequisites:** construction-00 · **Status:** drafted
 **Reading:** ~11 minutes
 
 ## Why this lesson exists

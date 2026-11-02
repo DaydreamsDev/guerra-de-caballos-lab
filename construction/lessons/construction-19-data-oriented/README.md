@@ -2,7 +2,7 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** layout · **Prerequisite:** construction-05 ·
+> **Status:** drafted · **Concept:** layout · **Prerequisite:** construction-05, construction-17 ·
 > **Estimated time:** 85 minutes
 
 This directory holds the **after** artifact for `construction-19`. It has the same observable

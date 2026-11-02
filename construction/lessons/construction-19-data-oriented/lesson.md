@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** layout · **Time:** about 85 minutes · **Status:** drafted
+**Concept:** layout · **Time:** about 85 minutes ·
+**Prerequisites:** construction-05, construction-17 · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists

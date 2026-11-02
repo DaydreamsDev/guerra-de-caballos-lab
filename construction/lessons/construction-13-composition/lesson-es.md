@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** composición frente a herencia · **Tiempo:** unos 68 minutos · **Estado:** borrador
-**Lectura:** ~22 minutos
+**Concepto:** composición frente a herencia · **Tiempo:** unos 68 minutos ·
+**Prerrequisitos:** construction-12 · **Estado:** borrador · **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
 

@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ligadura dinámica · **Tiempo:** unos 80 minutos · **Estado:** borrador
-**Lectura:** ~22 minutos
+**Concepto:** ligadura dinámica · **Tiempo:** unos 80 minutos ·
+**Prerrequisitos:** construction-11 · **Estado:** borrador · **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
 

@@ -2,8 +2,9 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** agregación · **Tiempo:** unos 55 minutos · **Estado:** borrador
-**Lectura:** ~17 minutos
+**Concepto:** agregación · **Tiempo:** unos 55 minutos · **Prerrequisitos:** construction-03 ·
+**Estado:** borrador
+**Lectura:** ~17 minutos · **Prerrequisitos:** construction-03
 
 ## Por qué existe esta lección
 

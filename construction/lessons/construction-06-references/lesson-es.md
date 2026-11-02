@@ -2,8 +2,9 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** alias sin direcciones · **Tiempo:** unos 45 minutos · **Estado:** borrador
-**Lectura:** ~16 minutos
+**Concepto:** alias sin direcciones · **Tiempo:** unos 45 minutos ·
+**Prerrequisitos:** construction-05 · **Estado:** borrador
+**Lectura:** ~16 minutos · **Prerrequisitos:** construction-05
 
 ## Por qué existe esta lección
 

@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** layout (disposición) · **Tiempo:** unos 85 minutos · **Estado:** borrador
+**Concepto:** layout (disposición) · **Tiempo:** unos 85 minutos ·
+**Prerrequisitos:** construction-05, construction-17 · **Estado:** borrador
 **Lectura:** ~23 minutos
 
 ## Por qué existe esta lección

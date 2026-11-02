@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** representation independence (independencia de representación) · **Time:** about 90
-minutes · **Status:** drafted
+**Concept:** representation independence (independencia de representación) ·
+**Time:** about 90 minutes · **Prerequisites:** construction-08 · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists

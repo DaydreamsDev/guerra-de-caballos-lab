@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** class with invariant (clase con invariante) · **Time:** about 60 minutes ·
-**Status:** drafted
+**Prerequisites:** construction-10 · **Status:** drafted
 **Reading:** ~18 minutes
 
 ## Why this lesson exists

@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** restricciones · **Tiempo:** unos 81 minutos · **Estado:** borrador
-**Lectura:** ~22 minutos
+**Concepto:** restricciones · **Tiempo:** unos 81 minutos · **Prerrequisitos:** construction-14 ·
+**Estado:** borrador · **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
 
