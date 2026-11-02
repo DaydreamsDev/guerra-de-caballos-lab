@@ -2,7 +2,14 @@
 
 > [English](START-HERE.md) | [Español](START-HERE-es.md)
 
-Follow this order. You do not need to browse the repository to find the next step.
+There are two entries. You do not need to browse the repository to find the next step.
+
+## Choose your entry
+
+- **Full lab** — follow this page from section 0. Track A and Track B require a C++20 compiler.
+- **Starter route** — a bounded first pass for learners with little or no software engineering
+  experience: seven lessons, no compiler, about four and a half hours. Start with
+  [`docs/guide/starter-route.md`](docs/guide/starter-route.md), then return here for Track A or B.
 
 ## 0. Check your environment
 
