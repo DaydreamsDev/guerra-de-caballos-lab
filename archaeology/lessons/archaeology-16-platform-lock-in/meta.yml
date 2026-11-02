@@ -1,6 +1,7 @@
 id: archaeology-16
 title: "Platform lock-in"
 concept: "platform lock-in and adapters"
+lesson_role: "optional"
 prerequisites:
   - archaeology-01
 reading_time: "25 minutes"

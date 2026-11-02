@@ -1,6 +1,7 @@
 id: archaeology-09
 title: "Missing abstract data type"
 concept: "Abstract data type"
+lesson_role: "core"
 prerequisites:
   - archaeology-08
 reading_time: "19 minutes"

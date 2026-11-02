@@ -1,6 +1,7 @@
 id: common-02
 title: "Deterministic harness (arnés determinista)"
 concept: "Harness construction (construcción del arnés)"
+lesson_role: "core"
 prerequisites: [common-01]
 reading_time: "8 minutes"
 estimated_time: "60 minutes"

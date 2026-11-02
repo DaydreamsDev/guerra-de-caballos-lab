@@ -1,6 +1,7 @@
 id: archaeology-07
 title: "Representation leakage and parallel arrays"
 concept: "Representation leakage and records"
+lesson_role: "optional"
 prerequisites:
   - archaeology-05
 reading_time: "18 minutes"

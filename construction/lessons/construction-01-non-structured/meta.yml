@@ -1,6 +1,7 @@
 id: construction-01
 title: "Non-structured programming (programación no estructurada)"
 concept: "Arbitrary control flow (flujo de control arbitrario)"
+lesson_role: "core"
 prerequisites:
   - construction-00
 reading_time: "11 minutes"

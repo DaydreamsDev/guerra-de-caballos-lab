@@ -1,6 +1,7 @@
 id: archaeology-12
 title: "Naming and comments"
 concept: "Naming and comments (nombres y comentarios)"
+lesson_role: "optional"
 prerequisites:
   - archaeology-04
 reading_time: "19 minutes"

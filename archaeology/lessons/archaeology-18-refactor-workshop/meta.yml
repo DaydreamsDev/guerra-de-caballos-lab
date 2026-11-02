@@ -1,6 +1,7 @@
 id: archaeology-18
 title: "Refactor workshop"
 concept: "All failure classes"
+lesson_role: "core"
 prerequisites:
   - archaeology-04
   - archaeology-05

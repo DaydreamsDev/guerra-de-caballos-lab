@@ -1,6 +1,7 @@
 id: construction-19
 title: "Data-oriented design (orientado a datos)"
 concept: "Layout (disposición)"
+lesson_role: "optional"
 prerequisites:
   - "construction-05"
   - "construction-17"

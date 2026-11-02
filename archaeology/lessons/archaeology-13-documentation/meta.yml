@@ -1,6 +1,7 @@
 id: archaeology-13
 title: "Technical documentation for maintainers"
 concept: "Documentation"
+lesson_role: "optional"
 prerequisites:
   - archaeology-03
 reading_time: "20 minutes"

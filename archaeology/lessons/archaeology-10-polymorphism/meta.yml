@@ -1,6 +1,7 @@
 id: archaeology-10
 title: "Missing polymorphism"
 concept: "Polymorphism"
+lesson_role: "optional"
 prerequisites:
   - archaeology-09
 reading_time: "22 minutes"

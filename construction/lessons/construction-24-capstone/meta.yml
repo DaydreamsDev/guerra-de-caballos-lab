@@ -1,6 +1,7 @@
 id: construction-24
 title: "Capstone: cost report (informe de costes)"
 concept: "tradeoff justification"
+lesson_role: "capstone"
 prerequisites:
   - "construction-12"
   - "construction-15"

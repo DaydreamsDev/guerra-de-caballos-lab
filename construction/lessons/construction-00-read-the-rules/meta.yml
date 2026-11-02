@@ -1,6 +1,7 @@
 id: construction-00
 title: "Read the rules, run the reference baseline"
 concept: "Specification (especificación)"
+lesson_role: "core"
 prerequisites:
   - common-01
   - common-02
