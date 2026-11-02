@@ -83,9 +83,10 @@ Las 20 trazas, de `seed-0001.txt` a `seed-0020.txt`, coinciden byte a byte.
 Compilar el banco de pruebas:
 
 ```bash
-c++ -std=c++20 -O2 -Icode -o benchmark \
+mkdir -p build
+c++ -std=c++20 -O2 -Icode -o build/benchmark \
     code/benchmark.cpp code/knight.cpp code/position.cpp code/random_sequence.cpp
-./benchmark
+./build/benchmark
 ```
 
 El banco redirige la salida estándar a `/dev/null` e informa los milisegundos transcurridos por la

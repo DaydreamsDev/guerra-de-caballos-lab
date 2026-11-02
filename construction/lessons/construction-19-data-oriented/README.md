@@ -80,9 +80,10 @@ All 20 traces from `seed-0001.txt` through `seed-0020.txt` match byte for byte.
 Build the benchmark:
 
 ```bash
-c++ -std=c++20 -O2 -Icode -o benchmark \
+mkdir -p build
+c++ -std=c++20 -O2 -Icode -o build/benchmark \
     code/benchmark.cpp code/knight.cpp code/position.cpp code/random_sequence.cpp
-./benchmark
+./build/benchmark
 ```
 
 The benchmark redirects standard output to `/dev/null` and reports elapsed milliseconds on standard
