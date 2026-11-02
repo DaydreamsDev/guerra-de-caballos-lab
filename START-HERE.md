@@ -11,16 +11,15 @@ Follow this order. You do not need to browse the repository to find the next ste
 ## 1. Learn how the lab works
 
 1. [How learning works](docs/guide/how-learning-works.md)
-2. [Common-05 — How to learn](common/lessons/common-05-how-to-learn/lesson.md)
 
 ## 2. Complete the common core
 
-1. [common-00 — The game as an invariant](common/lessons/common-00-game-invariant/lesson.md)
-2. [common-01 — Deterministic harness](common/lessons/common-01-deterministic-harness/lesson.md)
-3. [common-02 — Glossary](common/lessons/common-02-glossary/lesson.md)
-4. [common-03 — Entry point and working directory](common/lessons/common-03-build-and-run/lesson.md)
-5. [common-04 — Golden traces](common/lessons/common-04-golden-traces/lesson.md)
-6. [common-05 — How to learn](common/lessons/common-05-how-to-learn/lesson.md)
+1. [common-05 — How to learn](common/lessons/common-05-how-to-learn/lesson.md)
+2. [common-00 — The game as an invariant](common/lessons/common-00-game-invariant/lesson.md)
+3. [common-01 — Deterministic harness](common/lessons/common-01-deterministic-harness/lesson.md)
+4. [common-02 — Glossary](common/lessons/common-02-glossary/lesson.md)
+5. [common-03 — Entry point and working directory](common/lessons/common-03-build-and-run/lesson.md)
+6. [common-04 — Golden traces](common/lessons/common-04-golden-traces/lesson.md)
 
 ## 3. Choose one track
 

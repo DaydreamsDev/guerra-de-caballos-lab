@@ -3,22 +3,30 @@
 
 The common core is the contract shared by both tracks. It is built before the first lesson.
 
-The order:
+Two orders, not one:
+
+**Build order** — the artifacts, in dependency order:
 
 ```text
 spec → harness → golden traces → first lesson
+```
+
+**Learning order** — the lessons, in the order a learner takes them:
+
+```text
+common-05 → common-00 → common-01 → common-02 → common-03 → common-04
 ```
 
 ## Lessons
 
 | ID | Lesson | Concept | Status |
 |---|---|---|---|
+| `common-05` | [How to learn](lessons/common-05-how-to-learn/lesson.md) (cómo aprender) | Metacognition | Drafted |
 | `common-00` | [The game as an invariant](lessons/common-00-game-invariant/lesson.md) (el juego como invariante) | Specification | Drafted |
 | `common-01` | [Deterministic harness](lessons/common-01-deterministic-harness/lesson.md) (arnés determinista) | Reproducibility | Drafted |
 | `common-02` | [Glossary](lessons/common-02-glossary/lesson.md) (glosario) | Shared vocabulary | Drafted |
 | `common-03` | [Build and run](lessons/common-03-build-and-run/lesson.md) (compilar y ejecutar) | Build reproducibility | Drafted |
 | `common-04` | [Golden traces](lessons/common-04-golden-traces/lesson.md) (trazas de referencia) | Behavioral contract | Drafted |
-| `common-05` | [How to learn](lessons/common-05-how-to-learn/lesson.md) (cómo aprender) | Metacognition | Drafted |
 
 `common-00` is the most important document in the project. If the rules are ambiguous, every
 contrast is invalid.

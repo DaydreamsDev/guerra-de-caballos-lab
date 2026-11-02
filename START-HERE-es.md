@@ -11,17 +11,16 @@ Sigue este orden. No necesitas recorrer el repositorio para encontrar el siguien
 ## 1. Aprende cómo funciona el laboratorio
 
 1. [Cómo se aprende](docs/guide/how-learning-works-es.md)
-2. [Common-05 — Cómo aprender](common/lessons/common-05-how-to-learn/lesson-es.md)
 
 ## 2. Completa el núcleo común
 
-1. [common-00 — El juego como invariante](common/lessons/common-00-game-invariant/lesson-es.md)
-2. [common-01 — Arnés determinista](common/lessons/common-01-deterministic-harness/lesson-es.md)
-3. [common-02 — Glosario](common/lessons/common-02-glossary/lesson-es.md)
-4. **common-03 — Punto de entrada y directorio de trabajo**
+1. [common-05 — Cómo aprender](common/lessons/common-05-how-to-learn/lesson-es.md)
+2. [common-00 — El juego como invariante](common/lessons/common-00-game-invariant/lesson-es.md)
+3. [common-01 — Arnés determinista](common/lessons/common-01-deterministic-harness/lesson-es.md)
+4. [common-02 — Glosario](common/lessons/common-02-glossary/lesson-es.md)
+5. **common-03 — Punto de entrada y directorio de trabajo**
    [Abrir](common/lessons/common-03-build-and-run/lesson-es.md)
-5. [common-04 — Trazas de referencia](common/lessons/common-04-golden-traces/lesson-es.md)
-6. [common-05 — Cómo aprender](common/lessons/common-05-how-to-learn/lesson-es.md)
+6. [common-04 — Trazas de referencia](common/lessons/common-04-golden-traces/lesson-es.md)
 
 ## 3. Elige una pista
 

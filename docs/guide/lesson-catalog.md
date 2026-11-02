@@ -31,12 +31,12 @@ catalog and `meta.yml` must agree. Machine tokens stay in English; Spanish prose
 
 | ID | Title | Concept | Prereq | Time | Acceptance criteria | Status |
 |---|---|---|---|---|---|---|
+| [common-05](../../common/lessons/common-05-how-to-learn/lesson.md) | How to learn (cómo aprender) | Metacognition (metacognición) | none | 15 min | One predict–run–compare–explain–record cycle and one next step recorded | drafted |
 | [common-00](../../common/lessons/common-00-game-invariant/lesson.md) | The game as an invariant (el juego como invariante) | Specification (especificación) | none | 50 min | Two runs identical; one ambiguity and one binary criterion recorded | drafted |
 | [common-01](../../common/lessons/common-01-deterministic-harness/lesson.md) | Deterministic harness (arnés determinista) | Harness construction (construcción del arnés) | common-00 | 60 min | Same seed → same transcript, twice | drafted |
 | [common-02](../../common/lessons/common-02-glossary/lesson.md) | Glossary (glosario) | Shared vocabulary (vocabulario compartido) | none | 20 min | Ten terms defined in English and Spanish, one line and one misconception each | drafted |
 | [common-03](../../common/lessons/common-03-build-and-run/lesson.md) | Entry point and working directory (punto de entrada y directorio de trabajo) | Entry-point robustness | common-01 | 30 min | One command runs from two directories; same seed gives the same transcript | drafted |
 | [common-04](../../common/lessons/common-04-golden-traces/lesson.md) | Golden traces (trazas de referencia) | Behavioral contract (contrato de comportamiento) | common-01 | 45 min | Checksums pass; one trace reproduced; command, output and explanation recorded | drafted |
-| [common-05](../../common/lessons/common-05-how-to-learn/lesson.md) | How to learn (cómo aprender) | Metacognition (metacognición) | none | 15 min | One predict–run–compare–explain–record cycle and one next step recorded | drafted |
 
 **common-00** is the most important document in the project. If the rules are ambiguous, every
 contrast is invalid.
@@ -154,11 +154,11 @@ failure cards are drafted.
 The `Prereq` column above is authoritative. This is a high-level map, not a second specification.
 
 ```
-Common core
-  common-00 spec ─► common-01 harness ─┬─► common-03 build
-                             └─► common-04 traces
-  common-02 glossary        (independent)
-  common-05 learn           (independent)
+Common core — learning order
+  common-05 learn ─► common-00 spec ─► common-01 harness
+  common-01 harness ─┬─► common-03 build ─► common-04 traces
+                     └─► common-04 traces
+  common-02 glossary ─► before common-01 or common-03
 
 Track A — paradigm ladder
   construction-00 ─► construction-01 ─► construction-02 ─► construction-03 ─►

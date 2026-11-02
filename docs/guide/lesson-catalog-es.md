@@ -33,12 +33,12 @@ inglés; la prosa en español puede mostrar `borrador` para `drafted`.
 
 | ID | Título | Concepto | Prerrequisito | Tiempo | Criterios de aceptación | Estado |
 |---|---|---|---|---|---|---|
+| [common-05](../../common/lessons/common-05-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted |
 | [common-00](../../common/lessons/common-00-game-invariant/lesson-es.md) | El juego como invariante (the game as an invariant) | Especificación (specification) | ninguno | 50 min | Dos ejecuciones idénticas; una ambigüedad y un criterio binario registrados | drafted |
 | [common-01](../../common/lessons/common-01-deterministic-harness/lesson-es.md) | Arnés determinista (deterministic harness) | Reproducibilidad (reproducibility) | common-00 | 60 min | La misma semilla → la misma transcripción, dos veces | drafted |
 | [common-02](../../common/lessons/common-02-glossary/lesson-es.md) | Glosario (glossary) | Vocabulario compartido (shared vocabulary) | ninguno | 20 min | Diez términos definidos en inglés y español, una línea y una concepción errónea cada uno | drafted |
 | [common-03](../../common/lessons/common-03-build-and-run/lesson-es.md) | Compilar y ejecutar (build and run) | Reproducibilidad de la compilación | common-01 | 30 min | Un comando se ejecuta desde dos directorios; la misma semilla da la misma transcripción | drafted |
 | [common-04](../../common/lessons/common-04-golden-traces/lesson-es.md) | Trazas de referencia (golden traces) | Contrato de comportamiento (behavioral contract) | common-01 | 45 min | Las sumas pasan; una traza reproducida; comando, salida y explicación registrados | drafted |
-| [common-05](../../common/lessons/common-05-how-to-learn/lesson-es.md) | Cómo aprender (how to learn) | Metacognición (metacognition) | ninguno | 15 min | Un ciclo predecir–ejecutar–comparar–explicar–registrar y un siguiente paso registrados | drafted |
 
 **common-00** es el documento más importante del proyecto. Si las reglas son ambiguas,
 todo contraste es inválido.
@@ -159,11 +159,11 @@ La columna `Prereq` de arriba es la fuente autoritativa. Este es un mapa de alto
 segunda especificación.
 
 ```
-Common core
-  common-00 spec ─► common-01 harness ─┬─► common-03 build
-                             └─► common-04 traces
-  common-02 glossary        (independent)
-  common-05 learn           (independent)
+Common core — learning order
+  common-05 learn ─► common-00 spec ─► common-01 harness
+  common-01 harness ─┬─► common-03 build ─► common-04 traces
+                     └─► common-04 traces
+  common-02 glossary ─► before common-01 or common-03
 
 Track A — paradigm ladder
   construction-00 ─► construction-01 ─► construction-02 ─► construction-03 ─►
