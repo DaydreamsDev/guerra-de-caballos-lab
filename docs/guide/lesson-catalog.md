@@ -44,6 +44,9 @@ or `common-04`.
 **common-01** is the most important document in the project. If the rules are ambiguous, every
 contrast is invalid.
 
+> **Starter route:** `common-00` through `common-05` plus `construction-00`, with no compiler.
+> See [starter-route.md](starter-route.md).
+
 ---
 
 ## 1. Track A — Construction (Construcción)

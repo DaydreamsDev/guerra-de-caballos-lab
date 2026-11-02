@@ -17,6 +17,9 @@ lesson teaches the minimum syntax its concept needs.
 **Prerequisite:** variables, conditionals and loops. If the learner cannot read a `for`, start with
 `construction-00`.
 
+If you have little or no software engineering experience, take the
+[Starter route](starter-route.md) first.
+
 The catalog is authoritative for IDs, prerequisites, time and status:
 [lesson catalog](lesson-catalog.md).
 

@@ -46,6 +46,9 @@ antes de `common-02` o `common-04`.
 **common-01** es el documento más importante del proyecto. Si las reglas son ambiguas,
 todo contraste es inválido.
 
+> **Ruta inicial:** `common-00` a `common-05` más `construction-00`, sin compilador.
+> Ver [starter-route-es.md](starter-route-es.md).
+
 ---
 
 ## 1. Pista A — Construcción (construction)
