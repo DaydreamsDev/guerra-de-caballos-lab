@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** independencia de representación · **Tiempo:** unos 97 minutos · **Estado:** borrador
-**Lectura:** ~22 minutos
+**Concepto:** independencia de representación · **Tiempo:** unos 97 minutos ·
+**Prerrequisitos:** construction-08 · **Estado:** borrador · **Lectura:** ~22 minutos
 
 ## Por qué existe esta lección
 

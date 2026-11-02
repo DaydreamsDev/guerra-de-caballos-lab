@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ciclo de vida de recursos · **Tiempo:** unos 70 minutos · **Estado:** borrador
-**Lectura:** ~27 minutos
+**Concepto:** ciclo de vida de recursos · **Tiempo:** unos 70 minutos ·
+**Prerrequisitos:** construction-15 · **Estado:** borrador · **Lectura:** ~27 minutos
 
 ## Por qué existe esta lección
 

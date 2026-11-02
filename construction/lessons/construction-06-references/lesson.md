@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** aliasing without addresses (alias sin direcciones) · **Time:** about 45 minutes ·
-**Status:** drafted
+**Status:** drafted · **Prerequisites:** construction-05
 **Reading:** ~15 minutes
 
 ## Why this lesson exists

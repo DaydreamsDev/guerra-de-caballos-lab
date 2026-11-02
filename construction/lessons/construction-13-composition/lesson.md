@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** composition over inheritance · **Time:** about 68 minutes ·
-**Status:** drafted
+**Prerequisites:** construction-12 · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists

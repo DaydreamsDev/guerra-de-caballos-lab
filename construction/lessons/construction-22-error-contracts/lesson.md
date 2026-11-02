@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** recovery · **Time:** about 75 minutes · **Status:** drafted
+**Concept:** recovery · **Time:** about 75 minutes ·
+**Prerequisites:** construction-09, construction-21 · **Status:** drafted
 **Reading:** ~24 minutes
 
 ## Why this lesson exists

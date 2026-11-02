@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** la sintaxis es desechable · **Tiempo:** unos 195 minutos · **Estado:** borrador
+**Concepto:** la sintaxis es desechable · **Tiempo:** unos 195 minutos ·
+**Prerrequisitos:** construction-09 o construction-12 · **Estado:** borrador
 **Lectura:** ~21 minutos
 
 ## Por qué existe esta lección

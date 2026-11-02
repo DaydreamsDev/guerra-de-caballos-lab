@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 **Concept:** late binding (ligadura dinámica) · **Time:** about 80 minutes ·
-**Status:** drafted
+**Prerequisites:** construction-11 · **Status:** drafted
 **Reading:** ~21 minutes
 
 ## Why this lesson exists

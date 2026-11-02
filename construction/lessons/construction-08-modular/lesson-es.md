@@ -2,8 +2,9 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ocultamiento de información · **Tiempo:** unos 92 minutos · **Estado:** borrador
-**Lectura:** ~20 minutos
+**Concepto:** ocultamiento de información · **Tiempo:** unos 92 minutos ·
+**Prerrequisitos:** construction-03, construction-07 · **Estado:** borrador
+**Lectura:** ~20 minutos · **Prerrequisitos:** construction-03, construction-07
 
 ## Por qué existe esta lección
 

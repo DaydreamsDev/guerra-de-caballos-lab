@@ -2,7 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concept:** aggregation (agregación) · **Time:** about 55 minutes · **Status:** drafted
+**Concept:** aggregation (agregación) · **Time:** about 55 minutes · **Status:** drafted ·
+**Prerequisites:** construction-03
 **Reading:** ~16 minutes
 
 ## Why this lesson exists

@@ -2,8 +2,8 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** ámbito y descomposición · **Tiempo:** unos 45 minutos · **Estado:** borrador
-**Lectura:** ~15 minutos
+**Concepto:** ámbito y descomposición · **Tiempo:** unos 45 minutos ·
+**Prerrequisitos:** construction-02 · **Estado:** borrador · **Lectura:** ~15 minutos
 
 ## Por qué existe esta lección
 

@@ -2,8 +2,9 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** colección y recorrido · **Tiempo:** unos 62 minutos · **Estado:** borrador
-**Lectura:** ~24 minutos
+**Concepto:** colección y recorrido · **Tiempo:** unos 62 minutos ·
+**Prerrequisitos:** construction-04 · **Estado:** borrador
+**Lectura:** ~24 minutos · **Prerrequisitos:** construction-04
 
 ## Por qué existe esta lección
 

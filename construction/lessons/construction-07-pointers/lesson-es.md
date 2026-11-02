@@ -2,8 +2,9 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-**Concepto:** indirección y ciclo de vida · **Tiempo:** unos 88 minutos · **Estado:** borrador
-**Lectura:** ~18 minutos
+**Concepto:** indirección y ciclo de vida · **Tiempo:** unos 88 minutos ·
+**Prerrequisitos:** construction-06 · **Estado:** borrador
+**Lectura:** ~18 minutos · **Prerrequisitos:** construction-06
 
 ## Por qué existe esta lección
 
