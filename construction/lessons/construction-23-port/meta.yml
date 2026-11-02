@@ -1,6 +1,7 @@
 id: construction-23
 title: "Port to another language (portar)"
 concept: "syntax is disposable"
+lesson_role: "optional"
 prerequisites:
   - "construction-09 or construction-12"
 reading_time: "20 minutes"

@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** module boundary · **Prerequisite:** archaeology-05 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~15 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

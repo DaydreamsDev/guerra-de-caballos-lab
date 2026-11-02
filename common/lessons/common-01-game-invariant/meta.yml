@@ -1,6 +1,7 @@
 id: common-01
 title: "The game as an invariant (El juego como invariante)"
 concept: "Specification (especificación)"
+lesson_role: "core"
 prerequisites: []
 reading_time: "10 minutes"
 estimated_time: "50 minutes"

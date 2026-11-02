@@ -5,6 +5,7 @@
 **Concept:** type parameters · **Time:** about 68 minutes ·
 **Prerequisites:** construction-12 or construction-13 · **Status:** drafted
 **Reading:** ~23 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

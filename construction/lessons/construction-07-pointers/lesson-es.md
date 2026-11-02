@@ -5,6 +5,7 @@
 **Concepto:** indirección y ciclo de vida · **Tiempo:** unos 88 minutos ·
 **Prerrequisitos:** construction-06 · **Estado:** borrador
 **Lectura:** ~18 minutos · **Prerrequisitos:** construction-06
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

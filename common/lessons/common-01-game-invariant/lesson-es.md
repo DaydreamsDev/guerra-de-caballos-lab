@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** especificación (specification) ·
 > **Prerrequisitos:** ninguno · **Tiempo estimado:** 50 minutos
 > **Lectura:** ~9 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

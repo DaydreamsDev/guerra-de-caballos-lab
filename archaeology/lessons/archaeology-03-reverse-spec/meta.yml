@@ -1,6 +1,7 @@
 id: archaeology-03
 title: "Reverse-engineer the spec (reconstruir la especificación)"
 concept: "Behavior specification (especificación de comportamiento)"
+lesson_role: "core"
 prerequisites:
   - archaeology-02
 reading_time: "20 minutes"

@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** fuga de representación y registros · **Prerrequisito:**
 > archaeology-05 · **Tiempo estimado:** 60 minutos
 > **Lectura:** ~18 minutos
+> **Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 

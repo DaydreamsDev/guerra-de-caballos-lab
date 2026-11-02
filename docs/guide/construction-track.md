@@ -17,6 +17,9 @@ lesson teaches the minimum syntax its concept needs.
 **Prerequisite:** variables, conditionals and loops. If the learner cannot read a `for`, start with
 `construction-00`.
 
+If you have little or no software engineering experience, take the
+[Starter route](starter-route.md) first. It is seven `core` lessons with no optional lessons.
+
 The catalog is authoritative for IDs, prerequisites, time and status:
 [lesson catalog](lesson-catalog.md).
 
@@ -65,34 +68,44 @@ recommended order; the catalog has the exact prerequisites.
 | construction-14 | Type parameters | One move generator for two piece types |
 | construction-15 | Constraints | Same engine instantiates 8×8 and 10×10; 8×8 traces pass |
 
-### Lenses
+### Advanced lessons
 
-| ID | Concept | Change test |
-|---|---|---|
-| construction-16 | Ownership and lifetime | `unique_ptr` ownership; copy deleted; move available |
-| construction-17 | Iteration abstraction | Same transcript after replacing three traversals |
-| construction-18 | Purity and immutability | Undo/redo free via board history |
-| construction-19 | Locality | 10,000 games; measured profile |
-| construction-20 | Ports and adapters | Same core, console and test adapters |
-| construction-21 | Shared state vs messages | Race detected and removed; determinism kept |
-| construction-22 | Recovery | Invalid move handled without `exit` |
+| ID | Concept | Change test | Role |
+|---|---|---|---|
+| construction-16 | Ownership and lifetime | `unique_ptr` ownership; copy deleted; move available | core |
+| construction-17 | Iteration abstraction | Same transcript after replacing three traversals | core |
+| construction-18 | Purity and immutability | Undo/redo free via board history | core |
+| construction-19 | Locality | 10,000 games; measured profile | optional |
+| construction-20 | Ports and adapters | Same core, console and test adapters | core |
+| construction-21 | Shared state vs messages | Race detected and removed; determinism kept | optional |
+| construction-22 | Recovery | Invalid move handled without `exit` | optional |
 
 ### Port and capstone
 
-| ID | Concept | Change test |
-|---|---|---|
-| construction-23 | Syntax is disposable | Same traces from the Python port |
-| construction-24 | Tradeoff justification | Defend a design choice with numbers |
+| ID | Concept | Change test | Role |
+|---|---|---|---|
+| construction-23 | Syntax is disposable | Same traces from the Python port | optional |
+| construction-24 | Tradeoff justification | Defend a design choice with numbers | capstone |
+
+## Core and optional
+
+Every lesson in the core ladder and the class and generic ladder is core. The capstone is
+`construction-24`. The optional lessons are `construction-19`, `construction-21`,
+`construction-22` and `construction-23`.
 
 ## Recommended path
 
 `construction-00 → construction-01 → construction-02 → construction-03 → construction-04 →
 construction-05 → construction-06 → construction-07 → construction-08 → construction-09 →
-construction-10 → construction-11 → construction-12 → construction-14 → construction-15`
+construction-10 → construction-11 → construction-12 → construction-13 → construction-14 →
+construction-15 → construction-16 → construction-17 → construction-18 → construction-20 →
+construction-24`
 
-After the spine, pick two lenses. `construction-20` is the default first lens; if you pick
-`construction-18`, read `construction-17` first. Then take the capstone:
-`construction-24`.
+**Optional lessons (safe to skip):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+The spine reaches the capstone without them. Take them for the complete ladder or skip them
+for the shortest path. No core lesson depends on an optional lesson.
 
 The path is a recommendation, not a gate. The catalog's `Prereq` column is authoritative.
 

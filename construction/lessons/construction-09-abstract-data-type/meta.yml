@@ -1,6 +1,7 @@
 id: construction-09
 title: "Abstract data type (tipo abstracto de datos, TAD)"
 concept: "Representation independence (independencia de representación)"
+lesson_role: "core"
 prerequisites:
   - construction-08
 reading_time: "21 minutes"

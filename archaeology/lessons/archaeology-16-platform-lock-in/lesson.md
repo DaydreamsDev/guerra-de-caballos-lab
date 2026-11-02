@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** platform lock-in and adapters · **Prerequisite:**
 > archaeology-01 · **Estimated time:** 60 minutes
 > **Reading:** ~25 minutes
+> **Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

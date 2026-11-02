@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** static analysis · **Prerequisite:** archaeology-04 ·
 > **Estimated time:** 60 minutes
 > **Reading:** ~22 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

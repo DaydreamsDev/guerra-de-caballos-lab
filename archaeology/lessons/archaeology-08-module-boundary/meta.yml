@@ -1,6 +1,7 @@
 id: archaeology-08
 title: "Missing module boundary"
 concept: "Module boundary"
+lesson_role: "core"
 prerequisites:
   - archaeology-05
 reading_time: "15 minutes"

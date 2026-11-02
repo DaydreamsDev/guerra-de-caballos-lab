@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** frontera de módulo · **Prerrequisito:** archaeology-05 ·
 > **Tiempo estimado:** 90 minutos
 > **Lectura:** ~14 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

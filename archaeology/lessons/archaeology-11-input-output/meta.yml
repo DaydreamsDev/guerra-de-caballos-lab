@@ -1,6 +1,7 @@
 id: archaeology-11
 title: "Input and output and testability"
 concept: "input/output separation and testability"
+lesson_role: "optional"
 prerequisites:
   - archaeology-09
 reading_time: "22 minutes"

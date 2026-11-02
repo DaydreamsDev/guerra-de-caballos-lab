@@ -5,6 +5,7 @@
 **Concepto:** layout (disposición) · **Tiempo:** unos 85 minutos ·
 **Prerrequisitos:** construction-05, construction-17 · **Estado:** borrador
 **Lectura:** ~23 minutos
+**Rol de la lección:** opcional · puedes omitirla
 
 ## Por qué existe esta lección
 
@@ -879,9 +880,9 @@ consola y a un adaptador de prueba. La pregunta del layout queda resuelta aquí 
 la representación del tablero cambió, el tablero creció 32 bytes, y el motor, el asignador y el
 reloj no se movieron. La lección siguiente pregunta quién tiene permitido hablar con ese estado.
 
-Si prefieres el otro enfoque primero, `construction-18` se ocupa de pureza e inmutabilidad.
-Pregunta si el tablero debería reemplazarse en lugar de mutarse, una respuesta distinta a la misma
-pregunta de costo.
+`construction-18` se ocupa de pureza e inmutabilidad y precede a esta lección en la columna
+vertebral. Pregunta si el tablero debería reemplazarse en lugar de mutarse, una respuesta distinta
+a la misma pregunta de costo.
 
 Consulta el [catálogo de lecciones](../../../docs/guide/lesson-catalog-es.md) para el recorrido
 completo.

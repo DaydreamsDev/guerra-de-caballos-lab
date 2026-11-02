@@ -5,6 +5,16 @@
 This is the single place for the lab's environment requirements. The legacy archive has its own
 platform history; that is a different topic and is covered by `archaeology-16`.
 
+## Minimum environment (Starter route)
+
+If you are following the [Starter route](starter-route.md), you only need:
+
+- Python 3.10 or newer.
+- Bash 4 or newer.
+- Standard POSIX tools: `grep`, `diff`, `cmp`, `sha256sum`.
+
+The C++20 compiler is required only when you enter Track A or Track B.
+
 ## Primary environment
 
 - Linux or macOS with a POSIX shell.

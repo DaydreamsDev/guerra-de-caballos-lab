@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** revisión y retrospectiva ·
 > **Prerrequisito:** archaeology-18 · **Tiempo estimado:** 90 minutos
 > **Lectura:** ~23 minutos
+> **Rol de la lección:** proyecto final
 
 ## Por qué existe esta lección
 

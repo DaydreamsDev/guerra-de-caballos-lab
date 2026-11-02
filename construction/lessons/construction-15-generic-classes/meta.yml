@@ -1,6 +1,7 @@
 id: construction-15
 title: "Generic classes and concepts (clases genéricas y conceptos)"
 concept: "Constraints"
+lesson_role: "core"
 prerequisites:
   - "construction-14"
 reading_time: "21 minutes"

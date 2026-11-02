@@ -1,6 +1,7 @@
 id: construction-20
 title: "Hexagonal (hexagonal)"
 concept: "ports and adapters"
+lesson_role: "core"
 prerequisites:
   - "construction-08"
   - "construction-17"

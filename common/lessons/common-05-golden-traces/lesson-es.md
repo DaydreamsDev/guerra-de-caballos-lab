@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** contrato de comportamiento (behavioral contract) ·
 > **Prerrequisitos:** common-02 · **Tiempo estimado:** 45 minutos
 > **Lectura:** ~13 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

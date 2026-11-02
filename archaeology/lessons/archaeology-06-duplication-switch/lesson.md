@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** duplication and extraction · **Prerequisite:** archaeology-04 ·
 > **Estimated time:** 60 minutes
 > **Reading:** ~19 minutes
+> **Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

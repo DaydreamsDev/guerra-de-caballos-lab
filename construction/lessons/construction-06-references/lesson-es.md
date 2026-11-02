@@ -5,6 +5,7 @@
 **Concepto:** alias sin direcciones · **Tiempo:** unos 45 minutos ·
 **Prerrequisitos:** construction-05 · **Estado:** borrador
 **Lectura:** ~16 minutos · **Prerrequisitos:** construction-05
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

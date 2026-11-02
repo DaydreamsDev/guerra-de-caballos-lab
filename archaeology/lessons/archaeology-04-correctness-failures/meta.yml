@@ -1,6 +1,7 @@
 id: archaeology-04
 title: "Correctness failures (fallos de corrección)"
 concept: "Correctness failures (fallos de corrección)"
+lesson_role: "core"
 prerequisites:
   - archaeology-03
 reading_time: "17 minutes"

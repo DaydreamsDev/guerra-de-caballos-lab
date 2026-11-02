@@ -420,7 +420,7 @@ If I edited a tracked file, what and why:
 - What I can now explain without notes:
 - What I cannot explain yet:
 - One thing I would read again:
-- The number I will carry to the next lens:
+- The number I will carry to the next lesson:
 - The prediction that was furthest from the observation:
 - What the pair taught me that a single rung could not:
 - What I would measure differently next time:

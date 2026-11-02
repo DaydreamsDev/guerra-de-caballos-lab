@@ -1,6 +1,7 @@
 id: construction-14
 title: "Generic functions (funciones genéricas)"
 concept: "Type parameters"
+lesson_role: "core"
 prerequisites:
   - "construction-12 or construction-13"
 reading_time: "23 minutes"

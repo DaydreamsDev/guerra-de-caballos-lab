@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** structural inventory · **Prerequisite:** archaeology-01 ·
 > **Estimated time:** 60 minutes
 > **Reading:** ~17 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

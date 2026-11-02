@@ -5,6 +5,7 @@
 **Concepto:** justificación de compromisos · **Tiempo:** unos 175 minutos ·
 **Prerrequisitos:** construction-12, construction-15 · **Estado:** borrador
 **Lectura:** ~21 minutos
+**Rol de la lección:** proyecto final
 
 ## Por qué existe esta lección
 
@@ -713,9 +714,9 @@ Lo que viene después depende de tu veredicto:
 - si las dos mitades discreparon, has encontrado el compromiso que el proyecto final existe para
   mostrar: el escalón barato para un cambio es caro para el otro.
 
-Después del proyecto final, las lentes son `construction-16` (propiedad), `construction-18`
-(funcional) y `construction-20` (hexagonal). Track B, arqueología, empieza en `archaeology-00` en el
-catálogo.
+Después del proyecto final, las lecciones opcionales son `construction-19` (orientada a datos),
+`construction-21` (concurrencia), `construction-22` (contratos de error) y `construction-23`
+(portar). Track B, arqueología, empieza en `archaeology-00` en el catálogo.
 
 Consulta el [catálogo de lecciones](../../../docs/guide/lesson-catalog.md) para la ruta completa.
 

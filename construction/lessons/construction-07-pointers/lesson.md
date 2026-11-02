@@ -5,6 +5,7 @@
 **Concept:** indirection and lifetime (indirección y ciclo de vida) · **Time:** about 88 minutes ·
 **Status:** drafted · **Prerequisites:** construction-06
 **Reading:** ~17 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

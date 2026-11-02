@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** polymorphism · **Prerequisite:** archaeology-09 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~22 minutes
+> **Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

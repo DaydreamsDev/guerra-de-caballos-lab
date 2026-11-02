@@ -5,6 +5,7 @@
 > **Estado:** borrador · **Concepto:** especificación de comportamiento ·
 > **Prerrequisito:** archaeology-02 · **Tiempo estimado:** 90 minutos
 > **Lectura:** ~19 minutos
+> **Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** specification (especificación) · **Prerequisites:** none ·
 > **Estimated time:** 50 minutes
 > **Reading:** ~10 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

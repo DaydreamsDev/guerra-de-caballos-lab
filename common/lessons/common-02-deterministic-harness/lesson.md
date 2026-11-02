@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** harness construction (construcción del arnés) ·
 > **Prerequisites:** common-01 · **Estimated time:** 60 minutes
 > **Reading:** ~8 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

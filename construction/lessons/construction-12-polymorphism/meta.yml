@@ -1,6 +1,7 @@
 id: construction-12
 title: "Polymorphism (polimorfismo)"
 concept: "Late binding (ligadura dinámica)"
+lesson_role: "core"
 prerequisites:
   - construction-11
 reading_time: "21 minutes"

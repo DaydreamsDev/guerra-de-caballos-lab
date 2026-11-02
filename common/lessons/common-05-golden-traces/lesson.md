@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** behavioral contract (contrato de comportamiento) ·
 > **Prerequisites:** common-02 · **Estimated time:** 45 minutes
 > **Reading:** ~14 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

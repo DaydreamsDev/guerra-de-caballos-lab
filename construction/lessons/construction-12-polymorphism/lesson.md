@@ -5,6 +5,7 @@
 **Concept:** late binding (ligadura dinámica) · **Time:** about 80 minutes ·
 **Prerequisites:** construction-11 · **Status:** drafted
 **Reading:** ~21 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

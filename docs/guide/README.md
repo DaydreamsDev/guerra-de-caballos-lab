@@ -14,13 +14,15 @@ This folder contains only what a learner needs to understand and use the laborat
 
 1. [`conceptual-framework.md`](conceptual-framework.md) — the four-layer model and how to think
    about concepts, paradigms and syntax.
-2. [`how-learning-works.md`](how-learning-works.md) — the pedagogy and didactics of the lab.
-3. [`construction-track.md`](construction-track.md) — how to build the game through design changes.
-4. [`archaeology-track.md`](archaeology-track.md) — how to diagnose and repair the historical code.
-5. [`lesson-catalog.md`](lesson-catalog.md) — every lesson, with IDs and prerequisites.
-6. [`verification.md`](verification.md) — acceptance criteria, evidence and self-review.
-7. [`further-reading.md`](further-reading.md) — sources and next steps.
-8. [`glossary.md`](glossary.md) — English/Spanish terminology.
+2. [`starter-route.md`](starter-route.md) — a bounded first pass for learners with little or no
+   software experience: seven `core` lessons, no compiler.
+3. [`how-learning-works.md`](how-learning-works.md) — the pedagogy and didactics of the lab.
+4. [`construction-track.md`](construction-track.md) — how to build the game through design changes.
+5. [`archaeology-track.md`](archaeology-track.md) — how to diagnose and repair the historical code.
+6. [`lesson-catalog.md`](lesson-catalog.md) — every lesson, with IDs and prerequisites.
+7. [`verification.md`](verification.md) — acceptance criteria, evidence and self-review.
+8. [`further-reading.md`](further-reading.md) — sources and next steps.
+9. [`glossary.md`](glossary.md) — English/Spanish terminology.
 
 ## Maintainers
 

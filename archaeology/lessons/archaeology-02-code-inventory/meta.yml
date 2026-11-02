@@ -1,6 +1,7 @@
 id: archaeology-02
 title: "Code inventory and call graph (inventario de código y grafo de llamadas)"
 concept: "Structural inventory (inventario estructural)"
+lesson_role: "core"
 prerequisites:
   - archaeology-01
 reading_time: "17 minutes"

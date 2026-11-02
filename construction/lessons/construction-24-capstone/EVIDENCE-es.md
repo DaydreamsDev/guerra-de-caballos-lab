@@ -419,7 +419,7 @@ Si edité un archivo versionado, qué y por qué:
 - Qué puedo explicar ahora sin notas:
 - Qué no puedo explicar todavía:
 - Una cosa que volvería a leer:
-- El número que llevaré a la próxima lente:
+- El número que llevaré a la próxima lección:
 - La predicción que estuvo más lejos de la observación:
 - Qué me enseñó el par que un solo escalón no podía:
 - Qué mediría de otra forma la próxima vez:

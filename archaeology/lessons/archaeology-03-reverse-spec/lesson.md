@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** behavior specification · **Prerequisite:** archaeology-02 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~20 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

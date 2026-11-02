@@ -18,6 +18,9 @@ experiencia en C++; cada lección enseña la sintaxis mínima que su concepto ne
 **Requisito previo:** variables, condicionales y bucles. Si la persona que aprende no puede leer un
 `for`, empieza con `construction-00`.
 
+Si tienes poca o ninguna experiencia en ingeniería de software, haz primero la
+[ruta inicial](starter-route-es.md). Son siete lecciones `core` sin lecciones opcionales.
+
 El catálogo es la fuente autoritativa de IDs, prerrequisitos, tiempo y estado:
 [catálogo de lecciones](lesson-catalog-es.md).
 
@@ -67,34 +70,44 @@ es el recomendado; el catálogo tiene los prerrequisitos exactos.
 | construction-14 | Parámetros de tipo | Un generador de movimientos para dos tipos de pieza |
 | construction-15 | Restricciones | El mismo motor instancia 8×8 y 10×10; las trazas de 8×8 pasan |
 
-### Lentes
+### Lecciones avanzadas
 
-| ID | Concepto | Prueba de cambio |
-|---|---|---|
-| construction-16 | Propiedad y ciclo de vida | Propiedad con `unique_ptr`; copia eliminada; movimiento disponible |
-| construction-17 | Abstracción de la iteración | La misma transcripción tras reemplazar tres recorridos |
-| construction-18 | Pureza e inmutabilidad | Deshacer/rehacer gratis mediante el historial del tablero |
-| construction-19 | Localidad | 10.000 partidas; perfil medido |
-| construction-20 | Puertos y adaptadores | El mismo núcleo, adaptadores de consola y de prueba |
-| construction-21 | Estado compartido frente a mensajes | Carrera detectada y eliminada; determinismo conservado |
-| construction-22 | Recuperación | Movimiento inválido gestionado sin `exit` |
+| ID | Concepto | Prueba de cambio | Rol |
+|---|---|---|---|
+| construction-16 | Propiedad y ciclo de vida | Propiedad con `unique_ptr`; copia eliminada; movimiento disponible | core |
+| construction-17 | Abstracción de la iteración | La misma transcripción tras reemplazar tres recorridos | core |
+| construction-18 | Pureza e inmutabilidad | Deshacer/rehacer gratis mediante el historial del tablero | core |
+| construction-19 | Localidad | 10.000 partidas; perfil medido | optional |
+| construction-20 | Puertos y adaptadores | El mismo núcleo, adaptadores de consola y de prueba | core |
+| construction-21 | Estado compartido frente a mensajes | Carrera detectada y eliminada; determinismo conservado | optional |
+| construction-22 | Recuperación | Movimiento inválido gestionado sin `exit` | optional |
 
 ### Port y proyecto final
 
-| ID | Concepto | Prueba de cambio |
-|---|---|---|
-| construction-23 | La sintaxis es desechable | Las mismas trazas desde el port de Python |
-| construction-24 | Justificación de compromisos | Defender una decisión de diseño con números |
+| ID | Concepto | Prueba de cambio | Rol |
+|---|---|---|---|
+| construction-23 | La sintaxis es desechable | Las mismas trazas desde el port de Python | optional |
+| construction-24 | Justificación de compromisos | Defender una decisión de diseño con números | capstone |
+
+## Tronco y opcionales
+
+Toda lección de la escalera central y de la escalera de clases y genéricos es del tronco. El
+proyecto final es `construction-24`. Las lecciones opcionales son `construction-19`,
+`construction-21`, `construction-22` y `construction-23`.
 
 ## Ruta recomendada
 
 `construction-00 → construction-01 → construction-02 → construction-03 → construction-04 →
 construction-05 → construction-06 → construction-07 → construction-08 → construction-09 →
-construction-10 → construction-11 → construction-12 → construction-14 → construction-15`
+construction-10 → construction-11 → construction-12 → construction-13 → construction-14 →
+construction-15 → construction-16 → construction-17 → construction-18 → construction-20 →
+construction-24`
 
-Después de la columna vertebral, elige dos lentes. `construction-20` es la primera por defecto; si
-eliges `construction-18`, lee antes `construction-17`. Luego toma el proyecto final:
-`construction-24`.
+**Lecciones opcionales (puedes omitirlas):** `construction-19`, `construction-21`,
+`construction-22`, `construction-23`.
+
+La columna vertebral llega al proyecto final sin ellas. Tómalas para ver la escalera completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
 
 La ruta es una recomendación, no una compuerta. La columna `Prereq` del catálogo es la autoritativa.
 

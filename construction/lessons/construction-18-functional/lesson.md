@@ -5,6 +5,7 @@
 **Concept:** purity and immutability · **Time:** about 85 minutes ·
 **Prerequisites:** construction-17 · **Status:** drafted
 **Reading:** ~22 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

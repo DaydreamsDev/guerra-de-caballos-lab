@@ -5,6 +5,7 @@
 **Concept:** class with invariant (clase con invariante) · **Time:** about 60 minutes ·
 **Prerequisites:** construction-10 · **Status:** drafted
 **Reading:** ~18 minutes
+**Lesson role:** core
 
 ## Why this lesson exists
 

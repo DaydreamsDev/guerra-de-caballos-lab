@@ -1,6 +1,7 @@
 id: construction-03
 title: "Functions and parameters (funciones y parámetros)"
 concept: "Scope and decomposition (ámbito y descomposición)"
+lesson_role: "core"
 prerequisites:
   - construction-02
 reading_time: "14 minutes"

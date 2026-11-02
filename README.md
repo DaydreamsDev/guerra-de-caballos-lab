@@ -40,6 +40,16 @@ See [`docs/archive.md`](docs/archive.md).
 The tracks are pedagogically independent but technically coupled through the common core: the
 specification, the deterministic harness, the golden traces and the glossary.
 
+## Before the tracks
+
+If you have little or no software engineering experience, start with the
+[Starter route](docs/guide/starter-route.md): seven lessons, no compiler, about four and a half
+hours. You can enter Track A or Track B afterwards.
+
+Each track has a core spine and optional lessons. The lesson catalog marks every lesson as
+`core`, `optional` or `capstone`. Optional lessons are never prerequisites of a core lesson:
+take them to see the full ladder or skip them for the shortest path.
+
 ## How to start
 
 1. Follow [`START-HERE.md`](START-HERE.md) for the guided order.
@@ -105,6 +115,7 @@ The common core is:
 - **Modern class version:** covered by `construction-11`, `construction-12` and
   `construction-13`.
 - **Reference implementation:** implemented; matches 20/20 golden traces.
+- **Starter route:** available; seven lessons, no compiler.
 
 The order that must not be inverted:
 

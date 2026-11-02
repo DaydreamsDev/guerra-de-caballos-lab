@@ -1,6 +1,7 @@
 id: construction-07
 title: "Pointers (punteros)"
 concept: "Indirection and lifetime (indirección y ciclo de vida)"
+lesson_role: "core"
 prerequisites:
   - construction-06
 reading_time: "17 minutes"

@@ -179,7 +179,7 @@ aprende es lo que está en juego.
 
 | Necesidad | Respuesta de diseño |
 |---|---|
-| **Autonomía** (autonomy) | Elegir pista, peldaño, lente y ritmo; sin fechas límite; sin orden obligatorio más allá de los prerrequisitos |
+| **Autonomía** (autonomy) | Elegir pista, peldaño, lección opcional y ritmo; sin fechas límite; sin orden obligatorio más allá de los prerrequisitos |
 | **Competencia** (competence) | Logros pequeños; criterios binarios; progreso visible; cada peldaño un paso por encima del nivel actual |
 | **Relación** (relatedness) | Opcional y asincrónica; puede existir una comunidad, pero ninguna lección requiere otra persona |
 | **Flujo** | Desafío ligeramente por encima de la habilidad; sin presión de tiempo artificial; sin clasificaciones |

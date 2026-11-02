@@ -4,6 +4,7 @@
 
 **Concepto:** ligadura dinámica · **Tiempo:** unos 80 minutos ·
 **Prerrequisitos:** construction-11 · **Estado:** borrador · **Lectura:** ~22 minutos
+**Rol de la lección:** tronco
 
 ## Por qué existe esta lección
 

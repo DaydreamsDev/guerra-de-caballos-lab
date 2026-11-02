@@ -1,6 +1,7 @@
 id: archaeology-14
 title: "Tests and determinism"
 concept: "tests and determinism"
+lesson_role: "core"
 prerequisites:
   - archaeology-03
 reading_time: "20 minutes"

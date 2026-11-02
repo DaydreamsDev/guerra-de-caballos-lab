@@ -1,6 +1,7 @@
 id: construction-13
 title: "Composition (composición)"
 concept: "Composition over inheritance"
+lesson_role: "core"
 prerequisites:
   - construction-12
 reading_time: "21 minutes"

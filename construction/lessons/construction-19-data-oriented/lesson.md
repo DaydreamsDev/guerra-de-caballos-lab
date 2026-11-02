@@ -5,6 +5,7 @@
 **Concept:** layout · **Time:** about 85 minutes ·
 **Prerequisites:** construction-05, construction-17 · **Status:** drafted
 **Reading:** ~21 minutes
+**Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 
@@ -855,8 +856,9 @@ output, which makes the same core serve a console adapter and a test adapter. Th
 settled narrowly here: the board representation changed, the board grew by 32 bytes, and the engine,
 the allocator and the clock did not move. The next lesson asks who is allowed to talk to that state.
 
-If you want the other lens first, `construction-18` owns purity and immutability. It asks whether
-the board should be replaced instead of mutated, a different answer to the same cost question.
+`construction-18` owns purity and immutability and precedes this lesson in the core spine. It asks
+whether the board should be replaced instead of mutated, a different answer to the same cost
+question.
 
 See the [lesson catalog](../../../docs/guide/lesson-catalog.md) for the full path.
 

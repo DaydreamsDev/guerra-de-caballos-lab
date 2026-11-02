@@ -175,7 +175,7 @@ enforce honesty; the learner's own progress is the stake.
 
 | Need | Design response |
 |---|---|
-| **Autonomy** (autonomía) | Choose track, rung, lens and pace; no deadlines; no mandatory order beyond prerequisites |
+| **Autonomy** (autonomía) | Choose track, rung, optional lesson and pace; no deadlines; no mandatory order beyond prerequisites |
 | **Competence** (competencia) | Small wins; binary criteria; visible progress; each rung one step above the current level |
 | **Relatedness** (relación) | Optional and asynchronous; a community may exist, but no lesson requires another person |
 | **Flow** | Challenge slightly above skill; no artificial time pressure; no ranking |

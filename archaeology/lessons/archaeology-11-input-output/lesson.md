@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** input/output separation and testability ·
 > **Prerequisite:** archaeology-09 · **Estimated time:** 60 minutes
 > **Reading:** ~22 minutes
+> **Lesson role:** optional · safe to skip
 
 ## Why this lesson exists
 

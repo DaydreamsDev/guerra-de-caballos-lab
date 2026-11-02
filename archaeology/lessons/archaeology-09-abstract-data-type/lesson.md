@@ -5,6 +5,7 @@
 > **Status:** drafted · **Concept:** abstract data type · **Prerequisite:** archaeology-08 ·
 > **Estimated time:** 90 minutes
 > **Reading:** ~19 minutes
+> **Lesson role:** core
 
 ## Why this lesson exists
 

@@ -68,6 +68,21 @@ persona, es cómo las personas revisoras construyen un modelo mental sin adivina
 
 ---
 
+## Tronco y opcionales
+
+La columna vertebral es
+`archaeology-00 → archaeology-01 → archaeology-02 → archaeology-03 → archaeology-04 →
+archaeology-05 → archaeology-08 → archaeology-09 → archaeology-14 → archaeology-15 →
+archaeology-17 → archaeology-18 → archaeology-19`. El proyecto final es `archaeology-19`.
+
+**Lecciones opcionales (puedes omitirlas):** `archaeology-06`, `archaeology-07`,
+`archaeology-10`, `archaeology-11`, `archaeology-12`, `archaeology-13`, `archaeology-16`.
+
+La columna vertebral llega a la retrospectiva sin ellas. Tómalas para ver la pista completa
+o omítelas para el recorrido más corto. Ninguna lección del tronco depende de una opcional.
+
+---
+
 ## 3. Taxonomía de fallos
 
 Cinco clases. La clase determina la lección, no el archivo.
