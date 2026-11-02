@@ -2,7 +2,7 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** mental model · **Prerequisite:** common-03 ·
+> **Status:** drafted · **Concept:** mental model · **Prerequisite:** common-04 ·
 > **Estimated time:** 45 minutes
 
 This lesson starts Track B with the engineering task: read an unfamiliar source and build a mental

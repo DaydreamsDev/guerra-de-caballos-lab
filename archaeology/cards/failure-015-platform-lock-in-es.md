@@ -119,7 +119,7 @@ Así una prueba puede enlazar el adaptador nulo y afirmar el comportamiento del 
 terminal.
 
 Peldaños de la pista A: [`construction-08-modular`][c08] para la frontera de módulo y
-[`construction-20-hexagonal`][c20] para puertos y adaptadores. `common-04` es la contraparte de
+[`construction-20-hexagonal`][c20] para puertos y adaptadores. `common-05` es la contraparte de
 traza dorada: congela la salida de consola antes de cambiar el adaptador.
 
 [c08]: ../../construction/lessons/construction-08-modular/lesson.md

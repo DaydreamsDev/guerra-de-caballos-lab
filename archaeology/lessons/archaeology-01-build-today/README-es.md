@@ -3,7 +3,7 @@
 > [English](README.md) | [Español](README-es.md)
 
 > **Estado:** borrador · **Concepto:** compilar y ejecutar código heredado ·
-> **Prerrequisito:** common-03 · **Tiempo estimado:** 62 minutos
+> **Prerrequisito:** common-04 · **Tiempo estimado:** 62 minutos
 
 Esta lección toma el código archivado de `variant-01` e intenta compilarlo y ejecutarlo en una
 máquina Linux moderna. El archivo no se edita. Se construye una pequeña sonda de compatibilidad

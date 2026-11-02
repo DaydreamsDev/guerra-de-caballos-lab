@@ -78,8 +78,8 @@ skips one of them produces a predictable blind spot.
 | **Correctness** | Does it do what it claims? | Wrong behavior, silent corruption, lost data. | failure-001…failure-006 | `construction-02`, `construction-04`, `construction-05` |
 | **Design** | Does the structure make change expensive? | Every rule change touches many places; tests stay impossible. | failure-007…failure-014 | `construction-08`, `construction-09`, `construction-12`, `construction-14`, `construction-20` |
 | **Robustness** | Does it work only in one environment? | Build failure, portability debt, unhandled input. | failure-006, failure-015 | `construction-08`, `construction-20`, `construction-22` |
-| **Professional practice** | Can another person build, trust and maintain it? | Nobody can reproduce, trust or safely change the artifact. | failure-016…failure-019 | `common-01`, `common-03`, `common-04`, `construction-24` |
-| **Evidence** | Can the claim be checked? | The review becomes opinion; unknowns hide as facts. | all classes | `common-02`, `common-04` |
+| **Professional practice** | Can another person build, trust and maintain it? | Nobody can reproduce, trust or safely change the artifact. | failure-016…failure-019 | `common-02`, `common-04`, `common-05`, `construction-24` |
+| **Evidence** | Can the claim be checked? | The review becomes opinion; unknowns hide as facts. | all classes | `common-03`, `common-05` |
 
 The boundaries overlap on purpose. `failure-006` (unbounded input) is both a correctness failure
 and a robustness failure. The checklist may list an item in one family and cross-reference another;
@@ -421,7 +421,7 @@ Starter set. Replace the blanks with your own wording and evidence.
 |---|---|---|---|---|---|---|---|
 | C-01 | Correctness | Does every array write stay below the element count? | | | Correctness | `construction-02` | Critical |
 | C-02 | Correctness | Is every variable initialized before its first read? | | | Correctness | `construction-04` | High |
-| C-03 | Correctness | Is randomness seeded once, outside the retry loop? | | | Correctness | `common-01` | High |
+| C-03 | Correctness | Is randomness seeded once, outside the retry loop? | | | Correctness | `common-02` | High |
 | C-04 | Correctness | Does the win condition match the written spec? | | | Correctness | `construction-00` | High |
 | D-01 | Design | Does every mutable global have a writer/reader map? | | | Design | `construction-08` | High |
 | D-02 | Design | Is duplicated logic named and extracted once? | | | Design | `construction-03` | Medium |
@@ -430,13 +430,13 @@ Starter set. Replace the blanks with your own wording and evidence.
 | R-01 | Robustness | Is the core free of platform headers and calls? | | | Robustness | `construction-20` | High |
 | R-02 | Robustness | Is every input length bounded before use? | | | Robustness | `construction-22` | Critical |
 | R-03 | Robustness | Does every error path return a value or record a blocker? | | | Robustness | `construction-22` | High |
-| P-01 | Practice | Does one command build the artifact from a clean tree? | | | Professional practice | `common-03` | High |
-| P-02 | Practice | Do golden traces and a seed control exist? | | | Professional practice | `common-04` | High |
-| P-03 | Practice | Are build, test and documentation evidence present? | | | Professional practice | `common-02` | High |
-| E-01 | Evidence | Does every claim cite a file, line, command or document? | | | All | `common-04` | High |
-| E-02 | Evidence | Is every claim labelled verified, documented, inferred or unknown? | | | All | `common-02` | Medium |
-| E-03 | Evidence | Is the archive unmodified after the review? | | | All | `common-04` | High |
-| E-04 | Evidence | Does every label or folder name match the mechanism actually present? | | | Evidence | `common-02` | Medium |
+| P-01 | Practice | Does one command build the artifact from a clean tree? | | | Professional practice | `common-04` | High |
+| P-02 | Practice | Do golden traces and a seed control exist? | | | Professional practice | `common-05` | High |
+| P-03 | Practice | Are build, test and documentation evidence present? | | | Professional practice | `common-03` | High |
+| E-01 | Evidence | Does every claim cite a file, line, command or document? | | | All | `common-05` | High |
+| E-02 | Evidence | Is every claim labelled verified, documented, inferred or unknown? | | | All | `common-03` | Medium |
+| E-03 | Evidence | Is the archive unmodified after the review? | | | All | `common-05` | High |
+| E-04 | Evidence | Does every label or folder name match the mechanism actually present? | | | Evidence | `common-03` | Medium |
 
 ### Quality gate
 
@@ -697,11 +697,11 @@ Track B says what hurts. Track A says what removes the hurt. The link is the run
 
 | Checklist family | Failure it catches | Track A rung | Change test |
 |---|---|---|---|
-| Correctness | Off-by-one, uninitialized state, non-determinism. | `construction-02`, `construction-04`, `common-01` | Same change, localized; seeded trace twice. |
+| Correctness | Off-by-one, uninitialized state, non-determinism. | `construction-02`, `construction-04`, `common-02` | Same change, localized; seeded trace twice. |
 | Design | Global state, duplication, representation leak, switch on type. | `construction-08`, `construction-09`, `construction-12` | Board 8×8 → 10×10; only the board module changes. |
 | Robustness | Platform lock-in, unbounded input, unhandled error. | `construction-20`, `construction-22` | Same core, console and test adapters. |
-| Professional practice | No build, no tests, no documentation, dirty tree. | `common-03`, `common-04`, `construction-24` | One command builds; traces pass; cost defended. |
-| Evidence | Claim without source, hidden unknown. | `common-02`, `common-04` | Every term defined; every trace reproducible. |
+| Professional practice | No build, no tests, no documentation, dirty tree. | `common-04`, `common-05`, `construction-24` | One command builds; traces pass; cost defended. |
+| Evidence | Claim without source, hidden unknown. | `common-03`, `common-05` | Every term defined; every trace reproducible. |
 
 ### The cost of a missed class
 
@@ -749,7 +749,7 @@ not to memorize the list.
 |---|---|---|---|---|
 | failure-001 | `i <= 64` over a 64-element array | Correctness | archaeology-04 | `construction-02` |
 | failure-002 | `void main()` | Correctness | archaeology-04 | `construction-02` |
-| failure-003 | `srand(time(NULL))` inside a retry loop | Correctness | archaeology-04, archaeology-14 | `common-01` |
+| failure-003 | `srand(time(NULL))` inside a retry loop | Correctness | archaeology-04, archaeology-14 | `common-02` |
 | failure-004 | Broken pointer initialization in `_dev` | Correctness | archaeology-04 | `construction-07` |
 | failure-005 | Inverted win condition in the precursor | Correctness | archaeology-03, archaeology-04 | `construction-00` |
 | failure-006 | Unbounded name input | Correctness | archaeology-04, archaeology-16 | `construction-22` |
@@ -762,10 +762,10 @@ not to memorize the list.
 | failure-013 | Magic numbers | Design | archaeology-06, archaeology-07 | `construction-04` |
 | failure-014 | Debug `cout` and live `enter` guard | Design | archaeology-06, archaeology-12 | `construction-03` |
 | failure-015 | `conio.h` and `system("color")` | Robustness | archaeology-16 | `construction-08`, `construction-20` |
-| failure-016 | No tests, no harness, no seed | Professional practice | archaeology-14 | `common-01`, `common-04` |
-| failure-017 | No README, spec or build instructions | Professional practice | archaeology-13, archaeology-15 | `common-02`, `common-03` |
-| failure-018 | Binaries and IDE files in the working folders | Professional practice | archaeology-15 | `common-03` |
-| failure-019 | Comments that narrate or lie | Professional practice | archaeology-12 | `common-02` |
+| failure-016 | No tests, no harness, no seed | Professional practice | archaeology-14 | `common-02`, `common-05` |
+| failure-017 | No README, spec or build instructions | Professional practice | archaeology-13, archaeology-15 | `common-03`, `common-04` |
+| failure-018 | Binaries and IDE files in the working folders | Professional practice | archaeology-15 | `common-04` |
+| failure-019 | Comments that narrate or lie | Professional practice | archaeology-12 | `common-03` |
 
 The mapping is bidirectional. If a review finds a failure with no rung, the taxonomy is
 incomplete or the finding is not yet understood. If a rung has no failure, the lesson is

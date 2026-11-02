@@ -792,7 +792,7 @@ en el llamador o en una capa de presentación, no dentro del adaptador. Entonces
 enlazar el adaptador vacío y afirmar el comportamiento del llamador sin una terminal.
 
 Enlaces a la pista A: `construction-08` (frontera de módulo) es el prerrequisito;
-`construction-20` (hexagonal, puertos y adaptadores) es el peldaño directo; `common-04` (trazas de
+`construction-20` (hexagonal, puertos y adaptadores) es el peldaño directo; `common-05` (trazas de
 referencia) es cómo demostrarías que la salida de consola no cambió al cambiar el adaptador.
 
 ### Lo que el adaptador no arregla
@@ -923,7 +923,7 @@ tecla no está verificado" cuando eso es lo que ejecutaste.
 - [ ] Nombré lo que el adaptador no arregla: dialecto, codificación, salida, tecla, detección,
   archivo.
 - [ ] Precifiqué la dependencia por el fallo de compilación y declaré mi contexto.
-- [ ] Enlacé el arreglo estructural con `construction-08`, `construction-20` y `common-04`.
+- [ ] Enlacé el arreglo estructural con `construction-08`, `construction-20` y `common-05`.
 - [ ] El archivo está sin modificar (`git status` en el archivo está limpio).
 
 Si una casilla no está marcada, la casilla sin marcar nombra el siguiente paso. No hay penalización

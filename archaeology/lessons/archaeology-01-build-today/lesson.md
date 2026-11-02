@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-> **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-03 ·
+> **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-04 ·
 > **Estimated time:** 62 minutes
 > **Reading:** ~15 minutes
 
@@ -90,7 +90,7 @@ Read these in full:
 - [`docs/guide/archaeology-track.md`](../../../docs/guide/archaeology-track.md) — §2, the autopsy
   protocol, especially step 2.
 - [`docs/archive.md`](../../../docs/archive.md) — the pinned archive and what it excludes.
-- [`docs/guide/lesson-catalog.md`](../../../docs/guide/lesson-catalog.md) — the `common-03`
+- [`docs/guide/lesson-catalog.md`](../../../docs/guide/lesson-catalog.md) — the `common-04`
   prerequisite and the `archaeology-01` acceptance criterion.
 
 You also need:
@@ -317,7 +317,7 @@ turn count depends on where the knights started. A single number is not a contra
 outputs are byte-identical. Wait two seconds and run again, and they differ. The cause is at line
 76: `srand(time(NULL))` seeds from a clock with one-second resolution. This is not determinism. It
 is non-determinism with a coarse clock, and mistaking one for the other is exactly the failure that
-`common-01` exists to prevent.
+`common-02` exists to prevent.
 
 **4. The symbols are raw CP437 bytes.** The board is drawn with `simcab1 = 21`, `simcab2 = 156` and
 `sep = 219` (line 16). Those are single bytes: `0x15`, `0x9C`, `0xDB`. They are not UTF-8, so a
@@ -538,7 +538,7 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
 - [`docs/guide/archaeology-track.md`](../../../docs/guide/archaeology-track.md) — §2, the autopsy
   protocol; §3, the robustness failures.
 - [`docs/archive.md`](../../../docs/archive.md) — the pinned archive, commit and scope.
-- [`common-03`](../../../common/lessons/common-03-build-and-run/lesson.md) — the prerequisite: one
+- [`common-04`](../../../common/lessons/common-04-build-and-run/lesson.md) — the prerequisite: one
   command that behaves the same from any directory.
 - [`common/traces/`](../../../common/traces/) — the modern transcript contract, for comparison.
 - Archive: <https://github.com/DaydreamsDev/DaydreamsDev-guerra-de-caballos-archive>, tag `v1.0.0`,

@@ -238,9 +238,9 @@ These are the highest-value failures for real work. Each becomes a lesson or par
 | Representation leakage | `construction-09` abstract data type |
 | Switch on type | `construction-12` polymorphism, `construction-14` generic |
 | Input and output mixed with logic | `construction-20` (hexagonal) |
-| No determinism / tests | `common-01` harness |
+| No determinism / tests | `common-02` harness |
 | Platform lock-in | `construction-08` modular + `construction-20` hexagonal |
-| Mislabeled artifact | `common-02` glossary + every contrast pair |
+| Mislabeled artifact | `common-03` glossary + every contrast pair |
 
 The mapping is bidirectional: Track B says *what hurts*; Track A says *what removes the hurt*.
 

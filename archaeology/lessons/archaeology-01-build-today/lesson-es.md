@@ -3,7 +3,7 @@
 > [English](lesson.md) | [Español](lesson-es.md)
 
 > **Estado:** borrador · **Concepto:** compilar y ejecutar código heredado ·
-> **Prerrequisito:** common-03 · **Tiempo estimado:** 62 minutos
+> **Prerrequisito:** common-04 · **Tiempo estimado:** 62 minutos
 > **Lectura:** ~15 minutos
 
 ## Por qué existe esta lección
@@ -96,7 +96,7 @@ Lee esto completo:
   protocolo de autopsia, en especial el paso 2.
 - [`docs/archive-es.md`](../../../docs/archive-es.md) — el archivo fijado y lo que excluye.
 - [`docs/guide/lesson-catalog-es.md`](../../../docs/guide/lesson-catalog-es.md) — el prerrequisito
-  `common-03` y el criterio de aceptación de `archaeology-01`.
+  `common-04` y el criterio de aceptación de `archaeology-01`.
 
 También necesitas:
 
@@ -326,7 +326,7 @@ contrato; es una muestra.
 las dos salidas son idénticas byte a byte. Espera dos segundos y ejecuta otra vez, y difieren. La
 causa está en la línea 76: `srand(time(NULL))` siembra desde un reloj con resolución de un segundo.
 Esto no es determinismo. Es no determinismo con un reloj grueso, y confundir uno con otro es
-exactamente el fallo que `common-01` existe para evitar.
+exactamente el fallo que `common-02` existe para evitar.
 
 **4. Los símbolos son bytes CP437 crudos.** El tablero se dibuja con `simcab1 = 21`, `simcab2 = 156`
 y `sep = 219` (línea 16). Son bytes sueltos: `0x15`, `0x9C`, `0xDB`. No son UTF-8, así que una

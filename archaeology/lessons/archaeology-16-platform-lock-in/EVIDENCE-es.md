@@ -358,7 +358,7 @@ Dos arreglos, dos tamaños:
 - Enlaces a la pista A:
 - Qué añade `construction-08` a la pregunta:
 - Qué añade `construction-20` a la pregunta:
-- Qué añade `common-04` a la pregunta:
+- Qué añade `common-05` a la pregunta:
 
 Lo que el adaptador no arregla:
 
@@ -444,7 +444,7 @@ crítico en tu contexto y por qué. No propongas una reescritura en este párraf
 - [ ] Registré los anclajes del archivo: líneas 11–12, 32, 38, 42–43, 5 `getch`, 5 `cls`.
 - [ ] Nombré lo que el adaptador no arregla.
 - [ ] Precifiqué el defecto por el fallo de compilación y declaré mi contexto.
-- [ ] Enlacé el arreglo estructural con `construction-08`, `construction-20` y `common-04`.
+- [ ] Enlacé el arreglo estructural con `construction-08`, `construction-20` y `common-05`.
 - [ ] El archivo está sin modificar.
 
 ## 16. Siguiente paso

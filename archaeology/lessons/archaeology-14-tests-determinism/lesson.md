@@ -564,7 +564,7 @@ note for any trace that still depends on the environment. In the archive, that m
 `rand()` with a named generator and passing a seed from `main`, which also requires fixing
 `void main()`.
 
-Track A links: `common-01` (deterministic harness), `common-04` (golden traces), `construction-08`
+Track A links: `common-02` (deterministic harness), `common-05` (golden traces), `construction-08`
 (module boundary) and `construction-20` (hexagonal, where the console adapter owns the environment).
 
 ### What seed control does not fix
@@ -671,7 +671,7 @@ you ran.
 - [ ] I distinguished the oracle from the test.
 - [ ] I named what seed control does not fix: winner, bias, `void main`, globals, validation.
 - [ ] I priced the defect by incident cost, not by taste.
-- [ ] I linked the structural fix to `common-01` and `common-04`.
+- [ ] I linked the structural fix to `common-02` and `common-05`.
 - [ ] The archive is unmodified (`git status` in the archive is clean).
 
 If a box is not ticked, the unticked box names the next step. There is no penalty for repeating one.
@@ -744,7 +744,7 @@ lesson is done for you. `meta.yml` mirrors the same criteria for tooling.
   `failure-003`.
 - [archaeology-11](../archaeology-11-input-output/lesson.md) — the testability boundary this lesson
   assumes.
-- [common-01](../../../common/lessons/common-01-deterministic-harness/lesson.md) — the deterministic
+- [common-02](../../../common/lessons/common-02-deterministic-harness/lesson.md) — the deterministic
   harness.
-- [common-04](../../../common/lessons/common-04-golden-traces/lesson.md) — golden traces as a
+- [common-05](../../../common/lessons/common-05-golden-traces/lesson.md) — golden traces as a
   behavioral contract.

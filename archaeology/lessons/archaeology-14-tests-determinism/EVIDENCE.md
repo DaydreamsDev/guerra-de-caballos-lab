@@ -275,8 +275,8 @@ Two fixes, two sizes:
 - Minimal fix:
 - Structural fix:
 - Track A links:
-- What `common-01` adds to the question:
-- What `common-04` adds to the question:
+- What `common-02` adds to the question:
+- What `common-05` adds to the question:
 
 What seed control does not fix:
 
@@ -358,7 +358,7 @@ high or critical in your context and why. Do not propose a rewrite in this parag
 - [ ] I distinguished the oracle from the test.
 - [ ] I named what seed control does not fix.
 - [ ] I stated the evidence boundary: one seed, one bench, one environment.
-- [ ] I linked the structural fix to `common-01` and `common-04`.
+- [ ] I linked the structural fix to `common-02` and `common-05`.
 - [ ] The archive is unmodified.
 
 ## 16. Next step

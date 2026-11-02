@@ -1,0 +1,13 @@
+id: common-05
+title: "Golden traces (trazas de referencia)"
+concept: "Behavioral contract (contrato de comportamiento)"
+prerequisites: [common-02]
+reading_time: "14 minutes"
+estimated_time: "45 minutes"
+acceptance_criteria:
+  - "sha256sum -c checksums.txt reports a match for all twenty traces and exits with status 0."
+  - "One trace reproduced with common/harness/run.sh has an empty diff against its golden file."
+  - "The evidence file records the command, the observed output and the explanation."
+engineering_check: "predict → run → compare → explain → record"
+status: drafted
+languages: [en, es]

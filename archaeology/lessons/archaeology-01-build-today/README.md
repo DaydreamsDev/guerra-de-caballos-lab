@@ -2,7 +2,7 @@
 
 > [English](README.md) | [Español](README-es.md)
 
-> **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-03 ·
+> **Status:** drafted · **Concept:** build and run legacy code · **Prerequisite:** common-04 ·
 > **Estimated time:** 62 minutes
 
 This lesson takes the archived `variant-01` source and attempts to build and run it on a modern

@@ -2,7 +2,7 @@
 
 > [English](lesson.md) | [Español](lesson-es.md)
 
-> **Estado:** borrador · **Concepto:** modelo mental · **Prerrequisito:** common-03 ·
+> **Estado:** borrador · **Concepto:** modelo mental · **Prerrequisito:** common-04 ·
 > **Tiempo estimado:** 45 minutos
 > **Lectura:** ~16 minutos
 

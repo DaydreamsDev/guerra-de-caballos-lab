@@ -358,7 +358,7 @@ Two fixes, two sizes:
 - Track A links:
 - What `construction-08` adds to the question:
 - What `construction-20` adds to the question:
-- What `common-04` adds to the question:
+- What `common-05` adds to the question:
 
 What the adapter does not fix:
 
@@ -444,7 +444,7 @@ high or critical in your context and why. Do not propose a rewrite in this parag
 - [ ] I recorded the archive anchors: lines 11–12, 32, 38, 42–43, 5 `getch`, 5 `cls`.
 - [ ] I named what the adapter does not fix.
 - [ ] I priced the defect by build failure and stated my context.
-- [ ] I linked the structural fix to `construction-08`, `construction-20` and `common-04`.
+- [ ] I linked the structural fix to `construction-08`, `construction-20` and `common-05`.
 - [ ] The archive is unmodified.
 
 ## 16. Next step

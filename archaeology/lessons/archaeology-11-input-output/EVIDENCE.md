@@ -327,7 +327,7 @@ Two fixes, two sizes:
 - Structural fix:
 - Track A links:
 - What `construction-20` adds to the question:
-- What `common-01` adds to the question:
+- What `common-02` adds to the question:
 
 What the separation does not fix:
 
@@ -418,12 +418,12 @@ medium or high in your context and why. Do not propose a rewrite in this paragra
 - [ ] I stated that the baseline still owns the transcript format.
 - [ ] I stated that there is no input adapter.
 - [ ] I stated that the bench is not the full horse game.
-- [ ] I linked the structural fix to `construction-20`, `construction-08` and `common-01`.
+- [ ] I linked the structural fix to `construction-20`, `construction-08` and `common-02`.
 - [ ] The archive is unmodified.
 
 ## 16. Next step
 
 - Continue to `archaeology-12` — naming and comments.
 - If the input side felt unfinished, add an `argv` adapter and count what changes.
-- If the transcript matters byte-for-byte, freeze it as a golden file (`common-04`).
+- If the transcript matters byte-for-byte, freeze it as a golden file (`common-05`).
 - If you disagree with the severity, write the context that changes it.
