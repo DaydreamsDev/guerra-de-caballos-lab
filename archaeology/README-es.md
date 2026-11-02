@@ -55,8 +55,8 @@ Las fichas de fallo de la primera entrega son 15 de 15. Ver [Fichas de fallo](ca
 - [Documentación técnica para
   mantenedores](lessons/archaeology-13-documentation/lesson-es.md) (opcional)
 - [Pruebas y determinismo](lessons/archaeology-14-tests-determinism/lesson-es.md)
-- **Análisis estático y advertencias del compilador**
-  [Abrir](lessons/archaeology-15-static-analysis/lesson-es.md)
+- [Análisis estático y advertencias del
+  compilador](lessons/archaeology-15-static-analysis/lesson-es.md)
 - [Dependencia de plataforma](lessons/archaeology-16-platform-lock-in/lesson-es.md) (opcional)
 - [Revisión de código de una función heredada](lessons/archaeology-17-code-review/lesson-es.md)
 - [Taller de refactorización](lessons/archaeology-18-refactor-workshop/lesson-es.md)
